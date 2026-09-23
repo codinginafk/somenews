@@ -3,9 +3,9 @@ name: Deploy demo-news (Astro → Cloudflare Pages)
 on:
   push:
     branches: [main]
-    paths: ['demo-news/**']
+    paths: ['demo-news/**', '.github/workflows/deploy.yml']
   pull_request:
-    paths: ['demo-news/**']
+    paths: ['demo-news/**', '.github/workflows/deploy.yml']
   workflow_dispatch:
 
 jobs:
