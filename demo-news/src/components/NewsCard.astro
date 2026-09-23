@@ -1,0 +1,59 @@
+---
+interface Props {
+  href: string; title: string; excerpt?: string; category?: string;
+  author?: string; pubDate?: Date; image?: string;
+  variant?: 'hero' | 'standard' | 'compact' | 'overlay';
+  verdict?: string; readTime?: number; index?: number;
+}
+const { href, title, excerpt, category, author, pubDate, image, variant='standard', verdict, readTime=4, index } = Astro.props;
+const date = pubDate?.toLocaleDateString('en-GB', { day:'numeric', month:'short' });
+const catFile: Record<string,string> = {
+  'Reality Check': 'reality-check',
+  'By the Numbers': 'by-the-numbers',
+  'Countries': 'countries',
+  'Lab Tested': 'lab-tested',
+};
+const img = image ?? `/images/${catFile[category ?? ''] ?? 'reality-check'}.svg`;
+---
+{variant === 'compact' ? (
+  <a href={href} class="group flex gap-3 py-3 border-b border-hairline dark:border-zinc-800 last:border-0">
+    <div class="flex-1 min-w-0">
+      {category && <div class="kicker text-brand-600">{category}</div>}
+      <h4 class="font-display font-bold text-[15px] leading-snug tracking-[-0.01em] mt-0.5 group-hover:underline clamp-2">{title}</h4>
+      <div class="mt-1 text-[12px] text-zinc-500 flex gap-2"><span>{author}</span><span>•</span><span>{date}</span><span>•</span><span>{readTime} min</span></div>
+    </div>
+    <div class="w-[112px] h-[84px] rounded-[8px] overflow-hidden shrink-0 bg-[#efe7d6]">
+      <img src={img} alt={title} loading="lazy" width="224" height="168" class="w-full h-full object-cover" />
+    </div>
+  </a>
+) : variant === 'hero' ? (
+  <a href={href} class="group grid md:grid-cols-2 overflow-hidden rounded-[10px] bg-white dark:bg-zinc-900 text-ink dark:text-zinc-100 border border-hairline dark:border-zinc-800 border-t-4 border-t-brand-600">
+    <div class="media-stable md:aspect-auto md:min-h-[340px] overflow-hidden bg-[#efe7d6]">
+      <img src={img} alt={title} width="880" height="550" class="w-full h-full object-cover" />
+    </div>
+    <div class="p-6 md:p-8 flex flex-col justify-center">
+      <div class="flex items-center gap-2">
+        {category && <span class="kicker text-brand-600">{category}</span>}
+        {verdict && <span class="text-[11px] font-bold px-2 py-0.5 rounded-full bg-zinc-100 dark:bg-zinc-800 border border-hairline dark:border-zinc-700 text-zinc-700 dark:text-zinc-300">{verdict}</span>}
+      </div>
+      <h2 class="font-display font-extrabold text-[28px] md:text-[36px] leading-[1.08] tracking-[-0.015em] mt-2 group-hover:underline decoration-2 underline-offset-4">{title}</h2>
+      {excerpt && <p class="font-serif text-zinc-600 dark:text-zinc-400 text-[16px] leading-relaxed mt-3 clamp-3">{excerpt}</p>}
+      <div class="mt-4 text-[12px] text-zinc-500">{author} • {date} • {readTime} min read</div>
+    </div>
+  </a>
+) : (
+  <a href={href} class="group flex flex-col overflow-hidden rounded-[10px] border border-hairline dark:border-zinc-800 bg-white dark:bg-zinc-900 hover:border-zinc-400 dark:hover:border-zinc-600">
+    <div class="media-stable overflow-hidden bg-[#efe7d6]">
+      <img src={img} alt={title} loading="lazy" width="640" height="400" class="w-full h-full object-cover" />
+    </div>
+    <div class="p-4 flex flex-col flex-1">
+      <div class="flex items-center justify-between gap-2">
+        {category && <span class="kicker text-brand-600">{category}</span>}
+        {typeof index === 'number' && <span class="font-display font-extrabold text-zinc-300 text-lg leading-none">{String(index+1).padStart(2,'0')}</span>}
+      </div>
+      <h3 class="font-display font-bold text-[17px] leading-snug tracking-[-0.01em] mt-1.5 group-hover:underline clamp-3">{title}</h3>
+      {excerpt && <p class="font-serif text-[14px] leading-relaxed text-zinc-600 dark:text-zinc-400 mt-1.5 clamp-2">{excerpt}</p>}
+      <div class="mt-auto pt-3 text-[12px] text-zinc-500 flex items-center gap-1.5"><span class="truncate">{author}</span><span>•</span><span class="shrink-0">{date}</span><span>•</span><span class="shrink-0">{readTime} min</span></div>
+    </div>
+  </a>
+)}

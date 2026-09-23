@@ -1,0 +1,11 @@
+---
+interface Props { kicker?: string; title: string; href?: string; dark?: boolean; }
+const { kicker, title, href='/search/', dark=false } = Astro.props;
+---
+<div class={`flex items-end justify-between gap-4 mt-10 mb-4 pb-3 border-b-2 ${dark ? 'border-white/15' : 'border-zinc-950 dark:border-white'}`}>
+  <div>
+    {kicker && <div class="kicker text-brand-600">{kicker}</div>}
+    <h2 class="font-display font-black text-[24px] md:text-[28px] tracking-[-0.02em] leading-none mt-1">{title}</h2>
+  </div>
+  <a href={href} class="text-[13px] font-bold whitespace-nowrap hover:underline shrink-0">View all →</a>
+</div>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <rect width="800" height="500" fill="#f7f2e9"/>
+  <g stroke="#e3d9c6" stroke-width="1">
+    <line x1="0" y1="110" x2="800" y2="110"/><line x1="0" y1="220" x2="800" y2="220"/>
+    <line x1="0" y1="330" x2="800" y2="330"/>
+  </g>
+  <g>
+    <rect x="360" y="90" width="80" height="330" fill="#16130e"/>
+    <rect x="348" y="66" width="104" height="24" fill="#16130e"/>
+    <rect x="360" y="40" width="80" height="26" fill="#16130e"/>
+    <rect x="392" y="14" width="16" height="26" fill="#16130e"/>
+    <circle cx="400" cy="180" r="46" fill="#f7f2e9" stroke="#16130e" stroke-width="6"/>
+    <line x1="400" y1="180" x2="400" y2="152" stroke="#16130e" stroke-width="7" stroke-linecap="round"/>
+    <line x1="400" y1="180" x2="420" y2="190" stroke="#c2410c" stroke-width="7" stroke-linecap="round"/>
+    <g fill="#f7f2e9">
+      <rect x="372" y="260" width="12" height="34"/><rect x="394" y="260" width="12" height="34"/><rect x="416" y="260" width="12" height="34"/>
+      <rect x="372" y="310" width="12" height="34"/><rect x="394" y="310" width="12" height="34"/><rect x="416" y="310" width="12" height="34"/>
+    </g>
+    <rect x="330" y="420" width="140" height="14" fill="#16130e"/>
+  </g>
+  <g font-family="monospace" font-size="30" font-weight="bold">
+    <text x="120" y="150" fill="#16130e">51.5°N</text>
+    <text x="120" y="195" fill="#c2410c">0.12°W</text>
+  </g>
+  <text x="100" y="465" font-size="22" letter-spacing="4" fill="#78716c" font-family="monospace">FIG.UK — WESTMINSTER</text>
+</svg>

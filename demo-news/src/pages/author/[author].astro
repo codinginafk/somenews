@@ -1,0 +1,39 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import NewsCard from '../../components/NewsCard.astro';
+import { getCollection } from 'astro:content';
+import { authorSlug } from '../../data/site';
+
+export async function getStaticPaths() {
+  const posts = await getCollection('news');
+  const seen = new Map<string, { name: string; role: string }>();
+  for (const p of posts) {
+    if (!seen.has(p.data.author)) seen.set(p.data.author, { name: p.data.author, role: p.data.authorRole });
+  }
+  return [...seen.entries()].map(([name, info]) => ({
+    params: { author: authorSlug(name) },
+    props: { name: info.name, role: info.role },
+  }));
+}
+
+const { name, role } = Astro.props;
+const stories = (await getCollection('news'))
+  .filter((p) => p.data.author === name)
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+const siteBase = Astro.site ?? 'https://rentfreenews.com';
+---
+<Layout title={`${name} — Rent Free News`}>
+  <div class="max-w-[1280px] mx-auto px-4 py-10">
+    <div class="kicker text-brand-600">Desk</div>
+    <h1 class="font-display font-black text-[36px] tracking-[-0.02em] mt-1">{name}</h1>
+    <p class="text-zinc-600 dark:text-zinc-400 mt-1">{role} • {stories.length} {stories.length === 1 ? 'story' : 'stories'}</p>
+    <div class="mt-6 grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
+      {stories.map((p) => <NewsCard href={`/${p.slug}/`} title={p.data.title} excerpt={p.data.excerpt} category={p.data.category} author={p.data.author} pubDate={p.data.pubDate} image={p.data.heroImage} />)}
+    </div>
+  </div>
+  <script type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org", "@type": "Person",
+    name, jobTitle: role,
+    url: new URL(`/author/${authorSlug(name)}/`, siteBase).toString(),
+  })} />
+</Layout>

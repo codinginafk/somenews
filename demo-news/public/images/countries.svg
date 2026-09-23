@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <rect width="800" height="500" fill="#f7f2e9"/>
+  <g fill="#16130e" opacity="0.22">
+    <circle cx="140" cy="120" r="7"/><circle cx="220" cy="120" r="7"/><circle cx="300" cy="120" r="7"/><circle cx="380" cy="120" r="7"/><circle cx="460" cy="120" r="7"/><circle cx="540" cy="120" r="7"/><circle cx="620" cy="120" r="7"/>
+    <circle cx="140" cy="190" r="7"/><circle cx="220" cy="190" r="7"/><circle cx="300" cy="190" r="7"/><circle cx="460" cy="190" r="7"/><circle cx="540" cy="190" r="7"/><circle cx="620" cy="190" r="7"/>
+    <circle cx="140" cy="260" r="7"/><circle cx="220" cy="260" r="7"/><circle cx="300" cy="260" r="7"/><circle cx="380" cy="260" r="7"/><circle cx="460" cy="260" r="7"/><circle cx="620" cy="260" r="7"/>
+    <circle cx="140" cy="330" r="7"/><circle cx="220" cy="330" r="7"/><circle cx="300" cy="330" r="7"/><circle cx="380" cy="330" r="7"/><circle cx="460" cy="330" r="7"/><circle cx="540" cy="330" r="7"/><circle cx="620" cy="330" r="7"/>
+  </g>
+  <path d="M 140 330 C 260 330, 280 190, 380 190 S 520 260, 620 260" fill="none" stroke="#16130e" stroke-width="4" stroke-dasharray="14 10"/>
+  <circle cx="140" cy="330" r="12" fill="#16130e"/>
+  <g>
+    <path d="M 380 120 c -34 0 -56 24 -56 54 c 0 40 56 96 56 96 s 56 -56 56 -96 c 0 -30 -22 -54 -56 -54 z" fill="#c2410c"/>
+    <circle cx="380" cy="176" r="22" fill="#f7f2e9"/>
+  </g>
+  <g>
+    <path d="M 620 190 c -34 0 -56 24 -56 54 c 0 40 56 96 56 96 s 56 -56 56 -96 c 0 -30 -22 -54 -56 -54 z" fill="#16130e"/>
+    <circle cx="620" cy="246" r="22" fill="#f7f2e9"/>
+  </g>
+  <text x="100" y="465" font-size="22" letter-spacing="4" fill="#78716c" font-family="monospace">FIG.03 — PLACE, NOT RANK</text>
+</svg>

@@ -1,0 +1,47 @@
+---
+import Layout from '../layouts/Layout.astro';
+import NewsCard from '../components/NewsCard.astro';
+import { getCollection } from 'astro:content';
+const posts = (await getCollection('news')).sort((a,b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+const hay = (p: typeof posts[number]) => [p.data.title, p.data.excerpt, p.data.category, ...(p.data.tags ?? [])].join(' ').toLowerCase();
+---
+<Layout title="Search — Rent Free News" noindex>
+  <div class="max-w-5xl mx-auto px-4 py-8">
+    <h1 id="search-h1" class="font-serif font-black text-3xl">Search</h1>
+    <form action="/search/" method="get" class="mt-4 flex gap-2" role="search">
+      <input id="search-input" name="q" placeholder="Try: Britain, Finland, LLM…" aria-label="Search stories" class="flex-1 px-3 py-2 rounded-lg border border-zinc-300 dark:border-zinc-700 bg-white dark:bg-zinc-900 min-w-0" />
+      <button class="px-4 py-2 rounded-lg bg-zinc-950 dark:bg-white text-white dark:text-black text-sm font-semibold">Go</button>
+    </form>
+    <div id="search-grid" class="mt-6 grid sm:grid-cols-2 gap-4">
+      {posts.map(p => (
+        <div data-hay={hay(p)}>
+          <NewsCard href={`/${p.slug}/`} title={p.data.title} excerpt={p.data.excerpt} category={p.data.category} author={p.data.author} pubDate={p.data.pubDate} image={p.data.heroImage} />
+        </div>
+      ))}
+    </div>
+    <p id="search-empty" class="mt-6 text-zinc-500" hidden>No hits. Try a country or “LLM”.</p>
+  </div>
+  <script is:inline>
+    (function () {
+      var params = new URLSearchParams(location.search);
+      var raw = (params.get('q') || '').trim();
+      var q = raw.toLowerCase();
+      var input = document.getElementById('search-input');
+      if (input && raw) input.value = raw;
+      var cards = document.querySelectorAll('[data-hay]');
+      var shown = 0;
+      for (var i = 0; i < cards.length; i++) {
+        var match = !q || (cards[i].getAttribute('data-hay') || '').indexOf(q) !== -1;
+        cards[i].style.display = match ? '' : 'none';
+        if (match) shown++;
+      }
+      if (raw) {
+        var h1 = document.getElementById('search-h1');
+        if (h1) h1.textContent = 'Search: “' + raw + '”';
+        document.title = 'Search: ' + raw + ' — Rent Free News';
+      }
+      var empty = document.getElementById('search-empty');
+      if (empty) empty.hidden = shown > 0;
+    })();
+  </script>
+</Layout>

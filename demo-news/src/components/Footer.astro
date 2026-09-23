@@ -1,0 +1,70 @@
+---
+import Wordmark from './Wordmark.astro';
+const year = new Date().getFullYear();
+---
+<footer class="mt-12 border-t-4 border-ink dark:border-white bg-paper dark:bg-zinc-950">
+  <div class="max-w-[1280px] mx-auto px-4">
+    <!-- Masthead row -->
+    <div class="py-8 flex flex-col md:flex-row md:items-end justify-between gap-5 border-b border-hairline dark:border-zinc-800">
+      <div>
+        <a href="/" class="flex items-center gap-3">
+          <img src="/mark.svg" alt="Rent Free News" width="40" height="40" class="w-10 h-10 rounded-[8px] shrink-0" />
+          <Wordmark size="lg" />
+        </a>
+        <p class="font-serif text-[15px] text-zinc-600 dark:text-zinc-400 mt-2">Reality checks with receipts. Viral claim on top, primary data below.</p>
+        <p class="font-mono text-[11px] uppercase tracking-[0.14em] text-zinc-500 mt-2">Independent desk — Global edition</p>
+      </div>
+      <a href="/#newsletter" class="h-10 inline-flex items-center gap-2 px-5 rounded-[8px] bg-ink dark:bg-white text-paper dark:text-black text-[14px] font-bold shrink-0">Get the Sunday footnote →</a>
+    </div>
+
+    <!-- Link columns -->
+    <div class="py-8 grid grid-cols-2 md:grid-cols-4 gap-8 text-[14px]">
+      <nav aria-label="Sections">
+        <div class="kicker text-zinc-500 mb-3">Sections</div>
+        <ul class="space-y-2 font-medium">
+          <li><a href="/category/reality-check/" class="hover:underline">Reality Check</a></li>
+          <li><a href="/category/by-the-numbers/" class="hover:underline">By the Numbers</a></li>
+          <li><a href="/category/countries/" class="hover:underline">Countries</a></li>
+          <li><a href="/category/lab-tested/" class="hover:underline">Lab Tested</a></li>
+        </ul>
+      </nav>
+      <nav aria-label="Newsroom">
+        <div class="kicker text-zinc-500 mb-3">Newsroom</div>
+        <ul class="space-y-2 font-medium">
+          <li><a href="/about/" class="hover:underline">About + method</a></li>
+          <li><a href="/contact/" class="hover:underline">Contact the desk</a></li>
+          <li><a href="/about/#creators" class="hover:underline">Get quoted</a></li>
+          <li><a href="/advertise/" class="hover:underline">Advertise</a></li>
+        </ul>
+      </nav>
+      <nav aria-label="Trust">
+        <div class="kicker text-zinc-500 mb-3">Trust</div>
+        <ul class="space-y-2 font-medium">
+          <li><a href="/corrections/" class="hover:underline">Corrections</a></li>
+          <li><a href="/dmca/" class="hover:underline">DMCA</a></li>
+          <li><a href="/about/#ethics" class="hover:underline">Ethics policy</a></li>
+          <li><a href="/privacy/" class="hover:underline">Privacy</a></li>
+          <li><a href="/terms/" class="hover:underline">Terms</a></li>
+        </ul>
+      </nav>
+      <div>
+        <div class="kicker text-zinc-500 mb-3">Follow</div>
+        <ul class="space-y-2 font-medium">
+          <li><a href="/rss.xml" class="hover:underline">RSS feed</a></li>
+          <li><a href="/#newsletter" class="hover:underline">Newsletter</a></li>
+          <li><a href="mailto:desk@rentfreenews.com" class="hover:underline">desk@rentfreenews.com</a></li>
+          <li><a href="/admin/" class="hover:underline">Editor login</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Legal bar -->
+    <div class="py-4 border-t border-hairline dark:border-zinc-800 flex flex-col sm:flex-row items-center justify-between gap-2 text-[12px] text-zinc-500">
+      <span>© {year} Rent Free News • Claims vs data</span>
+      <span class="flex items-center gap-4">
+        <a href="/sitemap.xml" class="hover:underline">Sitemap</a>
+        <a href="#main" class="hover:underline font-bold">Back to top ↑</a>
+      </span>
+    </div>
+  </div>
+</footer>

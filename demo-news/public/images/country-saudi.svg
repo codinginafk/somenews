@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <rect width="800" height="500" fill="#f7f2e9"/>
+  <g stroke="#e3d9c6" stroke-width="1">
+    <line x1="0" y1="110" x2="800" y2="110"/><line x1="0" y1="330" x2="800" y2="330"/>
+  </g>
+  <g>
+    <rect x="320" y="90" width="160" height="320" fill="#16130e"/>
+    <path d="M 360 410 L 360 300 A 40 90 0 0 1 440 300 L 440 410 Z" fill="#f7f2e9"/>
+    <rect x="392" y="90" width="16" height="320" fill="#c2410c" opacity="0.9"/>
+  </g>
+  <rect x="290" y="410" width="220" height="14" fill="#16130e"/>
+  <g font-family="monospace" font-size="30" font-weight="bold">
+    <text x="560" y="150" fill="#16130e">24.7°N</text>
+    <text x="560" y="195" fill="#c2410c">46.6°E</text>
+  </g>
+  <text x="100" y="465" font-size="22" letter-spacing="4" fill="#78716c" font-family="monospace">FIG.SA — KINGDOM</text>
+</svg>

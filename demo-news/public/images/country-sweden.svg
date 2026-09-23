@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <rect width="800" height="500" fill="#f7f2e9"/>
+  <line x1="100" y1="400" x2="700" y2="400" stroke="#16130e" stroke-width="4"/>
+  <g>
+    <g fill="#16130e">
+      <path d="M 130 400 L 142 290 L 172 330 L 202 290 L 232 330 L 262 290 L 274 400 Z"/>
+      <circle cx="142" cy="276" r="14"/><circle cx="202" cy="276" r="14"/><circle cx="262" cy="276" r="14"/>
+      <rect x="150" y="340" width="104" height="14" fill="#f7f2e9"/>
+    </g>
+    <g>
+      <path d="M 328 400 L 340 290 L 370 330 L 400 290 L 430 330 L 460 290 L 472 400 Z" fill="#c2410c"/>
+      <circle cx="340" cy="276" r="14" fill="#c2410c"/><circle cx="400" cy="276" r="14" fill="#c2410c"/><circle cx="460" cy="276" r="14" fill="#c2410c"/>
+      <rect x="348" y="340" width="104" height="14" fill="#f7f2e9"/>
+    </g>
+    <g fill="#16130e">
+      <path d="M 526 400 L 538 290 L 568 330 L 598 290 L 628 330 L 658 290 L 670 400 Z"/>
+      <circle cx="538" cy="276" r="14"/><circle cx="598" cy="276" r="14"/><circle cx="658" cy="276" r="14"/>
+      <rect x="546" y="340" width="104" height="14" fill="#f7f2e9"/>
+    </g>
+  </g>
+  <text x="100" y="150" font-size="30" font-weight="bold" fill="#16130e" font-family="monospace">SMALL SAMPLE</text>
+  <text x="100" y="195" font-size="30" font-weight="bold" fill="#c2410c" font-family="monospace">LOUD VERDICT *</text>
+  <text x="100" y="465" font-size="22" letter-spacing="4" fill="#78716c" font-family="monospace">FIG.SE — TRE KRONOR</text>
+</svg>

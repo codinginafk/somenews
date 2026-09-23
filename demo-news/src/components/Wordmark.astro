@@ -1,0 +1,11 @@
+---
+import { SITE } from '../data/site';
+
+interface Props {
+  size?: 'md' | 'lg';
+}
+// RuntimeWire trick, adapted: lowercase heavy grotesk + vermilion terminal dot.
+const { size = 'md' } = Astro.props;
+const cls = size === 'lg' ? 'text-[32px]' : 'text-[20px]';
+---
+<span class={`font-display font-black ${cls} leading-none tracking-[-0.02em] lowercase`}>{SITE.name}<span class="text-brand-600">.</span></span>

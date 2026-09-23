@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <rect width="800" height="500" fill="#f7f2e9"/>
+  <circle cx="400" cy="230" r="110" fill="#c2410c"/>
+  <g fill="#16130e">
+    <rect x="270" y="180" width="34" height="230"/>
+    <rect x="496" y="180" width="34" height="230"/>
+    <rect x="230" y="140" width="340" height="30"/>
+    <rect x="258" y="196" width="284" height="20"/>
+    <rect x="230" y="140" width="340" height="10" fill="#f7f2e9" opacity="0.25"/>
+  </g>
+  <rect x="240" y="410" width="320" height="14" fill="#16130e"/>
+  <g font-family="monospace" font-size="30" font-weight="bold">
+    <text x="600" y="400" fill="#16130e">35.0°N</text>
+    <text x="600" y="445" fill="#c2410c">135.7°E</text>
+  </g>
+  <text x="100" y="465" font-size="22" letter-spacing="4" fill="#78716c" font-family="monospace">FIG.JP — TORII</text>
+</svg>

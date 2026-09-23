@@ -1,0 +1,56 @@
+# Decap CMS — git-based. Prod: GitHub backend + protect /admin at the edge.
+backend:
+  name: github
+  repo: YOUR-ORG/rentfreenews   # required for prod; keep main branch-only
+  branch: main
+# Local editors only (never ship local_backend true to prod without edge auth):
+# backend: { name: git-gateway, branch: main }
+# local_backend: true
+
+# PROD checklist (Cloudflare Zero Trust — free for 50 users):
+# 1. Cloudflare Access → protect path /admin/* with Google/GitHub SSO or one-time PIN
+# 2. Only grant Access apps to named editors (least privilege)
+# 3. GitHub repo: require PR reviews; protect main; disable force-push
+# 4. Never commit PATs/tokens; use GitHub App / deploy key for CI
+
+local_backend: false
+media_folder: 'public/uploads'
+public_folder: '/uploads'
+site_url: https://rentfreenews.com
+display_url: https://rentfreenews.com
+logo_url: /favicon.svg
+
+collections:
+  - name: 'news'
+    label: 'News / Checks'
+    folder: 'src/content/news'
+    create: true
+    slug: '{{slug}}'
+    editor:
+      preview: false
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Excerpt', name: 'excerpt', widget: 'text' }
+      - { label: 'Category', name: 'category', widget: 'select', options: ['Reality Check', 'By the Numbers', 'Countries', 'Lab Tested'] }
+      - { label: 'Tags', name: 'tags', widget: 'list', required: false }
+      - { label: 'Author', name: 'author', widget: 'string', default: 'Rent Free Desk' }
+      - { label: 'Author Role', name: 'authorRole', widget: 'string', default: 'Fact-check Desk' }
+      - { label: 'Publish Date', name: 'pubDate', widget: 'datetime' }
+      - { label: 'Hero Image', name: 'heroImage', widget: 'image', required: false }
+      - { label: 'Featured (homepage hero)', name: 'featured', widget: 'boolean', default: false }
+      - { label: 'Trending (ticker + most-read)', name: 'trending', widget: 'boolean', default: false }
+      - { label: 'Viral Claim We Checked', name: 'claim', widget: 'string', required: false }
+      - { label: 'Claim Source', name: 'claimSource', widget: 'string', required: false }
+      - { label: 'Verdict', name: 'verdict', widget: 'select', options: ['True with context', 'Misleading — Missing Context', 'False — with context', 'Missing Context', 'Explainer'], default: 'Missing Context' }
+      - { label: 'Primary Source (label)', name: 'primarySource', widget: 'string', required: false }
+      - { label: 'Primary Source (URL)', name: 'primarySourceUrl', widget: 'string', required: false }
+      - { label: 'Why It Matters (1-2 sentences)', name: 'whyItMatters', widget: 'text', required: false }
+      - label: 'Sources'
+        name: 'sources'
+        widget: 'list'
+        required: false
+        fields:
+          - { label: 'Title', name: 'title', widget: 'string' }
+          - { label: 'URL', name: 'url', widget: 'string' }
+          - { label: 'Publisher', name: 'publisher', widget: 'string' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <rect width="800" height="500" fill="#f7f2e9"/>
+  <circle cx="600" cy="130" r="58" fill="#c2410c"/>
+  <g>
+    <path d="M 150 330 L 560 330 L 500 400 L 210 400 Z" fill="#16130e"/>
+    <rect x="300" y="270" width="110" height="60" fill="#16130e"/>
+    <rect x="312" y="282" width="86" height="14" fill="#f7f2e9"/>
+    <rect x="312" y="304" width="60" height="14" fill="#f7f2e9" opacity="0.7"/>
+    <line x1="410" y1="270" x2="470" y2="180" stroke="#16130e" stroke-width="8" stroke-linecap="round"/>
+    <polygon points="470,180 442,196 448,226 486,210 492,180" fill="#16130e"/>
+  </g>
+  <g stroke="#16130e" stroke-width="5" stroke-linecap="round">
+    <line x1="80" y1="424" x2="320" y2="424"/>
+    <line x1="360" y1="440" x2="640" y2="440" opacity="0.55"/>
+    <line x1="140" y1="456" x2="420" y2="456" opacity="0.3"/>
+  </g>
+  <g font-family="monospace" font-size="30" font-weight="bold">
+    <text x="120" y="130" fill="#16130e">06:40</text>
+    <text x="120" y="175" fill="#c2410c">10 TAKA</text>
+  </g>
+  <text x="100" y="488" font-size="22" letter-spacing="4" fill="#78716c" font-family="monospace">FIG.BD — SADARGHAT</text>
+</svg>

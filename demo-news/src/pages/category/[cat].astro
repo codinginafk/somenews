@@ -1,0 +1,55 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import NewsCard from '../../components/NewsCard.astro';
+import { getCollection } from 'astro:content';
+
+export async function getStaticPaths() {
+  return [
+    { params: { cat: 'reality-check' } },
+    { params: { cat: 'by-the-numbers' } },
+    { params: { cat: 'countries' } },
+    { params: { cat: 'lab-tested' } },
+    // legacy redirects still build:
+    { params: { cat: 'exposed' } },
+    { params: { cat: 'rankings' } },
+    { params: { cat: 'country-files' } },
+    { params: { cat: 'tech-tests' } },
+  ];
+}
+const { cat } = Astro.params;
+const map: Record<string,string> = {
+  'exposed': 'Reality Check', 'reality-check': 'Reality Check',
+  'rankings': 'By the Numbers', 'by-the-numbers': 'By the Numbers',
+  'country-files': 'Countries', 'countries': 'Countries',
+  'tech-tests': 'Lab Tested', 'lab-tested': 'Lab Tested',
+};
+const canonicalSlug: Record<string,string> = {
+  'exposed': 'reality-check',
+  'rankings': 'by-the-numbers',
+  'country-files': 'countries',
+  'tech-tests': 'lab-tested',
+};
+const label = map[cat] ?? cat;
+const legacyTarget = canonicalSlug[cat ?? ''];
+const posts = (await getCollection('news')).filter(p => p.data.category === label).sort((a,b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+const titles: Record<string,{k:string,d:string}> = {
+  'Reality Check': { k: 'Viral claim → context', d: 'What the post showed, what it left out, and the primary source.' },
+  'By the Numbers': { k: 'Rankings, decoded', d: 'Sample, question wording, and who was asked — before the map.' },
+  'Countries': { k: 'Place, not rank', d: 'Field briefs that add streets, markets and lived life back to the number.' },
+  'Lab Tested': { k: 'Quoted with permission', d: 'Creator stream-tests with VOD timestamps, embeds, and linkbacks.' },
+};
+const meta = titles[label] ?? { k: 'Section', d: '' };
+---
+<Layout title={`${label} — Rent Free News`} noindex={!!legacyTarget} canonicalOverride={legacyTarget ? `/category/${legacyTarget}/` : undefined}>
+  {legacyTarget && <meta http-equiv="refresh" content={`0;url=/category/${legacyTarget}/`} slot="head" />}
+  <div class="max-w-[1280px] mx-auto px-4 py-8">
+    <div class="kicker text-brand-600">{meta.k}</div>
+    <h1 class="font-display font-black text-[36px] tracking-[-0.02em]">{label}</h1>
+    <p class="text-zinc-600 dark:text-zinc-400 mt-1">{meta.d}</p>
+    <div class="text-[13px] text-zinc-500 mt-2"><a href="/" class="underline">Front Page</a> / {label}</div>
+    <div class="mt-6 grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
+      {posts.map(p => <NewsCard href={`/${p.slug}/`} title={p.data.title} excerpt={p.data.excerpt} category={p.data.category} author={p.data.author} pubDate={p.data.pubDate} image={p.data.heroImage} />)}
+    </div>
+    {posts.length === 0 && <p class="mt-6 text-zinc-500">No stories yet in {label}.</p>}
+  </div>
+</Layout>

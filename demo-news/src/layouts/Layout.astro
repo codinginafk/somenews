@@ -1,0 +1,149 @@
+---
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { SITE, authorSlug } from '../data/site';
+import '../styles/global.css';
+
+interface Props {
+  title: string;
+  description?: string;
+  image?: string;
+  pubDate?: Date;
+  updatedDate?: Date;
+  author?: string;
+  isArticle?: boolean;
+  tags?: string[];
+  section?: string;
+  ogWidth?: number;
+  ogHeight?: number;
+  imageAlt?: string;
+  noindex?: boolean;
+  canonicalOverride?: string;
+}
+const { title, description = 'Reality checks with receipts: viral claims vs primary data, country briefs, and lab-tested tech.', image = '/og.png', pubDate, updatedDate, author, isArticle = false, tags = [], section, ogWidth = 1200, ogHeight = 630, imageAlt, noindex = false, canonicalOverride } = Astro.props;
+const siteBase = Astro.site ?? 'https://rentfreenews.com';
+const canonical = new URL(canonicalOverride ?? Astro.url.pathname, siteBase).toString();
+const ogImage = new URL(image, siteBase).toString();
+const sectionSlug = section?.toLowerCase().replace(/ /g, '-');
+---
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <slot name="head" />
+  <title>{title}</title>
+  <meta name="description" content={description} />
+  <link rel="canonical" href={canonical} />
+  <meta property="og:type" content={isArticle ? 'article' : 'website'} />
+  <meta property="og:title" content={title} />
+  <meta property="og:description" content={description} />
+  <meta property="og:image" content={ogImage} />
+  <meta property="og:image:width" content={String(ogWidth)} />
+  <meta property="og:image:height" content={String(ogHeight)} />
+  <meta property="og:image:alt" content={imageAlt ?? title} />
+  <meta property="og:url" content={canonical} />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content={title} />
+  <meta name="twitter:description" content={description} />
+  <meta name="twitter:image" content={ogImage} />
+  <meta name="twitter:image:alt" content={imageAlt ?? title} />
+  <meta name="theme-color" content="#16130e" />
+  <meta name="robots" content={noindex ? 'noindex, follow' : 'index, follow, max-image-preview:large, max-snippet:-1'} />
+  {noindex && <meta name="googlebot" content="noindex, follow" />}
+  <link rel="alternate" type="application/rss+xml" title={`${SITE.displayName} — All stories`} href="/rss.xml" />
+  <link rel="alternate" type="application/rss+xml" title={`${SITE.displayName} — Reality Check`} href="/rss/reality-check.xml" />
+  <link rel="alternate" type="application/rss+xml" title={`${SITE.displayName} — By the Numbers`} href="/rss/by-the-numbers.xml" />
+  <link rel="alternate" type="application/rss+xml" title={`${SITE.displayName} — Countries`} href="/rss/countries.xml" />
+  <link rel="alternate" type="application/rss+xml" title={`${SITE.displayName} — Lab Tested`} href="/rss/lab-tested.xml" />
+  {isArticle && pubDate && <meta property="article:published_time" content={pubDate.toISOString()} />}
+  {isArticle && updatedDate && <meta property="article:modified_time" content={updatedDate.toISOString()} />}
+  {isArticle && section && <meta property="article:section" content={section} />}
+  {isArticle && tags.map(t => <meta property="article:tag" content={t} />)}
+  <link rel="icon" href="/favicon.ico" sizes="16x16 32x32 48x48" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png?v=1" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png?v=1" />
+  <link rel="icon" type="image/png" sizes="192x192" href="/icon-192.png?v=1" />
+  <link rel="icon" type="image/png" sizes="512x512" href="/icon-512.png?v=1" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <script is:inline>
+    // 3-way theme: paper | ink | term. Pre-painted before first paint (no flash).
+    // Migrates legacy 'dark'/'light' values from the old toggle.
+    try {
+      var t = null;
+      try { t = localStorage.getItem('rfn-theme'); if (!t) t = localStorage.getItem('ptw-theme'); } catch(e) {}
+      if (t === 'dark') t = 'ink';
+      if (t === 'light') t = 'paper';
+      if (t !== 'paper' && t !== 'ink' && t !== 'term') {
+        t = (window.matchMedia && matchMedia('(prefers-color-scheme: dark)').matches) ? 'ink' : 'paper';
+      }
+      var h = document.documentElement;
+      h.classList.remove('dark', 'theme-term');
+      if (t === 'ink') h.classList.add('dark');
+      if (t === 'term') h.classList.add('theme-term');
+      h.setAttribute('data-theme', t);
+    } catch(e) {}
+  </script>
+  {isArticle && (
+    <script type="application/ld+json" set:html={JSON.stringify({
+      "@context": "https://schema.org", "@type": "NewsArticle",
+      headline: title, description, image: [ogImage],
+      datePublished: pubDate?.toISOString(), dateModified: (updatedDate ?? pubDate)?.toISOString(),
+      author: [{ "@type": "Person", name: author ?? "Desk", url: new URL(`/author/${authorSlug(author ?? 'Desk')}/`, siteBase).toString() }],
+      publisher: { "@type": "Organization", name: SITE.displayName, logo: { "@type": "ImageObject", url: new URL('/mark.svg', siteBase).toString() } }
+    })} />
+  )}
+  {isArticle && section && sectionSlug && (
+    <script type="application/ld+json" set:html={JSON.stringify({
+      "@context": "https://schema.org", "@type": "BreadcrumbList",
+      itemListElement: [
+        { "@type": "ListItem", position: 1, name: "Front Page", item: new URL('/', siteBase).toString() },
+        { "@type": "ListItem", position: 2, name: section, item: new URL(`/category/${sectionSlug}/`, siteBase).toString() },
+        { "@type": "ListItem", position: 3, name: title, item: canonical },
+      ]
+    })} />
+  )}
+</head>
+<body class="bg-paper text-ink dark:bg-zinc-950 dark:text-zinc-100 font-sans antialiased">
+  <a href="#main" class="sr-only focus:not-sr-only focus:fixed focus:top-2 focus:left-2 focus:z-[100] focus:bg-black focus:text-white focus:px-3 focus:py-2 focus:rounded">Skip to content</a>
+  <Header />
+  <main id="main" class="min-h-[60vh]">
+    <slot />
+  </main>
+  <Footer />
+  <script is:inline>
+    var MODES = [
+      { id: 'paper', icon: '◐', label: 'Paper theme' },
+      { id: 'ink', icon: '◑', label: 'Ink theme' },
+      { id: 'term', icon: '▟', label: 'Terminal theme' },
+    ];
+    function currentMode() {
+      var h = document.documentElement;
+      if (h.classList.contains('theme-term')) return 'term';
+      if (h.classList.contains('dark')) return 'ink';
+      return 'paper';
+    }
+    function paintToggle() {
+      var b = document.getElementById('theme-toggle');
+      if (!b) return;
+      var m = MODES.find(function(x){ return x.id === currentMode(); }) || MODES[0];
+      b.textContent = m.icon;
+      b.setAttribute('aria-label', m.label + ' — activate to switch');
+      b.setAttribute('title', m.label + ' — activate to switch');
+    }
+    document.getElementById('theme-toggle')?.addEventListener('click', () => {
+      var order = ['paper', 'ink', 'term'];
+      var next = order[(order.indexOf(currentMode()) + 1) % order.length];
+      var h = document.documentElement;
+      h.classList.remove('dark', 'theme-term');
+      if (next === 'ink') h.classList.add('dark');
+      if (next === 'term') h.classList.add('theme-term');
+      h.setAttribute('data-theme', next);
+      try { localStorage.setItem('rfn-theme', next); localStorage.removeItem('ptw-theme'); } catch(e) {}
+      paintToggle();
+    });
+    paintToggle();
+  </script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <rect width="800" height="500" fill="#f7f2e9"/>
+  <g stroke="#e3d9c6" stroke-width="1">
+    <line x1="0" y1="110" x2="800" y2="110"/><line x1="0" y1="330" x2="800" y2="330"/>
+  </g>
+  <g>
+    <rect x="200" y="300" width="60" height="110" fill="#16130e"/>
+    <rect x="370" y="280" width="60" height="130" fill="#16130e"/>
+    <rect x="540" y="300" width="60" height="110" fill="#16130e"/>
+    <path d="M 200 300 c 0 -40 14 -52 30 -70 c 16 18 30 30 30 70 z" fill="#16130e"/>
+    <path d="M 370 280 c 0 -48 16 -62 30 -84 c 14 22 30 36 30 84 z" fill="#c2410c"/>
+    <path d="M 540 300 c 0 -40 14 -52 30 -70 c 16 18 30 30 30 70 z" fill="#16130e"/>
+    <rect x="226" y="216" width="8" height="20" fill="#16130e"/>
+    <rect x="396" y="182" width="8" height="20" fill="#c2410c"/>
+    <rect x="566" y="216" width="8" height="20" fill="#16130e"/>
+  </g>
+  <rect x="160" y="410" width="480" height="14" fill="#16130e"/>
+  <g font-family="monospace" font-size="30" font-weight="bold">
+    <text x="120" y="150" fill="#16130e">55.7°N</text>
+    <text x="120" y="195" fill="#c2410c">37.6°E</text>
+  </g>
+  <text x="100" y="465" font-size="22" letter-spacing="4" fill="#78716c" font-family="monospace">FIG.RU — ONION DOMES</text>
+</svg>

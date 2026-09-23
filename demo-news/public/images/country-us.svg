@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <rect width="800" height="500" fill="#f7f2e9"/>
+  <g stroke="#e3d9c6" stroke-width="1">
+    <line x1="0" y1="110" x2="800" y2="110"/><line x1="0" y1="220" x2="800" y2="220"/><line x1="0" y1="330" x2="800" y2="330"/>
+  </g>
+  <g>
+    <rect x="376" y="250" width="48" height="160" fill="#16130e"/>
+    <polygon points="360,250 440,250 412,210 388,210" fill="#16130e"/>
+    <path d="M 400 130 c -26 22 -34 46 -20 80 c 10 -26 30 -40 52 -44 c -8 -18 -20 -30 -32 -36 z" fill="#c2410c"/>
+    <circle cx="400" cy="118" r="16" fill="#c2410c"/>
+    <g stroke="#c2410c" stroke-width="6" stroke-linecap="round">
+      <line x1="330" y1="90" x2="312" y2="72"/><line x1="470" y1="90" x2="488" y2="72"/>
+      <line x1="400" y1="66" x2="400" y2="44"/>
+    </g>
+    <rect x="340" y="410" width="120" height="14" fill="#16130e"/>
+  </g>
+  <g font-family="monospace" font-size="30" font-weight="bold">
+    <text x="120" y="150" fill="#16130e">40.7°N</text>
+    <text x="120" y="195" fill="#c2410c">74.0°W</text>
+  </g>
+  <text x="100" y="465" font-size="22" letter-spacing="4" fill="#78716c" font-family="monospace">FIG.US — LIBERTY</text>
+</svg>

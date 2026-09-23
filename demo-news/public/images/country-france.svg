@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <rect width="800" height="500" fill="#f7f2e9"/>
+  <g stroke="#e3d9c6" stroke-width="1">
+    <line x1="0" y1="110" x2="800" y2="110"/><line x1="0" y1="220" x2="800" y2="220"/><line x1="0" y1="330" x2="800" y2="330"/>
+  </g>
+  <g fill="#16130e">
+    <polygon points="330,410 372,180 392,180 362,410"/>
+    <polygon points="470,410 428,180 408,180 438,410"/>
+    <rect x="352" y="300" width="96" height="18"/>
+    <rect x="364" y="220" width="72" height="16"/>
+    <rect x="394" y="120" width="12" height="60"/>
+  </g>
+  <path d="M 352 410 A 48 60 0 0 1 448 410" fill="none" stroke="#c2410c" stroke-width="12"/>
+  <rect x="330" y="410" width="140" height="14" fill="#16130e"/>
+  <g font-family="monospace" font-size="30" font-weight="bold">
+    <text x="560" y="150" fill="#16130e">48.8°N</text>
+    <text x="560" y="195" fill="#c2410c">2.3°E</text>
+  </g>
+  <text x="100" y="465" font-size="22" letter-spacing="4" fill="#78716c" font-family="monospace">FIG.FR — EIFFEL</text>
+</svg>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <rect width="800" height="500" fill="#f7f2e9"/>
+  <g fill="#16130e" opacity="0.85">
+    <polygon points="60,410 200,280 340,340 480,250 640,300 740,230 740,410"/>
+  </g>
+  <g>
+    <rect x="120" y="230" width="560" height="34" fill="#16130e"/>
+    <g fill="#16130e">
+      <rect x="130" y="206" width="26" height="24"/><rect x="166" y="206" width="26" height="24"/><rect x="202" y="206" width="26" height="24"/><rect x="238" y="206" width="26" height="24"/><rect x="274" y="206" width="26" height="24"/><rect x="310" y="206" width="26" height="24"/><rect x="346" y="206" width="26" height="24"/><rect x="382" y="206" width="26" height="24"/><rect x="418" y="206" width="26" height="24"/><rect x="454" y="206" width="26" height="24"/><rect x="490" y="206" width="26" height="24"/><rect x="526" y="206" width="26" height="24"/><rect x="562" y="206" width="26" height="24"/><rect x="598" y="206" width="26" height="24"/><rect x="634" y="206" width="26" height="24"/>
+    </g>
+    <rect x="382" y="206" width="26" height="24" fill="#c2410c"/>
+    <rect x="418" y="206" width="26" height="24" fill="#c2410c"/>
+    <rect x="370" y="264" width="90" height="146" fill="#c2410c"/>
+  </g>
+  <g font-family="monospace" font-size="30" font-weight="bold">
+    <text x="560" y="120" fill="#16130e">39.9°N</text>
+    <text x="560" y="165" fill="#c2410c">116.4°E</text>
+  </g>
+  <text x="100" y="465" font-size="22" letter-spacing="4" fill="#78716c" font-family="monospace">FIG.CN — THE WALL</text>
+</svg>

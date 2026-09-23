@@ -1,0 +1,63 @@
+---
+import Wordmark from './Wordmark.astro';
+const path = Astro.url.pathname;
+const nav = [
+  { href: '/', label: 'Front Page', match: (p:string) => p === '/' },
+  { href: '/category/reality-check/', label: 'Reality Check', match: (p:string) => p.includes('reality-check') || p.includes('exposed') },
+  { href: '/category/by-the-numbers/', label: 'By the Numbers', match: (p:string) => p.includes('by-the-numbers') || p.includes('rankings') },
+  { href: '/category/countries/', label: 'Countries', match: (p:string) => p.includes('countries') || p.includes('country') },
+  { href: '/category/lab-tested/', label: 'Lab Tested', match: (p:string) => p.includes('lab') || p.includes('tech-tests') },
+];
+const today = new Date().toLocaleDateString('en-GB', { weekday:'long', day:'numeric', month:'long', year:'numeric' });
+---
+<div class="bg-zinc-950 text-zinc-300 text-[12px] h-9 flex items-center overflow-hidden">
+  <div class="no-scrollbar max-w-[1280px] mx-auto px-4 w-full flex items-center gap-3 whitespace-nowrap overflow-x-auto">
+    <span class="flex items-center gap-2 font-bold text-white shrink-0"><span class="w-1.5 h-1.5 rounded-full bg-red-500 inline-block"></span> TOP NOW</span>
+    <a href="/britain-crime-claim-vs-data/" class="hover:text-white truncate">UK “rape capital” claim — what police data actually allows you to say</a>
+    <span class="opacity-30 shrink-0">/</span>
+    <a href="/finland-happiest-bangladesh-reality/" class="hover:text-white truncate">Finland #1, Bangladesh low — reading the happiness footnote</a>
+    <span class="opacity-30 shrink-0">/</span>
+    <a href="/local-llm-vtuber-test/" class="hover:text-white truncate">3 creators stress-test local LLMs live</a>
+  </div>
+</div>
+
+<header class="sticky top-0 z-40 bg-paper/95 dark:bg-zinc-950/95 backdrop-blur border-b border-hairline dark:border-zinc-800">
+  <div class="max-w-[1280px] mx-auto px-4">
+    <div class="h-16 flex items-center justify-between gap-4">
+      <div class="hidden md:block text-[12px] text-zinc-500 w-48 truncate"><span id="dateline">{today}</span> • Global edition</div>
+      <a href="/" class="flex items-center gap-2.5 min-h-[44px]">
+        <img src="/mark.svg" alt="Rent Free News home" width="36" height="36" class="w-9 h-9 rounded-[8px] shrink-0" />
+        <span class="leading-none">
+          <Wordmark />
+          <span class="block text-[10px] font-sans font-bold uppercase tracking-[0.2em] text-zinc-500 mt-1">Claims vs data</span>
+        </span>
+      </a>
+      <div class="flex items-center gap-2">
+        <form action="/search/" method="get" class="hidden lg:flex w-64">
+          <input name="q" placeholder="Search claims, countries…" aria-label="Search stories" class="w-full h-9 text-sm px-3 rounded-l-lg border border-r-0 border-zinc-300 dark:border-zinc-700 bg-white dark:bg-zinc-900 outline-none" />
+          <button class="h-9 px-3 text-sm rounded-r-lg bg-zinc-950 dark:bg-white text-white dark:text-black font-semibold">Search</button>
+        </form>
+        <a href="/admin/" class="hidden sm:inline-flex h-9 items-center text-[13px] px-3 rounded-lg border border-zinc-300 dark:border-zinc-700">Editors</a>
+        <a href="/#newsletter" class="h-9 inline-flex items-center text-[13px] px-4 rounded-lg bg-zinc-950 dark:bg-white text-white dark:text-black font-bold">Subscribe</a>
+        <button id="theme-toggle" aria-label="Toggle theme" class="w-9 h-9 grid place-items-center rounded-lg border border-zinc-300 dark:border-zinc-700 text-[15px]">◐</button>
+      </div>
+    </div>
+    <nav aria-label="Sections" class="no-scrollbar h-11 flex items-center gap-1 overflow-x-auto border-t border-hairline dark:border-zinc-800 text-[14px] font-semibold">
+      {nav.map(n => {
+        const active = n.match(path);
+        return <a href={n.href} aria-current={active ? 'page' : undefined} class={`h-11 inline-flex items-center px-3 whitespace-nowrap border-b-2 -mb-px ${active ? 'border-brand-500 text-zinc-950 dark:text-white' : 'border-transparent text-zinc-600 dark:text-zinc-400 hover:text-zinc-950 dark:hover:text-white'}`}>{n.label}</a>
+      })}
+      <span class="ml-auto hidden md:inline-flex items-center gap-3 pl-4 text-[13px] font-normal text-zinc-500 whitespace-nowrap">
+        <a href="/about/" class="hover:underline">Method</a>
+        <a href="/corrections/" class="hover:underline">Corrections</a>
+        <a href="/advertise/" class="hover:underline">Advertise</a>
+      </span>
+    </nav>
+  </div>
+</header>
+<script is:inline>
+  try {
+    var el = document.getElementById('dateline');
+    if (el) el.textContent = new Date().toLocaleDateString('en-GB', { weekday:'long', day:'numeric', month:'long', year:'numeric' });
+  } catch(e) {}
+</script>

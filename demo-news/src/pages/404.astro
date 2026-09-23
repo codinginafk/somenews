@@ -1,0 +1,19 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+<Layout title="Page not found — Rent Free News" noindex>
+  <div class="max-w-3xl mx-auto px-4 py-16 text-center">
+    <div class="kicker text-brand-600">Error 404</div>
+    <h1 class="font-display font-black text-[44px] md:text-[56px] tracking-[-0.02em] leading-none mt-2">This page missed the deadline.</h1>
+    <p class="font-serif text-[18px] text-zinc-600 dark:text-zinc-400 mt-4">The URL is wrong, the story moved, or we corrected it into oblivion. The front page still has receipts.</p>
+    <form action="/search/" method="get" class="mt-6 flex gap-2 max-w-md mx-auto" role="search">
+      <input name="q" placeholder="Search claims, countries…" aria-label="Search stories" class="flex-1 px-3 py-2 rounded-lg border border-zinc-300 dark:border-zinc-700 bg-white dark:bg-zinc-900 text-sm min-w-0" />
+      <button class="px-4 py-2 rounded-lg bg-zinc-950 dark:bg-white text-white dark:text-black text-sm font-semibold">Search</button>
+    </form>
+    <div class="mt-6 flex flex-wrap justify-center gap-3 text-[14px] font-semibold">
+      <a href="/" class="h-10 inline-flex items-center px-5 rounded-lg bg-brand-600 text-white hover:bg-brand-700">Front Page</a>
+      <a href="/category/reality-check/" class="h-10 inline-flex items-center px-5 rounded-lg border border-zinc-300 dark:border-zinc-700">Reality Check</a>
+      <a href="/corrections/" class="h-10 inline-flex items-center px-5 rounded-lg border border-zinc-300 dark:border-zinc-700">Corrections</a>
+    </div>
+  </div>
+</Layout>

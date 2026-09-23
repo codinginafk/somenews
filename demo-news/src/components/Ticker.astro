@@ -1,0 +1,16 @@
+---
+import { getCollection } from 'astro:content';
+const posts = (await getCollection('news')).sort((a,b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()).slice(0,6);
+---
+<div class="ticker border-b border-hairline dark:border-zinc-800 bg-white dark:bg-zinc-900 h-9 flex items-center overflow-hidden" aria-label="Trending">
+  <div class="max-w-[1280px] mx-auto px-4 w-full flex items-center gap-3">
+    <span class="kicker text-brand-600 shrink-0">Trending</span>
+    <div class="overflow-hidden flex-1">
+      <div class="ticker-track animate-ticker text-[13px]">
+        {[...posts, ...posts].map((p, i) => (
+          <a href={`/${p.slug}/`} class="inline-flex items-center gap-2 whitespace-nowrap hover:underline mr-8 shrink-0" aria-hidden={i >= posts.length ? 'true' : undefined} tabindex={i >= posts.length ? '-1' : undefined}><span class="text-zinc-400">•</span> {p.data.title}</a>
+        ))}
+      </div>
+    </div>
+  </div>
+</div>
