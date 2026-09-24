@@ -1,7 +1,7 @@
 # Decap CMS — git-based. Prod: GitHub backend + protect /admin at the edge.
 backend:
   name: github
-  repo: YOUR-ORG/rentfreenews   # required for prod; keep main branch-only
+  repo: codinginafk/somenews
   branch: main
 # Local editors only (never ship local_backend true to prod without edge auth):
 # backend: { name: git-gateway, branch: main }
@@ -31,11 +31,14 @@ collections:
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Excerpt', name: 'excerpt', widget: 'text' }
+      - { label: 'SEO Title (SERP; falls back to Title)', name: 'seoTitle', widget: 'string', required: false }
+      - { label: 'Meta Description (falls back to Excerpt)', name: 'description', widget: 'text', required: false }
       - { label: 'Category', name: 'category', widget: 'select', options: ['Reality Check', 'By the Numbers', 'Countries', 'Lab Tested'] }
       - { label: 'Tags', name: 'tags', widget: 'list', required: false }
       - { label: 'Author', name: 'author', widget: 'string', default: 'Rent Free Desk' }
       - { label: 'Author Role', name: 'authorRole', widget: 'string', default: 'Fact-check Desk' }
       - { label: 'Publish Date', name: 'pubDate', widget: 'datetime' }
+      - { label: 'Updated Date', name: 'updatedDate', widget: 'datetime', required: false }
       - { label: 'Hero Image', name: 'heroImage', widget: 'image', required: false }
       - { label: 'Featured (homepage hero)', name: 'featured', widget: 'boolean', default: false }
       - { label: 'Trending (ticker + most-read)', name: 'trending', widget: 'boolean', default: false }
