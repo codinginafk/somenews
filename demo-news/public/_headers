@@ -6,7 +6,7 @@
   Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
   Cross-Origin-Opener-Policy: same-origin
   X-Permitted-Cross-Domain-Policies: none
-  Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self'; img-src 'self' data:; font-src 'self' data:; connect-src 'self'; media-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self' https://beehiiv.com https://*.beehiiv.com; upgrade-insecure-requests
+  Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline' https://subscribe-forms.beehiiv.com; style-src 'self' 'unsafe-inline' https://subscribe-forms.beehiiv.com; img-src 'self' data: https://subscribe-forms.beehiiv.com; font-src 'self' data: https://subscribe-forms.beehiiv.com; connect-src 'self' https://subscribe-forms.beehiiv.com; frame-src 'self' https://subscribe-forms.beehiiv.com; media-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self' https://beehiiv.com https://*.beehiiv.com; upgrade-insecure-requests
 
 /admin/*
   X-Robots-Tag: noindex, nofollow, noarchive
