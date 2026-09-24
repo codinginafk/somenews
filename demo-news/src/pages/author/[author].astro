@@ -21,12 +21,21 @@ const stories = (await getCollection('news'))
   .filter((p) => p.data.author === name)
   .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 const siteBase = Astro.site ?? 'https://rentfreenews.com';
+const people: Record<string,{bio:string;desc:string}> = {
+  'Rent Free Desk': { bio: 'The Rent Free News fact-check desk archives viral posts, pulls the primary dataset behind each claim, and publishes the verdict with what is still unknown.', desc: 'Fact-check desk at Rent Free News: viral claims archived, primary datasets pulled, verdicts published with unknowns stated.' },
+  'Rent Free Lab': { bio: 'Rent Free Lab works with creators who stress-test tools live on stream — quoted with permission, VODs linked, and what broke printed plainly.', desc: 'Creator desk at Rent Free News: live stream-tests quoted with permission, VODs linked, failures printed plainly.' },
+  'Data Desk': { bio: 'The data desk reads a ranking before sharing it: who was sampled, how the question was worded, what was weighted, and who gains when the map goes viral.', desc: 'Data desk at Rent Free News: rankings read before sharing — samples, wording, weightings, and who gains.' },
+  'Lab Desk': { bio: 'Lab Desk covers creator tooling tests — local LLMs, OBS rigs and stream-safe setups — with timestamps you can check.', desc: 'Creator tooling at Rent Free News: local LLMs and OBS rigs tested live, with timestamps included.' },
+  'Field Notes': { bio: 'Field Notes files from the street: what visitors film when they stay past day two, and what locals add to the numbers.', desc: 'Street reporting at Rent Free News: what visitors film past day two, and what locals add to the numbers.' },
+};
+const person = people[name] ?? { bio: `${name} reports for Rent Free News — checks against primary sources, quoted humans, visible corrections.`, desc: `${role} at Rent Free News: checks against primary sources with visible corrections.` };
 ---
-<Layout title={`${name} — Rent Free News`}>
+<Layout title={`${name} — ${role} | Rent Free News`} description={person.desc}>
   <div class="max-w-[1280px] mx-auto px-4 py-10">
     <div class="kicker text-brand-600">Desk</div>
     <h1 class="font-display font-black text-[36px] tracking-[-0.02em] mt-1">{name}</h1>
     <p class="text-zinc-600 dark:text-zinc-400 mt-1">{role} • {stories.length} {stories.length === 1 ? 'story' : 'stories'}</p>
+    <p class="mt-3 max-w-3xl font-serif text-[16px] leading-relaxed text-zinc-600 dark:text-zinc-400">{person.bio}</p>
     <div class="mt-6 grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
       {stories.map((p) => <NewsCard href={`/${p.slug}/`} title={p.data.title} excerpt={p.data.excerpt} category={p.data.category} author={p.data.author} pubDate={p.data.pubDate} image={p.data.heroImage} />)}
     </div>

@@ -1,5 +1,6 @@
 ---
 title: 'Ollama vs LM Studio on 16GB: What Stayed Stream-Safe With OBS Live'
+seoTitle: 'Ollama vs LM Studio on 16GB RAM, stream-tested'
 excerpt: 'Same 13B quant, same prompts, avatar rig on. Tok per sec, stalls, and which tool I would trust on stream.'
 category: 'Lab Tested'
 tags: ['Ollama', 'LM Studio', 'VRAM']

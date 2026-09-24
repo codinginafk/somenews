@@ -1,5 +1,6 @@
 ---
 title: "No, Britain Is Not the \"Rape Capital\" - Here's What the Viral Posts Leave Out"
+seoTitle: "Britain 'rape capital'? What the data allows"
 excerpt: 'Viral maps rank the UK top for rape. But reporting rules, definitions and survey methods differ wildly by country. Here is the full data.'
 category: 'Reality Check'
 tags: ['UK', 'crime stats', 'fact-check']
@@ -27,16 +28,13 @@ claimSource: 'Viral social posts, 2026'
 verdict: 'Misleading - Missing Context'
 ---
 
-import VerdictBox from '../../components/QuoteBox.astro';
-import SourcesBox from '../../components/SourcesBox.astro';
-
 **Short answer:** you cannot rank countries on police-recorded rape like a league table. The UK reports more *because* it records more broadly and victims report more often - not proof it happens more.
 
-### 1. What the viral post shows
+## 1. What the viral post shows
 
 A screenshot of police figures with the UK at the top. No source link, no year, no definition.
 
-### 2. What's missing
+## 2. What's missing
 
 - **Different definitions:** Sweden, UK and others count each incident separately; some countries count a series as one case.
 - **Different recording:** UK Home Office counting rules are among the widest - e.g. attempted offences, historical reports included.
@@ -45,7 +43,7 @@ A screenshot of police figures with the UK at the top. No source link, no year, 
 
 > Rule we use: if a ranking mixes police data across countries without methodology, treat it as **misleading**.
 
-### Sources to check yourself
+## Sources to check yourself
 
 - ONS Crime Survey England & Wales methodology + Home Office counting rules
 - UNODC CTS metadata: "cross-country comparisons not recommended"

@@ -1,5 +1,6 @@
 ---
 title: 'Helsinki in Winter: Why Trust Scores Run High and What Locals Add'
+seoTitle: 'Helsinki winter: why trust scores run high'
 excerpt: 'Low graft perception and solid safety nets lift the ladder. Darkness, rents, and integration debates fill the rest.'
 category: 'Countries'
 tags: ['Finland', 'Helsinki']

@@ -6,8 +6,8 @@ const { name, role, date, link, linkLabel = 'Original source' } = Astro.props as
 <figure class="my-6 rounded-[10px] border-l-4 border-brand-500 bg-zinc-50 dark:bg-zinc-900 p-5 not-prose">
   <blockquote class="font-serif text-lg leading-relaxed">“<slot />”</blockquote>
   <figcaption class="mt-3 text-sm text-zinc-600 dark:text-zinc-400">
-    <strong class="text-zinc-900 dark:text-zinc-100">{name}</strong>{role && <> — {role}</>}{date && <> • {date}</>}
-    {link && <> • <a class="underline decoration-brand-500 underline-offset-2" href={link} target="_blank" rel="noopener">{linkLabel} →</a></>}
+    <strong class="text-zinc-900 dark:text-zinc-100">{name}</strong>{role ? <span> — {role}</span> : null}{date ? <span> • {date}</span> : null}
+    {link ? <span> • <a class="underline decoration-brand-500 underline-offset-2" href={link} target="_blank" rel="noopener">{linkLabel} →</a></span> : null}
     <div class="mt-1 text-xs">Quoted with permission. Shared with editors before publish.</div>
   </figcaption>
 </figure>

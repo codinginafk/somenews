@@ -1,5 +1,6 @@
 ---
 title: "We Asked 3 VTubers to Test Local LLMs Live - Here's What Broke First"
+seoTitle: '3 VTubers test local LLMs live: what broke'
 excerpt: 'VRAM, quant levels, and prompt fails: quoted with permission from local-LLM VTuber testers, with embeds and links back.'
 category: 'Lab Tested'
 tags: ['local LLM', 'VTuber', 'Ollama', 'LM Studio']
@@ -31,7 +32,7 @@ How we worked (professional way):
 3. Sent draft back before publish with backlink + author box
 4. Embedded original YouTube/Twitch (no re-upload)
 
-### What they found
+## What they found
 
 **Tester A (12GB VRAM, Q4_K_M 7B-13B):** smooth for chat/RAG; 70B offloads to CPU and stalls. "Chat is fine, agents are not."
 
@@ -41,6 +42,6 @@ How we worked (professional way):
 
 > Bottom line: for live VTuber + local LLM on same machine, 7B-13B Q4 is the sweet spot in 2026. 70B needs a second machine or API fallback.
 
-### Want to be quoted?
+## Want to be quoted?
 
 If you test local LLMs on stream, send your VOD timestamp. We embed, link, and share the article with you to repost. See `/about#creators`.

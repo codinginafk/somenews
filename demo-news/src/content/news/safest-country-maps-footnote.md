@@ -1,5 +1,6 @@
 ---
 title: 'Safest Country Maps Go Viral Each Month. They Hide the Same Footnote.'
+seoTitle: 'Safest-country maps hide the same footnote'
 excerpt: 'Crowd clicks are not victim surveys. Numbeo vs Gallup vs UNODC in plain terms, plus a 30-second check.'
 category: 'By the Numbers'
 tags: ['safety index', 'Numbeo']

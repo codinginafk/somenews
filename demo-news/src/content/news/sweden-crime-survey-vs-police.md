@@ -1,5 +1,6 @@
 ---
 title: 'Sweden Crime Headlines vs Survey Data: Same Trap, New Flag'
+seoTitle: 'Sweden crime: survey data vs police logs'
 excerpt: 'Police logs climb when rules widen. Victim surveys tell a flatter story. Here is how to check in four minutes.'
 category: 'Reality Check'
 tags: ['Sweden', 'crime', 'surveys']

@@ -1,6 +1,7 @@
 ---
 title: 'Finland #1 Happiest, Bangladesh Last? What That Ranking Actually Measures'
-excerpt: 'The happiness ranking is not a beauty or worth contest. It is a 0-10 ladder survey + GDP, support, freedom, corruption. Both countries look different with full context.'
+seoTitle: 'Finland happiest? What the ranking measures'
+excerpt: 'The happiness ranking is not a beauty contest: a 0-10 ladder survey plus GDP, support, freedom and corruption. Full context shifts both countries.'
 category: 'By the Numbers'
 tags: ['Finland', 'Bangladesh', 'happiness index']
 author: 'Rent Free Desk'
@@ -26,14 +27,14 @@ verdict: 'Missing Context'
 
 **Finland does top the World Happiness Report. Bangladesh ranks low. Neither means "best/worst country overall."**
 
-### What the index is
+## What the index is
 
 - Gallup Cantril ladder: "0 worst possible life, 10 best" - self-evaluation, n ~1000-3000 per country per year
 - Plus 6 explanatory factors: GDP per capita, social support, healthy life expectancy, freedom, generosity, corruption perception
 
 It does NOT score nature, food, culture, history, hospitality - where Bangladesh scores strongly in travel surveys and lived experience.
 
-### Fair way to read it
+## Fair way to read it
 
 - Finland: high trust + support + low corruption perception = high ladder average (~7.7)
 - Bangladesh: lower GDP + health + institutional trust drags average (~3.9), despite strong community/family support on the ground

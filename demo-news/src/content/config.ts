@@ -4,6 +4,8 @@ const news = defineCollection({
   type: 'content',
   schema: z.object({
     title: z.string(),
+    seoTitle: z.string().optional(), // SERP/social title; falls back to title (H1)
+    description: z.string().optional(), // meta description override; falls back to excerpt
     excerpt: z.string(),
     category: z.string(), // e.g. Exposed, Rankings, Country Files, Tech Tests
     tags: z.array(z.string()).default([]),

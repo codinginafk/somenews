@@ -128,6 +128,18 @@ Add lines **below** the AdSense line, never delete a live network's line while s
 
 Each network's dashboard gives its exact `ads.txt` line — paste it, push, done.
 
+### Content-Security-Policy (already live — amend on ads day)
+
+The site ships a strict CSP via `public/_headers`. AdSense needs four additions
+**before** you enable ads (otherwise units silently fail to load):
+
+- `script-src` += `https://pagead2.googlesyndication.com https://*.googlesyndication.com`
+- `img-src` += `https://pagead2.googlesyndication.com https://*.googlesyndication.com https://*.google.com https://*.gstatic.com`
+- add `frame-src https://googleads.g.doubleclick.net https://*.googlesyndication.com`
+- `connect-src` += `https://pagead2.googlesyndication.com https://googleads.g.doubleclick.net`
+
+Push, then open DevTools → Console on an article: zero CSP errors = correct.
+
 ## Rollback
 
 Delete `public/ads.txt`, remove the Layout snippet, remove the `<AdSlot>` usages → push. Site returns to zero-ad state.

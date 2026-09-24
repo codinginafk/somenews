@@ -1,5 +1,6 @@
 ---
 title: 'Dhaka Beyond the Rank: What Visitors Film When They Stay Past Day Two'
+seoTitle: 'Dhaka beyond the rank: what visitors film'
 excerpt: 'River crossings at Sadarghat, late food streets in Lalbagh, startup floors in Banani - footage with dates and spots, not a thumbnail.'
 category: 'Countries'
 tags: ['Bangladesh', 'Dhaka']

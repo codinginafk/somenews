@@ -32,20 +32,20 @@ const canonicalSlug: Record<string,string> = {
 const label = map[cat] ?? cat;
 const legacyTarget = canonicalSlug[cat ?? ''];
 const posts = (await getCollection('news')).filter(p => p.data.category === label).sort((a,b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
-const titles: Record<string,{k:string,d:string}> = {
-  'Reality Check': { k: 'Viral claim → context', d: 'What the post showed, what it left out, and the primary source.' },
-  'By the Numbers': { k: 'Rankings, decoded', d: 'Sample, question wording, and who was asked — before the map.' },
-  'Countries': { k: 'Place, not rank', d: 'Field briefs that add streets, markets and lived life back to the number.' },
-  'Lab Tested': { k: 'Quoted with permission', d: 'Creator stream-tests with VOD timestamps, embeds, and linkbacks.' },
+const meta: Record<string,{k:string;d:string;t:string;m:string}> = {
+  'Reality Check': { k: 'Viral claim → context', t: 'Reality Check — claims vs primary data | Rent Free News', m: 'Viral posts meet primary sources. Each Reality Check archives the claim, pulls the dataset behind it, and publishes the verdict.', d: 'A screenshot travels faster than its source. Reality Checks slow it down: we archive the viral post, find the dataset, study, or record it leans on, quote the humans involved with permission, and publish a verdict on top with the receipts below.' },
+  'By the Numbers': { k: 'Rankings, decoded', t: 'By the Numbers — rankings decoded | Rent Free News', m: 'Rankings decoded before you share them: who was sampled, how the question was worded, and who benefits when the map goes viral.', d: 'Every ranking is a recipe: a sample, a question, a weighting, a cutoff. By the Numbers reads the recipe before tasting the result — happiness ladders, safety maps, passport tables — and shows which ingredient moved the number.' },
+  'Countries': { k: 'Place, not rank', t: 'Countries — place, not rank | Rent Free News', m: 'Country briefs beyond the list: streets, markets and lived life added back to the number, with footage dates and spots.', d: 'A rank flattens a country into a cell. These briefs put the streets back: what visitors film when they stay past day two, what locals add to the trust scores, and where the data ends and the place begins.' },
+  'Lab Tested': { k: 'Quoted with permission', t: 'Lab Tested — creator stream-tests | Rent Free News', m: 'Creators stress-test tools live with VOD timestamps: VRAM, stalls, tokens per second — quoted with permission, linked back.', d: 'Spec sheets promise; streams reveal. In Lab Tested, creators run the tools live — local LLMs, OBS rigs, quant levels — with timestamps you can check, quotes you can verify, and links back to the people who did the work.' },
 };
-const meta = titles[label] ?? { k: 'Section', d: '' };
+const m = meta[label] ?? { k: 'Section', d: '', t: `${label} — Rent Free News`, m: '' };
 ---
-<Layout title={`${label} — Rent Free News`} noindex={!!legacyTarget} canonicalOverride={legacyTarget ? `/category/${legacyTarget}/` : undefined}>
+<Layout title={m.t} description={m.m || undefined} noindex={!!legacyTarget} canonicalOverride={legacyTarget ? `/category/${legacyTarget}/` : undefined}>
   {legacyTarget && <meta http-equiv="refresh" content={`0;url=/category/${legacyTarget}/`} slot="head" />}
   <div class="max-w-[1280px] mx-auto px-4 py-8">
-    <div class="kicker text-brand-600">{meta.k}</div>
+    <div class="kicker text-brand-600">{m.k}</div>
     <h1 class="font-display font-black text-[36px] tracking-[-0.02em]">{label}</h1>
-    <p class="text-zinc-600 dark:text-zinc-400 mt-1">{meta.d}</p>
+    <p class="text-zinc-600 dark:text-zinc-400 mt-1">{m.d}</p>
     <div class="text-[13px] text-zinc-500 mt-2"><a href="/" class="underline">Front Page</a> / {label}</div>
     <div class="mt-6 grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
       {posts.map(p => <NewsCard href={`/${p.slug}/`} title={p.data.title} excerpt={p.data.excerpt} category={p.data.category} author={p.data.author} pubDate={p.data.pubDate} image={p.data.heroImage} />)}
