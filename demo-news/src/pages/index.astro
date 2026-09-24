@@ -4,7 +4,6 @@ import Ticker from '../components/Ticker.astro';
 import NewsCard from '../components/NewsCard.astro';
 import SectionHeader from '../components/SectionHeader.astro';
 import Newsletter from '../components/Newsletter.astro';
-import AdSlot from '../components/AdSlot.astro';
 import { getCollection } from 'astro:content';
 
 const posts = (await getCollection('news')).sort((a,b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
@@ -34,8 +33,6 @@ const realityFeed = [...new Set([...reality, ...heroRest].map(p => p.slug))].map
         ))}
       </div>
     </div>
-
-    <div class="mt-4"><AdSlot slot="leaderboard" /></div>
 
     <!-- DENSE GRID: 4 per row on xl (fixes "only 2 per line") -->
     <SectionHeader kicker="Updated hourly" title="Top checks" href="/search/" />
@@ -78,7 +75,6 @@ const realityFeed = [...new Set([...reality, ...heroRest].map(p => p.slug))].map
             ))}
           </ol>
         </div>
-        <AdSlot slot="sidebar-300x250" />
         <div class="rounded-[10px] bg-zinc-950 text-white dark:bg-white dark:text-black p-5">
           <div class="kicker opacity-70">Why trust us</div>
           <ul class="mt-2 text-[13px] leading-relaxed space-y-1.5">

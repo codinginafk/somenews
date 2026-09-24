@@ -1,6 +1,5 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import AdSlot from '../components/AdSlot.astro';
 import Newsletter from '../components/Newsletter.astro';
 import NewsCard from '../components/NewsCard.astro';
 import { getCollection } from 'astro:content';
@@ -77,8 +76,6 @@ const heroImg = entry.data.heroImage ?? `/images/${catFile[entry.data.category] 
         </section>
       )}
 
-      <div class="mt-4"><AdSlot slot="article-top" /></div>
-
       <!-- Layer-cake + F-pattern: short paras, left keywords, bullets -->
       <div class="prose-news prose dark:prose-invert mt-5 font-serif prose-p:leading-[1.75] prose-headings:font-display prose-headings:tracking-tight">
         <Content />
@@ -110,7 +107,6 @@ const heroImg = entry.data.heroImage ?? `/images/${catFile[entry.data.category] 
         <p class="mt-2 text-[14px] text-zinc-500">Conversation for this story opens with memberships. Until then: found an error? <a href="/corrections/" class="underline">Report it</a> — we correct visibly.</p>
       </section>
 
-      <div class="mt-4"><AdSlot slot="article-mid" /></div>
       <div class="mt-6"><Newsletter /></div>
     </article>
 
@@ -123,10 +119,9 @@ const heroImg = entry.data.heroImage ?? `/images/${catFile[entry.data.category] 
           ))}
           {related.length===0 && <p class="text-[13px] text-zinc-500">More checks dropping soon.</p>}
         </div>
-      </div>
-      <AdSlot slot="sidebar-300x250" />
-    </aside>
-  </div>
+        </div>
+      </aside>
+    </div>
 
   <div class="max-w-[1280px] mx-auto px-4 pb-12">
     <div class="flex items-end justify-between border-b-2 border-zinc-950 dark:border-white pb-3 mb-4 mt-8">
