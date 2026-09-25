@@ -1,0 +1,41 @@
+---
+// Cookie consent banner + Google Consent Mode v2 wiring.
+// Rendered by Layout only when SITE.ga4Id is set. Accept = full measurement;
+// decline = cookieless basic counts (Consent Mode still counts the visit).
+---
+<div id="consent-bar" hidden class="fixed bottom-0 inset-x-0 z-[90] px-4 pb-4">
+  <div class="max-w-3xl mx-auto rounded-[10px] border border-hairline dark:border-zinc-700 bg-white dark:bg-zinc-900 shadow-xl p-4 flex flex-col sm:flex-row items-start sm:items-center gap-3">
+    <p class="text-[13px] leading-relaxed text-zinc-600 dark:text-zinc-400 flex-1">We use cookies to count visits and improve our checks. <strong>Accept</strong> for full measurement, or <strong>decline</strong> — basic counts still work either way. See <a href="/privacy/" class="underline">Privacy</a>.</p>
+    <div class="flex gap-2 shrink-0">
+      <button id="consent-decline" class="h-9 px-4 rounded-lg border border-zinc-300 dark:border-zinc-700 text-[13px] font-semibold">Decline</button>
+      <button id="consent-accept" class="h-9 px-4 rounded-lg bg-zinc-950 dark:bg-white text-white dark:text-black text-[13px] font-bold">Accept</button>
+    </div>
+  </div>
+</div>
+<script is:inline>
+(function () {
+  var KEY = 'rfn-consent';
+  function sendConsent(state) {
+    var v = state === 'granted' ? 'granted' : 'denied';
+    var update = { ad_storage: v, ad_user_data: v, ad_personalization: v, analytics_storage: v, functionality_storage: v, personalization_storage: v };
+    if (typeof window.gtag === 'function') { window.gtag('consent', 'update', update); }
+    else { (window.dataLayer = window.dataLayer || []).push(['consent', 'update', update]); }
+  }
+  function store(state) { try { localStorage.setItem(KEY, state); } catch (e) {} }
+  function read() { try { return localStorage.getItem(KEY); } catch (e) { return null; } }
+  var bar = document.getElementById('consent-bar');
+  var saved = read();
+  if (saved === 'granted' || saved === 'denied') {
+    sendConsent(saved);
+    if (bar && bar.remove) { bar.remove(); }
+  } else if (bar) {
+    bar.hidden = false;
+    var accept = document.getElementById('consent-accept');
+    var decline = document.getElementById('consent-decline');
+    if (accept) { accept.addEventListener('click', function () { sendConsent('granted'); store('granted'); if (bar.remove) { bar.remove(); } }); }
+    if (decline) { decline.addEventListener('click', function () { sendConsent('denied'); store('denied'); if (bar.remove) { bar.remove(); } }); }
+  }
+  var reset = document.getElementById('consent-reset');
+  if (reset) { reset.addEventListener('click', function (e) { if (e && e.preventDefault) { e.preventDefault(); } try { localStorage.removeItem(KEY); } catch (x) {} location.reload(); }); }
+})();
+</script>

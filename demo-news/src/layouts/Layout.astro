@@ -1,6 +1,7 @@
 ---
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
+import ConsentBanner from '../components/ConsentBanner.astro';
 import { SITE, authorSlug } from '../data/site';
 import '../styles/global.css';
 
@@ -49,6 +50,11 @@ const sectionSlug = section?.toLowerCase().replace(/ /g, '-');
   <meta name="twitter:image" content={ogImage} />
   <meta name="twitter:image:alt" content={imageAlt ?? title} />
   <meta name="theme-color" content="#16130e" />
+  {SITE.ga4Id && <script is:inline>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){window.dataLayer.push(arguments);}
+    gtag('consent', 'default', { ad_storage: 'denied', ad_user_data: 'denied', ad_personalization: 'denied', analytics_storage: 'denied', functionality_storage: 'denied', personalization_storage: 'denied', security_storage: 'granted', wait_for_update: 500 });
+  </script>}
   {SITE.ga4Id && <script async src={`https://www.googletagmanager.com/gtag/js?id=${SITE.ga4Id}`}></script>}
   {SITE.ga4Id && <script is:inline define:vars={{ ga4Id: SITE.ga4Id }}>
     window.dataLayer = window.dataLayer || [];
@@ -119,6 +125,7 @@ const sectionSlug = section?.toLowerCase().replace(/ /g, '-');
     <slot />
   </main>
   <Footer />
+  {SITE.ga4Id && <ConsentBanner />}
   <script is:inline>
     var MODES = [
       { id: 'paper', icon: '◐', label: 'Paper theme' },
