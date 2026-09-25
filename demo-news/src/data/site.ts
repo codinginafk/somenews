@@ -7,6 +7,7 @@ export const SITE = {
   description: 'Reality checks with receipts: viral claims vs primary data, country briefs, and lab-tested tech.',
   email: 'desk@rentfreenews.com',
   adsEmail: 'ads@rentfreenews.com',
+  ga4Id: '', // set to 'G-XXXXXXXXXX' to enable GA4 (tag + privacy copy go live together)
 };
 
 export function authorSlug(name: string): string {

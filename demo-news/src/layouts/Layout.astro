@@ -49,6 +49,13 @@ const sectionSlug = section?.toLowerCase().replace(/ /g, '-');
   <meta name="twitter:image" content={ogImage} />
   <meta name="twitter:image:alt" content={imageAlt ?? title} />
   <meta name="theme-color" content="#16130e" />
+  {SITE.ga4Id && <script async src={`https://www.googletagmanager.com/gtag/js?id=${SITE.ga4Id}`}></script>}
+  {SITE.ga4Id && <script is:inline define:vars={{ ga4Id: SITE.ga4Id }}>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', ga4Id);
+  </script>}
   <meta name="robots" content={noindex ? 'noindex, follow' : 'index, follow, max-image-preview:large, max-snippet:-1'} />
   {noindex && <meta name="googlebot" content="noindex, follow" />}
   <link rel="alternate" type="application/rss+xml" title={`${SITE.displayName} — All stories`} href="/rss.xml" />
