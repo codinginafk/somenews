@@ -55,12 +55,13 @@ const sectionSlug = section?.toLowerCase().replace(/ /g, '-');
     function gtag(){window.dataLayer.push(arguments);}
     gtag('consent', 'default', { ad_storage: 'denied', ad_user_data: 'denied', ad_personalization: 'denied', analytics_storage: 'denied', functionality_storage: 'denied', personalization_storage: 'denied', security_storage: 'granted', wait_for_update: 500 });
   </script>}
-  {SITE.ga4Id && <script async src={`https://www.googletagmanager.com/gtag/js?id=${SITE.ga4Id}`}></script>}
-  {SITE.ga4Id && <script is:inline define:vars={{ ga4Id: SITE.ga4Id }}>
+  <!-- Google tag (gtag.js) -->
+  {SITE.ga4Id && <script async src="https://www.googletagmanager.com/gtag/js?id=G-GBVRW0DMEC"></script>}
+  {SITE.ga4Id && <script is:inline>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-    gtag('config', ga4Id);
+    gtag('config', 'G-GBVRW0DMEC');
   </script>}
   <meta name="robots" content={noindex ? 'noindex, follow' : 'index, follow, max-image-preview:large, max-snippet:-1'} />
   {noindex && <meta name="googlebot" content="noindex, follow" />}
