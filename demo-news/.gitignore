@@ -4,3 +4,4 @@ node_modules/
 public/uploads/
 .DS_Store
 news
+news_image
