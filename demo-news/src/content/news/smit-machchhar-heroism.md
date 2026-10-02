@@ -5,8 +5,8 @@ excerpt: "When an attacker attempted to crash a flydubai flight to Tel Aviv, an 
 description: "Capt. Smit Machchhar saved 180 lives on a flydubai flight to Tel Aviv. Had the co-pilot succeeded in crashing the jet, it could have triggered regional warfare."
 category: 'Reality Check'
 tags: ['Smit machchhar', 'captain smit machchhar', 'flydubai', 'indian pilot', 'world war 3', 'smit machchar']
-author: 'Rent Free Desk'
-authorRole: 'Fact-check Desk'
+author: 'Yash'
+authorRole: 'Contributing Writer'
 pubDate: 2026-10-01
 primarySource: 'HindustanTimes'
 primarySourceUrl: 'https://www.hindustantimes.com/'

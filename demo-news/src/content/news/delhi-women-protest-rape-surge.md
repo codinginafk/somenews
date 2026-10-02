@@ -5,7 +5,7 @@ excerpt: "Outraged by a series of horrific sexual assaults and institutional apa
 description: "Massive women protests have erupted across Delhi and India, demanding immediate systemic change following a surge in horrific sexual assaults."
 category: 'Reality Check'
 tags: ['delhi', 'protest']
-author: 'Diyan'
+author: 'Yash'
 authorRole: 'Staff Writer'
 pubDate: 2026-09-29
 primarySource: 'Regional Police Reports and News Coverage'

@@ -5,7 +5,7 @@ excerpt: 'Police logs climb when rules widen. Victim surveys tell a flatter stor
 description: 'Sweden crime headlines vs reality: police logs rise with rule changes, but victim surveys show a different pattern. Compare both sources.'
 category: 'Reality Check'
 tags: ['Sweden', 'crime', 'surveys']
-author: 'Wasim'
+author: 'Yash'
 authorRole: 'Contributing Writer'
 pubDate: 2026-09-17
 primarySource: 'Swedish Crime Survey (NTU), Bra'

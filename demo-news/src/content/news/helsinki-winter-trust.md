@@ -5,7 +5,7 @@ excerpt: 'Low graft perception and solid safety nets lift the ladder. Darkness, 
 description: 'Helsinki ranks high on trust scores due to low corruption and strong safety nets, but winter darkness and housing costs tell another story.'
 category: 'Countries'
 tags: ['Finland', 'Helsinki']
-author: 'Wasim'
+author: 'Yash'
 authorRole: 'Contributing Writer'
 pubDate: 2026-09-13
 primarySource: 'Field interviews, Helsinki, February 2026'

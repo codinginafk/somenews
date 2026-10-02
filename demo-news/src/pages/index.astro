@@ -21,7 +21,7 @@ const heroSecondary = posts.slice(0, 2);
 
 // Top checks: mix of recent (last 14 days) + trending, sorted by recency
 const fourteenDaysAgo = new Date(now.getTime() - 14 * 24 * 60 * 60 * 1000);
-const recentPosts = posts.filter(p => p.data.pubDate >= fourteenDaysAgo);
+const recentPosts = allPosts.filter(p => p.data.pubDate >= fourteenDaysAgo);
 const topChecks = [...recentPosts].slice(0, 8);
 
 // Category feeds: LATEST first (time-based, not static)
@@ -47,7 +47,7 @@ if (mostRead.length < 5) {
     <!-- HERO BENTO: Top story (trending or latest) + 2 recent articles -->
     <div class="pt-5 grid lg:grid-cols-3 gap-4">
       <div class="lg:col-span-2">
-        {hero && <NewsCard variant="hero" href={`/${hero.slug}/`} title={hero.data.title} excerpt={hero.data.excerpt} category={hero.data.category} author={hero.data.author} pubDate={hero.data.pubDate} verdict={hero.data.verdict} />}
+        {hero && <NewsCard variant="hero" href={`/${hero.slug}/`} title={hero.data.title} excerpt={hero.data.excerpt} category={hero.data.category} author={hero.data.author} pubDate={hero.data.pubDate} verdict={hero.data.verdict} image={hero.data.heroImage} />}
       </div>
       <div class="grid gap-4">
         {heroSecondary.map(p => (
