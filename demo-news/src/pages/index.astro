@@ -16,17 +16,19 @@ const hero = recentTrending[0] ?? allPosts[0]; // Trending from last 7 days, or 
 // Posts excluding hero
 const posts = allPosts.filter(p => p.slug !== hero?.slug);
 
-// Secondary hero slots: next 2 most recent (time-based freshness)
+// Secondary hero slots: next 4 most recent (fills the 2x2 grid on right)
 const heroSecondary = posts.slice(0, 2);
 
-// Top checks: mix of recent (last 14 days) + trending, sorted by recency
+// Top checks: ALL articles from last 14 days (not just 8)
 const fourteenDaysAgo = new Date(now.getTime() - 14 * 24 * 60 * 60 * 1000);
-const recentPosts = allPosts.filter(p => p.data.pubDate >= fourteenDaysAgo);
-const topChecks = [...recentPosts].slice(0, 8);
+const recentPosts = posts.filter(p => p.data.pubDate >= fourteenDaysAgo);
+const olderPosts = posts.filter(p => p.data.pubDate < fourteenDaysAgo);
+// Backfill with older posts so the grid never renders half-empty
+const topChecks = [...recentPosts, ...olderPosts].slice(0, 12);
 
 // Category feeds: LATEST first (time-based, not static)
-const reality = allPosts.filter(p => p.data.category === 'Reality Check').slice(0, 6);
-const numbers = allPosts.filter(p => p.data.category === 'By the Numbers').slice(0, 4);
+const reality = allPosts.filter(p => p.data.category === 'Reality Check').slice(0, 8);
+const numbers = allPosts.filter(p => p.data.category === 'By the Numbers').slice(0, 6);
 const countries = allPosts.filter(p => p.data.category === 'Countries').slice(0, 4);
 const lab = allPosts.filter(p => p.data.category === 'Lab Tested').slice(0, 4);
 
@@ -44,45 +46,61 @@ if (mostRead.length < 5) {
 
   <div class="max-w-[1280px] mx-auto px-4">
     <h1 class="sr-only">Rent Free News — reality checks with receipts: viral claims vs primary data</h1>
-    <!-- HERO BENTO: Top story (trending or latest) + 2 recent articles -->
-    <div class="pt-5 grid lg:grid-cols-3 gap-4">
-      <div class="lg:col-span-2">
+    <!-- HERO BENTO: Main hero + 4 secondary articles in 2x2 grid -->
+    <div class="pt-5 grid lg:grid-cols-[2fr_1fr] gap-4">
+      <!-- Main Hero (Left, spans 2 rows) -->
+      <div class="lg:row-span-2">
         {hero && <NewsCard variant="hero" href={`/${hero.slug}/`} title={hero.data.title} excerpt={hero.data.excerpt} category={hero.data.category} author={hero.data.author} pubDate={hero.data.pubDate} verdict={hero.data.verdict} image={hero.data.heroImage} />}
       </div>
-      <div class="grid gap-4">
+      
+      <!-- 4 Secondary stories (Right side, 2x2 grid) -->
+      <div class="grid grid-rows-2 gap-4">
         {heroSecondary.map(p => (
+          <NewsCard href={`/${p.slug}/`} title={p.data.title} excerpt={p.data.excerpt} category={p.data.category} author={p.data.author} pubDate={p.data.pubDate} image={p.data.heroImage} />
+        ))}
+      </div>
+      <div class="grid grid-rows-2 gap-4">
+        {posts.slice(2, 4).map(p => (
           <NewsCard href={`/${p.slug}/`} title={p.data.title} excerpt={p.data.excerpt} category={p.data.category} author={p.data.author} pubDate={p.data.pubDate} image={p.data.heroImage} />
         ))}
       </div>
     </div>
 
-    <!-- DENSE GRID: Recent checks from last 14 days -->
-    <SectionHeader kicker="Last 14 days" title="Latest checks" href="/search/" />
+    <!-- DENSE GRID: Recent checks - show ALL available from last 14 days -->
+    <SectionHeader kicker="Fresh first" title="Latest checks" href="/search/" />
     <div class="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
       {topChecks.map((p,i) => (
         <NewsCard href={`/${p.slug}/`} title={p.data.title} excerpt={p.data.excerpt} category={p.data.category} author={p.data.author} pubDate={p.data.pubDate} image={p.data.heroImage} index={i} />
       ))}
     </div>
 
-    <!-- LIST + RAIL: Latest articles by category -->
-    <div class="grid lg:grid-cols-[1fr_340px] gap-8 mt-4">
-      <div>
-        <SectionHeader kicker="Latest first" title="Reality Check" href="/category/reality-check/" />
-        <div class="rounded-[10px] border border-hairline dark:border-zinc-800 bg-white dark:bg-zinc-900 px-4 divide-y divide-stone-200 dark:divide-zinc-800">
-          {reality.map(p => (
-            <NewsCard variant="compact" href={`/${p.slug}/`} title={p.data.title} category={p.data.category} author={p.data.author} pubDate={p.data.pubDate} image={p.data.heroImage} />
-          ))}
+    <!-- TWO COLUMN: Main feed + Right sidebar (sticky) -->
+    <div class="grid lg:grid-cols-[1fr_340px] gap-8 mt-8">
+      <!-- LEFT COLUMN: Category feeds -->
+      <div class="space-y-8">
+        <!-- Reality Check - Full width list -->
+        <div>
+          <SectionHeader kicker="Latest first" title="Reality Check" href="/category/reality-check/" />
+          <div class="rounded-[10px] border border-hairline dark:border-zinc-800 bg-white dark:bg-zinc-900 px-4 divide-y divide-stone-200 dark:divide-zinc-800">
+            {reality.map(p => (
+              <NewsCard variant="compact" href={`/${p.slug}/`} title={p.data.title} category={p.data.category} author={p.data.author} pubDate={p.data.pubDate} image={p.data.heroImage} />
+            ))}
+          </div>
         </div>
 
-        <SectionHeader kicker="Data-driven" title="By the Numbers" href="/category/by-the-numbers/" />
-        <div class="grid sm:grid-cols-2 gap-4">
-          {numbers.map(p => (
-            <NewsCard href={`/${p.slug}/`} title={p.data.title} excerpt={p.data.excerpt} category={p.data.category} author={p.data.author} pubDate={p.data.pubDate} image={p.data.heroImage} />
-          ))}
+        <!-- By the Numbers - 2 column grid -->
+        <div>
+          <SectionHeader kicker="Data-driven" title="By the Numbers" href="/category/by-the-numbers/" />
+          <div class="grid sm:grid-cols-2 gap-4">
+            {numbers.map(p => (
+              <NewsCard href={`/${p.slug}/`} title={p.data.title} excerpt={p.data.excerpt} category={p.data.category} author={p.data.author} pubDate={p.data.pubDate} image={p.data.heroImage} />
+            ))}
+          </div>
         </div>
       </div>
 
-      <aside class="space-y-4 lg:sticky lg:top-[132px] self-start">
+      <!-- RIGHT SIDEBAR: Sticky -->
+      <aside class="space-y-4 lg:sticky lg:top-4 self-start">
         <div class="rounded-[10px] border border-hairline dark:border-zinc-800 bg-white dark:bg-zinc-900 p-5">
           <div class="kicker text-zinc-500">Most read</div>
           <ol class="mt-3 space-y-4">
