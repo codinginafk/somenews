@@ -5,8 +5,8 @@ excerpt: "Protests erupted at Lovely Professional University over claims of a co
 description: "A fact-check of the viral claims that a student was raped and died by suicide at LPU, sparking massive student protests and clashes with police."
 category: 'Reality Check'
 tags: ['lpu', 'punjab']
-author: 'Rent Free Desk'
-authorRole: 'Fact-check Desk'
+author: 'Yash'
+authorRole: 'Contributing Writer'
 pubDate: 2026-09-29
 primarySource: 'Police Statements and FIR Records'
 primarySourceUrl: 'https://www.hindustantimes.com/india-news/lovely-professional-university-chitkara-university-rape-suicide-claims-protests-punjab-latest-news-police-101790480567312.html'

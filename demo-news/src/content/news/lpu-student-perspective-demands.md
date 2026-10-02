@@ -5,8 +5,8 @@ excerpt: "While officials initially called the LPU protests a reaction to fabric
 description: "A breakdown of the student perspective on the LPU unrest, from claims of an ignored assault to broader demands for transparent campus safety measures."
 category: 'Reality Check'
 tags: ['lpu', 'punjab']
-author: 'Rent Free Desk'
-authorRole: 'Fact-check Desk'
+author: 'Diyan'
+authorRole: 'Staff Writer'
 pubDate: 2026-09-29
 primarySource: 'Student Statements and Police Briefings'
 primarySourceUrl: 'https://www.hindustantimes.com/india-news/lovely-professional-university-chitkara-university-rape-suicide-claims-protests-punjab-latest-news-police-101790480567312.html'

@@ -5,8 +5,8 @@ excerpt: "While the averted bank strike dominated headlines, mandatory Sunday sh
 description: "A look into the fatal consequences of mandatory weekend shifts ahead of the deferred bank strike, focusing on systemic inflexibility and worker strain."
 category: 'Reality Check'
 tags: ['banking', 'india']
-author: 'Rent Free Desk'
-authorRole: 'Fact-check Desk'
+author: 'Wasim'
+authorRole: 'Contributing Writer'
 pubDate: 2026-09-29
 primarySource: 'Union Bank of India Incident Reports'
 primarySourceUrl: 'https://www.thehindu.com/'

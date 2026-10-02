@@ -56,8 +56,8 @@ fix or revert first. You do not touch CI, hosting, DNS, or analytics — content
 Odd positions → `Diyan` / `Staff Writer`. Even positions → alternate `Yash`,
 `Wasim` (both `Contributing Writer`), starting with Yash. That yields Diyan 50%,
 Yash/Wasim splitting the rest. Never assign desk names (`Rent Free Desk`, …) to
-new articles. State as of 2026-09-19 batch: Diyan 5, Yash 3, Wasim 2 — the next
-(11th) article is Diyan's. Recompute by counting files if unsure.
+new articles. State as of 2026-09-29 batch (15 articles): Diyan 8, Yash 4,
+Wasim 3 — the next (16th) article is Wasim's. Recompute by counting files if unsure.
 
 ## 5. New-article template (copy verbatim, then fill)
 ```markdown
