@@ -4,8 +4,8 @@ seoTitle: 'Best passport lists count differently'
 excerpt: 'Henley counts visa-on-arrival one way, Arton another. A three-place slip is often a recount, not a policy shift.'
 category: 'By the Numbers'
 tags: ['passports', 'rankings']
-author: 'Data Desk'
-authorRole: 'Data Desk'
+author: 'Yash'
+authorRole: 'Contributing Writer'
 pubDate: 2026-09-11
 primarySource: 'Henley Passport Index methodology'
 primarySourceUrl: 'https://www.henleyglobal.com/passport-index'

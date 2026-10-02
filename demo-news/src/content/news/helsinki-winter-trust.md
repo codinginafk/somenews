@@ -4,8 +4,8 @@ seoTitle: 'Helsinki winter: why trust scores run high'
 excerpt: 'Low graft perception and solid safety nets lift the ladder. Darkness, rents, and integration debates fill the rest.'
 category: 'Countries'
 tags: ['Finland', 'Helsinki']
-author: 'Field Notes'
-authorRole: 'Field Desk'
+author: 'Wasim'
+authorRole: 'Contributing Writer'
 pubDate: 2026-09-13
 primarySource: 'Field interviews, Helsinki, February 2026'
 whyItMatters: 'Top-of-the-list stories skip winter darkness and rent stress. Locals fill in what the average hides.'

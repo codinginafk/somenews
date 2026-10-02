@@ -4,8 +4,8 @@ seoTitle: 'Sweden crime: survey data vs police logs'
 excerpt: 'Police logs climb when rules widen. Victim surveys tell a flatter story. Here is how to check in four minutes.'
 category: 'Reality Check'
 tags: ['Sweden', 'crime', 'surveys']
-author: 'Data Desk'
-authorRole: 'Data Desk'
+author: 'Wasim'
+authorRole: 'Contributing Writer'
 pubDate: 2026-09-17
 primarySource: 'Swedish Crime Survey (NTU), Bra'
 primarySourceUrl: 'https://www.bra.se/bra-in-english.html'

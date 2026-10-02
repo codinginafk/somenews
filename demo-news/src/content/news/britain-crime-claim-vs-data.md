@@ -4,8 +4,8 @@ seoTitle: "Britain 'rape capital'? What the data allows"
 excerpt: 'Viral maps rank the UK top for rape. But reporting rules, definitions and survey methods differ wildly by country. Here is the full data.'
 category: 'Reality Check'
 tags: ['UK', 'crime stats', 'fact-check']
-author: 'Rent Free Desk'
-authorRole: 'Fact-check Desk'
+author: 'Diyan'
+authorRole: 'Staff Writer'
 pubDate: 2026-09-18
 primarySource: 'ONS Crime Survey for England and Wales'
 primarySourceUrl: 'https://www.ons.gov.uk/peoplepopulationandcommunity/crimeandjustice'

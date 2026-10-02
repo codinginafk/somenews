@@ -4,8 +4,8 @@ seoTitle: '3 VTubers test local LLMs live: what broke'
 excerpt: 'VRAM, quant levels, and prompt fails: quoted with permission from local-LLM VTuber testers, with embeds and links back.'
 category: 'Lab Tested'
 tags: ['local LLM', 'VTuber', 'Ollama', 'LM Studio']
-author: 'Rent Free Lab'
-authorRole: 'Creator Desk'
+author: 'Yash'
+authorRole: 'Contributing Writer'
 pubDate: 2026-09-19
 primarySource: 'Creator VOD timestamps, linked with permission'
 whyItMatters: 'Local-model hype promises privacy and zero cost. Stream-tested numbers show where that promise holds on one PC.'

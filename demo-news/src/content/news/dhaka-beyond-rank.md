@@ -4,8 +4,8 @@ seoTitle: 'Dhaka beyond the rank: what visitors film'
 excerpt: 'River crossings at Sadarghat, late food streets in Lalbagh, startup floors in Banani - footage with dates and spots, not a thumbnail.'
 category: 'Countries'
 tags: ['Bangladesh', 'Dhaka']
-author: 'Field Notes'
-authorRole: 'Field Desk'
+author: 'Diyan'
+authorRole: 'Staff Writer'
 pubDate: 2026-09-14
 primarySource: 'Field notes, Dhaka, September 2026'
 whyItMatters: 'A single rank flattens 20 million lives. Street-level detail puts the number back in proportion.'

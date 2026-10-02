@@ -35,8 +35,8 @@ collections:
       - { label: 'Meta Description (falls back to Excerpt)', name: 'description', widget: 'text', required: false }
       - { label: 'Category', name: 'category', widget: 'select', options: ['Reality Check', 'By the Numbers', 'Countries', 'Lab Tested'] }
       - { label: 'Tags', name: 'tags', widget: 'list', required: false }
-      - { label: 'Author', name: 'author', widget: 'string', default: 'Rent Free Desk' }
-      - { label: 'Author Role', name: 'authorRole', widget: 'string', default: 'Fact-check Desk' }
+      - { label: 'Author', name: 'author', widget: 'string', default: 'Diyan' }
+      - { label: 'Author Role', name: 'authorRole', widget: 'string', default: 'Staff Writer' }
       - { label: 'Publish Date', name: 'pubDate', widget: 'datetime' }
       - { label: 'Updated Date', name: 'updatedDate', widget: 'datetime', required: false }
       - { label: 'Hero Image', name: 'heroImage', widget: 'image', required: false }

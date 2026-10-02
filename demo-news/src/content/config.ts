@@ -9,8 +9,8 @@ const news = defineCollection({
     excerpt: z.string(),
     category: z.string(), // e.g. Exposed, Rankings, Country Files, Tech Tests
     tags: z.array(z.string()).default([]),
-    author: z.string().default('Rent Free Desk'),
-    authorRole: z.string().default('Fact-check Desk'),
+    author: z.string().default('Diyan'),
+    authorRole: z.string().default('Staff Writer'),
     pubDate: z.coerce.date(),
     updatedDate: z.coerce.date().optional(),
     heroImage: z.string().optional(),

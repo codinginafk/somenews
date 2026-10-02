@@ -15,7 +15,7 @@ One page. If it isn't here, ask Praveen before guessing.
 - [ ] `excerpt` — 1–2 sentences shown on cards.
 - [ ] `category` — exactly one of: `Reality Check`, `By the Numbers`, `Countries`, `Lab Tested`.
 - [ ] `tags` — 2–4, lowercase except proper nouns (`uk`, `crime stats`).
-- [ ] `author` — **copy an existing name exactly** (check another article). New names only with Praveen's OK.
+- [ ] `author` — follow the rotation (oldest→newest by date): odd article → **Diyan** (Staff Writer); even → alternate **Yash**, **Wasim** (Contributing Writer). Next up: Diyan. Never use desk names.
 - [ ] `pubDate` — `YYYY-MM-DD`.
 - [ ] `claim`, `claimSource`, `verdict` — fill for fact-checks (`verdict` from: `True with context`, `Misleading — Missing Context`, `False — with context`, `Missing Context`, `Explainer`).
 - [ ] `primarySource` + `primarySourceUrl` (real link), `whyItMatters` (1–2 sentences), `sources` (2+ real links).

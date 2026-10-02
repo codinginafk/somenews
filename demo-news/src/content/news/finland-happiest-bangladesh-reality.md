@@ -4,8 +4,8 @@ seoTitle: 'Finland happiest? What the ranking measures'
 excerpt: 'The happiness ranking is not a beauty contest: a 0-10 ladder survey plus GDP, support, freedom and corruption. Full context shifts both countries.'
 category: 'By the Numbers'
 tags: ['Finland', 'Bangladesh', 'happiness index']
-author: 'Rent Free Desk'
-authorRole: 'Data Desk'
+author: 'Yash'
+authorRole: 'Contributing Writer'
 pubDate: 2026-09-15
 primarySource: 'World Happiness Report 2024'
 primarySourceUrl: 'https://www.worldhappiness.report/ed/2024/'

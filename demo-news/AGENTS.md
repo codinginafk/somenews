@@ -38,8 +38,8 @@ fix or revert first. You do not touch CI, hosting, DNS, or analytics — content
 | `excerpt` | string, required | 1–2 sentences for cards/RSS. |
 | `category` | string, required | Exactly one of: `Reality Check`, `By the Numbers`, `Countries`, `Lab Tested`. |
 | `tags` | string[] | 2–4. Lowercase except proper nouns. |
-| `author` | string | **Exact-match an existing author string** (grep `src/content/news/*.md` for `author:`). New author = editor approval required. Default `Rent Free Desk`. Site-wide contact is `desk@rentfreenews.com` — there is no per-author email field; do not invent one. |
-| `authorRole` | string | Match the author's existing role. Default `Fact-check Desk`. |
+| `author` | string | **Follow the rotation (§4a).** Exact-match one of `Diyan`, `Yash`, `Wasim`. New author = editor approval required. Site-wide contact is `desk@rentfreenews.com` — there is no per-author email field; do not invent one. |
+| `authorRole` | string | Must match the author: Diyan → `Staff Writer`; Yash / Wasim → `Contributing Writer`. |
 | `pubDate` | date | `YYYY-MM-DD`. New articles: today. |
 | `updatedDate` | date, optional | **Set on any substantive edit to a live article** (`YYYY-MM-DD`). |
 | `heroImage` | string, optional | Path reuse only, e.g. `/images/country-uk.svg`. Must exist in `public/images/`. |
@@ -52,6 +52,13 @@ fix or revert first. You do not touch CI, hosting, DNS, or analytics — content
 | `sources` | list of `{title, url, publisher}` | 2+ entries. Every `url` must be a full `https://` link you verified returns 200. |
 | `claimSource`, `sources[].url` | URLs | **Never invent URLs.** Curl-check each; replace dead links, never drop the claim they supported without a replacement. |
 
+### 4a. Author rotation (house rule — count oldest → newest by `pubDate`)
+Odd positions → `Diyan` / `Staff Writer`. Even positions → alternate `Yash`,
+`Wasim` (both `Contributing Writer`), starting with Yash. That yields Diyan 50%,
+Yash/Wasim splitting the rest. Never assign desk names (`Rent Free Desk`, …) to
+new articles. State as of 2026-09-19 batch: Diyan 5, Yash 3, Wasim 2 — the next
+(11th) article is Diyan's. Recompute by counting files if unsure.
+
 ## 5. New-article template (copy verbatim, then fill)
 ```markdown
 ---
@@ -61,8 +68,8 @@ excerpt: "1-2 sentence card text."
 description: "≤155 char meta description, one sentence."
 category: 'Reality Check'
 tags: ['topic', 'place']
-author: 'Rent Free Desk'
-authorRole: 'Fact-check Desk'
+author: 'Diyan'
+authorRole: 'Staff Writer'
 pubDate: YYYY-MM-DD
 primarySource: 'Dataset or document checked'
 primarySourceUrl: 'https://real-url-you-verified'

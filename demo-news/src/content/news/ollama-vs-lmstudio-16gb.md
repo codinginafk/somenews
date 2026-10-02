@@ -4,8 +4,8 @@ seoTitle: 'Ollama vs LM Studio on 16GB RAM, stream-tested'
 excerpt: 'Same 13B quant, same prompts, avatar rig on. Tok per sec, stalls, and which tool I would trust on stream.'
 category: 'Lab Tested'
 tags: ['Ollama', 'LM Studio', 'VRAM']
-author: 'Lab Desk'
-authorRole: 'Creator Desk'
+author: 'Diyan'
+authorRole: 'Staff Writer'
 pubDate: 2026-09-16
 primarySource: 'Bench log - 13B Q4_K_M, OBS live, September 2026'
 whyItMatters: 'Two free tools, one 16GB PC, one live audience. The difference is usability under load, not logos.'

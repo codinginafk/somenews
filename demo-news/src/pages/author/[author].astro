@@ -27,6 +27,9 @@ const people: Record<string,{bio:string;desc:string}> = {
   'Data Desk': { bio: 'The data desk reads a ranking before sharing it: who was sampled, how the question was worded, what was weighted, and who gains when the map goes viral.', desc: 'Data desk at Rent Free News: rankings read before sharing — samples, wording, weightings, and who gains.' },
   'Lab Desk': { bio: 'Lab Desk covers creator tooling tests — local LLMs, OBS rigs and stream-safe setups — with timestamps you can check.', desc: 'Creator tooling at Rent Free News: local LLMs and OBS rigs tested live, with timestamps included.' },
   'Field Notes': { bio: 'Field Notes files from the street: what visitors film when they stay past day two, and what locals add to the numbers.', desc: 'Street reporting at Rent Free News: what visitors film past day two, and what locals add to the numbers.' },
+  'Diyan': { bio: 'Diyan writes the checks — archives the viral post, pulls the primary dataset, and publishes what the numbers allow, with what is still unknown stated.', desc: 'Staff Writer at Rent Free News: viral posts archived, primary datasets pulled, verdicts with unknowns stated.' },
+  'Yash': { bio: 'Yash contributes checks and explainers — reads the methodology footnote first, then writes what survives it.', desc: 'Contributing Writer at Rent Free News: methodology footnotes read first, checks written second.' },
+  'Wasim': { bio: 'Wasim contributes checks and explainers — compares each claim against primary sources and prints the receipt.', desc: 'Contributing Writer at Rent Free News: claims compared against primary sources, receipts printed.' },
 };
 const person = people[name] ?? { bio: `${name} reports for Rent Free News — checks against primary sources, quoted humans, visible corrections.`, desc: `${role} at Rent Free News: checks against primary sources with visible corrections.` };
 ---

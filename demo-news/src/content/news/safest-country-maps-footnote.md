@@ -4,8 +4,8 @@ seoTitle: 'Safest-country maps hide the same footnote'
 excerpt: 'Crowd clicks are not victim surveys. Numbeo vs Gallup vs UNODC in plain terms, plus a 30-second check.'
 category: 'By the Numbers'
 tags: ['safety index', 'Numbeo']
-author: 'Data Desk'
-authorRole: 'Data Desk'
+author: 'Diyan'
+authorRole: 'Staff Writer'
 pubDate: 2026-09-12
 primarySource: 'Numbeo Crime Index methodology'
 primarySourceUrl: 'https://www.numbeo.com/crime/'

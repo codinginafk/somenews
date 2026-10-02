@@ -4,8 +4,8 @@ seoTitle: "Read a 'best country' list without getting fooled"
 excerpt: 'Sample, wording, timing, and who gains from your share. The five-point check our desk runs before we publish.'
 category: 'By the Numbers'
 tags: ['media literacy', 'rankings']
-author: 'Rent Free Desk'
-authorRole: 'Standards Desk'
+author: 'Diyan'
+authorRole: 'Staff Writer'
 pubDate: 2026-09-10
 primarySource: 'Rent Free desk checklist, v1'
 whyItMatters: 'Every viral rank hides the same five choices. This checklist finds them in under a minute.'
