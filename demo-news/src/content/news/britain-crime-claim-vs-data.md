@@ -21,7 +21,6 @@ sources:
     url: 'https://www.unodc.org/unodc/en/data-and-analysis/'
     publisher: 'UNODC'
 heroImage: '/images/country-uk.svg'
-featured: true
 trending: true
 claim: 'Britain is the rape capital of the world'
 claimSource: 'Viral social posts, 2026'

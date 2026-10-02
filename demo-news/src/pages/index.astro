@@ -6,16 +6,37 @@ import SectionHeader from '../components/SectionHeader.astro';
 import Newsletter from '../components/Newsletter.astro';
 import { getCollection } from 'astro:content';
 
-const posts = (await getCollection('news')).sort((a,b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
-const hero = posts.find(p => p.data.featured) ?? posts[0];
-const heroRest = posts.filter(p => p.slug !== hero?.slug);
-const topChecks = heroRest.slice(0, 8);
-const reality = posts.filter(p => p.data.category === 'Reality Check');
-const numbers = posts.filter(p => p.data.category === 'By the Numbers');
-const countries = posts.filter(p => p.data.category === 'Countries');
-const lab = posts.filter(p => p.data.category === 'Lab Tested');
-const mostRead = [...posts].sort((a,b) => Number(b.data.trending) - Number(a.data.trending)).slice(0,5);
-const realityFeed = [...new Set([...reality, ...heroRest].map(p => p.slug))].map(slug => posts.find(p => p.slug === slug)!).filter(Boolean).slice(0,6);
+// Smart hero selection: trending from last 7 days OR most recent article
+const allPosts = (await getCollection('news')).sort((a,b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+const now = new Date();
+const sevenDaysAgo = new Date(now.getTime() - 7 * 24 * 60 * 60 * 1000);
+const recentTrending = allPosts.filter(p => p.data.trending && p.data.pubDate >= sevenDaysAgo);
+const hero = recentTrending[0] ?? allPosts[0]; // Trending from last 7 days, or latest article
+
+// Posts excluding hero
+const posts = allPosts.filter(p => p.slug !== hero?.slug);
+
+// Secondary hero slots: next 2 most recent (time-based freshness)
+const heroSecondary = posts.slice(0, 2);
+
+// Top checks: mix of recent (last 14 days) + trending, sorted by recency
+const fourteenDaysAgo = new Date(now.getTime() - 14 * 24 * 60 * 60 * 1000);
+const recentPosts = posts.filter(p => p.data.pubDate >= fourteenDaysAgo);
+const topChecks = [...recentPosts].slice(0, 8);
+
+// Category feeds: LATEST first (time-based, not static)
+const reality = allPosts.filter(p => p.data.category === 'Reality Check').slice(0, 6);
+const numbers = allPosts.filter(p => p.data.category === 'By the Numbers').slice(0, 4);
+const countries = allPosts.filter(p => p.data.category === 'Countries').slice(0, 4);
+const lab = allPosts.filter(p => p.data.category === 'Lab Tested').slice(0, 4);
+
+// Most read: trending articles, but show newest first when multiple are trending
+const mostRead = [...allPosts].filter(p => p.data.trending).slice(0, 5);
+if (mostRead.length < 5) {
+  // Fill remaining slots with most recent non-trending
+  const remaining = allPosts.filter(p => !p.data.trending).slice(0, 5 - mostRead.length);
+  mostRead.push(...remaining);
+}
 ---
 
 <Layout title="Rent Free News — Reality checks with receipts" description="Viral claim on top, primary data below. Independent fact-checks, country briefs and lab-tested tech — corrected visibly.">
@@ -23,39 +44,39 @@ const realityFeed = [...new Set([...reality, ...heroRest].map(p => p.slug))].map
 
   <div class="max-w-[1280px] mx-auto px-4">
     <h1 class="sr-only">Rent Free News — reality checks with receipts: viral claims vs primary data</h1>
-    <!-- HERO BENTO: 2/3 + 1/3 stack (hierarchical grid, NNg F-pattern: top story first) -->
+    <!-- HERO BENTO: Top story (trending or latest) + 2 recent articles -->
     <div class="pt-5 grid lg:grid-cols-3 gap-4">
       <div class="lg:col-span-2">
         {hero && <NewsCard variant="hero" href={`/${hero.slug}/`} title={hero.data.title} excerpt={hero.data.excerpt} category={hero.data.category} author={hero.data.author} pubDate={hero.data.pubDate} verdict={hero.data.verdict} />}
       </div>
       <div class="grid gap-4">
-        {heroRest.slice(0,2).map(p => (
+        {heroSecondary.map(p => (
           <NewsCard href={`/${p.slug}/`} title={p.data.title} excerpt={p.data.excerpt} category={p.data.category} author={p.data.author} pubDate={p.data.pubDate} image={p.data.heroImage} />
         ))}
       </div>
     </div>
 
-    <!-- DENSE GRID: 4 per row on xl (fixes "only 2 per line") -->
-    <SectionHeader kicker="Updated hourly" title="Top checks" href="/search/" />
+    <!-- DENSE GRID: Recent checks from last 14 days -->
+    <SectionHeader kicker="Last 14 days" title="Latest checks" href="/search/" />
     <div class="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
       {topChecks.map((p,i) => (
         <NewsCard href={`/${p.slug}/`} title={p.data.title} excerpt={p.data.excerpt} category={p.data.category} author={p.data.author} pubDate={p.data.pubDate} image={p.data.heroImage} index={i} />
       ))}
     </div>
 
-    <!-- LIST + RAIL: text-heavy = list view (Google playbook), attention top→bottom -->
+    <!-- LIST + RAIL: Latest articles by category -->
     <div class="grid lg:grid-cols-[1fr_340px] gap-8 mt-4">
       <div>
-        <SectionHeader kicker="Scannable" title="Reality Check — latest" href="/category/reality-check/" />
+        <SectionHeader kicker="Latest first" title="Reality Check" href="/category/reality-check/" />
         <div class="rounded-[10px] border border-hairline dark:border-zinc-800 bg-white dark:bg-zinc-900 px-4 divide-y divide-stone-200 dark:divide-zinc-800">
-          {realityFeed.map(p => (
+          {reality.map(p => (
             <NewsCard variant="compact" href={`/${p.slug}/`} title={p.data.title} category={p.data.category} author={p.data.author} pubDate={p.data.pubDate} image={p.data.heroImage} />
           ))}
         </div>
 
-        <SectionHeader kicker="Method first" title="By the Numbers" href="/category/by-the-numbers/" />
+        <SectionHeader kicker="Data-driven" title="By the Numbers" href="/category/by-the-numbers/" />
         <div class="grid sm:grid-cols-2 gap-4">
-          {numbers.slice(0,4).map(p => (
+          {numbers.map(p => (
             <NewsCard href={`/${p.slug}/`} title={p.data.title} excerpt={p.data.excerpt} category={p.data.category} author={p.data.author} pubDate={p.data.pubDate} image={p.data.heroImage} />
           ))}
         </div>
