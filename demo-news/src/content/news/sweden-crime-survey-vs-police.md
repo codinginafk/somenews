@@ -2,6 +2,7 @@
 title: 'Sweden Crime Headlines vs Survey Data: Same Trap, New Flag'
 seoTitle: 'Sweden crime: survey data vs police logs'
 excerpt: 'Police logs climb when rules widen. Victim surveys tell a flatter story. Here is how to check in four minutes.'
+description: 'Sweden crime headlines vs reality: police logs rise with rule changes, but victim surveys show a different pattern. Compare both sources.'
 category: 'Reality Check'
 tags: ['Sweden', 'crime', 'surveys']
 author: 'Wasim'
@@ -40,6 +41,8 @@ Do this check yourself in four minutes:
 2. Ask police or survey? Police = paperwork. Survey = lived reports. Pick one lane.
 3. Match the question across years. "Hit, kicked, or attacked" in NTU 2022 must meet the same line in 2024.
 4. Zoom to district. National means hide local spikes and calm zones in one pot.
+
+This same methodology problem appears in viral [safest country maps](/safest-country-maps-footnote/)—mixing different data sources without context. See our guide on [how to read rankings](/how-to-read-rankings/) to avoid these traps.
 
 I pulled NTU 2023 and 2024 tables on Sept 16. Response near 52 percent. Assault victim share near 3 percent, flat. Threat share near 5 percent, flat. Police-recorded assault rose in the same window after a filing update. Two sources, two stories. Method explains the gap.
 

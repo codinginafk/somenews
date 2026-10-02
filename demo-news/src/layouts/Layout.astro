@@ -30,6 +30,8 @@ const sectionSlug = section?.toLowerCase().replace(/ /g, '-');
 <!doctype html>
 <html lang="en" class="scroll-smooth">
 <head>
+  <link rel="preconnect" href="https://www.googletagmanager.com" crossorigin />
+  <link rel="dns-prefetch" href="https://www.google-analytics.com" />
   {SITE.ga4Id && <script is:inline>
     window.dataLayer = window.dataLayer || [];
     function gtag(){window.dataLayer.push(arguments);}
@@ -41,7 +43,17 @@ const sectionSlug = section?.toLowerCase().replace(/ /g, '-');
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-    gtag('config', 'G-GBVRW0DMEC');
+    gtag('config', 'G-GBVRW0DMEC', {
+      'send_page_view': true,
+      'allow_google_signals': true,
+      'allow_ad_personalization_signals': false,
+      'cookie_flags': 'SameSite=None;Secure',
+      'linker': {
+        'domains': ['rentfreenews.com', 'www.rentfreenews.com']
+      },
+      'page_location': window.location.href,
+      'page_referrer': document.referrer
+    });
   </script>}
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -160,5 +172,51 @@ const sectionSlug = section?.toLowerCase().replace(/ /g, '-');
     });
     paintToggle();
   </script>
+  {SITE.ga4Id && <script is:inline>
+    // Enhanced measurement: outbound clicks + scroll depth
+    (function() {
+      var tracked = {};
+      // Outbound link tracking
+      document.addEventListener('click', function(e) {
+        var link = e.target.closest('a');
+        if (!link || !link.href) return;
+        try {
+          var url = new URL(link.href);
+          var isOutbound = url.hostname !== window.location.hostname && !url.hostname.includes('rentfreenews.com');
+          if (isOutbound && typeof window.gtag === 'function') {
+            gtag('event', 'click', {
+              'event_category': 'outbound',
+              'event_label': url.hostname,
+              'transport_type': 'beacon',
+              'value': url.href
+            });
+          }
+        } catch(ex) {}
+      });
+      // Scroll depth tracking (25%, 50%, 75%, 90%)
+      var depths = [25, 50, 75, 90];
+      var scrollHandler = function() {
+        var scrolled = (window.scrollY + window.innerHeight) / document.documentElement.scrollHeight * 100;
+        for (var i = 0; i < depths.length; i++) {
+          var depth = depths[i];
+          if (scrolled >= depth && !tracked[depth]) {
+            tracked[depth] = true;
+            if (typeof window.gtag === 'function') {
+              gtag('event', 'scroll', {
+                'event_category': 'engagement',
+                'event_label': depth + '%',
+                'value': depth
+              });
+            }
+          }
+        }
+      };
+      var throttle = null;
+      window.addEventListener('scroll', function() {
+        if (throttle) return;
+        throttle = setTimeout(function() { scrollHandler(); throttle = null; }, 500);
+      }, { passive: true });
+    })();
+  </script>}
 </body>
 </html>

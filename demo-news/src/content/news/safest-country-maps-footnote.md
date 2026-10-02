@@ -2,6 +2,7 @@
 title: 'Safest Country Maps Go Viral Each Month. They Hide the Same Footnote.'
 seoTitle: 'Safest-country maps hide the same footnote'
 excerpt: 'Crowd clicks are not victim surveys. Numbeo vs Gallup vs UNODC in plain terms, plus a 30-second check.'
+description: 'Viral safety maps mix crowd votes, fear, and police files. Learn the difference between Numbeo, Gallup, and UNODC crime data.'
 category: 'By the Numbers'
 tags: ['safety index', 'Numbeo']
 author: 'Diyan'
@@ -40,5 +41,7 @@ My 30-second check before I share any map:
 - What was the exact ask? "Safe at night" is not "low crime."
 - Which year? 2021 mixes lockdown streets with normal ones.
 - City or country? A calm capital can mask rough ports in one mean.
+
+For a deeper example of how data sources tell different stories, see [Sweden crime headlines vs survey data](/sweden-crime-survey-vs-police/). The same checklist applies to all rankings—learn [how to read rankings without getting fooled](/how-to-read-rankings/).
 
 I keep a folder of these maps. Nine of the last ten that hit my feed used crowd votes but wrote "crime data." That word swap is the tell. Votes are views. Files are files. Surveys are surveys. Name the lane or drop the post.

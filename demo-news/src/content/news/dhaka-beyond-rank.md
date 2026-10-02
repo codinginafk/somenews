@@ -2,6 +2,7 @@
 title: 'Dhaka Beyond the Rank: What Visitors Film When They Stay Past Day Two'
 seoTitle: 'Dhaka beyond the rank: what visitors film'
 excerpt: 'River crossings at Sadarghat, late food streets in Lalbagh, startup floors in Banani - footage with dates and spots, not a thumbnail.'
+description: 'Dhaka beyond rankings: river crossings at Sadarghat, food streets in Lalbagh, and startup culture in Banani with real visitor footage.'
 category: 'Countries'
 tags: ['Bangladesh', 'Dhaka']
 author: 'Diyan'
@@ -38,5 +39,7 @@ What the low score misses:
 - Floods and heat hit hard in July. Nobody I met denied that. They asked why clips only show the water, never the cleanup crews the next morning.
 
 How to use this brief: open the happiness table, read the six inputs, then open the clips. GDP per head and graft perception pull Bangladesh down. Food, river life, and daily help do not get a column. Both facts can sit side by side.
+
+For the full context on what happiness rankings measure (and miss), read [Finland happiest? What the ranking measures](/finland-happiest-bangladesh-reality/).
 
 Send me a "worst country" post and I will mark what it cropped out.

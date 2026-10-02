@@ -43,6 +43,8 @@ A screenshot of police figures with the UK at the top. No source link, no year, 
 
 > Rule we use: if a ranking mixes police data across countries without methodology, treat it as **misleading**.
 
+The same problem affects [Sweden crime headlines](/sweden-crime-survey-vs-police/) and [safest country maps](/safest-country-maps-footnote/)—different countries count differently. Learn [how to read rankings](/how-to-read-rankings/) to spot these issues.
+
 ## Sources to check yourself
 
 - ONS Crime Survey England & Wales methodology + Home Office counting rules

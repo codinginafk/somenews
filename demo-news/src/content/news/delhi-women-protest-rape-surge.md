@@ -1,6 +1,6 @@
 ---
 title: "Why Women Protest: Behind the Surge of Anger on Delhi's Streets"
-seoTitle: "Delhi Women Protest: Rising Assault Cases Spark Mass Outrage"
+seoTitle: "Delhi Women Protest: Rising Assault Cases Spark Outrage"
 excerpt: "Outraged by a series of horrific sexual assaults and institutional apathy, women are taking to the streets across Delhi and India demanding systemic change."
 description: "Massive women protests have erupted across Delhi and India, demanding immediate systemic change following a surge in horrific sexual assaults."
 category: 'Reality Check'

@@ -2,6 +2,7 @@
 title: 'How to Read a Best-Worst Country List Without Getting Fooled'
 seoTitle: "Read a 'best country' list without getting fooled"
 excerpt: 'Sample, wording, timing, and who gains from your share. The five-point check our desk runs before we publish.'
+description: 'Five-point checklist to verify country rankings before sharing. Learn what viral maps hide about sample, timing, and methodology.'
 category: 'By the Numbers'
 tags: ['media literacy', 'rankings']
 author: 'Diyan'

@@ -1,6 +1,6 @@
 ---
 title: "The Human Cost of Mandatory Sunday Duty: Two Union Bank Officers Lose Their Lives"
-seoTitle: "Bank Strike Human Cost: Union Bank Officers Lose Their Lives"
+seoTitle: "Bank Strike Human Cost: Officers Lose Their Lives"
 excerpt: "While the averted bank strike dominated headlines, mandatory Sunday shifts led to the tragic deaths of two Union Bank employees travelling to work."
 description: "A look into the fatal consequences of mandatory weekend shifts ahead of the deferred bank strike, focusing on systemic inflexibility and worker strain."
 category: 'Reality Check'

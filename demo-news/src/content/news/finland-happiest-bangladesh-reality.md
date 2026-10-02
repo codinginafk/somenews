@@ -2,6 +2,7 @@
 title: 'Finland #1 Happiest, Bangladesh Last? What That Ranking Actually Measures'
 seoTitle: 'Finland happiest? What the ranking measures'
 excerpt: 'The happiness ranking is not a beauty contest: a 0-10 ladder survey plus GDP, support, freedom and corruption. Full context shifts both countries.'
+description: 'Finland tops the happiness ranking, Bangladesh ranks low. Neither means best or worst overall—understand what the survey actually measures.'
 category: 'By the Numbers'
 tags: ['Finland', 'Bangladesh', 'happiness index']
 author: 'Yash'
@@ -40,6 +41,10 @@ It does NOT score nature, food, culture, history, hospitality - where Bangladesh
 - Bangladesh: lower GDP + health + institutional trust drags average (~3.9), despite strong community/family support on the ground
 - Year-to-year moves of 10-20 places are normal - sample noise + events, not destiny
 
-> We show both: the number *and* what it leaves out - street life in Dhaka, chars, Sundarbans, growth story - with photos and local voices, not just a rank.
+Before sharing any "best country" list, check [how to read rankings without getting fooled](/how-to-read-rankings/) - sample size, timing, and what's not measured matter.
+
+> We show both: the number *and* what it leaves out - street life in [Dhaka beyond the rank](/dhaka-beyond-rank/), chars, Sundarbans, growth story - with photos and local voices, not just a rank.
+
+Want to understand what the ladder doesn't capture? Read about [Helsinki in winter](/helsinki-winter-trust/) for the full picture of what rankings miss.
 
 Send us the "best/worst" post you saw and we'll annotate the footnote.

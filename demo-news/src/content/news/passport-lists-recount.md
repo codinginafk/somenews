@@ -2,6 +2,7 @@
 title: 'Best Passport Lists Count Differently. That Is the Whole Drop.'
 seoTitle: 'Best passport lists count differently'
 excerpt: 'Henley counts visa-on-arrival one way, Arton another. A three-place slip is often a recount, not a policy shift.'
+description: 'Passport rankings differ because Henley and Arton count visa-on-arrival differently. Most drops are methodology changes, not policy shifts.'
 category: 'By the Numbers'
 tags: ['passports', 'rankings']
 author: 'Yash'
@@ -36,5 +37,7 @@ What to ask before you quote a rank:
 - Visa-free, on arrival, or eTA? Lumped or split?
 - IATA feed date? Lists stamp it small at the foot.
 - Access or ease? A 30-day on-arrival with a $50 fee and a two-hour line is not "free."
+
+These same questions apply to all rankings. Learn [how to read rankings without getting fooled](/how-to-read-rankings/) before sharing any "best" list.
 
 I track this for readers who book flights. If your passport "dropped," open both lists, check foot dates, and call the airline desk. The desk knows. The map often lags.
