@@ -3,3 +3,5 @@ node_modules/
 .astro/
 public/uploads/
 .DS_Store
+news_docs
+news_image
