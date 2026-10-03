@@ -6,25 +6,14 @@ import SectionHeader from '../components/SectionHeader.astro';
 import Newsletter from '../components/Newsletter.astro';
 import { getCollection } from 'astro:content';
 
-// Smart hero selection: trending from last 7 days OR most recent article
+// Editorial slots: strict chronological ordering (newest first).
+// Slot 0 = lead hero, slot 1 = secondary story, slots 2+ = latest feed.
+// Article #2 is shown ONLY as the secondary story — never duplicated in Latest Checks.
 const allPosts = (await getCollection('news')).sort((a,b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
-const now = new Date();
-const sevenDaysAgo = new Date(now.getTime() - 7 * 24 * 60 * 60 * 1000);
-const recentTrending = allPosts.filter(p => p.data.trending && p.data.pubDate >= sevenDaysAgo);
-const hero = recentTrending[0] ?? allPosts[0]; // Trending from last 7 days, or latest article
-
-// Posts excluding hero
-const posts = allPosts.filter(p => p.slug !== hero?.slug);
-
-// Secondary hero slots: next 4 most recent (fills the 2x2 grid on right)
-const heroSecondary = posts.slice(0, 2);
-
-// Top checks: ALL articles from last 14 days (not just 8)
-const fourteenDaysAgo = new Date(now.getTime() - 14 * 24 * 60 * 60 * 1000);
-const recentPosts = posts.filter(p => p.data.pubDate >= fourteenDaysAgo);
-const olderPosts = posts.filter(p => p.data.pubDate < fourteenDaysAgo);
-// Backfill with older posts so the grid never renders half-empty
-const topChecks = [...recentPosts, ...olderPosts].slice(0, 12);
+const hero = allPosts[0];
+const secondary = allPosts[1];
+const quickLatest = allPosts.slice(2, 5); // compact headline rows beside the hero (#3-#5)
+const latestChecks = allPosts.slice(2, 14); // chronological feed starts at #3
 
 // Category feeds: LATEST first (time-based, not static)
 const reality = allPosts.filter(p => p.data.category === 'Reality Check').slice(0, 8);
@@ -46,30 +35,40 @@ if (mostRead.length < 5) {
 
   <div class="max-w-[1280px] mx-auto px-4">
     <h1 class="sr-only">Rent Free News — reality checks with receipts: viral claims vs primary data</h1>
-    <!-- HERO BENTO: Main hero + 4 secondary articles in 2x2 grid -->
-    <div class="pt-5 grid lg:grid-cols-[2fr_1fr] gap-4">
-      <!-- Main Hero (Left, spans 2 rows) -->
-      <div class="lg:row-span-2">
+    <!-- EDITORIAL TOP: lead story + secondary story + compact latest stream -->
+    <div class="pt-5 grid lg:grid-cols-[1.65fr_1fr] gap-4">
+      <!-- LEAD STORY: stretches to fill the row so no gap appears underneath -->
+      <div class="min-w-0 [&>a]:h-full">
         {hero && <NewsCard variant="hero" href={`/${hero.slug}/`} title={hero.data.title} excerpt={hero.data.excerpt} category={hero.data.category} author={hero.data.author} pubDate={hero.data.pubDate} verdict={hero.data.verdict} image={hero.data.heroImage} />}
       </div>
-      
-      <!-- 4 Secondary stories (Right side, 2x2 grid) -->
-      <div class="grid grid-rows-2 gap-4">
-        {heroSecondary.map(p => (
-          <NewsCard href={`/${p.slug}/`} title={p.data.title} excerpt={p.data.excerpt} category={p.data.category} author={p.data.author} pubDate={p.data.pubDate} image={p.data.heroImage} />
-        ))}
-      </div>
-      <div class="grid grid-rows-2 gap-4">
-        {posts.slice(2, 4).map(p => (
-          <NewsCard href={`/${p.slug}/`} title={p.data.title} excerpt={p.data.excerpt} category={p.data.category} author={p.data.author} pubDate={p.data.pubDate} image={p.data.heroImage} />
-        ))}
+      <!-- SECONDARY STORY + compact headline stream (text rows, not image cards) -->
+      <div class="flex flex-col gap-4 min-w-0">
+        {secondary && (
+          <NewsCard href={`/${secondary.slug}/`} title={secondary.data.title} excerpt={secondary.data.excerpt} category={secondary.data.category} author={secondary.data.author} pubDate={secondary.data.pubDate} image={secondary.data.heroImage} />
+        )}
+        <div class="rounded-[10px] border border-hairline dark:border-zinc-800 bg-white dark:bg-zinc-900 px-4 py-3">
+          <div class="kicker text-zinc-500">The latest</div>
+          <ul class="divide-y divide-stone-200 dark:divide-zinc-800">
+            {quickLatest.map(p => (
+              <li>
+                <a href={`/${p.slug}/`} class="group flex items-baseline gap-3 py-2.5">
+                  <span class="shrink-0 text-[12px] font-semibold text-zinc-400 dark:text-zinc-500 tabular-nums">{p.data.pubDate.toLocaleDateString('en-GB',{day:'numeric',month:'short'})}</span>
+                  <span class="min-w-0">
+                    <span class="kicker text-brand-600">{p.data.category}</span>
+                    <span class="block font-display font-bold text-[15px] leading-snug group-hover:underline">{p.data.title}</span>
+                  </span>
+                </a>
+              </li>
+            ))}
+          </ul>
+        </div>
       </div>
     </div>
 
-    <!-- DENSE GRID: Recent checks - show ALL available from last 14 days -->
-    <SectionHeader kicker="Fresh first" title="Latest checks" href="/search/" />
+    <!-- LATEST CHECKS: chronological feed from article #3 (no duplication of #2) -->
+    <SectionHeader kicker="Newest first" title="Latest checks" href="/search/" />
     <div class="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
-      {topChecks.map((p,i) => (
+      {latestChecks.map((p,i) => (
         <NewsCard href={`/${p.slug}/`} title={p.data.title} excerpt={p.data.excerpt} category={p.data.category} author={p.data.author} pubDate={p.data.pubDate} image={p.data.heroImage} index={i} />
       ))}
     </div>
