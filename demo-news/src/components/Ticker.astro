@@ -1,6 +1,10 @@
 ---
 import { getCollection } from 'astro:content';
-const posts = (await getCollection('news')).sort((a,b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()).slice(0,6);
+// Trending strip: editor-flagged stories (falls back to newest when none flagged).
+// Deliberately NOT newest-first, so it doesn't duplicate the Latest Checks feed.
+const ranked = (await getCollection('news')).sort((a,b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+const flagged = ranked.filter(p => p.data.trending);
+const posts = (flagged.length > 0 ? flagged : ranked).slice(0, 6);
 ---
 <div class="ticker border-b border-hairline dark:border-zinc-800 bg-white dark:bg-zinc-900 h-9 flex items-center overflow-hidden" aria-label="Trending">
   <div class="max-w-[1280px] mx-auto px-4 w-full flex items-center gap-3">

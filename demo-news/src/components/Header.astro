@@ -24,7 +24,7 @@ const today = new Date().toLocaleDateString('en-GB', { weekday:'long', day:'nume
 <header class="sticky top-0 z-40 bg-paper/95 dark:bg-zinc-950/95 backdrop-blur border-b border-hairline dark:border-zinc-800">
   <div class="max-w-[1280px] mx-auto px-4">
     <div class="h-16 flex items-center justify-between gap-4">
-      <div class="hidden md:block text-[12px] text-zinc-500 w-48 truncate"><span id="dateline">{today}</span> • Global edition</div>
+      <div class="hidden md:block text-[12px] text-zinc-500 whitespace-nowrap shrink-0"><span id="dateline">{today}</span> • Global edition</div>
       <a href="/" class="flex items-center gap-2.5 min-h-[44px]">
         <img src="/mark.svg" alt="Rent Free News home" width="36" height="36" class="w-9 h-9 rounded-[8px] shrink-0" />
         <span class="leading-none">
