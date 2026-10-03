@@ -6,7 +6,7 @@ export const SITE = {
   tagline: 'Claims vs data',
   description: 'Reality checks with receipts: viral claims vs primary data, country briefs, and lab-tested tech.',
   email: 'desk@rentfreenews.com',
-  adsEmail: 'ads@rentfreenews.com',
+  adsEmail: 'grow@rentfreenews.com',
   ga4Id: 'G-GBVRW0DMEC', // on/off switch for the Google tag; the ID itself is literal in Layout.astro to match Google's snippet byte-for-byte (their detector greps for it)
 };
 
