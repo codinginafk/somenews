@@ -5,8 +5,8 @@ excerpt: "Meta has launched Muse, an AI agent embedded directly into Instagram t
 description: "Meta launched Muse on Instagram to automate content, saved Reels, and creator tasks. Are we gaining a digital assistant or surrendering creative control?"
 category: 'Lab Tested'
 tags: ['instagram', 'ai', 'privacy']
-author: 'Diyan'
-authorRole: 'Staff Writer'
+author: 'Yash'
+authorRole: 'Contributing Writer'
 pubDate: 2026-10-07
 featured: true
 trending: true

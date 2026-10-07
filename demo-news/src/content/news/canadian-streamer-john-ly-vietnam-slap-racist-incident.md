@@ -5,8 +5,8 @@ excerpt: "A viral incident in a Saigon 7-Eleven where a Canadian streamer was sl
 description: "Canadian Kick streamer John Ly was slapped in Saigon after hurling racial slurs at Indian men. Here is how IRL rage-baiting fuels online harassment."
 category: 'Reality Check'
 tags: ['racism', 'rage bait', 'vietnam']
-author: 'Diyan'
-authorRole: 'Staff Writer'
+author: 'Yash'
+authorRole: 'Contributing Writer'
 pubDate: 2026-10-06
 primarySource: 'Kick Community Guidelines'
 primarySourceUrl: 'https://kick.com/community-guidelines'
