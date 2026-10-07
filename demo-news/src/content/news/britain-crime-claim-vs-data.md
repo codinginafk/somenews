@@ -21,10 +21,11 @@ sources:
     url: 'https://www.unodc.org/unodc/en/data-and-analysis/'
     publisher: 'UNODC'
 heroImage: '/images/country-uk.svg'
-trending: true
 claim: 'Britain is the rape capital of the world'
 claimSource: 'Viral social posts, 2026'
 verdict: 'Misleading - Missing Context'
+featured: true
+trending: true
 ---
 
 **Short answer:** you cannot rank countries on police-recorded rape like a league table. The UK reports more *because* it records more broadly and victims report more often - not proof it happens more.

@@ -18,8 +18,9 @@ sources:
   - title: 'Passport Index by Arton Capital'
     url: 'https://www.passportindex.org/'
     publisher: 'Arton'
-trending: false
 verdict: 'Missing Context'
+featured: true
+trending: true
 ---
 
 "Passport falls three places." I see it each quarter. Holders panic. Agents repost. Policy did not move. Counting did.

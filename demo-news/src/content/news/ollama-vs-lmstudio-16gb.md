@@ -17,10 +17,11 @@ sources:
   - title: 'LM Studio - discover, download, and run local LLMs'
     url: 'https://lmstudio.ai/'
     publisher: 'LM Studio'
-trending: true
 verdict: 'Lab Result'
 claim: 'Both run the same on 16GB'
 claimSource: 'Forum post'
+featured: true
+trending: true
 ---
 
 Claim: identical on 16GB. My test says no.

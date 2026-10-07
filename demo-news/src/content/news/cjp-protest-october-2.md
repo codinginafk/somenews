@@ -30,6 +30,8 @@ heroAlt: 'Silhouette of youth protest crowd confronting a police barricade'
 claim: 'The Election Commission Special Intensive Revision exercise is a targeted voter suppression tactic.'
 claimSource: 'Cockroach Janta Party (CJP), October 2, 2026'
 verdict: 'Explainer'
+featured: true
+trending: true
 ---
 
 **Short answer:** On October 2, 2026, the Cockroach Janta Party (CJP) led nationwide protests demanding the resignation of Chief Election Commissioner Gyanesh Kumar. The demonstrations centered on claims that the Election Commission's Special Intensive Revision (SIR) exercise unfairly strips citizens of voting rights, leading to mass gatherings in Mumbai and severe police lockdowns in Delhi.

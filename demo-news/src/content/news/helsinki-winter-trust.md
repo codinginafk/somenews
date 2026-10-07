@@ -18,8 +18,9 @@ sources:
     url: 'https://www.gallup.com/'
     publisher: 'Gallup'
 heroImage: '/images/country-finland.svg'
-trending: false
 verdict: 'Field Brief'
+featured: true
+trending: true
 ---
 
 Finland tops the ladder most years. Helsinki in February shows why, and what the number skips.

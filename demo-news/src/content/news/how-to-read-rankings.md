@@ -17,8 +17,9 @@ sources:
   - title: 'Data and analysis on crime'
     url: 'https://www.unodc.org/unodc/en/data-and-analysis/'
     publisher: 'UNODC'
-trending: false
 verdict: 'Explainer'
+featured: true
+trending: true
 ---
 
 Viral maps hide five things. I check all five before I let a rank near a headline.

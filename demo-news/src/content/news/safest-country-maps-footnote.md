@@ -21,8 +21,9 @@ sources:
   - title: 'Data and analysis on crime'
     url: 'https://www.unodc.org/unodc/en/data-and-analysis/'
     publisher: 'UNODC'
-trending: false
 verdict: 'Missing Context'
+featured: true
+trending: true
 ---
 
 Same map, new colors, each month. One side shouts safest. The other shouts collapse. Both skip method.

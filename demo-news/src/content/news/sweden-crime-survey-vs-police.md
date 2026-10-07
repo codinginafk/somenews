@@ -19,10 +19,11 @@ sources:
     url: 'https://www.bra.se/'
     publisher: 'Bra'
 heroImage: '/images/country-sweden.svg'
-trending: true
 verdict: 'Missing Context'
 claim: 'Sweden is the crime capital of Europe'
 claimSource: 'Viral clip, 2026'
+featured: true
+trending: true
 ---
 
 Short answer: you cannot crown a "capital" from police logs. Sweden counts wide, reports often, and logs each event apart. That lifts totals. It does not prove streets are worse.

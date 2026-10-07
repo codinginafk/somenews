@@ -19,11 +19,11 @@ sources:
     url: 'https://www.gallup.com/'
     publisher: 'Gallup'
 heroImage: '/images/country-finland.svg'
-featured: false
-trending: true
 claim: 'Finland is the best country in the world and Bangladesh is the worst'
 claimSource: 'Viral summary of World Happiness Report'
 verdict: 'Missing Context'
+featured: true
+trending: true
 ---
 
 **Finland does top the World Happiness Report. Bangladesh ranks low. Neither means "best/worst country overall."**

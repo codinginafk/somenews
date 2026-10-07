@@ -23,6 +23,8 @@ heroAlt: 'A stark editorial illustration representing the tragic fatal commute o
 claim: 'The last-minute deferral of the bank strike meant a harmless return to work for banking professionals.'
 claimSource: 'Public assumption following the strike cancellation, September 2026'
 verdict: 'Missing Context'
+featured: true
+trending: true
 ---
 
 **Short answer:** While social media circulated memes about the deferred bank strike, a quieter tragedy unfolded across India. Two Union Bank of India employees lost their lives in fatal road accidents on Sunday, September 27, while traveling to branches for sudden mandatory weekend operations.

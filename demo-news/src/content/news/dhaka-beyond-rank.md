@@ -18,8 +18,9 @@ sources:
     url: 'https://data.worldbank.org/country/bangladesh'
     publisher: 'World Bank'
 heroImage: '/images/country-bangladesh.svg'
-trending: false
 verdict: 'Field Brief'
+featured: true
+trending: true
 ---
 
 A rank squeezes a city into one cell. Dhaka does not fit.

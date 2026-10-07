@@ -23,6 +23,8 @@ heroAlt: 'A stark, minimalist editorial illustration of a solid silhouette of an
 claim: 'A co-pilot attempted to crash a flydubai plane bound for Tel Aviv, which could have triggered World War III if not for Captain Smit Machchhar.'
 claimSource: 'Military warnings and public statements following the flydubai Flight FZ1073 incident.'
 verdict: 'True'
+featured: true
+trending: true
 ---
 
 **Short answer:** Captain Smit Machchhar, an Indian pilot from Mumbai, was stabbed by his co-pilot but managed to stop an attempt to crash flydubai Flight FZ1073. His actions saved 180 lives and prevented a geopolitical chain reaction that military experts warn could have sparked a regional war involving nuclear superpowers.

@@ -23,6 +23,8 @@ heroAlt: 'A stark editorial illustration representing the student demonstrations
 claim: 'The LPU unrest was sparked by a covered-up campus assault and years of ignored safety demands, rather than baseless rumours.'
 claimSource: 'Student protesting groups, September 27, 2026'
 verdict: 'Missing Context'
+featured: true
+trending: true
 ---
 
 **Short answer:** While the university initially dismissed the massive student protests as a reaction to baseless rumours, the student body maintains they were revolting against a real incident that was improperly handled. Their timeline of events recently received preliminary backing from senior police officials, highlighting long-standing frustrations over campus safety.

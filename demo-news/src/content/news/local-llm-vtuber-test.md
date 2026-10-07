@@ -17,11 +17,11 @@ sources:
   - title: 'LM Studio - discover, download, and run local LLMs'
     url: 'https://lmstudio.ai/'
     publisher: 'LM Studio'
-featured: false
-trending: true
 claim: 'Any laptop can run a 70B model fine'
 claimSource: 'Viral tech clip'
 verdict: 'False - with context'
+featured: true
+trending: true
 ---
 
 **We did not lab-test alone. We quoted people who stream local-LLM tests weekly - and we told them we were publishing.**

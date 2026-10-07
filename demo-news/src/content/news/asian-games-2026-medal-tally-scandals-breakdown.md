@@ -23,6 +23,8 @@ heroAlt: 'An illustration of a gold medal in front of a massive cargo container 
 claim: 'Host nation Japan is getting an F grade by international sports committees for Asian Games 2026 management.'
 claimSource: 'Social media, 2026'
 verdict: 'True with context'
+featured: true
+trending: true
 ---
 
 **Short answer:** While the 2026 Asian Games in Aichi-Nagoya have seen incredible athletic achievements, including China's dominance in the medal tally, severe administrative errors—ranging from playing the wrong national anthem to housing athletes on cargo ships—have sparked widespread criticism of the host's management.

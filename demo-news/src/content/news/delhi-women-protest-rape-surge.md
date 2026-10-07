@@ -23,6 +23,8 @@ heroAlt: 'A stark editorial illustration of a unified crowd of women holding sig
 claim: 'Women across Delhi are holding mass protests due to a nationwide surge in unchecked sexual violence and police inaction.'
 claimSource: 'On-ground protests and social media mobilization, September 2026'
 verdict: 'True with context'
+featured: true
+trending: true
 ---
 
 **Short answer:** Women are staging widespread protests across Delhi and other major cities, fighting through the rain with cardboard signs to demand basic freedom from sexual violence. This massive mobilization follows a string of horrific assaults across the country and a growing frustration with institutional apathy toward women's safety.
