@@ -5,8 +5,8 @@ excerpt: "A nationwide 3-day bank strike was cancelled late Sunday night. But fo
 description: "The UFBU and IBA late-night settlement averted a nationwide bank strike, but inadvertently forced bank employees into an exhausting seven-day work week."
 category: 'Reality Check'
 tags: ['banking', 'india']
-author: 'Diyan'
-authorRole: 'Staff Writer'
+author: 'Yash'
+authorRole: 'Contributing  Writer'
 pubDate: 2026-09-29
 primarySource: 'UFBU and IBA Settlement Documents'
 primarySourceUrl: 'https://www.rbi.org.in/'
