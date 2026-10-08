@@ -7,7 +7,7 @@ category: 'Countries'
 tags: ['Finland', 'Helsinki']
 author: 'Yash'
 authorRole: 'Contributing Writer'
-pubDate: 2026-09-13T18:39:00Z
+pubDate: '2026-09-13 16:06'
 primarySource: 'Field interviews, Helsinki, February 2026'
 whyItMatters: 'Top-of-the-list stories skip winter darkness and rent stress. Locals fill in what the average hides.'
 sources:

@@ -7,7 +7,7 @@ category: 'Reality Check'
 tags: ['politics', 'india', 'protests']
 author: 'Diyan'
 authorRole: 'Staff Writer'
-pubDate: 2026-10-02T09:09:00Z
+pubDate: '2026-10-02 18:18'
 primarySource: 'Election Commission of India'
 primarySourceUrl: 'https://www.thehindu.com/news/national/cec-gyanesh-kumar-row-cjp-opposition-parties-to-organise-separate-protests-live-updates-october-2-2026/article71535655.ece'
 whyItMatters: 'Massive youth protests are challenging the Election Commission over voter roll integrity.'

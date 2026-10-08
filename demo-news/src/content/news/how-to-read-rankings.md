@@ -7,7 +7,7 @@ category: 'By the Numbers'
 tags: ['media literacy', 'rankings']
 author: 'Diyan'
 authorRole: 'Staff Writer'
-pubDate: 2026-09-10T14:25:00Z
+pubDate: '2026-09-10 16:06'
 primarySource: 'Rent Free desk checklist, v1'
 whyItMatters: 'Every viral rank hides the same five choices. This checklist finds them in under a minute.'
 sources:

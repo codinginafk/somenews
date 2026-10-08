@@ -7,7 +7,7 @@ category: 'Reality Check'
 tags: ['Smit machchhar', 'captain smit machchhar', 'flydubai', 'indian pilot', 'world war 3', 'smit machchar']
 author: 'Yash'
 authorRole: 'Contributing Writer'
-pubDate: 2026-10-01T16:15:00Z
+pubDate: '2026-10-01 16:23'
 primarySource: 'HindustanTimes'
 primarySourceUrl: 'https://www.hindustantimes.com/'
 whyItMatters: 'A single act of heroism in the cockpit prevented what intelligence experts believe could have been a catastrophic trigger for a regional war.'

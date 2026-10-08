@@ -7,7 +7,7 @@ category: 'Reality Check'
 tags: ['racism', 'rage bait', 'vietnam']
 author: 'Yash'
 authorRole: 'Contributing Writer'
-pubDate: 2026-10-06T21:41:00Z
+pubDate: '2026-10-06 11:53'
 primarySource: 'Kick Community Guidelines'
 primarySourceUrl: 'https://kick.com/community-guidelines'
 whyItMatters: 'The rise of IRL streaming is monetizing harassment and casual racism under the guise of public entertainment, raising questions about platform accountability and consent.'
