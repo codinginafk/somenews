@@ -77,5 +77,8 @@ export function timeAgo(d: Date, now: Date = new Date()): string {
   }
   const days = Math.floor((now.getTime() - d.getTime()) / 864e5);
   if (!hasClock && days <= 1) return 'Today';
-  return d.toLocaleDateString('en-GB', { day: 'numeric', month: 'short' });
+  // Pinned to UTC because pubDate is stored with a Z suffix: formatting in the
+  // builder's local zone would render a different day than production for any
+  // article published late in the UTC day.
+  return d.toLocaleDateString('en-GB', { day: 'numeric', month: 'short', timeZone: 'UTC' });
 }

@@ -134,7 +134,7 @@ if (mostRead.length < 5) {
                 <span class="font-display font-black text-[28px] leading-none text-zinc-300 dark:text-zinc-700">{i+1}</span>
                 <div>
                   <a href={`/${p.slug}/`} class="font-display font-bold text-[15px] leading-snug hover:underline">{p.data.title}</a>
-                  <div class="text-[12px] text-zinc-500 mt-0.5">{p.data.category} • {p.data.pubDate.toLocaleDateString('en-GB',{day:'numeric',month:'short'})}</div>
+                  <div class="text-[12px] text-zinc-500 mt-0.5">{p.data.category} • {p.data.pubDate.toLocaleDateString('en-GB',{day:'numeric',month:'short',timeZone:'UTC'})}</div>
                 </div>
               </li>
             ))}

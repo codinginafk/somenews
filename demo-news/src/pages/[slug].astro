@@ -52,7 +52,7 @@ const pageDesc = entry.data.description ?? entry.data.excerpt;
           <span class="w-11 h-11 rounded-full bg-zinc-950 dark:bg-white text-white dark:text-black grid place-items-center font-bold shrink-0">{entry.data.author.slice(0,1)}</span>
           <div class="text-[13px]">
             <div>By <a href={`/author/${authorSlug(entry.data.author)}/`} class="font-bold hover:underline">{entry.data.author}</a> <span class="text-zinc-500">• {entry.data.authorRole}</span></div>
-            <div class="text-zinc-500">Published <time datetime={entry.data.pubDate.toISOString()}>{entry.data.pubDate.toLocaleDateString('en-GB', { day:'numeric', month:'long', year:'numeric' })}</time>{entry.data.updatedDate ? <span> • Updated <time datetime={entry.data.updatedDate.toISOString()}>{entry.data.updatedDate.toLocaleDateString('en-GB', { day:'numeric', month:'long', year:'numeric' })}</time></span> : null}</div>
+            <div class="text-zinc-500">Published <time datetime={entry.data.pubDate.toISOString()}>{entry.data.pubDate.toLocaleDateString('en-GB', { day:'numeric', month:'long', year:'numeric', timeZone:'UTC' })}</time>{entry.data.updatedDate ? <span> • Updated <time datetime={entry.data.updatedDate.toISOString()}>{entry.data.updatedDate.toLocaleDateString('en-GB', { day:'numeric', month:'long', year:'numeric', timeZone:'UTC' })}</time></span> : null}</div>
           </div>
           <div class="ml-auto flex gap-2">
             <a href={tweetUrl} target="_blank" rel="noopener" class="h-9 px-3 inline-flex items-center rounded-lg border border-zinc-300 dark:border-zinc-700 text-[13px] font-semibold">Share</a>

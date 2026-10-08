@@ -7,7 +7,7 @@ category: 'Reality Check'
 tags: ['delhi', 'protest']
 author: 'Yash'
 authorRole: 'Staff Writer'
-pubDate: 2026-09-29
+pubDate: 2026-09-29T06:33:00Z
 primarySource: 'Regional Police Reports and News Coverage'
 primarySourceUrl: 'https://www.hindustantimes.com/'
 whyItMatters: 'The protests highlight a profound loss of trust in law enforcement, where citizens feel public spaces and institutions are increasingly unsafe for women.'

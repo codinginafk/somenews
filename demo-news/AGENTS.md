@@ -40,7 +40,7 @@ fix or revert first. You do not touch CI, hosting, DNS, or analytics — content
 | `tags` | string[] | 2–4. Lowercase except proper nouns. |
 | `author` | string | **Follow the rotation (§4a).** Exact-match one of `Diyan`, `Yash`, `Wasim`. New author = editor approval required. Site-wide contact is `desk@rentfreenews.com` — there is no per-author email field; do not invent one. |
 | `authorRole` | string | Must match the author: Diyan → `Staff Writer`; Yash / Wasim → `Contributing Writer`. |
-| `pubDate` | date | `YYYY-MM-DD HH:MM` (24h, **with clock time** — the homepage wire shows `2h ago`; a date-only value falls back to `8 Oct`). New articles: now. |
+| `pubDate` | date | `YYYY-MM-DDTHH:MM:00Z` — ISO-8601, **UTC, with clock time** (homepage wire shows `2h ago`; a bare `YYYY-MM-DD` falls back to `8 Oct`). Always use the `Z` form: a space-separated value parses as local time and means a different instant on the deploy server than on your machine. Decap's datetime widget already emits this shape. New articles: now. |
 | `updatedDate` | date, optional | **Set on any substantive edit to a live article** (`YYYY-MM-DD`). |
 | `heroImage` | string, optional | Path reuse only, e.g. `/images/country-uk.svg`. Must exist in `public/images/`. |
 | `heroAlt` | string, optional | **Mandatory when `heroImage` is set.** Plain description, ≤ 125 chars, no keyword stuffing. |

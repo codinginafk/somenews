@@ -7,7 +7,7 @@ category: 'Reality Check'
 tags: ['politics', 'india']
 author: 'Diyan'
 authorRole: 'Staff Writer'
-pubDate: 2026-10-08
+pubDate: 2026-10-08T17:15:00Z
 primarySource: 'Ministry of Home Affairs & Delhi Police Deployment Records'
 primarySourceUrl: 'https://mha.gov.in/'
 whyItMatters: 'Exaggerated troop deployment claims can artificially escalate tensions and discourage peaceful democratic assembly.'

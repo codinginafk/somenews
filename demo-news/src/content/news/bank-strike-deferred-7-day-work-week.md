@@ -7,7 +7,7 @@ category: 'Reality Check'
 tags: ['banking', 'india']
 author: 'Yash'
 authorRole: 'Contributing  Writer'
-pubDate: 2026-09-29
+pubDate: 2026-09-29T07:42:00Z
 primarySource: 'UFBU and IBA Settlement Documents'
 primarySourceUrl: 'https://www.rbi.org.in/'
 whyItMatters: 'The sudden deferral of a nationwide strike highlights the systemic strain on essential workers, who were called in for weekend contingency shifts only to have their regular week reinstated.'

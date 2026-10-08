@@ -7,7 +7,7 @@ category: 'By the Numbers'
 tags: ['passports', 'rankings']
 author: 'Yash'
 authorRole: 'Contributing Writer'
-pubDate: 2026-09-11
+pubDate: 2026-09-11T11:47:00Z
 primarySource: 'Henley Passport Index methodology'
 primarySourceUrl: 'https://www.henleyglobal.com/passport-index'
 whyItMatters: 'A dropped-passport headline can be a recount, not a policy change. The method footnote tells you which.'

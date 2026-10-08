@@ -7,7 +7,7 @@ category: 'Reality Check'
 tags: ['banking', 'india']
 author: 'Yash'
 authorRole: 'Contributing Writer'
-pubDate: 2026-09-29
+pubDate: 2026-09-29T21:15:00Z
 primarySource: 'Union Bank of India Incident Reports'
 primarySourceUrl: 'https://www.thehindu.com/'
 whyItMatters: 'The tragic deaths highlight the real-world dangers of inflexible corporate mandates, raising serious questions about employee welfare in the banking sector.'

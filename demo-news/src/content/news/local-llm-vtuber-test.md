@@ -7,7 +7,7 @@ category: 'Lab Tested'
 tags: ['local LLM', 'VTuber', 'Ollama', 'LM Studio']
 author: 'Yash'
 authorRole: 'Contributing Writer'
-pubDate: 2026-09-19
+pubDate: 2026-09-19T07:50:00Z
 primarySource: 'Creator VOD timestamps, linked with permission'
 whyItMatters: 'Local-model hype promises privacy and zero cost. Stream-tested numbers show where that promise holds on one PC.'
 sources:

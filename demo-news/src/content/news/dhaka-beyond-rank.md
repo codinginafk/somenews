@@ -7,7 +7,7 @@ category: 'Countries'
 tags: ['Bangladesh', 'Dhaka']
 author: 'Diyan'
 authorRole: 'Staff Writer'
-pubDate: 2026-09-14
+pubDate: 2026-09-14T13:34:00Z
 primarySource: 'Field notes, Dhaka, September 2026'
 whyItMatters: 'A single rank flattens 20 million lives. Street-level detail puts the number back in proportion.'
 sources:

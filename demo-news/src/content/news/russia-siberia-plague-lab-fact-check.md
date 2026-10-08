@@ -7,7 +7,7 @@ category: 'Reality Check'
 tags: ['russia', 'health', 'plague']
 author: 'Diyan'
 authorRole: 'Staff Writer'
-pubDate: 2026-10-07
+pubDate: 2026-10-07T11:00:00Z
 primarySource: 'World Health Organization (WHO) Plague Fact Sheet'
 primarySourceUrl: 'https://www.who.int/news-room/fact-sheets/detail/plague'
 whyItMatters: 'Panic over a new pandemic can disrupt economies and cause unnecessary fear, so verifying isolated cases is critical.'

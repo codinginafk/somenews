@@ -7,7 +7,7 @@ category: 'Reality Check'
 tags: ['Sweden', 'crime', 'surveys']
 author: 'Yash'
 authorRole: 'Contributing Writer'
-pubDate: 2026-09-17
+pubDate: 2026-09-17T22:57:00Z
 primarySource: 'Swedish Crime Survey (NTU), Bra'
 primarySourceUrl: 'https://www.bra.se/bra-in-english.html'
 whyItMatters: 'Sweden threads get shared as proof of collapse or of safety. The survey line underneath is calmer than either thread.'

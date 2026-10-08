@@ -6,7 +6,7 @@ interface Props {
   verdict?: string; readTime?: number; index?: number;
 }
 const { href, title, excerpt, category, author, pubDate, image, variant='standard', verdict, readTime=4, index } = Astro.props;
-const date = pubDate?.toLocaleDateString('en-GB', { day:'numeric', month:'short' });
+const date = pubDate?.toLocaleDateString('en-GB', { day:'numeric', month:'short', timeZone:'UTC' });
 const catFile: Record<string,string> = {
   'Reality Check': 'reality-check',
   'By the Numbers': 'by-the-numbers',

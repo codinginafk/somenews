@@ -7,7 +7,7 @@ category: 'Lab Tested'
 tags: ['Ollama', 'LM Studio', 'VRAM']
 author: 'Diyan'
 authorRole: 'Staff Writer'
-pubDate: 2026-09-16
+pubDate: 2026-09-16T14:19:00Z
 primarySource: 'Bench log - 13B Q4_K_M, OBS live, September 2026'
 whyItMatters: 'Two free tools, one 16GB PC, one live audience. The difference is usability under load, not logos.'
 sources:

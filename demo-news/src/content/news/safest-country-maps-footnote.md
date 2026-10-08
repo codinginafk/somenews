@@ -7,7 +7,7 @@ category: 'By the Numbers'
 tags: ['safety index', 'Numbeo']
 author: 'Diyan'
 authorRole: 'Staff Writer'
-pubDate: 2026-09-12
+pubDate: 2026-09-12T16:17:00Z
 primarySource: 'Numbeo Crime Index methodology'
 primarySourceUrl: 'https://www.numbeo.com/crime/'
 whyItMatters: 'Safety maps get reposted as fact every month. They mix votes, fear, and files - three different things.'

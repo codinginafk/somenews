@@ -7,7 +7,7 @@ category: 'By the Numbers'
 tags: ['Finland', 'Bangladesh', 'happiness index']
 author: 'Yash'
 authorRole: 'Contributing Writer'
-pubDate: 2026-09-15
+pubDate: 2026-09-15T10:43:00Z
 primarySource: 'World Happiness Report 2024'
 primarySourceUrl: 'https://www.worldhappiness.report/ed/2024/'
 whyItMatters: 'Happiness ranks drive travel pieces, policy brags, and migration dreams. Knowing what the ladder asks keeps all three honest.'
