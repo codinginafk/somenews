@@ -19,7 +19,7 @@ sources:
     publisher: 'LM Studio'
 claim: 'Any laptop can run a 70B model fine'
 claimSource: 'Viral tech clip'
-verdict: 'False - with context'
+verdict: 'False — with context'
 featured: false
 trending: false
 ---

@@ -18,7 +18,7 @@ sources:
     url: 'https://data.worldbank.org/country/bangladesh'
     publisher: 'World Bank'
 heroImage: '/images/country-bangladesh.svg'
-verdict: 'Field Brief'
+verdict: 'Explainer'
 featured: false
 trending: false
 ---

@@ -23,7 +23,7 @@ sources:
 heroImage: '/images/country-uk.svg'
 claim: 'Britain is the rape capital of the world'
 claimSource: 'Viral social posts, 2026'
-verdict: 'Misleading - Missing Context'
+verdict: 'Misleading — Missing Context'
 featured: false
 trending: false
 ---

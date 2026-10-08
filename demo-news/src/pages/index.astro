@@ -5,15 +5,31 @@ import NewsCard from '../components/NewsCard.astro';
 import SectionHeader from '../components/SectionHeader.astro';
 import Newsletter from '../components/Newsletter.astro';
 import { getCollection } from 'astro:content';
+import { verdictChip, verdictWeight, timeAgo, chipClass } from '../data/verdict';
 
 // Editorial slots: strict chronological ordering (newest first).
-// Slot 0 = lead hero, slot 1 = secondary story, slots 2+ = latest feed.
-// Article #2 is shown ONLY as the secondary story — never duplicated in Latest Checks.
+// Slot 0 = lead hero, slot 1 = secondary story, slots 2-8 = the latest wire.
 const allPosts = (await getCollection('news')).sort((a,b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 const hero = allPosts[0];
 const secondary = allPosts[1];
-const quickLatest = allPosts.slice(2, 5); // compact headline rows beside the hero (#3-#5)
-const latestChecks = allPosts.slice(2, 14); // chronological feed starts at #3
+const wire = allPosts.slice(2, 9); // 7 chronological rows with verdict chips
+
+// Everything already shown above is excluded from the grid, so no story repeats.
+const usedAbove = new Set([hero?.slug, secondary?.slug, ...wire.map(p => p.slug)].filter(Boolean) as string[]);
+
+// "Worth your time" is RANKED, not chronological: sharper verdicts and editor-flagged
+// stories surface first, with recency as the tie-breaker. Distinct job from the wire.
+const days = (d: Date) => (Date.now() - d.getTime()) / 864e5;
+const score = (p: (typeof allPosts)[number]) =>
+  verdictWeight(p.data.verdict) + (p.data.trending ? 2 : 0) + Math.max(0, 1 - days(p.data.pubDate) / 30);
+const worthYourTime = allPosts
+  .filter(p => !usedAbove.has(p.slug))
+  .sort((a, b) => score(b) - score(a) || b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
+  .slice(0, 12);
+
+// Only show a LIVE flag when a story genuinely carries a clock time inside 3h.
+const newest = allPosts[0];
+const isLive = newest.data.pubDate.getUTCHours() !== 0 && days(newest.data.pubDate) * 24 < 3;
 
 // Category feeds: LATEST first (time-based, not static)
 const reality = allPosts.filter(p => p.data.category === 'Reality Check').slice(0, 8);
@@ -46,29 +62,39 @@ if (mostRead.length < 5) {
         {secondary && (
           <NewsCard href={`/${secondary.slug}/`} title={secondary.data.title} excerpt={secondary.data.excerpt} category={secondary.data.category} author={secondary.data.author} pubDate={secondary.data.pubDate} image={secondary.data.heroImage} />
         )}
-        <div class="rounded-[10px] border border-hairline dark:border-zinc-800 bg-white dark:bg-zinc-900 px-4 py-3">
-          <div class="kicker text-zinc-500">The latest</div>
-          <ul class="divide-y divide-stone-200 dark:divide-zinc-800">
-            {quickLatest.map(p => (
-              <li>
-                <a href={`/${p.slug}/`} class="group flex items-baseline gap-3 py-2.5">
-                  <span class="shrink-0 text-[12px] font-semibold text-zinc-400 dark:text-zinc-500 tabular-nums">{p.data.pubDate.toLocaleDateString('en-GB',{day:'numeric',month:'short'})}</span>
-                  <span class="min-w-0">
-                    <span class="kicker text-brand-600">{p.data.category}</span>
-                    <span class="block font-display font-bold text-[15px] leading-snug group-hover:underline">{p.data.title}</span>
-                  </span>
-                </a>
-              </li>
-            ))}
+        <div class="rounded-[10px] border border-hairline dark:border-zinc-800 bg-white dark:bg-zinc-900">
+          <div class="flex items-center justify-between gap-2 px-4 py-3 border-b border-hairline dark:border-zinc-800">
+            <div class="flex items-center gap-2 min-w-0">
+              {isLive && <span class="flex items-center gap-1.5 shrink-0"><span class="w-1.5 h-1.5 rounded-full bg-red-500 animate-pulse"></span><span class="text-[11px] font-bold uppercase tracking-[0.14em] text-red-600 dark:text-red-400">Live</span></span>}
+              <span class="kicker text-zinc-500">The latest</span>
+            </div>
+            <a href="/search/" class="text-[12px] font-bold hover:underline shrink-0">View all →</a>
+          </div>
+          <ul class="px-4 divide-y divide-stone-200 dark:divide-zinc-800">
+            {wire.map(p => {
+              const chip = verdictChip(p.data.verdict);
+              return (
+                <li>
+                  <a href={`/${p.slug}/`} class="group block py-3">
+                    <div class="flex items-center gap-2">
+                      <span class="kicker text-brand-600 shrink-0">{p.data.category}</span>
+                      {chip && <span class={`shrink-0 text-[10px] font-bold uppercase tracking-[0.08em] px-1.5 py-0.5 rounded border ${chipClass(chip.tone)}`}>{chip.label}</span>}
+                      <span class="ml-auto text-[11px] font-mono text-zinc-400 tabular-nums shrink-0">{timeAgo(p.data.pubDate)}</span>
+                    </div>
+                    <div class="font-display font-bold text-[14px] leading-snug mt-1 group-hover:underline clamp-2">{p.data.title}</div>
+                  </a>
+                </li>
+              );
+            })}
           </ul>
         </div>
       </div>
     </div>
 
-    <!-- LATEST CHECKS: chronological feed from article #3 (no duplication of #2) -->
-    <SectionHeader kicker="Newest first" title="Latest checks" href="/search/" />
+    <!-- RANKED GRID: "Worth your time". Excludes every story shown above. -->
+    <SectionHeader kicker="Sharpest verdicts first" title="Worth your time" href="/search/" />
     <div class="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
-      {latestChecks.map((p,i) => (
+      {worthYourTime.map((p,i) => (
         <NewsCard href={`/${p.slug}/`} title={p.data.title} excerpt={p.data.excerpt} category={p.data.category} author={p.data.author} pubDate={p.data.pubDate} image={p.data.heroImage} index={i} />
       ))}
     </div>

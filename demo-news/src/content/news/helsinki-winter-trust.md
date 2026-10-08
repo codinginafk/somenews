@@ -18,7 +18,7 @@ sources:
     url: 'https://www.gallup.com/'
     publisher: 'Gallup'
 heroImage: '/images/country-finland.svg'
-verdict: 'Field Brief'
+verdict: 'Explainer'
 featured: false
 trending: false
 ---

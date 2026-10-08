@@ -17,7 +17,7 @@ sources:
   - title: 'LM Studio - discover, download, and run local LLMs'
     url: 'https://lmstudio.ai/'
     publisher: 'LM Studio'
-verdict: 'Lab Result'
+verdict: 'Explainer'
 claim: 'Both run the same on 16GB'
 claimSource: 'Forum post'
 featured: false
