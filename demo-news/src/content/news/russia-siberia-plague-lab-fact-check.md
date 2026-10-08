@@ -23,8 +23,8 @@ heroAlt: 'A stark editorial silhouette of a researcher holding a glowing test tu
 claim: 'A Russian laboratory worker died after a test tube of plague bacteria shattered, and a new worldwide pandemic like COVID-19 is beginning.'
 claimSource: 'Online rumors and social media panic following the October 2026 incident in Siberia.'
 verdict: 'Misleading — Missing Context'
-featured: true
-trending: true
+featured: false
+trending: false
 ---
 
 **Short answer:** The death of a Siberian lab worker from the plague is a real and tragic incident, but there is zero evidence of a global outbreak. Health officials successfully traced and tested all 200 contacts with negative results, and the bacterial infection is highly treatable with common antibiotics.
@@ -61,3 +61,4 @@ A: No. Experts note that the plague is a known bacterium that responds well to c
 
 **Q: Did the worker die from a broken test tube?**
 A: Rumors point to a shattered test tube as the cause of infection. However, Russian health authorities reject claims linking her illness directly to a laboratory accident. Regardless of the exact source of exposure, the spread has been completely contained.
+

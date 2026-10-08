@@ -19,8 +19,8 @@ sources:
     url: 'https://www.passportindex.org/'
     publisher: 'Arton'
 verdict: 'Missing Context'
-featured: true
-trending: true
+featured: false
+trending: false
 ---
 
 "Passport falls three places." I see it each quarter. Holders panic. Agents repost. Policy did not move. Counting did.
@@ -42,3 +42,4 @@ What to ask before you quote a rank:
 These same questions apply to all rankings. Learn [how to read rankings without getting fooled](/how-to-read-rankings/) before sharing any "best" list.
 
 I track this for readers who book flights. If your passport "dropped," open both lists, check foot dates, and call the airline desk. The desk knows. The map often lags.
+

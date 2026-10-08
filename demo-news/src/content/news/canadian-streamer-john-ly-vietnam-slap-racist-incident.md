@@ -23,8 +23,8 @@ heroAlt: 'An illustration of a person holding up a smartphone to film someone ra
 claim: 'Canadian streamer John Ly was unfairly assaulted while filming IRL content in a Vietnam 7-Eleven.'
 claimSource: 'Online commentators and social media, 2026'
 verdict: 'Missing Context'
-featured: true
-trending: true
+featured: false
+trending: false
 ---
 
 **Short answer:** While the viral video shows Canadian streamer John Ly being physically slapped by an Indian tourist in a Saigon 7-Eleven, the footage circulating online strips away critical context: the streamer was engaging in aggressive "rage-baiting," ignoring repeated requests to stop filming, and hurling racial slurs.
@@ -59,3 +59,4 @@ A: Generally, filming in public spaces is less restricted in many Southeast Asia
 
 **Q: What is rage-baiting?**
 A: Rage-baiting is the practice of intentionally doing or saying offensive, controversial, or annoying things specifically to provoke an angry reaction from the target or the audience, thereby driving up engagement and views.
+

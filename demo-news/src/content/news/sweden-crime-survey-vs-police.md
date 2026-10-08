@@ -22,8 +22,8 @@ heroImage: '/images/country-sweden.svg'
 verdict: 'Missing Context'
 claim: 'Sweden is the crime capital of Europe'
 claimSource: 'Viral clip, 2026'
-featured: true
-trending: true
+featured: false
+trending: false
 ---
 
 Short answer: you cannot crown a "capital" from police logs. Sweden counts wide, reports often, and logs each event apart. That lifts totals. It does not prove streets are worse.
@@ -48,3 +48,4 @@ This same methodology problem appears in viral [safest country maps](/safest-cou
 I pulled NTU 2023 and 2024 tables on Sept 16. Response near 52 percent. Assault victim share near 3 percent, flat. Threat share near 5 percent, flat. Police-recorded assault rose in the same window after a filing update. Two sources, two stories. Method explains the gap.
 
 Bottom line: Sweden has a gun-crime pocket that needs plain talk and local data. The "capital of Europe" tag is paperwork dressed as fact. Ask for the survey line before you repost.
+

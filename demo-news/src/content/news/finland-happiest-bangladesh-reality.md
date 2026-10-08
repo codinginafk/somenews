@@ -22,8 +22,8 @@ heroImage: '/images/country-finland.svg'
 claim: 'Finland is the best country in the world and Bangladesh is the worst'
 claimSource: 'Viral summary of World Happiness Report'
 verdict: 'Missing Context'
-featured: true
-trending: true
+featured: false
+trending: false
 ---
 
 **Finland does top the World Happiness Report. Bangladesh ranks low. Neither means "best/worst country overall."**
@@ -48,3 +48,4 @@ Before sharing any "best country" list, check [how to read rankings without gett
 Want to understand what the ladder doesn't capture? Read about [Helsinki in winter](/helsinki-winter-trust/) for the full picture of what rankings miss.
 
 Send us the "best/worst" post you saw and we'll annotate the footnote.
+

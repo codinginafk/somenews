@@ -20,8 +20,8 @@ sources:
 claim: 'Any laptop can run a 70B model fine'
 claimSource: 'Viral tech clip'
 verdict: 'False - with context'
-featured: true
-trending: true
+featured: false
+trending: false
 ---
 
 **We did not lab-test alone. We quoted people who stream local-LLM tests weekly - and we told them we were publishing.**
@@ -48,3 +48,4 @@ For a direct comparison of tools under streaming load, see [Ollama vs LM Studio 
 ## Want to be quoted?
 
 If you test local LLMs on stream, send your VOD timestamp. We embed, link, and share the article with you to repost. See `/about#creators`.
+

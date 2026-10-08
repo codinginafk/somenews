@@ -23,8 +23,8 @@ heroAlt: 'A stark editorial illustration of an exhausted bank worker facing a re
 claim: 'The deferral of the nationwide bank strike means bankers are back to their normal work schedules.'
 claimSource: 'Public assumption following the strike cancellation, September 2026'
 verdict: 'Missing Context'
-featured: true
-trending: true
+featured: false
+trending: false
 ---
 
 **Short answer:** While the nationwide three-day bank strike was deferred after a late-night settlement, the timing created an unexpected burden for bank staff. Because they were mandated to work on Sunday to clear transactions ahead of the anticipated strike, employees now face an uninterrupted seven-day work week.
@@ -57,3 +57,4 @@ A: Banks instructed their staff to clear pending transactions on Sunday as a con
 
 **Q: Is the 5-day work week for banks finalized?**
 A: Not yet. The IBA and UFBU have agreed to form a joint committee to examine the feasibility of declaring all Saturdays as holidays, but no final decision has been implemented.
+

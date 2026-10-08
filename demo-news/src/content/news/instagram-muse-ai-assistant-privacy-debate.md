@@ -8,8 +8,8 @@ tags: ['instagram', 'ai', 'privacy']
 author: 'Yash'
 authorRole: 'Contributing Writer'
 pubDate: 2026-10-07
-featured: true
-trending: true
+featured: false
+trending: false
 primarySource: 'Meta Press Release / Instagram Updates 2026'
 primarySourceUrl: 'https://about.meta.com/'
 whyItMatters: 'As social platforms integrate deep AI functionality, the line between helpful utility and algorithmic exploitation becomes increasingly blurred.'
@@ -61,3 +61,4 @@ A: While specific features may be toggled in settings, deep integration means da
 
 **Q: Does Muse read my direct messages?**
 A: To provide personalized assistance and negotiation tools, Muse requires access to relevant contextual data. Users should carefully review privacy settings.
+

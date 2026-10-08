@@ -20,8 +20,8 @@ sources:
 verdict: 'Lab Result'
 claim: 'Both run the same on 16GB'
 claimSource: 'Forum post'
-featured: true
-trending: true
+featured: false
+trending: false
 ---
 
 Claim: identical on 16GB. My test says no.
@@ -43,3 +43,4 @@ What broke:
 For more real-world testing with multiple streamers, see [3 VTubers test local LLMs live](/local-llm-vtuber-test/) to understand where models break first under streaming load.
 
 My pick: streaming on one PC, grab LM Studio for the night. Low RAM headroom or headless box, grab Ollama. Full prompt texts and VOD stamps sit with the two quoted testers linked below. I asked each for a yes before quoting. They got draft links first.
+

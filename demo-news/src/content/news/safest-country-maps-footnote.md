@@ -22,8 +22,8 @@ sources:
     url: 'https://www.unodc.org/unodc/en/data-and-analysis/'
     publisher: 'UNODC'
 verdict: 'Missing Context'
-featured: true
-trending: true
+featured: false
+trending: false
 ---
 
 Same map, new colors, each month. One side shouts safest. The other shouts collapse. Both skip method.
@@ -46,3 +46,4 @@ My 30-second check before I share any map:
 For a deeper example of how data sources tell different stories, see [Sweden crime headlines vs survey data](/sweden-crime-survey-vs-police/). The same checklist applies to all rankings—learn [how to read rankings without getting fooled](/how-to-read-rankings/).
 
 I keep a folder of these maps. Nine of the last ten that hit my feed used crowd votes but wrote "crime data." That word swap is the tell. Votes are views. Files are files. Surveys are surveys. Name the lane or drop the post.
+

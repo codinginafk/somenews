@@ -18,8 +18,8 @@ sources:
     url: 'https://www.unodc.org/unodc/en/data-and-analysis/'
     publisher: 'UNODC'
 verdict: 'Explainer'
-featured: true
-trending: true
+featured: false
+trending: false
 ---
 
 Viral maps hide five things. I check all five before I let a rank near a headline.
@@ -35,3 +35,4 @@ Viral maps hide five things. I check all five before I let a rank near a headlin
 5. Who gains from your share? Outrage maps farm saves. Footnotes do not. I ask who posted first and what they sell. A visa agent gains from fear. A course seller gains from "worst" tags. Motive does not kill facts, but it sets my bar higher.
 
 Our house rule stays plain: show the claim shot, link the raw table, list what we still lack. If I cannot find the source set, I write that in bold at the top. Readers forgive gaps. They do not forgive hidden gaps.
+

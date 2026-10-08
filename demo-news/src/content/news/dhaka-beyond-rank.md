@@ -19,8 +19,8 @@ sources:
     publisher: 'World Bank'
 heroImage: '/images/country-bangladesh.svg'
 verdict: 'Field Brief'
-featured: true
-trending: true
+featured: false
+trending: false
 ---
 
 A rank squeezes a city into one cell. Dhaka does not fit.
@@ -44,3 +44,4 @@ How to use this brief: open the happiness table, read the six inputs, then open 
 For the full context on what happiness rankings measure (and miss), read [Finland happiest? What the ranking measures](/finland-happiest-bangladesh-reality/).
 
 Send me a "worst country" post and I will mark what it cropped out.
+

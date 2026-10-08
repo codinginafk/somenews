@@ -19,8 +19,8 @@ sources:
     publisher: 'Gallup'
 heroImage: '/images/country-finland.svg'
 verdict: 'Field Brief'
-featured: true
-trending: true
+featured: false
+trending: false
 ---
 
 Finland tops the ladder most years. Helsinki in February shows why, and what the number skips.
@@ -42,3 +42,4 @@ Rents bite. A one-bed near the center runs 900 to 1,200 euro. Newcomers share fl
 So read it straight: high trust plus solid floors lift the mean to near 7.7. Weather, housing, and hiring gaps shape days without moving the mean much. A rank can be right on method and thin on life. This brief keeps both.
 
 Want to understand what the happiness ranking actually measures? Read [Finland happiest? What the ranking measures](/finland-happiest-bangladesh-reality/) for the full context behind the numbers.
+

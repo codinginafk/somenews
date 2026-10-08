@@ -3,7 +3,7 @@ title: "Asian Games 2026: Medals, Mishaps, and National Anthem Mix-ups"
 seoTitle: "Asian Games 2026: Medals, Mishaps, and Controversies"
 excerpt: "Behind the 2026 Asian Games medal tallies lie major controversies over anthem mix-ups and accommodation chaos."
 description: "China dominates the Asian Games 2026 medals while India holds 4th. Read the breakdown of anthems, mismeasured jumps, and hosting chaos."
-category: 'Reality Check'
+category: 'By the Numbers'
 tags: ['asian games', 'sports']
 author: 'Yash'
 authorRole: 'Contributing Writer'
@@ -59,3 +59,4 @@ A: The 2026 Asian Games are being hosted in Aichi-Nagoya, Japan.
 
 **Q: How many medals has India won so far?**
 A: According to the reports, India has secured 85 medals in total, including 21 gold medals, ranking them 4th overall.
+

@@ -23,8 +23,8 @@ heroAlt: 'A stark editorial illustration of protesters confronting a line of pol
 claim: 'A female student at LPU was raped by an outsider and died by suicide, and the university attempted to cover it up.'
 claimSource: 'Student protests and social media rumours, September 27, 2026'
 verdict: 'Explainer'
-featured: true
-trending: true
+featured: false
+trending: false
 ---
 
 **Short answer:** Early on September 27, massive protests broke out at Lovely Professional University following claims that a student was raped and had died by suicide. While university officials initially labeled the claims as baseless rumours, police later registered an FIR based on student statements, though details remain highly contested.
@@ -57,3 +57,4 @@ A: Students claim the protests were initially peaceful, but non-students entered
 
 **Q: Has the university admitted to any cover-up?**
 A: No. The university administration maintains that the claims of a cover-up are fabricated, though student union representatives have now been invited to take part in the ongoing probe.
+

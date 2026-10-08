@@ -67,3 +67,4 @@ A: The Cockroach Janta Party is demanding the immediate resignation of Chief Ele
 
 **Q: Were there any casualties during the protests?**
 A: A 75-year-old man named Gopi Pillai suffered a fatal cardiac arrest at the Shivaji Park protest in Mumbai despite receiving immediate CPR.
+
