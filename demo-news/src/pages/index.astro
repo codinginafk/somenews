@@ -134,9 +134,9 @@ const mostRead = picks.map(p => ({ p, chip: verdictChip(p.data.verdict) }));
             ))}
           </ol>
         </div>
-        <div class="rounded-[10px] bg-zinc-950 text-white dark:bg-white dark:text-black p-5">
-          <div class="kicker opacity-70">Why trust us</div>
-          <ul class="mt-2 text-[13px] leading-relaxed space-y-1.5">
+        <div class="rounded-[10px] border border-hairline dark:border-zinc-800 border-t-4 border-t-brand-600 bg-white dark:bg-zinc-900 p-5">
+          <div class="kicker text-zinc-500">Why trust us</div>
+          <ul class="mt-2 text-[13px] leading-relaxed space-y-1.5 text-zinc-700 dark:text-zinc-300">
             <li>• Primary dataset linked, not screenshots</li>
             <li>• Creators quoted with permission + linkback</li>
             <li>• Verdict + corrections on every page</li>
@@ -146,18 +146,20 @@ const mostRead = picks.map(p => ({ p, chip: verdictChip(p.data.verdict) }));
       </aside>
     </div>
 
-    <!-- DARK BAND: Countries -->
-    <div class="mt-10 -mx-4 px-4 py-8 bg-zinc-950 text-white dark:bg-white dark:text-black rounded-[10px]">
-      <div class="flex items-end justify-between pb-3 border-b-2 border-white/15 dark:border-black/15 mb-4">
-        <div><div class="kicker opacity-60">Place, not rank</div><h2 class="font-display font-black text-[26px]">Countries — beyond the list</h2></div>
+    <!-- COUNTRIES: warm tint band — groups the section without inverting the canvas.
+         Tint (#efe7d6, the same warm tone as image placeholders) over full-bleed black:
+         Gestalt grouping by similarity keeps the page ONE continuous scroll. -->
+    <div class="mt-10 px-5 md:px-6 py-6 rounded-[10px] bg-[#efe7d6] dark:bg-zinc-900">
+      <div class="flex items-end justify-between pb-3 border-b-2 border-ink dark:border-white mb-4">
+        <div><div class="kicker text-brand-600">Place, not rank</div><h2 class="font-display font-black text-[26px]">Countries — beyond the list</h2></div>
         <a href="/category/countries/" class="text-[13px] font-bold hover:underline">All briefs →</a>
       </div>
       <div class="grid sm:grid-cols-2 gap-4">
         {countries.map(p => (
-          <a href={`/${p.slug}/`} class="group rounded-xl border border-white/10 dark:border-black/10 p-5 hover:bg-white/5 dark:hover:bg-black/5">
-            <div class="kicker opacity-60">{p.data.tags?.[0] ?? 'Brief'}</div>
+          <a href={`/${p.slug}/`} class="group rounded-xl border border-hairline dark:border-zinc-800 bg-white dark:bg-zinc-800 p-5 hover:border-zinc-400 dark:hover:border-zinc-600 transition">
+            <div class="kicker text-brand-600">{p.data.tags?.[0] ?? 'Brief'}</div>
             <div class="font-display font-bold text-[18px] leading-snug mt-1 group-hover:underline">{p.data.title}</div>
-            <div class="text-[13px] opacity-70 mt-1 clamp-2">{p.data.excerpt}</div>
+            <div class="text-[13px] text-zinc-600 dark:text-zinc-400 mt-1 clamp-2">{p.data.excerpt}</div>
           </a>
         ))}
       </div>
