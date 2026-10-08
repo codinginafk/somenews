@@ -1,12 +1,16 @@
 ---
+import { verdictChip, chipClass, timeAgo } from '../data/verdict';
+
 interface Props {
   href: string; title: string; excerpt?: string; category?: string;
   author?: string; pubDate?: Date; image?: string;
-  variant?: 'hero' | 'standard' | 'compact' | 'row' | 'overlay';
+  variant?: 'hero' | 'standard' | 'compact' | 'row' | 'wire' | 'overlay';
   verdict?: string; readTime?: number; index?: number;
 }
 const { href, title, excerpt, category, author, pubDate, image, variant='standard', verdict, readTime=4, index } = Astro.props;
 const date = pubDate?.toLocaleDateString('en-GB', { day:'numeric', month:'short', timeZone:'UTC' });
+const fresh = pubDate ? timeAgo(pubDate) : '';
+const chip = verdictChip(verdict);
 const catFile: Record<string,string> = {
   'Reality Check': 'reality-check',
   'By the Numbers': 'by-the-numbers',
@@ -16,14 +20,31 @@ const catFile: Record<string,string> = {
 const img = image ?? `/images/${catFile[category ?? ''] ?? 'reality-check'}.svg`;
 ---
 {variant === 'compact' ? (
-  <a href={href} class="group flex gap-3 py-3 border-b border-hairline dark:border-zinc-800 last:border-0">
-    <div class="flex-1 min-w-0">
-      {category && <div class="kicker text-brand-600">{category}</div>}
-      <h4 class="font-display font-bold text-[15px] leading-snug tracking-[-0.01em] mt-0.5 group-hover:underline clamp-2">{title}</h4>
-      <div class="mt-1 text-[12px] text-zinc-500 flex gap-2"><span>{author}</span><span>•</span><span>{date}</span><span>•</span><span>{readTime} min</span></div>
+  <a href={href} class="group grid grid-cols-[96px_1fr] sm:grid-cols-[120px_1fr] gap-3 sm:gap-4 items-center py-3">
+    <div class="aspect-[16/10] rounded-[8px] overflow-hidden bg-[#efe7d6]">
+      <img src={img} alt={title} loading="lazy" width="240" height="150" class="w-full h-full object-cover" />
     </div>
-    <div class="w-[112px] h-[84px] rounded-[8px] overflow-hidden shrink-0 bg-[#efe7d6]">
-      <img src={img} alt={title} loading="lazy" width="224" height="168" class="w-full h-full object-cover" />
+    <div class="min-w-0">
+      <h4 class="font-display font-bold text-[16px] sm:text-[17px] leading-snug tracking-[-0.01em] clamp-2 group-hover:underline decoration-1 underline-offset-2">{title}</h4>
+      <div class="flex items-center gap-1.5 sm:gap-2 mt-1.5 min-w-0 flex-wrap">
+        {chip && <span class={`shrink-0 text-[10px] font-bold uppercase tracking-[0.08em] px-1.5 py-0.5 rounded border ${chipClass(chip.tone)}`}>{chip.label}</span>}
+        <span class="font-mono text-[11px] text-zinc-400 tabular-nums shrink-0">{fresh}</span>
+        <span class="text-zinc-300 dark:text-zinc-700 shrink-0">·</span>
+        <span class="font-mono text-[11px] text-zinc-400 tabular-nums shrink-0">{readTime} min</span>
+      </div>
+    </div>
+  </a>
+) : variant === 'wire' ? (
+  <a href={href} class="group grid grid-cols-[80px_1fr] sm:grid-cols-[96px_1fr] gap-3 items-center py-3">
+    <div class="aspect-[16/10] rounded-[8px] overflow-hidden bg-[#efe7d6]">
+      <img src={img} alt={title} loading="lazy" width="192" height="120" class="w-full h-full object-cover" />
+    </div>
+    <div class="min-w-0">
+      <h3 class="font-display font-bold text-[15px] leading-[1.35] tracking-[-0.01em] clamp-2 group-hover:underline decoration-1 underline-offset-2">{title}</h3>
+      <div class="flex items-center gap-1.5 mt-1 min-w-0">
+        {chip && <span class={`shrink-0 text-[10px] font-bold uppercase tracking-[0.08em] px-1.5 py-0.5 rounded border ${chipClass(chip.tone)}`}>{chip.label}</span>}
+        <span class="ml-auto font-mono text-[11px] text-zinc-400 tabular-nums shrink-0">{fresh}</span>
+      </div>
     </div>
   </a>
 ) : variant === 'hero' ? (

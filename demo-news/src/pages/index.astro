@@ -5,14 +5,15 @@ import NewsCard from '../components/NewsCard.astro';
 import SectionHeader from '../components/SectionHeader.astro';
 import Newsletter from '../components/Newsletter.astro';
 import { getCollection } from 'astro:content';
-import { verdictChip, verdictWeight, timeAgo, chipClass } from '../data/verdict';
+import { verdictWeight } from '../data/verdict';
 
 // Editorial slots: strict chronological ordering (newest first).
-// Slot 0 = lead hero, slot 1 = secondary story, slots 2-8 = the latest wire.
+// Slot 0 = lead hero, slot 1 = secondary story, slots 2-10 = the latest wire.
+// 1 + 1 + 9 + 12 grid = every story in the collection surfaces on the homepage.
 const allPosts = (await getCollection('news')).sort((a,b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 const hero = allPosts[0];
 const secondary = allPosts[1];
-const wire = allPosts.slice(2, 9); // 7 chronological rows with verdict chips
+const wire = allPosts.slice(2, 11); // 9 chronological rows: thumb + headline + verdict chip
 
 // Everything already shown above is excluded from the grid, so no story repeats.
 const usedAbove = new Set([hero?.slug, secondary?.slug, ...wire.map(p => p.slug)].filter(Boolean) as string[]);
@@ -58,7 +59,7 @@ if (mostRead.length < 5) {
         {hero && <NewsCard variant="hero" href={`/${hero.slug}/`} title={hero.data.title} excerpt={hero.data.excerpt} category={hero.data.category} author={hero.data.author} pubDate={hero.data.pubDate} verdict={hero.data.verdict} image={hero.data.heroImage} />}
         {secondary && <NewsCard variant="row" href={`/${secondary.slug}/`} title={secondary.data.title} excerpt={secondary.data.excerpt} category={secondary.data.category} author={secondary.data.author} pubDate={secondary.data.pubDate} verdict={secondary.data.verdict} image={secondary.data.heroImage} />}
       </div>
-      <!-- THE LATEST: compact headline stream (text rows, not image cards) -->
+      <!-- THE LATEST: 9 compact feed rows (thumb + headline + verdict), stretches to align with the two stories -->
       <div class="flex flex-col min-w-0">
         <div class="rounded-[10px] border border-hairline dark:border-zinc-800 bg-white dark:bg-zinc-900 flex-1 flex flex-col">
           <div class="flex items-center justify-between gap-2 px-4 py-3 border-b border-hairline dark:border-zinc-800">
@@ -69,21 +70,11 @@ if (mostRead.length < 5) {
             <a href="/search/" class="text-[12px] font-bold hover:underline shrink-0">View all →</a>
           </div>
           <ul class="px-4 divide-y divide-stone-200 dark:divide-zinc-800 flex-1 flex flex-col">
-            {wire.map(p => {
-              const chip = verdictChip(p.data.verdict);
-              return (
-                <li class="flex-1 flex">
-                  <a href={`/${p.slug}/`} class="group flex-1 flex flex-col justify-center py-3">
-                    <div class="flex items-center gap-2">
-                      <span class="kicker text-brand-600 shrink-0">{p.data.category}</span>
-                      {chip && <span class={`shrink-0 text-[10px] font-bold uppercase tracking-[0.08em] px-1.5 py-0.5 rounded border ${chipClass(chip.tone)}`}>{chip.label}</span>}
-                      <span class="ml-auto text-[11px] font-mono text-zinc-400 tabular-nums shrink-0">{timeAgo(p.data.pubDate)}</span>
-                    </div>
-                    <div class="font-display font-bold text-[14px] leading-snug mt-1 group-hover:underline clamp-2">{p.data.title}</div>
-                  </a>
-                </li>
-              );
-            })}
+            {wire.map(p => (
+              <li class="flex-1 flex min-w-0 [&>a]:flex-1 [&>a]:min-w-0">
+                <NewsCard variant="wire" href={`/${p.slug}/`} title={p.data.title} category={p.data.category} pubDate={p.data.pubDate} verdict={p.data.verdict} image={p.data.heroImage} />
+              </li>
+            ))}
           </ul>
         </div>
       </div>
@@ -106,7 +97,7 @@ if (mostRead.length < 5) {
           <SectionHeader kicker="Latest first" title="Reality Check" href="/category/reality-check/" />
           <div class="rounded-[10px] border border-hairline dark:border-zinc-800 bg-white dark:bg-zinc-900 px-4 divide-y divide-stone-200 dark:divide-zinc-800">
             {reality.map(p => (
-              <NewsCard variant="compact" href={`/${p.slug}/`} title={p.data.title} category={p.data.category} author={p.data.author} pubDate={p.data.pubDate} image={p.data.heroImage} />
+              <NewsCard variant="compact" href={`/${p.slug}/`} title={p.data.title} category={p.data.category} pubDate={p.data.pubDate} verdict={p.data.verdict} image={p.data.heroImage} />
             ))}
           </div>
         </div>
