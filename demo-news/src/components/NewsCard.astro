@@ -85,11 +85,16 @@ const img = image ?? `/images/${catFile[category ?? ''] ?? 'reality-check'}.svg`
     <div class="p-4 flex flex-col flex-1">
       <div class="flex items-center justify-between gap-2">
         {category && <span class="kicker text-brand-600">{category}</span>}
-        {typeof index === 'number' && <span class="font-display font-extrabold text-zinc-300 text-lg leading-none">{String(index+1).padStart(2,'0')}</span>}
+        {typeof index === 'number' && <span class="font-display font-extrabold text-zinc-400 dark:text-zinc-600 text-[15px] leading-none">{String(index+1).padStart(2,'0')}</span>}
       </div>
       <h3 class="font-display font-bold text-[17px] leading-snug tracking-[-0.01em] mt-1.5 group-hover:underline clamp-3">{title}</h3>
       {excerpt && <p class="font-serif text-[14px] leading-relaxed text-zinc-600 dark:text-zinc-400 mt-1.5 clamp-2">{excerpt}</p>}
-      <div class="mt-auto pt-3 text-[12px] text-zinc-500 flex items-center gap-1.5"><span class="truncate">{author}</span><span>•</span><span class="shrink-0">{date}</span><span>•</span><span class="shrink-0">{readTime} min</span></div>
+      <div class="mt-auto pt-3 flex items-center gap-1.5 flex-wrap min-w-0">
+        {chip && <span class={`shrink-0 text-[10px] font-bold uppercase tracking-[0.08em] px-1.5 py-0.5 rounded border ${chipClass(chip.tone)}`}>{chip.label}</span>}
+        <span class="font-mono text-[11px] text-zinc-400 tabular-nums shrink-0">{fresh}</span>
+        <span class="text-zinc-300 dark:text-zinc-700 shrink-0">·</span>
+        <span class="font-mono text-[11px] text-zinc-400 tabular-nums shrink-0">{readTime} min</span>
+      </div>
     </div>
   </a>
 )}
