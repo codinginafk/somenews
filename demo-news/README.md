@@ -4,7 +4,7 @@ Fast, beautiful, editor-friendly. Brand: Rent Free News (rentfreenews.com) — c
 
 ## What you got
 - Homepage: live ticker + hero-plus-grid (BBC/Guardian pattern) + trending rail + category blocks + VTuber spotlight
-- Article page: claim box, verdict box, quote box (permission), sources/method box, ad slots (no CLS), NewsArticle schema
+- Article page: claim box, verdict line under the dek, quote box (permission), sources/method box, ad slots (no CLS), NewsArticle schema
 - `/admin/` → Decap CMS for editors (no code). Git-based, free.
 - SEO: sitemap, rss.xml, canonical, OG, NewsArticle JSON-LD
 - CI/CD: `.github/workflows/deploy.yml` → Cloudflare Pages on push to main

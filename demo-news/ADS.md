@@ -98,7 +98,7 @@ Build + spot-check two pages, then push.
 - **Max 5 display ads per page** (home 2, article 3) — matches Google's ad-density guidance.
 - **Nothing above the fold on mobile that pushes the headline down** — if PageSpeed LCP regresses after launch, hide `article-top` on small screens (`hidden sm:block`) before deleting it.
 - **Never ads on** `/admin/`, `/search/`, or the 404 — they're noindex; AdSlot only ever existed on content templates, keep it that way.
-- **Never inside** the claim box, verdict pill, or Sources list — `/advertise/` promises "verdicts are never for sale"; don't break it.
+- **Never inside** the claim box, verdict line, or Sources list — `/advertise/` promises "verdicts are never for sale"; don't break it.
 - "Advertisement" label stays (AdSlot renders it; AdSense adds its own too).
 
 ## Compliance (ban prevention)

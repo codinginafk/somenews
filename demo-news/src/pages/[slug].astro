@@ -4,7 +4,7 @@ import Newsletter from '../components/Newsletter.astro';
 import NewsCard from '../components/NewsCard.astro';
 import { getCollection } from 'astro:content';
 import { authorSlug } from '../data/site';
-import { verdictChip, chipClass, timeAgo } from '../data/verdict';
+import { verdictLine, toneTextClass, timeAgo } from '../data/verdict';
 
 export async function getStaticPaths() {
   const posts = await getCollection('news');
@@ -38,6 +38,9 @@ const heroImg = entry.data.heroImage ?? `/images/${catFile[entry.data.category] 
 // editorial design, titles stay within display limits.
 const pageTitle = entry.data.seoTitle ?? entry.data.title;
 const pageDesc = entry.data.description ?? entry.data.excerpt;
+// The one place a verdict renders: a single line under the dek (never above the
+// H1 — the reader needs the claim first). Explainer and stray values → null.
+const dekVerdict = verdictLine(entry.data.verdict);
 ---
 <Layout title={pageTitle} description={pageDesc} imageAlt={entry.data.title} pubDate={entry.data.pubDate} updatedDate={entry.data.updatedDate} author={entry.data.author} isArticle={true} tags={entry.data.tags} section={entry.data.category}>
   <!-- Reading progress: transform only, no layout shift -->
@@ -48,12 +51,12 @@ const pageDesc = entry.data.description ?? entry.data.excerpt;
        article column simply yields (680-719px) instead of opening a dead gutter. -->
   <div class="max-w-[1064px] mx-auto px-4 py-6 grid lg:grid-cols-[minmax(0,1fr)_280px] gap-8">
     <article class="min-w-0 max-w-[720px] mx-auto lg:mx-0">
-      <nav aria-label="Section" class="flex items-center justify-between gap-3">
+      <nav aria-label="Section" class="flex items-center gap-3">
         <a href={`/category/${entry.data.category.toLowerCase().replace(/ /g,'-')}/`} class="kicker text-zinc-500 hover:text-brand-600">{entry.data.category}</a>
-        {entry.data.verdict && <span class="text-[11px] font-bold px-2 py-0.5 rounded-full bg-zinc-100 dark:bg-zinc-800 border border-hairline dark:border-zinc-700 text-zinc-700 dark:text-zinc-300 whitespace-nowrap">Verdict: {entry.data.verdict}</span>}
       </nav>
       <h1 class="font-display font-black text-[32px] md:text-[46px] leading-[1.05] tracking-[-0.02em] mt-2">{entry.data.title}</h1>
       <p class="font-serif text-[20px] leading-relaxed text-zinc-600 dark:text-zinc-400 mt-3">{entry.data.excerpt}</p>
+      {dekVerdict && <p class="font-serif text-[17px] leading-relaxed mt-3"><strong class="text-brand-600">Verdict:</strong> <strong class={toneTextClass(dekVerdict.tone)}>{dekVerdict.phrase}</strong></p>}
 
       <div class="mt-5 pb-5 border-b border-hairline dark:border-zinc-800">
         <div class="flex items-center gap-3">
@@ -137,17 +140,16 @@ const pageDesc = entry.data.description ?? entry.data.excerpt;
           <span class="font-mono text-[11px] text-zinc-400 shrink-0">Newest first</span>
         </div>
         <ul class="px-4 divide-y divide-stone-200 dark:divide-zinc-800">
-          {railNext.map(p => { const chip = verdictChip(p.data.verdict); return (
+          {railNext.map(p => (
             <li>
               <a href={`/${p.slug}/`} class="group block py-2.5">
                 <div class="font-display font-bold text-[14px] leading-[1.35] clamp-2 group-hover:underline">{p.data.title}</div>
                 <div class="flex items-center gap-1.5 mt-1 min-w-0">
-                  {chip && <span class={`shrink-0 text-[10px] font-bold uppercase tracking-[0.08em] px-1.5 py-0.5 rounded border ${chipClass(chip.tone)}`}>{chip.label}</span>}
                   <span class="font-mono text-[11px] text-zinc-400 tabular-nums shrink-0">{timeAgo(p.data.pubDate)}</span>
                 </div>
               </a>
             </li>
-          ); })}
+          ))}
         </ul>
         <a href="/" class="block px-4 py-3 border-t border-hairline dark:border-zinc-800 text-[13px] font-bold hover:underline">Front page →</a>
       </div>
@@ -155,15 +157,14 @@ const pageDesc = entry.data.description ?? entry.data.excerpt;
       <div class="rounded-[10px] border border-hairline dark:border-zinc-800 p-4 bg-white dark:bg-zinc-900">
         <div class="kicker text-zinc-500">Related in {entry.data.category}</div>
         <div class="mt-2 space-y-3">
-          {related.map(p => { const chip = verdictChip(p.data.verdict); return (
+          {related.map(p => (
             <a href={`/${p.slug}/`} class="block group">
               <div class="font-display font-bold text-[14px] leading-snug group-hover:underline clamp-3">{p.data.title}</div>
               <div class="flex items-center gap-1.5 mt-1 min-w-0">
-                {chip && <span class={`shrink-0 text-[10px] font-bold uppercase tracking-[0.08em] px-1.5 py-0.5 rounded border ${chipClass(chip.tone)}`}>{chip.label}</span>}
                 <span class="font-mono text-[11px] text-zinc-400 tabular-nums shrink-0">{timeAgo(p.data.pubDate)}</span>
               </div>
             </a>
-          ); })}
+          ))}
           {related.length===0 && <p class="text-[13px] text-zinc-500">More checks dropping soon.</p>}
         </div>
         <a href={`/category/${entry.data.category.toLowerCase().replace(/ /g,'-')}/`} class="mt-3 block pt-3 border-t border-hairline dark:border-zinc-800 text-[13px] font-bold hover:underline">All {entry.data.category} →</a>
@@ -177,7 +178,7 @@ const pageDesc = entry.data.description ?? entry.data.excerpt;
       <a href="/search/" class="text-[13px] font-bold hover:underline">View all →</a>
     </div>
     <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
-      {more.map(p => <NewsCard href={`/${p.slug}/`} title={p.data.title} excerpt={p.data.excerpt} category={p.data.category} author={p.data.author} pubDate={p.data.pubDate} verdict={p.data.verdict} image={p.data.heroImage} />)}
+      {more.map(p => <NewsCard href={`/${p.slug}/`} title={p.data.title} excerpt={p.data.excerpt} category={p.data.category} author={p.data.author} pubDate={p.data.pubDate} image={p.data.heroImage} />)}
     </div>
   </div>
 

@@ -46,7 +46,7 @@ fix or revert first. You do not touch CI, hosting, DNS, or analytics — content
 | `heroAlt` | string, optional | **Mandatory when `heroImage` is set.** Plain description, ≤ 125 chars, no keyword stuffing. |
 | `featured` / `trending` | boolean | Default `false`. Set `true` only on editor request (homepage slots). |
 | `claim` / `claimSource` | string, optional | The viral claim + where it spread. Required for fact-checks. |
-| `verdict` | string, optional | Exactly one of: `True with context`, `Misleading — Missing Context`, `False — with context`, `Missing Context`, `Explainer` (em-dash, not hyphen). Rendered as a colour-coded chip on the homepage wire, so stray values render as neutral grey. |
+| `verdict` | string, optional | Exactly one of: `True with context`, `Misleading — Missing Context`, `False — with context`, `Missing Context`, `Explainer` (em-dash, not hyphen). Renders as ONE bold `Verdict:` line under the article dek — never on cards, lists, rails or the homepage; `Explainer` and stray values render no line. |
 | `primarySource` / `primarySourceUrl` | string, optional | Dataset/document checked + real URL. |
 | `whyItMatters` | string, optional | 1–2 sentence stakes box. |
 | `sources` | list of `{title, url, publisher}` | 2+ entries. Every `url` must be a full `https://` link you verified returns 200. |

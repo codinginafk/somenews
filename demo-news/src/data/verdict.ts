@@ -1,59 +1,62 @@
 // Single source of truth for verdict display.
 // §4 of AGENTS.md defines the legal set; this maps any drifted legacy string
-// onto a tone so the UI can never render a ragged or inconsistent chip.
+// onto a tone so the UI can never render a ragged or inconsistent verdict.
+// v2: verdict renders ONLY as one bold line under the article dek — never on
+// cards, lists, rails or the homepage. `Explainer` (neutral) renders no line.
 export type VerdictTone = 'false' | 'misleading' | 'context' | 'true' | 'neutral';
 
-export interface VerdictChip {
-  label: string;
-  tone: VerdictTone;
-}
-
-const CANON: VerdictChip[] = [
-  { label: 'False', tone: 'false' },
-  { label: 'Misleading', tone: 'misleading' },
-  { label: 'Missing context', tone: 'context' },
-  { label: 'True with context', tone: 'true' },
-  { label: 'Explainer', tone: 'neutral' },
-];
-
 // Order matters: check the severe prefixes before the softer `True with context`.
-const MATCHERS: Array<[RegExp, VerdictChip]> = [
-  [/^\s*false\b/i, CANON[0]],
-  [/^\s*misleading\b/i, CANON[1]],
-  [/^\s*missing context\b/i, CANON[2]],
-  [/^\s*true with context\b/i, CANON[3]],
-  [/^\s*true\b/i, CANON[3]],
-  [/^\s*(lab result|field brief|explainer)\b/i, CANON[4]],
+const MATCHERS: Array<[RegExp, VerdictTone]> = [
+  [/^\s*false\b/i, 'false'],
+  [/^\s*misleading\b/i, 'misleading'],
+  [/^\s*missing context\b/i, 'context'],
+  [/^\s*true with context\b/i, 'true'],
+  [/^\s*true\b/i, 'true'],
+  [/^\s*(lab result|field brief|explainer)\b/i, 'neutral'],
 ];
 
-/** Normalise any verdict string (legacy or canonical) into a chip. */
-export function verdictChip(raw?: string | null): VerdictChip | null {
+function toneOf(raw?: string | null): VerdictTone | null {
   if (!raw) return null;
-  for (const [re, chip] of MATCHERS) {
-    if (re.test(raw)) return chip;
+  for (const [re, tone] of MATCHERS) {
+    if (re.test(raw)) return tone;
   }
-  return { label: raw.trim(), tone: 'neutral' };
+  return 'neutral';
 }
 
-/** Tailwind classes per tone. Kept here so every surface styles chips identically. */
-export function chipClass(tone: VerdictTone): string {
+const PHRASES: Record<VerdictTone, string> = {
+  false: 'false alarm.',
+  misleading: 'misleading.',
+  context: 'missing context.',
+  true: 'true, with context.',
+  neutral: '',
+};
+
+/** One-line verdict for the article dek. `Explainer` and stray values → null. */
+export function verdictLine(raw?: string | null): { phrase: string; tone: VerdictTone } | null {
+  const tone = toneOf(raw);
+  if (!tone || tone === 'neutral' || !PHRASES[tone]) return null;
+  return { phrase: PHRASES[tone], tone };
+}
+
+/** Tailwind text classes per tone for the verdict phrase (light + dark). */
+export function toneTextClass(tone: VerdictTone): string {
   switch (tone) {
     case 'false':
-      return 'bg-red-100 text-red-800 border-red-200 dark:bg-red-950/50 dark:text-red-300 dark:border-red-900';
+      return 'text-red-600 dark:text-red-400';
     case 'misleading':
-      return 'bg-orange-100 text-orange-900 border-orange-200 dark:bg-orange-950/50 dark:text-orange-300 dark:border-orange-900';
+      return 'text-orange-600 dark:text-orange-400';
     case 'context':
-      return 'bg-amber-100 text-amber-900 border-amber-200 dark:bg-amber-950/50 dark:text-amber-300 dark:border-amber-900';
+      return 'text-amber-700 dark:text-amber-400';
     case 'true':
-      return 'bg-emerald-100 text-emerald-800 border-emerald-200 dark:bg-emerald-950/50 dark:text-emerald-300 dark:border-emerald-900';
+      return 'text-emerald-600 dark:text-emerald-400';
     default:
-      return 'bg-zinc-100 text-zinc-600 border-zinc-200 dark:bg-zinc-800 dark:text-zinc-300 dark:border-zinc-700';
+      return '';
   }
 }
 
 /** Weight for "worth your time" ranking: sharper verdicts earn more attention. */
 export function verdictWeight(raw?: string | null): number {
-  switch (verdictChip(raw)?.tone) {
+  switch (toneOf(raw)) {
     case 'false': return 4;
     case 'misleading': return 3;
     case 'context': return 2;
