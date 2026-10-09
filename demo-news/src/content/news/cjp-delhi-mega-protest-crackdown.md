@@ -36,7 +36,7 @@ The government maintains this is a routine purification of duplicate entries. Ho
 
 ## 2. Mass detentions and the nationwide crackdown
 
-Ahead of the planned Saturday march to [Delhi's Jantar Mantar](/22k-crpf-jantar-mantar-dhruv-rathee-cjp-protest-crackdown/), state police forces have initiated severe preventative measures. CJP spokesperson Ashutosh Ranka announced that an estimated 10,000 volunteers, students, and political activists have been detained across Maharashtra, Uttar Pradesh, West Bengal, and Rajasthan.
+Ahead of the planned Saturday march to Delhi's Jantar Mantar, state police forces have initiated severe preventative measures. CJP spokesperson Ashutosh Ranka announced that an estimated 10,000 volunteers, students, and political activists have been detained across Maharashtra, Uttar Pradesh, West Bengal, and Rajasthan.
 
 While the exact number of 10,000 is difficult to independently verify, widespread reports confirm a massive coordinated effort to prevent protesters from reaching the capital. Reports backed by video evidence show students traveling by train from Pune to Delhi being intercepted in Madhya Pradesh and loaded into police buses. Key figures like CJP co-in-charge Deepak Baliyan and SFI's Saharanpur convener Arif have also been detained. Left-wing groups allege police are conducting midnight visits to activists' homes to intimidate families.
 
