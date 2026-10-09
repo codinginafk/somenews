@@ -40,13 +40,13 @@ fix or revert first. You do not touch CI, hosting, DNS, or analytics — content
 | `tags` | string[] | 2–4. Lowercase except proper nouns. |
 | `author` | string | **Follow the rotation (§4a).** Exact-match one of `Diyan`, `Yash`, `Wasim`. New author = editor approval required. Site-wide contact is `desk@rentfreenews.com` — there is no per-author email field; do not invent one. |
 | `authorRole` | string | Must match the author: Diyan → `Staff Writer`; Yash / Wasim → `Contributing Writer`. |
-| `pubDate` | date | `YYYY-MM-DD`. New articles: today. |
+| `pubDate` | date | `'YYYY-MM-DD HH:MM'` (quoted, 24h, **with clock time** — the homepage wire shows `2h ago`; a bare `YYYY-MM-DD` falls back to `8 Oct`). **No timezone suffix** — the schema (`src/content/config.ts`) reads these as UTC, so they mean the same instant on every machine. New articles: now. |
 | `updatedDate` | date, optional | **Set on any substantive edit to a live article** (`YYYY-MM-DD`). |
 | `heroImage` | string, optional | Path reuse only, e.g. `/images/country-uk.svg`. Must exist in `public/images/`. |
 | `heroAlt` | string, optional | **Mandatory when `heroImage` is set.** Plain description, ≤ 125 chars, no keyword stuffing. |
 | `featured` / `trending` | boolean | Default `false`. Set `true` only on editor request (homepage slots). |
 | `claim` / `claimSource` | string, optional | The viral claim + where it spread. Required for fact-checks. |
-| `verdict` | string, optional | One of: `True with context`, `Misleading — Missing Context`, `False — with context`, `Missing Context`, `Explainer`. |
+| `verdict` | string, optional | Exactly one of: `True with context`, `Misleading — Missing Context`, `False — with context`, `Missing Context`, `Explainer` (em-dash, not hyphen). Rendered as a colour-coded chip on the homepage wire, so stray values render as neutral grey. |
 | `primarySource` / `primarySourceUrl` | string, optional | Dataset/document checked + real URL. |
 | `whyItMatters` | string, optional | 1–2 sentence stakes box. |
 | `sources` | list of `{title, url, publisher}` | 2+ entries. Every `url` must be a full `https://` link you verified returns 200. |
@@ -70,7 +70,7 @@ category: 'Reality Check'
 tags: ['topic', 'place']
 author: 'Diyan'
 authorRole: 'Staff Writer'
-pubDate: YYYY-MM-DD
+pubDate: 'YYYY-MM-DD HH:MM'
 primarySource: 'Dataset or document checked'
 primarySourceUrl: 'https://real-url-you-verified'
 whyItMatters: '1-2 sentences on the stakes.'

@@ -7,7 +7,7 @@ category: 'Lab Tested'
 tags: ['instagram', 'ai', 'privacy']
 author: 'Yash'
 authorRole: 'Contributing Writer'
-pubDate: 2026-10-07
+pubDate: '2026-10-07 11:38'
 featured: false
 trending: false
 primarySource: 'Meta Press Release / Instagram Updates 2026'

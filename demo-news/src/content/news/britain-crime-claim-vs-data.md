@@ -6,7 +6,7 @@ category: 'Reality Check'
 tags: ['UK', 'crime stats', 'fact-check']
 author: 'Diyan'
 authorRole: 'Staff Writer'
-pubDate: 2026-09-18
+pubDate: '2026-09-18 16:06'
 primarySource: 'ONS Crime Survey for England and Wales'
 primarySourceUrl: 'https://www.ons.gov.uk/peoplepopulationandcommunity/crimeandjustice'
 whyItMatters: 'Viral crime maps shape how millions judge a country. The counting rules behind them decide what the bars actually mean.'
@@ -23,7 +23,7 @@ sources:
 heroImage: '/images/country-uk.svg'
 claim: 'Britain is the rape capital of the world'
 claimSource: 'Viral social posts, 2026'
-verdict: 'Misleading - Missing Context'
+verdict: 'Misleading — Missing Context'
 featured: false
 trending: false
 ---

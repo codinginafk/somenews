@@ -7,7 +7,7 @@ category: 'By the Numbers'
 tags: ['asian games', 'sports']
 author: 'Yash'
 authorRole: 'Contributing Writer'
-pubDate: 2026-10-06
+pubDate: '2026-10-06 11:53'
 primarySource: 'Aichi-Nagoya 2026 Official Reports'
 primarySourceUrl: 'https://www.aichi-nagoya2026.org/en/'
 whyItMatters: 'As athletes perform at their peak, logistical and management errors threaten the reputation of the host nation and the integrity of the results.'

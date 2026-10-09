@@ -9,7 +9,7 @@ category: 'Reality Check'
 tags: ['bollywood', 'india', 'obituary']
 author: 'Diyan'
 authorRole: 'Staff Writer'
-pubDate: 2026-10-08
+pubDate: '2026-10-08 08:29'
 primarySource: 'NDTV'
 primarySourceUrl: 'https://www.ndtv.com/'
 whyItMatters: 'Indian cinema has lost an unparalleled icon known for his explosive acting and immense philanthropic impact on Maharashtra’s farmers.'

@@ -7,7 +7,7 @@ category: 'Lab Tested'
 tags: ['Ollama', 'LM Studio', 'VRAM']
 author: 'Diyan'
 authorRole: 'Staff Writer'
-pubDate: 2026-09-16
+pubDate: '2026-09-16 16:06'
 primarySource: 'Bench log - 13B Q4_K_M, OBS live, September 2026'
 whyItMatters: 'Two free tools, one 16GB PC, one live audience. The difference is usability under load, not logos.'
 sources:
@@ -17,7 +17,7 @@ sources:
   - title: 'LM Studio - discover, download, and run local LLMs'
     url: 'https://lmstudio.ai/'
     publisher: 'LM Studio'
-verdict: 'Lab Result'
+verdict: 'Explainer'
 claim: 'Both run the same on 16GB'
 claimSource: 'Forum post'
 featured: false

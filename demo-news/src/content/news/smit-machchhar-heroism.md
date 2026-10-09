@@ -7,7 +7,7 @@ category: 'Reality Check'
 tags: ['Smit machchhar', 'captain smit machchhar', 'flydubai', 'indian pilot', 'world war 3', 'smit machchar']
 author: 'Yash'
 authorRole: 'Contributing Writer'
-pubDate: 2026-10-01
+pubDate: '2026-10-01 16:23'
 primarySource: 'HindustanTimes'
 primarySourceUrl: 'https://www.hindustantimes.com/'
 whyItMatters: 'A single act of heroism in the cockpit prevented what intelligence experts believe could have been a catastrophic trigger for a regional war.'
@@ -22,7 +22,7 @@ heroImage: '/images/Last Stand in the Cockpit.png'
 heroAlt: 'A stark, minimalist editorial illustration of a solid silhouette of an exhausted Indian airline pilot in a Boeing 737 cockpit after fighting off an attacker.'
 claim: 'A co-pilot attempted to crash a flydubai plane bound for Tel Aviv, which could have triggered World War III if not for Captain Smit Machchhar.'
 claimSource: 'Military warnings and public statements following the flydubai Flight FZ1073 incident.'
-verdict: 'True'
+verdict: 'True with context'
 featured: false
 trending: false
 ---

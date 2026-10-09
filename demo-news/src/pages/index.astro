@@ -5,15 +5,32 @@ import NewsCard from '../components/NewsCard.astro';
 import SectionHeader from '../components/SectionHeader.astro';
 import Newsletter from '../components/Newsletter.astro';
 import { getCollection } from 'astro:content';
+import { verdictChip, chipClass, verdictWeight } from '../data/verdict';
 
 // Editorial slots: strict chronological ordering (newest first).
-// Slot 0 = lead hero, slot 1 = secondary story, slots 2+ = latest feed.
-// Article #2 is shown ONLY as the secondary story — never duplicated in Latest Checks.
+// Slot 0 = lead hero, slot 1 = secondary story, slots 2-10 = the latest wire.
+// 1 + 1 + 9 + 12 grid = every story in the collection surfaces on the homepage.
 const allPosts = (await getCollection('news')).sort((a,b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 const hero = allPosts[0];
 const secondary = allPosts[1];
-const quickLatest = allPosts.slice(2, 5); // compact headline rows beside the hero (#3-#5)
-const latestChecks = allPosts.slice(2, 14); // chronological feed starts at #3
+const wire = allPosts.slice(2, 11); // 9 chronological rows: thumb + headline + verdict chip
+
+// Everything already shown above is excluded from the grid, so no story repeats.
+const usedAbove = new Set([hero?.slug, secondary?.slug, ...wire.map(p => p.slug)].filter(Boolean) as string[]);
+
+// "Worth your time" is RANKED, not chronological: sharper verdicts and editor-flagged
+// stories surface first, with recency as the tie-breaker. Distinct job from the wire.
+const days = (d: Date) => (Date.now() - d.getTime()) / 864e5;
+const score = (p: (typeof allPosts)[number]) =>
+  verdictWeight(p.data.verdict) + (p.data.trending ? 2 : 0) + Math.max(0, 1 - days(p.data.pubDate) / 30);
+const worthYourTime = allPosts
+  .filter(p => !usedAbove.has(p.slug))
+  .sort((a, b) => score(b) - score(a) || b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
+  .slice(0, 12);
+
+// Only show a LIVE flag when a story genuinely carries a clock time inside 3h.
+const newest = allPosts[0];
+const isLive = newest.data.pubDate.getUTCHours() !== 0 && days(newest.data.pubDate) * 24 < 3;
 
 // Category feeds: LATEST first (time-based, not static)
 const reality = allPosts.filter(p => p.data.category === 'Reality Check').slice(0, 8);
@@ -21,13 +38,14 @@ const numbers = allPosts.filter(p => p.data.category === 'By the Numbers').slice
 const countries = allPosts.filter(p => p.data.category === 'Countries').slice(0, 4);
 const lab = allPosts.filter(p => p.data.category === 'Lab Tested').slice(0, 4);
 
-// Most read: trending articles, but show newest first when multiple are trending
-const mostRead = [...allPosts].filter(p => p.data.trending).slice(0, 5);
-if (mostRead.length < 5) {
-  // Fill remaining slots with most recent non-trending
-  const remaining = allPosts.filter(p => !p.data.trending).slice(0, 5 - mostRead.length);
-  mostRead.push(...remaining);
+// Most read: trending first (newest wins ties), but ONLY from stories not already
+// shown in the top block or wire — the sidebar always adds fresh discovery, never echoes.
+const pool = allPosts.filter(p => !usedAbove.has(p.slug));
+const picks = pool.filter(p => p.data.trending).slice(0, 5);
+if (picks.length < 5) {
+  picks.push(...pool.filter(p => !p.data.trending).slice(0, 5 - picks.length));
 }
+const mostRead = picks.map(p => ({ p, chip: verdictChip(p.data.verdict) }));
 ---
 
 <Layout title="Rent Free News — Reality checks with receipts" description="Viral claim on top, primary data below. Independent fact-checks, country briefs and lab-tested tech — corrected visibly.">
@@ -35,29 +53,27 @@ if (mostRead.length < 5) {
 
   <div class="max-w-[1280px] mx-auto px-4">
     <h1 class="sr-only">Rent Free News — reality checks with receipts: viral claims vs primary data</h1>
-    <!-- EDITORIAL TOP: lead story + secondary story + compact latest stream -->
+    <!-- EDITORIAL TOP: two stacked stories (lead, secondary) + compact latest stream beside them -->
     <div class="pt-5 grid lg:grid-cols-[1.65fr_1fr] gap-4">
-      <!-- LEAD STORY: stretches to fill the row so no gap appears underneath -->
-      <div class="min-w-0 [&>a]:h-full">
-        {hero && <NewsCard variant="hero" href={`/${hero.slug}/`} title={hero.data.title} excerpt={hero.data.excerpt} category={hero.data.category} author={hero.data.author} pubDate={hero.data.pubDate} verdict={hero.data.verdict} image={hero.data.heroImage} />}
-      </div>
-      <!-- SECONDARY STORY + compact headline stream (text rows, not image cards) -->
+      <!-- TWO STORIES: lead on top, secondary below — image and text in one continuous card -->
       <div class="flex flex-col gap-4 min-w-0">
-        {secondary && (
-          <NewsCard href={`/${secondary.slug}/`} title={secondary.data.title} excerpt={secondary.data.excerpt} category={secondary.data.category} author={secondary.data.author} pubDate={secondary.data.pubDate} image={secondary.data.heroImage} />
-        )}
-        <div class="rounded-[10px] border border-hairline dark:border-zinc-800 bg-white dark:bg-zinc-900 px-4 py-3">
-          <div class="kicker text-zinc-500">The latest</div>
-          <ul class="divide-y divide-stone-200 dark:divide-zinc-800">
-            {quickLatest.map(p => (
-              <li>
-                <a href={`/${p.slug}/`} class="group flex items-baseline gap-3 py-2.5">
-                  <span class="shrink-0 text-[12px] font-semibold text-zinc-400 dark:text-zinc-500 tabular-nums">{p.data.pubDate.toLocaleDateString('en-GB',{day:'numeric',month:'short'})}</span>
-                  <span class="min-w-0">
-                    <span class="kicker text-brand-600">{p.data.category}</span>
-                    <span class="block font-display font-bold text-[15px] leading-snug group-hover:underline">{p.data.title}</span>
-                  </span>
-                </a>
+        {hero && <NewsCard variant="hero" href={`/${hero.slug}/`} title={hero.data.title} excerpt={hero.data.excerpt} category={hero.data.category} author={hero.data.author} pubDate={hero.data.pubDate} verdict={hero.data.verdict} image={hero.data.heroImage} />}
+        {secondary && <NewsCard variant="row" href={`/${secondary.slug}/`} title={secondary.data.title} excerpt={secondary.data.excerpt} category={secondary.data.category} author={secondary.data.author} pubDate={secondary.data.pubDate} verdict={secondary.data.verdict} image={secondary.data.heroImage} />}
+      </div>
+      <!-- THE LATEST: 9 compact feed rows (thumb + headline + verdict), stretches to align with the two stories -->
+      <div class="flex flex-col min-w-0">
+        <div class="rounded-[10px] border border-hairline dark:border-zinc-800 bg-white dark:bg-zinc-900 flex-1 flex flex-col">
+          <div class="flex items-center justify-between gap-2 px-4 py-3 border-b border-hairline dark:border-zinc-800">
+            <div class="flex items-center gap-2 min-w-0">
+              {isLive && <span class="flex items-center gap-1.5 shrink-0"><span class="w-1.5 h-1.5 rounded-full bg-red-500 animate-pulse"></span><span class="text-[11px] font-bold uppercase tracking-[0.14em] text-red-600 dark:text-red-400">Live</span></span>}
+              <span class="kicker text-zinc-500">The latest</span>
+            </div>
+            <a href="/search/" class="text-[12px] font-bold hover:underline shrink-0">View all →</a>
+          </div>
+          <ul class="px-4 divide-y divide-stone-200 dark:divide-zinc-800 flex-1 flex flex-col">
+            {wire.map(p => (
+              <li class="flex-1 flex min-w-0 [&>a]:flex-1 [&>a]:min-w-0">
+                <NewsCard variant="wire" href={`/${p.slug}/`} title={p.data.title} category={p.data.category} pubDate={p.data.pubDate} verdict={p.data.verdict} image={p.data.heroImage} />
               </li>
             ))}
           </ul>
@@ -65,11 +81,11 @@ if (mostRead.length < 5) {
       </div>
     </div>
 
-    <!-- LATEST CHECKS: chronological feed from article #3 (no duplication of #2) -->
-    <SectionHeader kicker="Newest first" title="Latest checks" href="/search/" />
+    <!-- RANKED GRID: "Worth your time". Excludes every story shown above. -->
+    <SectionHeader kicker="Sharpest verdicts first" title="Worth your time" href="/search/" />
     <div class="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
-      {latestChecks.map((p,i) => (
-        <NewsCard href={`/${p.slug}/`} title={p.data.title} excerpt={p.data.excerpt} category={p.data.category} author={p.data.author} pubDate={p.data.pubDate} image={p.data.heroImage} index={i} />
+      {worthYourTime.map((p,i) => (
+        <NewsCard href={`/${p.slug}/`} title={p.data.title} excerpt={p.data.excerpt} category={p.data.category} author={p.data.author} pubDate={p.data.pubDate} verdict={p.data.verdict} image={p.data.heroImage} index={i} />
       ))}
     </div>
 
@@ -82,41 +98,45 @@ if (mostRead.length < 5) {
           <SectionHeader kicker="Latest first" title="Reality Check" href="/category/reality-check/" />
           <div class="rounded-[10px] border border-hairline dark:border-zinc-800 bg-white dark:bg-zinc-900 px-4 divide-y divide-stone-200 dark:divide-zinc-800">
             {reality.map(p => (
-              <NewsCard variant="compact" href={`/${p.slug}/`} title={p.data.title} category={p.data.category} author={p.data.author} pubDate={p.data.pubDate} image={p.data.heroImage} />
+              <NewsCard variant="compact" href={`/${p.slug}/`} title={p.data.title} category={p.data.category} pubDate={p.data.pubDate} verdict={p.data.verdict} image={p.data.heroImage} />
             ))}
           </div>
         </div>
 
-        <!-- By the Numbers - 2 column grid -->
+        <!-- By the Numbers: 2-up on small, 3-up at xl so 6 cards = 2 tidy rows -->
         <div>
           <SectionHeader kicker="Data-driven" title="By the Numbers" href="/category/by-the-numbers/" />
-          <div class="grid sm:grid-cols-2 gap-4">
+          <div class="grid sm:grid-cols-2 xl:grid-cols-3 gap-4">
             {numbers.map(p => (
-              <NewsCard href={`/${p.slug}/`} title={p.data.title} excerpt={p.data.excerpt} category={p.data.category} author={p.data.author} pubDate={p.data.pubDate} image={p.data.heroImage} />
+              <NewsCard href={`/${p.slug}/`} title={p.data.title} excerpt={p.data.excerpt} category={p.data.category} author={p.data.author} pubDate={p.data.pubDate} verdict={p.data.verdict} image={p.data.heroImage} />
             ))}
           </div>
         </div>
       </div>
 
-      <!-- RIGHT SIDEBAR: Sticky -->
-      <aside class="space-y-4 lg:sticky lg:top-4 self-start">
+      <!-- RIGHT SIDEBAR: sticky below the 109px sticky header (same 132px offset as the
+           article page). max-h + overflow so the second card stays reachable on short viewports. -->
+      <aside class="space-y-4 lg:sticky lg:top-[132px] lg:max-h-[calc(100vh-148px)] lg:overflow-y-auto self-start">
         <div class="rounded-[10px] border border-hairline dark:border-zinc-800 bg-white dark:bg-zinc-900 p-5">
           <div class="kicker text-zinc-500">Most read</div>
           <ol class="mt-3 space-y-4">
-            {mostRead.map((p,i) => (
+            {mostRead.map((r,i) => (
               <li class="flex gap-3">
                 <span class="font-display font-black text-[28px] leading-none text-zinc-300 dark:text-zinc-700">{i+1}</span>
-                <div>
-                  <a href={`/${p.slug}/`} class="font-display font-bold text-[15px] leading-snug hover:underline">{p.data.title}</a>
-                  <div class="text-[12px] text-zinc-500 mt-0.5">{p.data.category} • {p.data.pubDate.toLocaleDateString('en-GB',{day:'numeric',month:'short'})}</div>
+                <div class="min-w-0">
+                  <a href={`/${r.p.slug}/`} class="font-display font-bold text-[15px] leading-snug hover:underline">{r.p.data.title}</a>
+                  <div class="flex items-center gap-1.5 flex-wrap mt-1">
+                    {r.chip ? <span class={`shrink-0 text-[10px] font-bold uppercase tracking-[0.08em] px-1.5 py-0.5 rounded border ${chipClass(r.chip.tone)}`}>{r.chip.label}</span> : <span class="text-[12px] text-zinc-500 shrink-0">{r.p.data.category}</span>}
+                    <span class="font-mono text-[11px] text-zinc-400 tabular-nums shrink-0">{r.p.data.pubDate.toLocaleDateString('en-GB',{day:'numeric',month:'short',timeZone:'UTC'})}</span>
+                  </div>
                 </div>
               </li>
             ))}
           </ol>
         </div>
-        <div class="rounded-[10px] bg-zinc-950 text-white dark:bg-white dark:text-black p-5">
-          <div class="kicker opacity-70">Why trust us</div>
-          <ul class="mt-2 text-[13px] leading-relaxed space-y-1.5">
+        <div class="rounded-[10px] border border-hairline dark:border-zinc-800 border-t-4 border-t-brand-600 bg-white dark:bg-zinc-900 p-5">
+          <div class="kicker text-zinc-500">Why trust us</div>
+          <ul class="mt-2 text-[13px] leading-relaxed space-y-1.5 text-zinc-700 dark:text-zinc-300">
             <li>• Primary dataset linked, not screenshots</li>
             <li>• Creators quoted with permission + linkback</li>
             <li>• Verdict + corrections on every page</li>
@@ -126,18 +146,20 @@ if (mostRead.length < 5) {
       </aside>
     </div>
 
-    <!-- DARK BAND: Countries -->
-    <div class="mt-10 -mx-4 px-4 py-8 bg-zinc-950 text-white dark:bg-white dark:text-black rounded-[10px]">
-      <div class="flex items-end justify-between pb-3 border-b-2 border-white/15 dark:border-black/15 mb-4">
-        <div><div class="kicker opacity-60">Place, not rank</div><h2 class="font-display font-black text-[26px]">Countries — beyond the list</h2></div>
+    <!-- COUNTRIES: warm tint band — groups the section without inverting the canvas.
+         Tint (#efe7d6, the same warm tone as image placeholders) over full-bleed black:
+         Gestalt grouping by similarity keeps the page ONE continuous scroll. -->
+    <div class="mt-10 px-5 md:px-6 py-6 rounded-[10px] bg-[#efe7d6] dark:bg-zinc-900">
+      <div class="flex items-end justify-between pb-3 border-b-2 border-ink dark:border-white mb-4">
+        <div><div class="kicker text-brand-600">Place, not rank</div><h2 class="font-display font-black text-[26px]">Countries — beyond the list</h2></div>
         <a href="/category/countries/" class="text-[13px] font-bold hover:underline">All briefs →</a>
       </div>
       <div class="grid sm:grid-cols-2 gap-4">
         {countries.map(p => (
-          <a href={`/${p.slug}/`} class="group rounded-xl border border-white/10 dark:border-black/10 p-5 hover:bg-white/5 dark:hover:bg-black/5">
-            <div class="kicker opacity-60">{p.data.tags?.[0] ?? 'Brief'}</div>
+          <a href={`/${p.slug}/`} class="group rounded-xl border border-hairline dark:border-zinc-800 bg-white dark:bg-zinc-800 p-5 hover:border-zinc-400 dark:hover:border-zinc-600 transition">
+            <div class="kicker text-brand-600">{p.data.tags?.[0] ?? 'Brief'}</div>
             <div class="font-display font-bold text-[18px] leading-snug mt-1 group-hover:underline">{p.data.title}</div>
-            <div class="text-[13px] opacity-70 mt-1 clamp-2">{p.data.excerpt}</div>
+            <div class="text-[13px] text-zinc-600 dark:text-zinc-400 mt-1 clamp-2">{p.data.excerpt}</div>
           </a>
         ))}
       </div>

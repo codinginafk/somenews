@@ -56,8 +56,8 @@ a:focus-visible, button:focus-visible, input:focus-visible {
   outline: 2px solid #c2410c; outline-offset: 2px; border-radius: 6px;
 }
 
-/* Article reading: 68ch, 19px/1.75 like NYT */
-.prose-news { max-width: 68ch; font-size: 19px; line-height: 1.75; }
+/* Article reading: ~72ch at 20px = 720px, fills the article column edge-to-edge */
+.prose-news { max-width: 100%; font-size: 20px; line-height: 1.7; }
 
 /* No stupid motion */
 @media (prefers-reduced-motion: reduce) {

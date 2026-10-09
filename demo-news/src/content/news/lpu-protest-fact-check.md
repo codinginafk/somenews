@@ -7,7 +7,7 @@ category: 'Reality Check'
 tags: ['lpu', 'punjab']
 author: 'Yash'
 authorRole: 'Contributing Writer'
-pubDate: 2026-09-29
+pubDate: '2026-09-29 17:23'
 primarySource: 'Police Statements and FIR Records'
 primarySourceUrl: 'https://www.hindustantimes.com/india-news/lovely-professional-university-chitkara-university-rape-suicide-claims-protests-punjab-latest-news-police-101790480567312.html'
 whyItMatters: 'The unrest blocked a major national highway and highlighted severe communication breakdowns between university administration and students regarding campus safety.'

@@ -7,7 +7,7 @@ category: 'Countries'
 tags: ['Bangladesh', 'Dhaka']
 author: 'Diyan'
 authorRole: 'Staff Writer'
-pubDate: 2026-09-14
+pubDate: '2026-09-14 16:06'
 primarySource: 'Field notes, Dhaka, September 2026'
 whyItMatters: 'A single rank flattens 20 million lives. Street-level detail puts the number back in proportion.'
 sources:
@@ -18,7 +18,7 @@ sources:
     url: 'https://data.worldbank.org/country/bangladesh'
     publisher: 'World Bank'
 heroImage: '/images/country-bangladesh.svg'
-verdict: 'Field Brief'
+verdict: 'Explainer'
 featured: false
 trending: false
 ---
