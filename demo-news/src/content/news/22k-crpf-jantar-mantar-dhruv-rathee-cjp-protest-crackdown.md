@@ -1,12 +1,12 @@
 ---
-title: "Dhruv Rathee vs Amit Shah: Are 22,000 CRPF Personnel Guarding Jantar Mantar?"
+title: "Dhruv Rathee at CJP protest? Are 22,000 CRPF Personnel Guarding Jantar Mantar?"
 seoTitle: "Fact Check: 22,000 CRPF at Jantar Mantar for Dhruv Rathee?"
 excerpt: "Viral posts claim Home Minister Amit Shah deployed 22,000 CRPF personnel to suppress a Jantar Mantar protest led by Dhruv Rathee. Data shows no such deployment."
 description: "We fact-check the viral claim that 22,000 CRPF personnel have been deployed to Jantar Mantar ahead of the October 10 CJP protest led by Dhruv Rathee."
 category: 'Reality Check'
 tags: ['politics', 'india']
-author: 'Diyan'
-authorRole: 'Staff Writer'
+author: 'Yash'
+authorRole: 'Contributing Writer'
 pubDate: '2026-10-08 14:47'
 primarySource: 'Ministry of Home Affairs & Delhi Police Deployment Records'
 primarySourceUrl: 'https://mha.gov.in/'
