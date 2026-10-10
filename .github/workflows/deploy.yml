@@ -21,6 +21,18 @@ jobs:
           node-version: 20
           cache: npm
           cache-dependency-path: demo-news/package-lock.json
+      # Fail fast: catch a missing/empty/expired Cloudflare token HERE, in a
+      # step that names itself, instead of dying inside wrangler after a full build.
+      - name: Cloudflare auth preflight (fail fast)
+        if: github.ref == 'refs/heads/main'
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+        run: |
+          if [ -z "$CLOUDFLARE_API_TOKEN" ]; then
+            echo "::error::CLOUDFLARE_API_TOKEN secret is missing or empty"
+            exit 1
+          fi
+          npx --yes wrangler@3.90.0 whoami
       - run: npm ci
       - run: npm run build
       # Cloudflare Pages direct upload (fastest, free). Set secrets in GitHub:
