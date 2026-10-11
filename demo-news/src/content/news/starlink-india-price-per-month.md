@@ -26,9 +26,8 @@ sources:
     publisher: 'ITU'
 heroImage: '/images/starlink-india-price-per-month.jpg'
 heroAlt: 'A stark editorial illustration in cream, black silhouette, and red-orange showing a satellite receiver dish beside a price chart.'
-claim: 'Starlink will offer affordable broadband in India that directly undercuts domestic telecom providers.'
+claim: 'Starlink will be cheap in India and beat local mobile network prices.'
 claimSource: 'X posts and public market statements, 2026'
-verdict: 'Missing Context'
 featured: false
 trending: true
 ---

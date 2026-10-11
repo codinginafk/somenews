@@ -1,8 +1,8 @@
 ---
-title: "What does Elon Musk think of Reliance Jio : Starlink India Entry India"
+title: "What does Elon Musk think of Reliance Jio : Starlink India Entry"
 seoTitle: "Musk vs Ambani: Starlink India Spectrum Battle"
 excerpt: "The fight for India's high-speed satellite internet has turned into a full-blown war between billionaires Elon Musk and Mukesh Ambani."
-description: "Elon Musk & Mukesh Ambani clash over Starlink's India rollout. Read about the spectrum fight, viral X tweets, and hidden foreign data privacy risks."
+description: "Elon Musk & Mukesh Ambani clash over Starlink's India launch. Read about the spectrum fight, viral X tweets, and hidden foreign data privacy risks."
 category: 'Reality Check'
 tags: ['tech', 'india', 'telecom', 'starlink']
 author: 'Yash'
@@ -26,7 +26,7 @@ sources:
     publisher: 'ITU'
 heroImage: '/images/starlink-ambani-satellite-india.jpg'
 heroAlt: 'A stark editorial illustration in cream, black silhouette, and red-orange showing a satellite dish facing a telecom tower.'
-claim: 'Starlink brings open competition while Reliance blocks entry through spectrum auctions; foreign satellite internet introduces surveillance risks.'
+claim: 'Starlink brings cheap internet to India while Reliance blocks it to protect its monopoly, but foreign satellites risk national security.'
 claimSource: 'X posts and Indian telecom filings, 2026'
 verdict: 'Missing Context'
 featured: true
