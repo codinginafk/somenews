@@ -1,5 +1,5 @@
 ---
-title: "Sugarcane Farmers Block Pune-Bengaluru Highway! Here's What you need to know"
+title: "Top alternatives Pune Bengaluru highway during sugarcane protest and Why are farmers protesting. Here's What you need to know"
 seoTitle: "Pune-Bengaluru highway blocked by sugarcane farmers"
 excerpt: "Sugarcane farmers block NH-48 in Belagavi demanding ₹5,500 FRP and a minister's resignation. Here are the demands, transit routes, and pricing data."
 description: "Sugarcane farmers block NH-48 demanding higher prices and a minister's resignation. Police issue alternative detour routes for Pune-Bengaluru traffic."
