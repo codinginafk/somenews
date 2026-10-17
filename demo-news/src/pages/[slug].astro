@@ -59,15 +59,15 @@ const dekVerdict = verdictLine(entry.data.verdict);
       {dekVerdict && <p class="font-serif text-[17px] leading-relaxed mt-3"><strong class="text-brand-600">Verdict:</strong> <strong class={toneTextClass(dekVerdict.tone)}>{dekVerdict.phrase}</strong></p>}
 
       <div class="mt-5 pb-5 border-b border-hairline dark:border-zinc-800">
-        <div class="flex items-center gap-3">
+        <div class="flex flex-wrap items-center gap-3">
           <span class="w-11 h-11 rounded-full bg-zinc-950 dark:bg-white text-white dark:text-black grid place-items-center font-bold shrink-0">{entry.data.author.slice(0,1)}</span>
-          <div class="text-[13px]">
+          <div class="text-[13px] min-w-0 flex-1">
             <div>By <a href={`/author/${authorSlug(entry.data.author)}/`} class="font-bold hover:underline">{entry.data.author}</a> <span class="text-zinc-500">• {entry.data.authorRole}</span></div>
             <div class="text-zinc-500">Published <time datetime={entry.data.pubDate.toISOString()}>{entry.data.pubDate.toLocaleDateString('en-GB', { day:'numeric', month:'long', year:'numeric', timeZone:'UTC' })}</time>{entry.data.updatedDate ? <span> • Updated <time datetime={entry.data.updatedDate.toISOString()}>{entry.data.updatedDate.toLocaleDateString('en-GB', { day:'numeric', month:'long', year:'numeric', timeZone:'UTC' })}</time></span> : null}</div>
           </div>
-          <div class="ml-auto flex gap-2">
-            <a href={tweetUrl} target="_blank" rel="noopener" class="h-9 px-3 inline-flex items-center rounded-lg border border-zinc-300 dark:border-zinc-700 text-[13px] font-semibold">Share</a>
-            <button id="save-link" class="h-9 px-3 rounded-lg border border-zinc-300 dark:border-zinc-700 text-[13px] font-semibold">Save link</button>
+          <div class="w-full sm:w-auto sm:ml-auto flex gap-2 shrink-0">
+            <a href={tweetUrl} target="_blank" rel="noopener" class="h-11 md:h-9 px-3 inline-flex items-center rounded-lg border border-zinc-300 dark:border-zinc-700 text-[13px] font-semibold">Share</a>
+            <button id="save-link" class="h-11 md:h-9 px-3 rounded-lg border border-zinc-300 dark:border-zinc-700 text-[13px] font-semibold">Save link</button>
           </div>
         </div>
         {entry.data.primarySource && (

@@ -4,12 +4,12 @@
 // user/session; decline = cookieless pings only (Google does not report
 // denied visits as users/sessions, so declining means no visible count).
 ---
-<div id="consent-bar" hidden class="fixed bottom-0 inset-x-0 z-[90] px-4 pb-4">
+  <div id="consent-bar" hidden class="fixed bottom-0 inset-x-0 z-[90] px-4 pb-[max(1rem,env(safe-area-inset-bottom))]">
   <div class="max-w-3xl mx-auto rounded-[10px] border border-hairline dark:border-zinc-700 bg-white dark:bg-zinc-900 shadow-xl p-4 flex flex-col sm:flex-row items-start sm:items-center gap-3">
     <p class="text-[13px] leading-relaxed text-zinc-600 dark:text-zinc-400 flex-1">We use cookies to count visits and improve our checks. <strong>Accept</strong> to be counted, or <strong>decline</strong> and your visit won't appear in our counts. See <a href="/privacy/" class="underline">Privacy</a>.</p>
     <div class="flex gap-2 shrink-0">
-      <button id="consent-decline" class="h-9 px-4 rounded-lg border border-zinc-300 dark:border-zinc-700 text-[13px] font-semibold">Decline</button>
-      <button id="consent-accept" class="h-9 px-4 rounded-lg bg-zinc-950 dark:bg-white text-white dark:text-black text-[13px] font-bold">Accept</button>
+      <button id="consent-decline" class="h-11 md:h-9 px-4 rounded-lg border border-zinc-300 dark:border-zinc-700 text-[13px] font-semibold">Decline</button>
+      <button id="consent-accept" class="h-11 md:h-9 px-4 rounded-lg bg-zinc-950 dark:bg-white text-white dark:text-black text-[13px] font-bold">Accept</button>
     </div>
   </div>
 </div>

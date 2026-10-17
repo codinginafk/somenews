@@ -9,8 +9,8 @@ const hay = (p: typeof posts[number]) => [p.data.title, p.data.excerpt, p.data.c
   <div class="max-w-5xl mx-auto px-4 py-8">
     <h1 id="search-h1" class="font-serif font-black text-3xl">Search</h1>
     <form action="/search/" method="get" class="mt-4 flex gap-2" role="search">
-      <input id="search-input" name="q" placeholder="Try: Britain, Finland, LLM…" aria-label="Search stories" class="flex-1 px-3 py-2 rounded-lg border border-zinc-300 dark:border-zinc-700 bg-white dark:bg-zinc-900 min-w-0" />
-      <button class="px-4 py-2 rounded-lg bg-zinc-950 dark:bg-white text-white dark:text-black text-sm font-semibold">Go</button>
+      <input id="search-input" name="q" placeholder="Try: Britain, Finland, LLM…" aria-label="Search stories" class="flex-1 px-3 py-3 sm:py-2 rounded-lg border border-zinc-300 dark:border-zinc-700 bg-white dark:bg-zinc-900 min-w-0" />
+      <button class="px-4 py-3 sm:py-2 rounded-lg bg-zinc-950 dark:bg-white text-white dark:text-black text-sm font-semibold">Go</button>
     </form>
     <div id="search-grid" class="mt-6 grid sm:grid-cols-2 gap-4">
       {posts.map(p => (

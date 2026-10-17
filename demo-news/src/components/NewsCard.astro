@@ -68,7 +68,7 @@ const img = image ?? `/images/${catFile[category ?? ''] ?? 'reality-check'}.svg`
         {category && <span class="kicker text-brand-600">{category}</span>}
       </div>
       <h3 class="font-display font-bold text-[17px] md:text-[19px] leading-snug tracking-[-0.01em] mt-1.5 group-hover:underline clamp-3">{title}</h3>
-      {excerpt && <p class="font-serif text-[14px] leading-relaxed text-zinc-600 dark:text-zinc-400 mt-1.5 clamp-2 hidden sm:block">{excerpt}</p>}
+      {excerpt && <p class="font-serif text-[14px] leading-relaxed text-zinc-600 dark:text-zinc-400 mt-1.5 clamp-2">{excerpt}</p>}
       <div class="mt-2 text-[12px] text-zinc-500">{author} • {date}</div>
     </div>
   </a>

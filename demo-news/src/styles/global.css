@@ -63,7 +63,17 @@ a:focus-visible, button:focus-visible, input:focus-visible {
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation-duration: .01ms !important; transition-duration: .01ms !important; }
   .ticker-track { animation: none !important; }
+  html { scroll-behavior: auto; }
 }
+
+/* Phone-first: no marquee on touch-sized screens — swipe a static strip instead
+   of chasing a moving target (links must be tappable; hover-pause doesn't exist) */
+@media (max-width: 639px) {
+  .ticker-track { animation: none !important; }
+}
+
+/* Brand-tinted tap flash (off-brand blue default on webkit) */
+body { -webkit-tap-highlight-color: rgba(194, 65, 12, .18); }
 
 /* Terminal theme — RW-style ascii mode: green mono on near-black */
 html.theme-term { color-scheme: dark; }
