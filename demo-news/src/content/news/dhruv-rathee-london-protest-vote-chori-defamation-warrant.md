@@ -31,35 +31,34 @@ featured: true
 trending: true
 ---
 
-**Short answer:** YouTuber Dhruv Rathee has relocated his demonstration against Indian electoral roll revisions to the United Kingdom. On October 17, 2026, Rathee announced a rally outside London's Parliament Square near the Mahatma Gandhi statue. The gathering follows his temporary detention by Delhi Police on October 10. It also coincides with a Delhi court issuing bailable warrants against him in an unserved 2018 defamation lawsuit.
+**Short answer:** Indian YouTuber Dhruv Rathee has taken his protest against modifications to the Indian voter list to the UK. Rathee announced an upcoming rally at the Parliament Square in London, opposite the statue of Mahatma Gandhi, on October 17, 2026. The protest has come after Rathee’s temporary arrest by Delhi Police on October 10. The event is also coming amid bailable warrants issued against him in an outstanding 2018 defamation case.
 
 ## 1. What the viral post shows
 
-In a statement on X, Rathee said he had reached London. He asked supporters to gather at Parliament Square at noon on Saturday. He framed the assembly around the slogan 'vote chori' (vote theft). His post argued that Indian voter list revisions require international scrutiny.
+In his message on X regarding X, Rathee said he had made it to London. Rathee appealed to his supporters to assemble in Parliament Square at midday on Saturday. He used the slogan 'vote chori' (vote theft) while organizing the rally. In his post, Rathee claimed that Indian revision of voter lists needs international monitoring.
 
-The London call follows a tense week in the capital region. On October 10, Delhi Police detained Rathee at his Sector 56 residence in Gurugram. The action occurred ahead of an unpermitted rally planned by the Cockroach Janta Party (CJP) at Jantar Mantar.
+This call comes after a tense week in the capital city. On October 10, the Delhi Police arrested Rathee from his Sector 56 home in Gurugram. This move came following an unlawful demonstration organized by the Cockroach Janta Party (CJP) at Jantar Mantar.
 
-Rathee posted a video calling the police action a kidnapping. He stated officers took him away without formal charges before releasing him late that night.
+Rathee uploaded a video where he described the police move as kidnapping and claimed they took him without any charge being slapped against him and dropped him late that night.
 
-The dispute centers on the Election Commission's Special Intensive Revision (SIR) of voter lists. Opposition groups allege improper voter deletions and flawed registration protocols. The planned Delhi rally also caused the closure of Connaught Place market after traders cited safety worries.
+The whole controversy is centered around the SIR of voter lists undertaken by the Election Commission of India. There have been allegations of irregularities in the process. Even the scheduled rally in Delhi led to the closing of Connaught Place market due to security concerns by the traders.
 
 ## 2. What the data actually says
 
 Police records and court filings clarify the facts behind the detention and Rathee's legal standing.
 
-Delhi Police recorded Rathee's October 10 custody as preventative detention under police powers, not a formal arrest. Authorities cited the lack of required rally permits for the CJP demonstration against Chief Election Commissioner Gyanesh Kumar. Similar preventative actions halted other organizers across Delhi that morning. For details on those detentions, read our review of [the Jantar Mantar protest crackdown](/cjp-protest-crackdown-jantar-mantar-oct-10/).
+The police took Rathee into custody on October 10 under preventive detention laws and not as a formal arrest. This action was taken due to the CJP demonstration against the Chief Election Commissioner Gyanesh Kumar not having the necessary rally permits. In the same morning, police also detained other organizers in Delhi. For more details on those detentions, check out our review of [the Jantar Mantar protest crackdown](/cjp-protest-crackdown-jantar-mantar-oct-10/).
 
-Rathee also faces active court proceedings in Delhi. A metropolitan magistrate court recently issued bailable warrants against him in a private criminal defamation case filed in 2018. Complainant Vikas Sankrityayan founded the page 'I Support Narendra Modi'. He alleged Rathee's video 'BJP IT Cell Part 2' made defamatory claims regarding a 50 lakh rupee bribe.
+Additionally, Rathee is currently facing active court proceedings in Delhi. A metropolitan magistrate court recently issued bailable warrants against him in a private criminal defamation lawsuit from 2018. The complainant, Vikas Sankrityayan, is the founder of the page 'I Support Narendra Modi'. He alleged that Rathee's video titled 'BJP IT Cell Part 2' made defamatory claims against him regarding a bribe of fifty lakh rupees.
 
-Court records indicate summons remained unserved since July 2019 because Rathee lived abroad. When a court process server recently found his Gurugram home locked, the magistrate issued bailable warrants. The court listed the matter for hearing on October 31, 2026. The case previously named Arvind Kejriwal for retweeting the video. The Supreme Court stayed proceedings against Kejriwal in February 2024 after his counsel called the repost an error. Proceedings against Rathee remain active.
+According to court records, summons remained unserved since July 2019 as Rathee was living abroad. After a court process server recently found his home in Gurugram locked, the magistrate issued bailable warrants. The court has set the hearing for October 31, 2026. It is worth noting that the case had previously named Arvind Kejriwal for retweeting the video, but the Supreme Court stayed proceedings against Kejriwal in February 2024 after his lawyer claimed the repost was a mistake. However, the proceedings against Rathee are still active.
 
 ## 3. What's missing / the footnote
+“Vote chori” is a slogan rather than a judicial finding. According to the Election Commission, the Special Intensive Revision is a process done in accordance with statutory requirements for removal of deceased and relocated voters.
 
-The phrase 'vote chori' represents a political slogan rather than a judicially established fact. The Election Commission states that the Special Intensive Revision follows standard statutory procedures to remove deceased and relocated voters from registries.
+The organizers of the protests have yet to produce audited data that prove disenfranchisement of people in targeted constituencies. As the discussion on the transparency of the voting list goes on in the public domain, moving the protest from India’s national capital to London takes the matter to an international diplomatic level.
 
-Protest organizers have not presented audited datasets verifying systemic disenfranchisement across target constituencies. While public debate over voter list transparency continues, shifting the rally to London moves a domestic constitutional issue to a foreign diplomatic stage.
-
-Security forces also heavily restricted previous anti-SIR rallies in the capital. Read our earlier report on [the October mega protest crackdown in Delhi](/cjp-delhi-mega-protest-crackdown/).
+The security forces have also severely restricted past protests against the SIR in the capital. See our earlier report on [crackdown on mega protest in Delhi](/cjp-delhi-mega-protest-crackdown/).
 
 ## Sources to check yourself
 

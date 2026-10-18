@@ -30,7 +30,7 @@ featured: false
 trending: true
 ---
 
-**Short answer:** On October 16, 2026, a violent brawl erupted between two 11th-grade students at Allen Career Institute's Sabal campus in Kota. Viral social media posts claimed that a student opened fire with a live firearm. Local police confirmed that no gunshots occurred. An accused student pulled an air gun from his backpack and struck his classmate with the weapon handle. The physical assault caused severe facial and head injuries. Police detained the accused student on site, while the injured boy remains under medical care in an intensive care unit.
+**Short answer:** A violent fight broke out between two 11th grade students on October 16, 2026, at the Sabal campus of Allen Career Institute in Kota. Social media was rife with claims of one of the students using a real gun to shoot. However, according to the local authorities, there were no shots fired. One of the accused used an air gun to attack his fellow student by striking him with the gun itself. The attack left the victim injured in face and head areas.
 
 ## 1. What the viral post shows
 
@@ -38,37 +38,37 @@ The incident surfaced after mobile phone footage circulated widely across X and 
 
 Initial social media posts claimed that an 11th-grade Nurture batch student drew a handgun from his bag. The narrative claimed he shot a classmate in the neck following an argument over a female student.
 
-The viral clips captured chaos in the hallway. In the footage, a student lay bleeding on the floor while panicked classmates attempted to stem the blood loss.
+The videos showcased chaos reigning in the corridor. In the video, a student was lying on the floor bleeding while other frightened students tried to stop the bleeding.
 
-Social media users reacted with alarm over student safety in Kota's coaching district. User Yash Purohit wrote on X: 'Are Kota's coaching classrooms no longer safe? Extremely horrific scenes have emerged from the classroom at Kota's Allen Coaching Institute at first sight. Two students reported shooting in clash. One student's seriously injured. Students go there to build their future, not to fear for their safety. Who is responsible for this? Allen's a big name in the coaching industry, but here too serious concerns about safety are emerging. Case spreading fast on social media, though not officially confirmed yet. The quota administration and the Allen management should clarify the position on this matter as soon as possible.'
+Social media users were shocked regarding the safety of students in the coaching classes in Kota. Social media user Yash Purohit posted on X: 'Is it becoming unsafe in the coaching classrooms of Kota? Very horrific videos have come out from the classrooms of Kota's Allen Coaching Classes. First sight. Shooting in clash reported by two students. One student seriously injured. Students go there to create their future, not to worry about their safety. Who is behind this? Allen is a big brand name in the coaching world, but there also serious safety issues are emerging. This case spreading very fast on social media though not yet officially confirmed. Quota administration and Allen management must come out with their stand in this regard immediately.'
 
-Another commentator, Sachin Fagana, posted: 'There is bloodshed in Kota's allen coaching. Gun visible in boy's hand and one boy bleeding. Rajasthan has the most unsafe coaching yet no action is taken on it.'
+Sachin Fagana, stated, “There is violence at Allen coaching in Kota. A gun clearly visible in the hands of the boy and another boy bleeding heavily. In Rajasthan, there are violent coaching classes but no action is taken on it.”
 
-Inside the student community, eyewitness testimonies added further detail. On Reddit, student user u/DealerUnlucky1913 described witnessing the incident from the cafeteria: 'I was actually eating in the canteen when this shit happened (I am a student of Nurture)... I was shocked... after this incident, the whole staff came in our classes then started checking our phones, gallery, whatsapp chats, Instagram, and deleted any video that they saw.. this video somehow got saved... this is being suppressed by allen.'
+Within the student body, testimonies of eye-witnesses were available. On Reddit, student u/DealerUnlucky1913 wrote of his/her experience of witnessing the incident from the cafeteria, "I was actually eating in the canteen when this shit happened (I am a student of Nurture)... I was shocked... after this incident, the whole staff came in our classes then started checking our phones, gallery, whatsapp chats, Instagram and deleted any video that they saw.. this video somehow got saved... this is being suppressed by allen."
 
-Another student post by user u/fatcat_09 reported that the brawl originated inside a washroom. The altercation then spilled into the common canteen area. The post described an air gun being pulled, leading to severe head injuries and intense bleeding. These accounts circulated rapidly through regional student networks.
+Another student testimony, u/fatcat_09 on Reddit reported that the fight took place inside a washroom and then spilled over into the common cafeteria area and a gun was used which led to serious head injuries and heavy bleeding.
 
 ## 2. What the data actually says
 
-Kota police officials investigated the incident immediately and refuted the online claims of active gunfire. Investigators verified that no live ammunition was loaded, discharged, or present during the fight.
+Police officers in Kota promptly investigated the case and denied online claims of live firing at all. The police proved that there were no live rounds involved in this fight.
 
-Forensic analysis confirmed that the weapon was an air gun or a metal replica designed to mimic a real pistol. To students standing nearby, the object looked like a genuine firearm. However, it fired no bullets.
+Further investigation proved that the gun used was an air gun or a metal replica of a gun, which resembled an actual pistol. It appeared to be an actual pistol for the students who witnessed the scene, but the gun did not shoot any bullets.
 
-The injuries sustained by the victim stemmed entirely from blunt-force trauma. According to police reports, the accused student, who is from Uttar Pradesh, used the heavy butt of the metal object to strike the victim repeatedly.
+The wounds of the victim were caused purely through blunt-force injuries. The accused student from Uttar Pradesh used the butt of the metal object to beat the victim.
 
-The victim was identified by classmates as Ayush, an 11th-grade student from Bihar whose father serves in the Indian Army. Ayush sustained severe facial lacerations, deep cuts, and suspected jaw fractures. Fellow students pulled the attacker away before staff members reached the room.
+The victim was found to be Ayush, an 11th grade student from Bihar, whose father works in the Indian Army. He was badly injured in his face with severe cuts and possibly fractures in his jaw. Other students dragged the assailant from the classroom before teachers could enter the classroom.
 
-Emergency responders transported Ayush to a local private hospital. Doctors admitted him to the intensive care unit to manage blood loss and monitor head trauma. Hospital personnel confirmed that while his facial injuries required surgery, his vital signs remained stable.
+Ayush was taken to a private hospital where he was admitted into the ICU due to loss of blood and head injury. The doctors found out that though his facial injuries required surgery, his vitals were stable.
 
-Police detained the accused student on the campus grounds and seized the replica weapon for forensic review. While social media threads claimed the brawl was over a female student who did not know either boy, investigator interviews revealed a longer dispute. The two boys had traded verbal taunts and argued over classroom seating for five days prior to the clash.
+The police detained the accused on the campus itself and confiscated the replica weapon for forensic testing. While social media claimed that the brawl was due to a female student who did not know either boy, investigation revealed that the two boys had been arguing and taunting each other for the past five days over classroom seating.
 
 ## 3. What's missing / the footnote
 
-The Sabal campus brawl exposes two structural vulnerabilities within Kota's coaching system: physical security gaps and post-incident narrative suppression.
+The incident at the Sabal campus in Kota exposes two major problems in the coaching system: the lack of physical security and the suppression of incidents after they happen.
 
-Kota hosts more than 200,000 entrance exam aspirants every academic year. Rajasthan state guidelines require private coaching institutes to operate functional walk-through metal detectors and conduct bag checks. Yet an unauthorized metal air gun passed directly into a multi-story coaching building without detection. Students stated that entrance metal detector gates at Sabal were inactive or bypassed during the morning rush.
+Kota sees an excess of more than 200,000 entrance exam candidates each academic year. According to state policies in Rajasthan, private coaching institutions must have working metal detectors and bags must be checked. However, an illegal metal air gun was let into a multi-story coaching institution through security checks. Candidates say that metal detector gates in Sabal were either not working or bypassed in the morning hours.
 
-Furthermore, student testimonies highlighted a concerning institutional reaction. Rather than prioritizing trauma counseling, coaching personnel reportedly conducted phone checks at exit points. Students stated staff searched photo galleries and chat apps to delete recorded videos before students left the building.
+In addition to this, the student statements revealed a worrisome response from the institution. Instead of focusing on providing counseling to the traumatized students, coaching officials performed phone checks at exit points. Students alleged that the coaching officials deleted videos from photo galleries and chat applications.
 
 When high-tension incidents occur in competitive student hubs, online rumors spread much faster than official police findings. For similar patterns of student organizing after campus safety lapses, see our analysis of [the student claims behind the LPU campus unrest](/lpu-protest-fact-check/). For data on how viral crime posts diverge from documented police registries, see our breakdown of [Sweden's crime survey versus police records](/sweden-crime-survey-vs-police/).
 
