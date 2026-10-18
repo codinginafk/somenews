@@ -8,6 +8,7 @@ tags: ['politics', 'india', 'protest', 'london']
 author: 'Diyan'
 authorRole: 'Staff Writer'
 pubDate: '2026-10-17 15:30'
+updatedDate: '2026-10-18'
 primarySource: 'Delhi Court Summons Records & Election Commission SIR Documentation'
 primarySourceUrl: 'https://economictimes.indiatimes.com/'
 whyItMatters: 'Taking domestic election disputes to London tests international awareness while highlighting domestic tensions between digital creators, courts, and election oversight.'
