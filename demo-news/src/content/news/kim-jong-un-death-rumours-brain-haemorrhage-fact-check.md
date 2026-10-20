@@ -1,5 +1,5 @@
 ---
-title: "Kim Jong Un is Dead? Claims Surge Online: What North Korea's New Photos Actually Show"
+title: "Kim Jong Un is Death? Claims Surge Online: What North Korea's New Photos Actually Show"
 seoTitle: "Kim Jong Un Death Rumour: Brain Haemorrhage Fact Check"
 excerpt: "Viral posts claimed North Korean leader Kim Jong Un died of a brain haemorrhage, but state media photos and intelligence agencies confirm normal activity."
 description: "Unverified posts claim Kim Jong Un died of a brain haemorrhage, but state photos and South Korean intelligence show normal leadership activity."
