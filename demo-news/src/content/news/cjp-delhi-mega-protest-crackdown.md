@@ -7,7 +7,7 @@ category: 'Reality Check'
 tags: ['politics', 'India', 'protest']
 author: 'Diyan'
 authorRole: 'Staff Writer'
-pubDate: 2026-10-09
+pubDate: '2026-10-09 16:32'
 primarySource: 'Voter Deletion Reports'
 primarySourceUrl: 'https://www.theguardian.com/world/india'
 whyItMatters: 'The upcoming October 10 protest has paralyzed parts of the country, highlighting tensions over alleged mass voter deletions.'

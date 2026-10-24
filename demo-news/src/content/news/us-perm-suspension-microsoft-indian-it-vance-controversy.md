@@ -7,7 +7,7 @@ category: 'Reality Check'
 tags: ['US', 'immigration', 'tech', 'visa']
 author: 'Diyan'
 authorRole: 'Staff Writer'
-pubDate: 2026-10-09
+pubDate: '2026-10-09 16:32'
 primarySource: 'US Department of Labor Statements'
 primarySourceUrl: 'https://www.uscis.gov/'
 whyItMatters: 'With EB-2 and EB-3 backlogs already exceeding 20 years, suspending PERM processing traps thousands of skilled Indian tech workers in indefinite visa renewals.'
