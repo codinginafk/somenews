@@ -30,33 +30,31 @@ featured: true
 trending: true
 ---
 
-**Short answer:** The Chorbagan Durga Puja pandal did not collapse. Forensic teams and Kolkata Police confirmed the structure remained intact. A deadly stampede killed 19 visitors and injured 25 after an unverified microphone announcement shouted that the pandal was about to cave in. The warning, combined with private security whistles, sudden torrential rain, and narrow bottlenecked entry gates, caused a catastrophic surge as visitors attempted to flee through the single entrance.
+**Short answer:** It is important to note that there was no collapse of the pandal at Chorbagan Durga Puja. This was confirmed by forensic teams and the Kolkata Police as well. The stampede led to the death of 19 people and wounded 25 others as a result of the panic announcement of the impending collapse of the pandal from an unauthenticated microphone. The panic announcement, whistle of private security, heavy rainfall, and narrow bottlenecks of the gate led to this catastrophe.
 
 ## 1. What the viral audio and video record shows
 
-Late on Saturday evening during Saptami festivities, a public address speaker broadcast a warning: 'The condition of the pandal is very bad. It will collapse. Please leave.' Video footage reviewed by Kolkata Police captured the broadcast echoing across the packed venue.
+Later that Saturday evening, while the celebrations were on, the public address system declared, "The situation of the pandal is very bad. It will collapse. Please leave." Footage provided by the Kolkata police shows the declaration spreading out loud in the jam-packed area.
 
-The announcement triggered an immediate crush. Devotees packed inside the north Kolkata compound surged towards the gates. West Bengal Chief Minister Suvendu Adhikari confirmed that initial reports from the Assistant Commissioner of Police on site pointed to an announcement by a private security agency, coupled with whistle-blowing, as the spark for the panic.
+As a result of this message, chaos broke out right away. The devotees present inside the north Kolkata compound rushed towards the exits. According to the West Bengal Chief Minister Suvendu Adhikari, the reports from the Assistant Commissioner of Police stated that the initial cause of panic was due to a message made by a private security company along with blowing whistles.
 
-Police arrested seven individuals, including the secretary and vice president of the Chorbagan Sarbojanin committee, filing a culpable homicide case. Kolkata Police Commissioner Ajay Kumar Nand imposed prohibitory orders under Section 163 of the Bharatiya Nagarik Suraksha Sanhita on adjacent roads through October 20, echoing similar security measures seen during [police prohibitory orders](/cjp-protest-crackdown-jantar-mantar-oct-10/).
+Seven people have been arrested; two of them being the secretary and vice president of the Chorbagan Sarbojanin committee. Culpable homicide case has been filed against them. Ajay Kumar Nand, the Kolkata police commissioner, banned all roads around it until October 20 under Section 163 of Bharatiya Nagarik Suraksha Sanhita.
 
 ## 2. What the police and forensic investigation reveals
 
-Preliminary findings by Kolkata Police established that structural failure never occurred. The catastrophe resulted from organizational negligence, bottleneck geography, and acute panic:
+Initial findings by the Kolkata Police revealed that there was no case of structural failure. The disaster emanated from organizational negligence, bottlenecking of geometry, and panic:
 
-- **Bottlenecked geometry:** Both the outer approach road and the compound gates were too narrow for peak Saptami crowds. When panic broke out, visitors rushed back out through the narrow entrance rather than designated emergency corridors.
-- **Weather surge:** A sudden downpour forced thousands of street revellers into the covered pandal at the same moment indoor visitors tried to flee.
-- **Verbal crowd control:** Investigators reported organizers operated with zero written crowd safety blueprint, managing visitor surges verbally through microphones.
-- **Deployment gaps:** Local residents reported police presence focused primarily on VIP entry corridors rather than the main public turnstiles, mirroring issues documented in [prior safety and panic breakdowns](/allen-kota-classroom-gunfire-claim-fact-check/).
+- **Bottleneck geometry:** The exit path from the compound through the outer approach and compound gates was narrow and did not allow enough room for the crowd during the Saptami peak hours. Panic arose because people rushed back through the narrow entrance gate instead of using the emergency corridor.
+- **Weather surge:** It started raining heavily thus pushing people from the streets into the pandal while people who had already entered the pandal wanted to go out.
+- **Crowd management through verbal instructions:** According to the investigation, organizers managed the crowd without any plan and only used microphones.
+- **Deployment failures:** It was found by the local residents that policemen were deployed in the VIP corridors and not in the turnstiles.
 
 ## 3. Medical outcomes, state response, and safety audits
+A total of 19 people lost their lives in the stampede while 25 others sustained injuries. According to Biswajit Basu, chairman of West Bengal Clinical Establishment Regulatory Commission, there are 14 patients injured in the hospital out of which three are in intensive care and another one is critical.
 
-The stampede left 19 dead and 25 injured. Biswajit Basu, chairman of the West Bengal Clinical Establishment Regulatory Commission, confirmed 14 injured patients remain hospitalized, with three in intensive care and one in critical condition.
+The state government promised 25 lakh rupees and a Group D job to each member of the family of the victims and 5 lakh rupees to those who sustained injuries. The state government also plans to conduct an inquiry on safety measures at all big Puja sites led by a sitting High Court judge.
 
-The state government announced 25 lakh rupees in compensation and a Group D public job for the family of each deceased devotee, with 5 lakh rupees for each injured survivor. A fact-finding committee headed by a sitting High Court judge will audit safety setups across all major puja compounds.
-
-While organizers cited weather disruptions, forensic evidence confirms misleading announcements and blocked passages caused the tragedy, not structural failure.
-
+Although the organizers claimed it was because of the bad weather that caused such an incident, the forensic report proved otherwise.
 ## Sources to check yourself
 
 - Kolkata Police Department: FIR documentation and Section 163 BNSS public safety circulars.
