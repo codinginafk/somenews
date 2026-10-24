@@ -1,6 +1,8 @@
 # Decap CMS — git-based, auth by DecapBridge (PKCE; editors log in with
 # Google/Microsoft/password — no GitHub accounts needed). Repo pushes use the
 # fine-grained token held in the DecapBridge dashboard, never in this repo.
+# NOTE: paths are relative to the REPO ROOT (somenews/), and the Astro project
+# lives in demo-news/ — hence the demo-news/ prefix on folder/media paths.
 backend:
   name: git-gateway
   repo: codinginafk/somenews
@@ -26,7 +28,7 @@ auth:
   avatar_url_claim: avatar_url
 
 local_backend: false
-media_folder: 'public/uploads'
+media_folder: 'demo-news/public/uploads'
 public_folder: '/uploads'
 site_url: https://rentfreenews.com
 display_url: https://rentfreenews.com
@@ -35,32 +37,127 @@ logo_url: /favicon.svg
 collections:
   - name: 'news'
     label: 'News / Checks'
-    folder: 'src/content/news'
+    label_singular: 'Article'
+    folder: 'demo-news/src/content/news'
     create: true
     slug: '{{slug}}'
     editor:
       preview: false
+    summary: '{{title}} — {{category}} — {{pubDate}}'
+    sortable_fields: ['pubDate', 'title']
+    view_filters:
+      - { label: 'Reality Check', field: category, pattern: 'Reality Check' }
+      - { label: 'By the Numbers', field: category, pattern: 'By the Numbers' }
+      - { label: 'Countries', field: category, pattern: 'Countries' }
+      - { label: 'Lab Tested', field: category, pattern: 'Lab Tested' }
+      - { label: 'No verdict (Explainer)', field: verdict, pattern: '^Explainer$' }
     fields:
-      - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Excerpt', name: 'excerpt', widget: 'text' }
-      - { label: 'SEO Title (SERP; falls back to Title)', name: 'seoTitle', widget: 'string', required: false }
-      - { label: 'Meta Description (falls back to Excerpt)', name: 'description', widget: 'text', required: false }
-      - { label: 'Category', name: 'category', widget: 'select', options: ['Reality Check', 'By the Numbers', 'Countries', 'Lab Tested'] }
-      - { label: 'Tags', name: 'tags', widget: 'list', required: false }
-      - { label: 'Author', name: 'author', widget: 'string', default: 'Diyan' }
-      - { label: 'Author Role', name: 'authorRole', widget: 'string', default: 'Staff Writer' }
-      - { label: 'Publish Date', name: 'pubDate', widget: 'datetime' }
-      - { label: 'Updated Date', name: 'updatedDate', widget: 'datetime', required: false }
-      - { label: 'Hero Image', name: 'heroImage', widget: 'image', required: false }
-      - { label: 'Featured (homepage hero)', name: 'featured', widget: 'boolean', default: false }
-      - { label: 'Trending (ticker + most-read)', name: 'trending', widget: 'boolean', default: false }
-      - { label: 'Viral Claim We Checked', name: 'claim', widget: 'string', required: false }
-      - { label: 'Claim Source', name: 'claimSource', widget: 'string', required: false }
-      - { label: 'Verdict', name: 'verdict', widget: 'select', options: ['True with context', 'Misleading — Missing Context', 'False — with context', 'Missing Context', 'Explainer'], default: 'Missing Context' }
-      - { label: 'Primary Source (label)', name: 'primarySource', widget: 'string', required: false }
-      - { label: 'Primary Source (URL)', name: 'primarySourceUrl', widget: 'string', required: false }
-      - { label: 'Why It Matters (1-2 sentences)', name: 'whyItMatters', widget: 'text', required: false }
-      - label: 'Sources'
+      - label: 'Headline (renders as the H1)'
+        name: 'title'
+        widget: 'string'
+        hint: 'Claim-vs-data headline style. May contain double quotes.'
+      - label: 'SEO Title (SERP/social, max 60 chars)'
+        name: 'seoTitle'
+        widget: 'string'
+        required: false
+        pattern: ['.{0,60}', 'Max 60 characters']
+        hint: 'Keyword first. Falls back to Headline if empty.'
+      - label: 'Excerpt (1-2 sentences for cards/RSS)'
+        name: 'excerpt'
+        widget: 'text'
+      - label: 'Meta Description (max 155 chars)'
+        name: 'description'
+        widget: 'text'
+        required: false
+        pattern: ['.{0,155}', 'Max 155 characters']
+        hint: 'One sentence. Falls back to Excerpt if empty.'
+      - label: 'Category'
+        name: 'category'
+        widget: 'select'
+        options: ['Reality Check', 'By the Numbers', 'Countries', 'Lab Tested']
+        hint: 'Fact-checks = Reality Check. Data/rankings = By the Numbers. Place briefs = Countries. Software/tech/science explainers = Lab Tested.'
+      - label: 'Tags (2-4)'
+        name: 'tags'
+        widget: 'list'
+        required: false
+        hint: 'Lowercase except proper nouns.'
+      - label: 'Author'
+        name: 'author'
+        widget: 'select'
+        options: ['Diyan', 'Yash', 'Wasim']
+        default: 'Diyan'
+        hint: 'Rotation rule (AGENTS §4a): odd positions = Diyan, even = alternate Yash/Wasim.'
+      - label: 'Author Role'
+        name: 'authorRole'
+        widget: 'select'
+        options: ['Staff Writer', 'Contributing Writer']
+        default: 'Staff Writer'
+        hint: 'Diyan = Staff Writer. Yash / Wasim = Contributing Writer.'
+      - label: 'Publish Date'
+        name: 'pubDate'
+        widget: 'datetime'
+        format: 'YYYY-MM-DD HH:mm'
+        date_format: 'YYYY-MM-DD'
+        time_format: 'HH:mm'
+        picker_utc: true
+        hint: '24h clock time, no timezone — the homepage "2h ago" wire needs it. New articles: now.'
+      - label: 'Updated Date (optional)'
+        name: 'updatedDate'
+        widget: 'datetime'
+        required: false
+        format: 'YYYY-MM-DD'
+        time_format: false
+        picker_utc: true
+        hint: 'Set on any substantive edit to a live article.'
+      - label: 'Hero Image'
+        name: 'heroImage'
+        widget: 'image'
+        required: false
+        hint: 'Reuse existing /images/*.svg art when possible; uploads go to /uploads.'
+      - label: 'Hero Alt Text (mandatory when Hero Image set, max 125 chars)'
+        name: 'heroAlt'
+        widget: 'string'
+        required: false
+        pattern: ['.{0,125}', 'Max 125 characters']
+        hint: 'Plain description of the illustration. No keyword stuffing.'
+      - label: 'Featured (homepage hero slot)'
+        name: 'featured'
+        widget: 'boolean'
+        default: false
+      - label: 'Trending (ticker + most-read)'
+        name: 'trending'
+        widget: 'boolean'
+        default: false
+      - label: 'Viral Claim We Checked'
+        name: 'claim'
+        widget: 'string'
+        required: false
+        hint: 'The viral claim, quoted fairly. Required for fact-checks.'
+      - label: 'Claim Source (where it spread)'
+        name: 'claimSource'
+        widget: 'string'
+        required: false
+      - label: 'Verdict'
+        name: 'verdict'
+        widget: 'select'
+        required: false
+        options: ['True with context', 'Misleading — Missing Context', 'False — with context', 'Missing Context', 'Explainer']
+        hint: 'Em-dash compounds, exactly as listed. Only for fact-checks; Explainer and empty render no verdict line.'
+      - label: 'Primary Source (label)'
+        name: 'primarySource'
+        widget: 'string'
+        required: false
+        hint: 'Dataset or document you checked.'
+      - label: 'Primary Source (URL)'
+        name: 'primarySourceUrl'
+        widget: 'string'
+        required: false
+        hint: 'Full https:// URL, verified live before publishing.'
+      - label: 'Why It Matters (1-2 sentences)'
+        name: 'whyItMatters'
+        widget: 'text'
+        required: false
+      - label: 'Sources (2+ — every URL must be verified 200)'
         name: 'sources'
         widget: 'list'
         required: false
@@ -68,4 +165,7 @@ collections:
           - { label: 'Title', name: 'title', widget: 'string' }
           - { label: 'URL', name: 'url', widget: 'string' }
           - { label: 'Publisher', name: 'publisher', widget: 'string' }
-      - { label: 'Body', name: 'body', widget: 'markdown' }
+      - label: 'Body'
+        name: 'body'
+        widget: 'markdown'
+        hint: 'House template — start: **Short answer:** (2-4 sentences, verdict up front). Then: ## 1. What the viral post shows / ## 2. What the data actually says / ## 3. What''s missing / the footnote / ## Sources to check yourself / ## Frequently asked questions with **Q:** + **A:** pairs. ## only — never # or ###. Every number needs a source.'
