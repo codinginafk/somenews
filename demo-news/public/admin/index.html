@@ -5,16 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="robots" content="noindex" />
   <title>Editors — Rent Free News</title>
-  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
-  <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
-  <script>
-    if (window.netlifyIdentity) {
-      window.netlifyIdentity.on('init', user => {
-        if (!user) window.netlifyIdentity.on('login', () => document.location.href = '/admin/');
-      });
-    }
-  </script>
+  <!-- DecapBridge PKCE needs Decap >= 3.8.3 for the Google/Microsoft buttons; pinned for stability -->
+  <script src="https://unpkg.com/decap-cms@3.10.0/dist/decap-cms.js"></script>
 </body>
 </html>
