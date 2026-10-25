@@ -1,5 +1,5 @@
 ---
-title: "The 5 Biggest Data Leaks of 2026 That Exposed Billions"
+title: "Top 5 Biggest Data Leaks of 2026 That Exposed Billions"
 seoTitle: "5 Biggest Data Leaks of 2026 That Exposed Billions"
 excerpt: "From the PHP2Shell remote execution flaw to South Asian banking breaches and biometric exposures, here are the five biggest global data leaks of 2026."
 description: "From the catastrophic PHP2Shell internet flaw to the State Bank customer data breach, explore the top 5 biggest global data leaks of 2026."
