@@ -1,5 +1,5 @@
 ---
-title: "Rank #1 in India: How Construction Chaos Broke Mumbai's Sea Shield"
+title: "Mumbai Rank #1 in India AQI: How Construction Chaos Broke Mumbai's Sea Shield"
 seoTitle: "Mumbai Air Pollution: Why City Surpassed Delhi in Smog"
 excerpt: "Mumbai overtook Delhi on global air quality indexes as unbridled construction dust, diesel exhaust, and stagnant coastal winds shattered its sea breeze shield."
 description: "Mumbai topped India's toxic pollution rankings past Delhi. Unfiltered construction dust and stagnant winds trapped dangerous particulate smog."
