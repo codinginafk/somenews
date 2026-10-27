@@ -1,6 +1,6 @@
 ---
 title: "Cyclone Arnab Tracker: Landfall Path, Odisha Wind Alert, and Andhra Coastal Closures"
-seoTitle: "Cyclone Arnab Tracker: Odisha Winds, Andhra Landfall Prep"
+seoTitle: "Cyclone Arnab Tracker 27th October 6pm update"
 excerpt: "Cyclone Arnab advances toward landfall between Andhra Pradesh and Yanam with 80 kmph wind warnings in Odisha, 15 NDRF units deployed, and yellow rainfall alerts in Uttar Pradesh."
 description: "Latest Cyclone Arnab track, landfall location between Andhra Pradesh and Yanam, Odisha zero-casualty protocols, coastal road suspensions, and IMD advisories."
 category: 'Reality Check'
