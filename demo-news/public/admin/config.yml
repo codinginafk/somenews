@@ -62,15 +62,15 @@ collections:
         required: false
         pattern: ['.{0,60}', 'Max 60 characters']
         hint: 'Keyword first. Falls back to Headline if empty.'
-      - label: 'Excerpt (1-2 sentences for cards/RSS)'
-        name: 'excerpt'
-        widget: 'text'
       - label: 'Meta Description (max 155 chars)'
         name: 'description'
         widget: 'text'
         required: false
         pattern: ['.{0,155}', 'Max 155 characters']
         hint: 'One sentence. Falls back to Excerpt if empty.'
+      - label: 'Excerpt (1-2 sentences for cards/RSS)'
+        name: 'excerpt'
+        widget: 'text'
       - label: 'Category'
         name: 'category'
         widget: 'select'
