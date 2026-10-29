@@ -1,0 +1,128 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="750" viewBox="0 0 1200 750">
+  <!-- Warm Cream Paper Base (#F7F2E9) -->
+  <rect width="1200" height="750" fill="#f7f2e9"/>
+
+  <!-- Subtle Perspective Cathedral Data Center Grid (#E2DAC9) -->
+  <g stroke="#e2dac9" stroke-width="1" stroke-dasharray="3,3">
+    <!-- Deep Central Convergence to Vanishing Point (600, 310) -->
+    <line x1="0" y1="310" x2="600" y2="310"/>
+    <line x1="1200" y1="310" x2="600" y2="310"/>
+    <line x1="600" y1="0" x2="600" y2="750"/>
+    <line x1="0" y1="90" x2="600" y2="310"/>
+    <line x1="1200" y1="90" x2="600" y2="310"/>
+    <line x1="0" y1="620" x2="600" y2="310"/>
+    <line x1="1200" y1="620" x2="600" y2="310"/>
+    <line x1="220" y1="750" x2="600" y2="310"/>
+    <line x1="980" y1="750" x2="600" y2="310"/>
+    <!-- Floor Depth Joists -->
+    <line x1="60" y1="700" x2="1140" y2="700"/>
+    <line x1="160" y1="620" x2="1040" y2="620"/>
+    <line x1="270" y1="520" x2="930" y2="520"/>
+    <line x1="380" y1="420" x2="820" y2="420"/>
+    <line x1="480" y1="350" x2="720" y2="350"/>
+  </g>
+
+  <!-- Left Flank: Monolithic Enterprise Server Racks in Deep Receding Perspective -->
+  <!-- Server Bay 1 (Left Foreground Monolith) -->
+  <polygon points="40,160 260,90 260,630 40,680" fill="#16130e"/>
+  <!-- Front Service Face with Blade Slots -->
+  <polygon points="65,185 240,125 240,615 65,655" fill="#f7f2e9"/>
+  <!-- Individual Server Blade Chassis Louvers (42 Microservices) -->
+  <g fill="#16130e">
+    <polygon points="80,205 225,160 225,175 80,220"/>
+    <polygon points="80,235 225,190 225,205 80,250"/>
+    <polygon points="80,265 225,220 225,235 80,280"/>
+    <polygon points="80,295 225,250 225,265 80,310"/>
+    <polygon points="80,325 225,280 225,295 80,340"/>
+    <polygon points="80,355 225,310 225,325 80,370"/>
+    <polygon points="80,385 225,340 225,355 80,400"/>
+    <polygon points="80,415 225,370 225,385 80,430"/>
+    <polygon points="80,445 225,400 225,415 80,460"/>
+    <polygon points="80,475 225,430 225,445 80,490"/>
+    <polygon points="80,505 225,460 225,475 80,520"/>
+    <polygon points="80,535 225,490 225,505 80,550"/>
+    <polygon points="80,565 225,520 225,535 80,580"/>
+  </g>
+  <!-- Server Bay 2 (Mid-ground Left) -->
+  <polygon points="275,170 380,135 380,540 275,570" fill="#16130e"/>
+  <polygon points="290,185 368,160 368,530 290,552" fill="#2a2620"/>
+
+  <!-- Right Flank: Monolithic Enterprise Server Racks in Deep Receding Perspective -->
+  <!-- Server Bay 1 (Right Foreground Monolith) -->
+  <polygon points="940,90 1160,160 1160,680 940,630" fill="#16130e"/>
+  <!-- Front Service Face with Blade Slots -->
+  <polygon points="960,125 1135,185 1135,655 960,615" fill="#f7f2e9"/>
+  <!-- Individual Server Blade Chassis Louvers -->
+  <g fill="#16130e">
+    <polygon points="975,160 1120,205 1120,220 975,175"/>
+    <polygon points="975,190 1120,235 1120,250 975,205"/>
+    <polygon points="975,220 1120,265 1120,280 975,235"/>
+    <polygon points="975,250 1120,295 1120,310 975,265"/>
+    <polygon points="975,280 1120,325 1120,340 975,295"/>
+    <polygon points="975,310 1120,355 1120,370 975,325"/>
+    <polygon points="975,340 1120,385 1120,400 975,355"/>
+    <polygon points="975,370 1120,415 1120,430 975,385"/>
+    <polygon points="975,400 1120,445 1120,460 975,415"/>
+    <polygon points="975,430 1120,475 1120,490 975,445"/>
+    <polygon points="975,460 1120,505 1120,520 975,475"/>
+    <polygon points="975,490 1120,535 1120,550 975,505"/>
+    <polygon points="975,520 1120,565 1120,580 975,535"/>
+  </g>
+  <!-- Server Bay 2 (Mid-ground Right) -->
+  <polygon points="820,135 925,170 925,570 820,540" fill="#16130e"/>
+  <polygon points="832,160 910,185 910,552 832,530" fill="#2a2620"/>
+
+  <!-- Overhead Heavy Gantry Structure & Suspended Data Conduit Bridges -->
+  <polygon points="250,95 950,95 950,135 250,135" fill="#16130e"/>
+  <line x1="250" y1="115" x2="950" y2="115" stroke="#f7f2e9" stroke-width="3" stroke-dasharray="10,8"/>
+
+  <!-- Elevated Observation Bridge with Systems Architect Silhouette in Center Background -->
+  <polygon points="450,220 750,220 780,260 420,260" fill="#16130e"/>
+  <line x1="420" y1="235" x2="780" y2="235" stroke="#f7f2e9" stroke-width="2.5"/>
+  <!-- Architect Silhouette on Bridge -->
+  <circle cx="600" cy="185" r="16" fill="#16130e"/>
+  <polygon points="585,200 615,200 622,235 578,235" fill="#16130e"/>
+
+  <!-- Ingested Workspace Communication Streams Converging into Core -->
+  <!-- Stream 1: Email Pipeline (Top Left Conduit) -->
+  <polygon points="260,180 500,270 495,290 260,200" fill="#16130e"/>
+  <!-- Stream 2: Team Chat (Slack alternative) Conduit (Bottom Left) -->
+  <polygon points="260,450 500,340 495,360 260,470" fill="#16130e"/>
+  <!-- Stream 3: Notion Documents & CRM Graph Conduit (Top Right) -->
+  <polygon points="940,180 700,270 705,290 940,200" fill="#16130e"/>
+  <!-- Stream 4: Tasks & Project Tickets Conduit (Bottom Right) -->
+  <polygon points="940,450 700,340 705,360 940,470" fill="#16130e"/>
+
+  <!-- FOCAL POINT IN VERMILION (#C2410C): Model Context Protocol (MCP) Nexus Core -->
+  <!-- Monumental Central Pedestal Platform in Perspective -->
+  <polygon points="460,450 740,450 820,680 380,680" fill="#16130e"/>
+  <polygon points="485,465 715,465 785,660 415,660" fill="#f7f2e9"/>
+  <!-- Structural Ribs on Pedestal Face -->
+  <line x1="435" y1="520" x2="765" y2="520" stroke="#16130e" stroke-width="4"/>
+  <line x1="410" y1="590" x2="790" y2="590" stroke="#16130e" stroke-width="4"/>
+
+  <!-- Central Levitating MCP Nexus Core: Giant Geometric Hexagonal Energy Core -->
+  <g>
+    <!-- Giant Outer Hexagonal Shield in Solid Vermilion Accent -->
+    <polygon points="600,180 705,245 705,375 600,440 495,375 495,245" fill="#c2410c"/>
+    <!-- Inner Core Cutout (Charcoal) -->
+    <polygon points="600,215 670,258 670,362 600,405 530,362 530,258" fill="#16130e"/>
+    <!-- Radiant Central Core Cube (Solid Vermilion) -->
+    <polygon points="600,250 640,275 640,345 600,370 560,345 560,275" fill="#c2410c"/>
+    <polygon points="600,270 625,286 625,334 600,350 575,334 575,286" fill="#f7f2e9"/>
+
+    <!-- Radiating Solid Vermilion Power Vectors Binding the Entire Monolith Complex -->
+    <line x1="600" y1="180" x2="600" y2="105" stroke="#c2410c" stroke-width="7"/>
+    <line x1="705,245" x2="940,165" stroke="#c2410c" stroke-width="6"/>
+    <line x1="495,245" x2="260,165" stroke="#c2410c" stroke-width="6"/>
+    <line x1="705,375" x2="940,485" stroke="#c2410c" stroke-width="6"/>
+    <line x1="495,375" x2="260,485" stroke="#c2410c" stroke-width="6"/>
+
+    <!-- High-Capacity Geometric Pulse Nodes on Vectors in Vermilion -->
+    <circle cx="600" cy="105" r="10" fill="#c2410c"/>
+    <circle cx="820" cy="205" r="9" fill="#c2410c"/>
+    <circle cx="380" cy="205" r="9" fill="#c2410c"/>
+    <circle cx="820" cy="430" r="9" fill="#c2410c"/>
+    <circle cx="380" cy="430" r="9" fill="#c2410c"/>
+  </g>
+</svg>

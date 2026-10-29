@@ -1,0 +1,145 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="750" viewBox="0 0 1200 750">
+  <!-- Warm Cream Paper Base (#F7F2E9) -->
+  <rect width="1200" height="750" fill="#f7f2e9"/>
+
+  <!-- Subtle Perspective Laboratory Grid (#E2DAC9) -->
+  <g stroke="#e2dac9" stroke-width="1" stroke-dasharray="3,3">
+    <!-- Workbench & Wall Perspective Lines converging to Vanishing Point (560, 240) -->
+    <line x1="-100" y1="750" x2="560" y2="240"/>
+    <line x1="80" y1="750" x2="560" y2="240"/>
+    <line x1="280" y1="750" x2="560" y2="240"/>
+    <line x1="480" y1="750" x2="560" y2="240"/>
+    <line x1="680" y1="750" x2="560" y2="240"/>
+    <line x1="880" y1="750" x2="560" y2="240"/>
+    <line x1="1080" y1="750" x2="560" y2="240"/>
+    <line x1="1280" y1="750" x2="560" y2="240"/>
+    <!-- Floor Depth Intervals -->
+    <line x1="40" y1="700" x2="1160" y2="700"/>
+    <line x1="130" y1="620" x2="1120" y2="620"/>
+    <line x1="230" y1="520" x2="1050" y2="520"/>
+    <line x1="330" y1="420" x2="960" y2="420"/>
+    <line x1="420" y1="330" x2="860" y2="330"/>
+  </g>
+
+  <!-- Background Architecture: Large Mobile UI Blueprint Board & Diagnostic Display -->
+  <!-- Giant Pinned Schematic Blueprint Board on Rear Wall -->
+  <polygon points="680,60 1140,40 1160,380 700,410" fill="#16130e"/>
+  <polygon points="695,75 1125,55 1142,365 712,392" fill="#f7f2e9"/>
+  <!-- Pinned Blueprint Technical Lines & Mobile Layout Diagrams -->
+  <!-- Diagram 1: Mobile Screen Aspect Ratio Wireframe on Board -->
+  <polygon points="725,100 835,90 840,250 730,265" fill="#16130e"/>
+  <polygon points="735,110 825,100 830,240 740,252" fill="#f7f2e9"/>
+  <line x1="745" y1="130" x2="815" y2="122" stroke="#16130e" stroke-width="2.5"/>
+  <line x1="745" y1="150" x2="800" y2="144" stroke="#16130e" stroke-width="2"/>
+  <line x1="745" y1="165" x2="820" y2="157" stroke="#16130e" stroke-width="2"/>
+  <!-- Diagram 2: Native Flexbox vs CSS Grid Comparative Chart -->
+  <polygon points="860,88 1105,70 1110,210 865,230" fill="#16130e"/>
+  <polygon points="872,98 1092,82 1097,198 877,215" fill="#f7f2e9"/>
+  <line x1="885" y1="120" x2="1075" y2="105" stroke="#16130e" stroke-width="2.5"/>
+  <line x1="885" y1="140" x2="1045" y2="128" stroke="#16130e" stroke-width="2"/>
+  <line x1="885" y1="160" x2="1060" y2="146" stroke="#16130e" stroke-width="2"/>
+  <!-- Diagram 3: Expo Go Triangle Geometric Emblem Pin -->
+  <polygon points="880,245 930,240 910,290" fill="#16130e"/>
+  <polygon points="887,250 922,246 908,280" fill="#f7f2e9"/>
+
+  <!-- Left: Industrial Developer Drafting Workbench in Deep Perspective -->
+  <polygon points="60,480 940,360 1040,680 40,715" fill="#16130e"/>
+  <polygon points="40,715 1040,680 1040,715 40,750" fill="#16130e"/>
+  <!-- Bench Steel Legs -->
+  <rect x="70" y="725" width="22" height="25" fill="#16130e"/>
+  <rect x="990" y="695" width="22" height="55" fill="#16130e"/>
+
+  <!-- Mobile Testing Stands & Hardware Docks on Workbench -->
+  <!-- Secondary Tablet on Stand (Left Desk) -->
+  <polygon points="120,440 280,410 300,560 140,590" fill="#16130e"/>
+  <polygon points="135,452 268,427 285,548 152,575" fill="#f7f2e9"/>
+  <!-- Wireframe lines on Tablet -->
+  <polygon points="150,470 250,450 255,480 155,500" fill="#16130e"/>
+  <polygon points="158,515 240,500 245,540 163,555" fill="#16130e"/>
+
+  <!-- Autonomous Articulated Robotic Arm Descending from Gantry Above -->
+  <g fill="#16130e">
+    <!-- Overhead Heavy Mounting Bracket & Track -->
+    <rect x="260" y="0" width="220" height="45" rx="4"/>
+    <polygon points="280,45 460,45 440,75 300,75"/>
+    <circle cx="370" cy="75" r="24"/>
+    <circle cx="370" cy="75" r="10" fill="#f7f2e9"/>
+
+    <!-- Upper Arm Heavy Hydraulic Truss Assembly -->
+    <polygon points="350,75 390,75 510,210 470,225"/>
+    <!-- Truss Skeleton Cutout -->
+    <polygon points="370,95 385,95 470,195 455,200" fill="#f7f2e9"/>
+    <!-- Articulated Main Shoulder/Elbow Pivot Joint -->
+    <circle cx="490" cy="218" r="34"/>
+    <circle cx="490" cy="218" r="16" fill="#f7f2e9"/>
+    <circle cx="490" cy="218" r="6" fill="#16130e"/>
+
+    <!-- Forearm Extension Linkage Reaching Down to Center Desk -->
+    <polygon points="480,225 505,215 635,395 605,405"/>
+    <!-- Hydraulic Cylinder Piston Line -->
+    <line x1="510" y1="240" x2="590" y2="380" stroke="#f7f2e9" stroke-width="4.5"/>
+    <!-- Wrist Joint Ring -->
+    <circle cx="620" cy="400" r="24"/>
+    <circle cx="620" cy="400" r="11" fill="#f7f2e9"/>
+
+    <!-- Multi-Jointed Precision Caliper Gripper Mechanism -->
+    <polygon points="605,415 635,415 655,460 640,465 620,435 600,465 585,460"/>
+    <!-- Left Gripper Finger Pinching Phone -->
+    <polygon points="585,460 600,465 595,505 580,495"/>
+    <!-- Right Gripper Finger Pinching Phone -->
+    <polygon points="640,465 655,460 670,495 655,505"/>
+  </g>
+
+  <!-- Assembled Smartphone Chassis on Testing Pedestal (Center-Right Desk) -->
+  <!-- Heavy Mobile Phone Unibody Shell in Perspective -->
+  <polygon points="500,450 750,410 820,620 570,660" fill="#16130e"/>
+  <!-- Bezel Profile Rim -->
+  <polygon points="570,660 820,620 820,632 570,672" fill="#16130e"/>
+
+  <!-- FOCAL POINT IN VERMILION (#C2410C): Glowing Active Screen Boundary & Native Primitives -->
+  <!-- Active Screen Face in Solid Vermilion Accent -->
+  <polygon points="520,465 730,432 795,605 585,638" fill="#c2410c"/>
+
+  <!-- Detailed Native React Native Layout Primitives inside the Screen (#FFFBF5 & #16130E) -->
+  <!-- Top App Navigation Bar Primitive in Solid Cream -->
+  <polygon points="535,477 715,448 710,480 530,508" fill="#fffbf5"/>
+  <!-- Dynamic Island Notch in Charcoal -->
+  <polygon points="605,475 655,467 653,479 603,487" fill="#16130e"/>
+
+  <!-- Native 4-State Architecture Card Component on Screen (Cream Base) -->
+  <polygon points="545,520 705,495 690,580 530,605" fill="#fffbf5"/>
+  <!-- Native Card Avatar Circle Primitive in Charcoal -->
+  <ellipse cx="565" cy="548" rx="14" ry="12" fill="#16130e"/>
+  <!-- Native Text Line Primitives in Charcoal -->
+  <polygon points="588,536 678,522 676,532 586,546" fill="#16130e"/>
+  <polygon points="588,548 650,538 648,546 586,556" fill="#16130e"/>
+
+  <!-- 4-State UI Status Indicator Badges (Loading, Error, Empty, Content) -->
+  <g fill="#16130e">
+    <polygon points="545,586 580,580 578,594 543,600"/>
+    <polygon points="588,579 623,573 621,587 586,593"/>
+    <polygon points="631,572 666,566 664,580 629,586"/>
+    <polygon points="674,565 709,559 707,573 672,579"/>
+  </g>
+  <!-- Active Content State Badge highlighted in Vermilion on Screen -->
+  <polygon points="674,565 709,559 707,573 672,579" fill="#c2410c"/>
+
+  <!-- Forbidden Web CSS Prohibition Badge Pinned to Desk (No <div> or <span>) -->
+  <g>
+    <!-- Warning Signage Plaque in Charcoal -->
+    <polygon points="340,540 470,520 480,590 350,610" fill="#16130e"/>
+    <polygon points="350,548 460,532 468,582 358,598" fill="#f7f2e9"/>
+    <!-- Struck-Through Code Line in Vermilion -->
+    <line x1="365" y1="565" x2="455" y2="550" stroke="#c2410c" stroke-width="3.5"/>
+    <line x1="365" y1="580" x2="455" y2="565" stroke="#c2410c" stroke-width="3.5"/>
+    <!-- Prohibition Slash Symbol -->
+    <circle cx="435" cy="558" r="14" fill="none" stroke="#c2410c" stroke-width="3"/>
+    <line x1="425" y1="548" x2="445" y2="568" stroke="#c2410c" stroke-width="3"/>
+  </g>
+
+  <!-- Precision Caliper Guide Beams in Vermilion on Desk Base -->
+  <line x1="475" y1="453" x2="500" y2="450" stroke="#c2410c" stroke-width="4.5"/>
+  <line x1="750" y1="410" x2="775" y2="406" stroke="#c2410c" stroke-width="4.5"/>
+  <line x1="545" y1="664" x2="570" y2="660" stroke="#c2410c" stroke-width="4.5"/>
+  <line x1="820" y1="620" x2="845" y2="616" stroke="#c2410c" stroke-width="4.5"/>
+</svg>

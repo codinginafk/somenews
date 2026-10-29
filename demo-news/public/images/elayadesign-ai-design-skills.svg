@@ -1,0 +1,136 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="750" viewBox="0 0 1200 750">
+  <!-- Warm Cream Paper Base (#F7F2E9) -->
+  <rect width="1200" height="750" fill="#f7f2e9"/>
+
+  <!-- Subtle Perspective Studio Grid (#E2DAC9) -->
+  <g stroke="#e2dac9" stroke-width="1" stroke-dasharray="3,3">
+    <!-- Perspective lines converging to Vanishing Point (780, 310) -->
+    <line x1="-100" y1="750" x2="780" y2="310"/>
+    <line x1="100" y1="750" x2="780" y2="310"/>
+    <line x1="300" y1="750" x2="780" y2="310"/>
+    <line x1="500" y1="750" x2="780" y2="310"/>
+    <line x1="700" y1="750" x2="780" y2="310"/>
+    <line x1="900" y1="750" x2="780" y2="310"/>
+    <line x1="1100" y1="750" x2="780" y2="310"/>
+    <line x1="1300" y1="750" x2="780" y2="310"/>
+    <!-- Floor Depth Intervals -->
+    <line x1="60" y1="710" x2="1140" y2="710"/>
+    <line x1="160" y1="630" x2="1080" y2="630"/>
+    <line x1="280" y1="540" x2="1010" y2="540"/>
+    <line x1="420" y1="450" x2="940" y2="450"/>
+    <line x1="560" y1="370" x2="870" y2="370"/>
+  </g>
+
+  <!-- Rear Wall: Giant Pinned Design System Blueprint Panels (#16130E & #F7F2E9) -->
+  <!-- Blueprint Panel 1 (Design Tokens & 4px/8px Modular Spacing Scales) -->
+  <polygon points="740,80 1140,40 1160,390 760,430" fill="#16130e"/>
+  <polygon points="755,95 1125,58 1142,372 772,410" fill="#f7f2e9"/>
+
+  <!-- Spacing Scale Rungs on Blueprint 1 -->
+  <g fill="#16130e">
+    <rect x="785" y="115" width="45" height="18"/>
+    <rect x="785" y="145" width="85" height="18"/>
+    <rect x="785" y="175" width="135" height="18"/>
+    <rect x="785" y="205" width="195" height="18"/>
+    <rect x="785" y="235" width="270" height="18"/>
+    <!-- Metric Dimension Hash Marks -->
+    <line x1="785" y1="138" x2="1060" y2="138" stroke="#16130e" stroke-width="2"/>
+    <line x1="785" y1="168" x2="1060" y2="168" stroke="#16130e" stroke-width="2"/>
+    <line x1="785" y1="198" x2="1060" y2="198" stroke="#16130e" stroke-width="2"/>
+    <line x1="785" y1="228" x2="1060" y2="228" stroke="#16130e" stroke-width="2"/>
+  </g>
+
+  <!-- Typography Scale Hierarchy Specimen on Blueprint 1 -->
+  <polygon points="785,275 1110,235 1115,355 790,395" fill="#2a2620"/>
+  <line x1="805" y1="300" x2="1080" y2="265" stroke="#f7f2e9" stroke-width="5"/>
+  <line x1="805" y1="320" x2="1040" y2="290" stroke="#f7f2e9" stroke-width="3.5"/>
+  <line x1="805" y1="340" x2="1000" y2="315" stroke="#f7f2e9" stroke-width="2"/>
+  <line x1="805" y1="360" x2="960" y2="340" stroke="#f7f2e9" stroke-width="1.5"/>
+
+  <!-- Master Drafting Table in Sharp Spatial Perspective (Center-Foreground) -->
+  <!-- Heavy Angled Wooden Drafting Board Surface -->
+  <polygon points="160,460 820,370 880,630 120,680" fill="#16130e"/>
+  <!-- Front Edge Bevel -->
+  <polygon points="120,680 880,630 880,655 120,705" fill="#16130e"/>
+  <!-- Heavy Wood Drafting Table Trestle Legs -->
+  <polygon points="140,700 170,700 170,750 140,750" fill="#16130e"/>
+  <polygon points="840,650 870,650 870,750 840,750" fill="#16130e"/>
+  <!-- Rear Support Diagonal Stays -->
+  <line x1="160" y1="460" x2="220" y2="700" stroke="#16130e" stroke-width="8"/>
+  <line x1="820" y1="370" x2="780" y2="650" stroke="#16130e" stroke-width="8"/>
+
+  <!-- Large UI Component Blueprint Sheet Clipped to Drafting Board -->
+  <polygon points="220,480 760,405 720,615 180,650" fill="#f7f2e9"/>
+
+  <!-- Detailed UI Layout Wireframes Plotted on Drafting Sheet -->
+  <!-- Wireframe Card 1 (Top Left) -->
+  <polygon points="240,500 440,475 430,545 230,570" fill="#16130e"/>
+  <polygon points="250,510 425,488 420,535 245,558" fill="#f7f2e9"/>
+  <ellipse cx="275" cy="535" rx="14" ry="10" fill="#16130e"/>
+  <line x1="300" y1="525" x2="400" y2="512" stroke="#16130e" stroke-width="2.5"/>
+  <line x1="300" y1="538" x2="380" y2="528" stroke="#16130e" stroke-width="2"/>
+
+  <!-- Wireframe Card 2 (Top Right) -->
+  <polygon points="460,472 680,445 665,515 445,542" fill="#16130e"/>
+  <polygon points="470,482 665,458 655,505 460,530" fill="#f7f2e9"/>
+  <line x1="480" y1="500" x2="640" y2="480" stroke="#16130e" stroke-width="2.5"/>
+  <line x1="480" y1="515" x2="590" y2="502" stroke="#16130e" stroke-width="2"/>
+
+  <!-- Long Drafting Parallel Rule across Board -->
+  <polygon points="140,520 790,435 795,452 145,538" fill="#16130e"/>
+  <!-- Transparent Edge Ruler Hash Markings on Rule -->
+  <line x1="200" y1="512" x2="750" y2="440" stroke="#f7f2e9" stroke-width="2" stroke-dasharray="6,4"/>
+
+  <!-- Architect Silhouette (Left Foreground) Leaning In Focused Profile Over Board -->
+  <g fill="#16130e">
+    <!-- Tall Drafting Stool -->
+    <ellipse cx="90" cy="620" rx="35" ry="12"/>
+    <line x1="90" y1="620" x2="90" y2="745" stroke="#16130e" stroke-width="9"/>
+    <polygon points="45,745 135,745 135,750 45,750"/>
+
+    <!-- Architect Lower Body & Trousers in Profile -->
+    <path d="M 60,580 L 120,550 L 170,620 L 140,730 L 105,730 L 130,625 L 80,600 Z"/>
+    <!-- Architect Torso Leaning Forward with Precision Instrument in Hand -->
+    <path d="M 80,550 Q 120,420 190,380 L 260,415 L 205,550 Z"/>
+    <!-- Head in Profile with Drafting Glasses Silhouette -->
+    <circle cx="235" cy="340" r="34"/>
+    <!-- Nose / Jawline -->
+    <polygon points="260,338 278,348 260,356"/>
+    <polygon points="260,368 274,374 258,380"/>
+
+    <!-- Extended Arms & Giant Precision Proportional Dividers / Calipers -->
+    <path d="M 235,410 L 350,450 L 415,480 L 400,500 L 330,475 L 225,435 Z"/>
+    <!-- Precision Calipers in Hand (Charcoal) -->
+    <line x1="400" y1="460" x2="465" y2="530" stroke="#16130e" stroke-width="7"/>
+    <line x1="400" y1="460" x2="510" y2="505" stroke="#16130e" stroke-width="7"/>
+    <circle cx="400" cy="460" r="9" fill="#16130e"/>
+  </g>
+
+  <!-- FOCAL POINT IN VERMILION (#C2410C): Illuminated Accessibility Contrast Gauge & Alignment Level -->
+  <!-- Circular WCAG Contrast Ratio Gauge Dial in Perspective (Mounted on Board) -->
+  <g>
+    <!-- Outer Vermilion Gauge Ring -->
+    <ellipse cx="580" cy="565" rx="80" ry="46" fill="#c2410c"/>
+    <ellipse cx="580" cy="565" rx="64" ry="36" fill="#fffbf5"/>
+    <!-- Inner Gauge Hub -->
+    <ellipse cx="580" cy="565" rx="22" ry="12" fill="#c2410c"/>
+    <!-- Needle Pointing to 7.2:1 High Pass -->
+    <line x1="580" y1="565" x2="630" y2="540" stroke="#c2410c" stroke-width="6" stroke-linecap="round"/>
+
+    <!-- Circular Dial Hash Marks in Vermilion -->
+    <line x1="520" y1="565" x2="535" y2="565" stroke="#c2410c" stroke-width="4"/>
+    <line x1="535" y1="545" x2="548" y2="550" stroke="#c2410c" stroke-width="4"/>
+    <line x1="580" y1="532" x2="580" y2="542" stroke="#c2410c" stroke-width="4.5"/>
+    <line x1="625" y1="548" x2="636" y2="542" stroke="#c2410c" stroke-width="4"/>
+    <line x1="640" y1="565" x2="655" y2="565" stroke="#c2410c" stroke-width="4"/>
+
+    <!-- Verification Checkmark Plaque on Gauge in Solid Vermilion -->
+    <polygon points="580,595 625,620 580,645 535,620" fill="#c2410c"/>
+    <polygon points="580,603 615,620 580,637 545,620" fill="#fffbf5"/>
+    <polygon points="565,620 575,628 595,612 590,607 575,622 570,617" fill="#16130e"/>
+  </g>
+
+  <!-- Vermilion Alignment Level Marker on Component Axis -->
+  <polygon points="690,440 740,432 735,452 685,460" fill="#c2410c"/>
+  <circle cx="712" cy="446" r="4.5" fill="#fffbf5"/>
+</svg>

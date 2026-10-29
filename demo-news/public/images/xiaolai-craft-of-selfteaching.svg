@@ -1,0 +1,170 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="750" viewBox="0 0 1200 750">
+  <!-- Warm Cream Paper Base (#F7F2E9) -->
+  <rect width="1200" height="750" fill="#f7f2e9"/>
+
+  <!-- Subtle Studio Perspective Construction Grid (#E2DAC9) -->
+  <g stroke="#e2dac9" stroke-width="1" stroke-dasharray="3,3">
+    <!-- Studio Grid Lines Receding to Vanishing Point (740, 360) -->
+    <line x1="-100" y1="750" x2="740" y2="360"/>
+    <line x1="80" y1="750" x2="740" y2="360"/>
+    <line x1="280" y1="750" x2="740" y2="360"/>
+    <line x1="480" y1="750" x2="740" y2="360"/>
+    <line x1="680" y1="750" x2="740" y2="360"/>
+    <line x1="880" y1="750" x2="740" y2="360"/>
+    <line x1="1080" y1="750" x2="740" y2="360"/>
+    <line x1="1280" y1="750" x2="740" y2="360"/>
+    <!-- Floor Depth Intervals -->
+    <line x1="50" y1="710" x2="1180" y2="710"/>
+    <line x1="140" y1="630" x2="1140" y2="630"/>
+    <line x1="240" y1="540" x2="1080" y2="540"/>
+    <line x1="360" y1="460" x2="1010" y2="460"/>
+    <line x1="480" y1="400" x2="940" y2="400"/>
+  </g>
+
+  <!-- Left-Foreground: Developer Workstation & Seated Coder Silhouette -->
+  <!-- Heavy Angled Workstation Desk in Perspective -->
+  <polygon points="40,490 560,420 620,680 80,720" fill="#16130e"/>
+  <!-- Front Edge Bevel -->
+  <polygon points="80,720 620,680 620,705 80,745" fill="#16130e"/>
+  <!-- Sturdy Steel Desk Legs -->
+  <rect x="95" y="730" width="16" height="20" fill="#16130e"/>
+  <rect x="590" y="690" width="16" height="60" fill="#16130e"/>
+
+  <!-- Mechanical Keyboard with Individual Key Silhouettes -->
+  <polygon points="280,510 420,490 440,550 300,570" fill="#2a2620"/>
+  <!-- Keycap Rows in Perspective -->
+  <g fill="#16130e">
+    <polygon points="290,515 410,498 412,506 292,523"/>
+    <polygon points="293,526 414,509 416,517 295,534"/>
+    <polygon points="296,537 417,520 419,528 298,545"/>
+    <polygon points="299,548 420,531 422,541 301,558"/>
+    <!-- Spacebar Row -->
+    <polygon points="340,552 390,545 392,555 342,562"/>
+  </g>
+  <!-- Mouse on Pad -->
+  <ellipse cx="465" cy="535" rx="14" ry="20" fill="#16130e"/>
+
+  <!-- Coffee Mug & Desk Lamp Base -->
+  <rect x="230" y="525" width="22" height="28" rx="3" fill="#16130e"/>
+  <ellipse cx="241" cy="525" rx="11" ry="4" fill="#f7f2e9"/>
+  <!-- Lamp Stem & Hood (Angled Silhouette) -->
+  <line x1="120" y1="520" x2="160" y2="390" stroke="#16130e" stroke-width="6"/>
+  <polygon points="140,390 190,370 205,420 155,440" fill="#16130e"/>
+
+  <!-- Dual Monitor Display Setup on Desk -->
+  <!-- Monitor 1 (Main Curved Display facing Developer) -->
+  <polygon points="340,290 540,265 550,445 350,470" fill="#16130e"/>
+  <polygon points="352,305 528,282 538,432 362,455" fill="#f7f2e9"/>
+  <!-- JupyterLab UI Silhouetted on Monitor 1 -->
+  <!-- Window Top Bar with Control Dots -->
+  <polygon points="352,305 528,282 526,296 350,318" fill="#16130e"/>
+  <circle cx="365" cy="315" r="3" fill="#c2410c"/>
+  <circle cx="375" cy="313" r="3" fill="#f7f2e9"/>
+  <circle cx="385" cy="311" r="3" fill="#f7f2e9"/>
+  <!-- Left File Tree Sidebar -->
+  <polygon points="352,318 395,312 405,448 362,455" fill="#2a2620"/>
+  <!-- Code Cells on Screen (Executable Python Logic) -->
+  <polygon points="410,320 515,306 513,346 408,360" fill="#16130e"/>
+  <line x1="418" y1="332" x2="480" y2="324" stroke="#f7f2e9" stroke-width="2"/>
+  <line x1="418" y1="342" x2="505" y2="330" stroke="#f7f2e9" stroke-width="2"/>
+  <!-- Output Block -->
+  <polygon points="410,368 510,355 508,410 408,423" fill="#e2dac9"/>
+
+  <!-- Monitor Stand and Arm -->
+  <polygon points="435,440 455,438 458,485 438,487" fill="#16130e"/>
+  <polygon points="420,483 475,475 480,490 425,498" fill="#16130e"/>
+
+  <!-- Developer Silhouette Seated in Ergonomic Chair in Profile -->
+  <g fill="#16130e">
+    <!-- Ergonomic Chair Mesh Back & Armrests -->
+    <path d="M 120,480 Q 140,360 170,330 L 195,335 Q 165,370 145,490 Z"/>
+    <polygon points="150,470 220,460 215,475 145,485"/>
+    <rect x="135" y="550" width="55" height="15" rx="3"/>
+    <line x1="162" y1="565" x2="162" y2="650" stroke="#16130e" stroke-width="8"/>
+    <!-- 5-Star Chair Caster Base -->
+    <polygon points="105,650 220,640 215,660 100,670"/>
+
+    <!-- Developer Lower Body / Trousers -->
+    <path d="M 145,520 L 210,505 L 245,570 L 230,680 L 195,680 L 215,580 L 165,540 Z"/>
+    <!-- Torso Leaning Forward in Concentration -->
+    <path d="M 155,510 Q 180,410 215,375 L 270,395 L 235,510 Z"/>
+    <!-- Head in Profile with Focused Hair/Glasses Contour -->
+    <circle cx="240" cy="325" r="32"/>
+    <polygon points="262,322 280,330 262,338"/>
+    <polygon points="262,348 274,354 260,358"/>
+    <!-- Arms Reaching Out to Keyboard -->
+    <path d="M 235,395 L 315,430 L 370,475 L 350,490 L 295,450 L 225,420 Z"/>
+  </g>
+
+  <!-- Right/Background: Massive Branching Git Version Control DAG Constellation -->
+  <!-- Thick Git Repository Pipeline Bus Line climbing across the wall -->
+  <g stroke="#16130e" stroke-width="8" stroke-linecap="round">
+    <line x1="490" y1="510" x2="620" y2="400"/>
+    <line x1="620" y1="400" x2="740" y2="280"/>
+    <line x1="740" y1="280" x2="880" y2="180"/>
+    <line x1="880" y1="180" x2="1030" y2="90"/>
+    <!-- Diverging Feature Branch 1 -->
+    <line x1="620" y1="400" x2="820" y2="390"/>
+    <line x1="820" y1="390" x2="740" y2="280"/>
+    <!-- Diverging Feature Branch 2 -->
+    <line x1="740" y1="280" x2="980" y2="270"/>
+    <line x1="980" y1="270" x2="880" y2="180"/>
+  </g>
+
+  <!-- Solid Charcoal Intermediate Commit Nodes -->
+  <!-- Commit 1 -->
+  <circle cx="620" cy="400" r="26" fill="#16130e"/>
+  <circle cx="620" cy="400" r="14" fill="#f7f2e9"/>
+  <rect x="660" y="385" width="120" height="30" rx="4" fill="#16130e"/>
+  <line x1="675" y1="400" x2="765" y2="400" stroke="#f7f2e9" stroke-width="3"/>
+
+  <!-- Commit 2 (Branch Fork) -->
+  <circle cx="820" cy="390" r="22" fill="#16130e"/>
+  <circle cx="820" cy="390" r="11" fill="#f7f2e9"/>
+
+  <!-- Commit 3 (Merge Node) -->
+  <circle cx="740" cy="280" r="28" fill="#16130e"/>
+  <circle cx="740" cy="280" r="15" fill="#f7f2e9"/>
+  <rect x="785" y="265" width="130" height="30" rx="4" fill="#16130e"/>
+  <line x1="800" y1="280" x2="900" y2="280" stroke="#f7f2e9" stroke-width="3"/>
+
+  <!-- Commit 4 (Second Branch) -->
+  <circle cx="980" cy="270" r="22" fill="#16130e"/>
+  <circle cx="980" cy="270" r="11" fill="#f7f2e9"/>
+
+  <!-- Commit 5 (Sub-Zenith) -->
+  <circle cx="880" cy="180" r="30" fill="#16130e"/>
+  <circle cx="880" cy="180" r="16" fill="#f7f2e9"/>
+
+  <!-- Floating Jupyter Notebook Page Sheets in Spatial Depth (Midground) -->
+  <polygon points="580,180 730,130 765,245 615,295" fill="#16130e"/>
+  <polygon points="595,192 718,150 748,235 625,277" fill="#f7f2e9"/>
+  <!-- Text lines on floating notebook -->
+  <line x1="610" y1="205" x2="685" y2="180" stroke="#16130e" stroke-width="2.5"/>
+  <line x1="615" y1="220" x2="705" y2="190" stroke="#16130e" stroke-width="2.5"/>
+  <line x1="620" y1="235" x2="675" y2="215" stroke="#16130e" stroke-width="2.5"/>
+
+  <!-- FOCAL POINT IN VERMILION (#C2410C): Summit Git Commit Node & Proof of Work Seal -->
+  <g>
+    <!-- Giant Glowing Summit HEAD Commit Node at Zenith in Solid Vermilion Accent -->
+    <circle cx="1030" cy="90" r="46" fill="#c2410c"/>
+    <circle cx="1030" cy="90" r="26" fill="#f7f2e9"/>
+    <circle cx="1030" cy="90" r="12" fill="#c2410c"/>
+
+    <!-- Radiating Cryptographic Hash Timestamp Spikes in Vermilion -->
+    <line x1="1030" y1="32" x2="1030" y2="8" stroke="#c2410c" stroke-width="5.5" stroke-linecap="round"/>
+    <line x1="1080" y1="50" x2="1105" y2="30" stroke="#c2410c" stroke-width="5.5" stroke-linecap="round"/>
+    <line x1="1090" y1="110" x2="1120" y2="125" stroke="#c2410c" stroke-width="5.5" stroke-linecap="round"/>
+    <line x1="975" y1="55" x2="950" y2="35" stroke="#c2410c" stroke-width="5.5" stroke-linecap="round"/>
+
+    <!-- Proof of Work Verification Badge Plaque -->
+    <polygon points="1030,150 1110,195 1030,240 950,195" fill="#c2410c"/>
+    <polygon points="1030,160 1095,195 1030,230 965,195" fill="#f7f2e9"/>
+    <!-- Verification Checkmark in Center of Badge -->
+    <polygon points="1005,195 1020,210 1055,175 1048,168 1020,196 1012,188" fill="#16130e"/>
+  </g>
+
+  <!-- Executing Code Cell Playhead Marker on Monitor in Vermilion -->
+  <polygon points="405,335 415,340 405,345" fill="#c2410c"/>
+  <rect x="418" y="337" width="85" height="4" fill="#c2410c"/>
+</svg>

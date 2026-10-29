@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="750" viewBox="0 0 1200 750">
+  <!-- Warm Cream Paper Base (#F7F2E9) -->
+  <rect width="1200" height="750" fill="#f7f2e9"/>
+
+  <!-- Subtle Perspective Vault Corridor Grid (#E2DAC9) -->
+  <g stroke="#e2dac9" stroke-width="1" stroke-dasharray="3,3">
+    <!-- Deep Perspective Lines Receding to Vanishing Point (620, 360) -->
+    <line x1="0" y1="60" x2="620" y2="360"/>
+    <line x1="0" y1="720" x2="620" y2="360"/>
+    <line x1="1200" y1="60" x2="620" y2="360"/>
+    <line x1="1200" y1="720" x2="620" y2="360"/>
+    <line x1="260" y1="750" x2="620" y2="360"/>
+    <line x1="940" y1="750" x2="620" y2="360"/>
+    <!-- Transverse Floor and Wall Frames -->
+    <rect x="120" y="100" width="960" height="540" fill="none"/>
+    <rect x="270" y="180" width="660" height="380" fill="none"/>
+    <rect x="420" y="260" width="360" height="220" fill="none"/>
+  </g>
+
+  <!-- Left: Angular Browser Terminal Console Station in Sharp 3/4 Perspective -->
+  <polygon points="40,160 360,240 360,650 40,690" fill="#16130e"/>
+  <!-- Console Display Face -->
+  <polygon points="65,190 330,260 330,620 65,655" fill="#f7f2e9"/>
+  <!-- Browser Console Window Header Bar with Control Dots -->
+  <polygon points="65,190 330,260 326,285 65,215" fill="#16130e"/>
+  <circle cx="95" cy="210" r="4.5" fill="#c2410c"/>
+  <circle cx="110" cy="214" r="4.5" fill="#f7f2e9"/>
+  <circle cx="125" cy="218" r="4.5" fill="#f7f2e9"/>
+  <!-- Terminal Code Snippet Lines in Charcoal -->
+  <polygon points="85,250 290,295 290,310 85,265" fill="#16130e"/>
+  <polygon points="85,280 250,317 250,332 85,295" fill="#16130e"/>
+  <polygon points="85,310 305,358 305,373 85,325" fill="#16130e"/>
+  <polygon points="85,340 270,380 270,395 85,355" fill="#16130e"/>
+  <polygon points="85,370 295,417 295,432 85,385" fill="#16130e"/>
+  <polygon points="85,400 240,435 240,450 85,415" fill="#16130e"/>
+  <polygon points="85,430 310,480 310,495 85,445" fill="#16130e"/>
+  <!-- Userscript Interceptor Engine Tag Box inside Terminal -->
+  <polygon points="85,520 305,570 300,610 85,560" fill="#16130e"/>
+  <line x1="95" y1="545" x2="280" y2="585" stroke="#f7f2e9" stroke-width="3"/>
+  <line x1="95" y1="565" x2="250" y2="600" stroke="#f7f2e9" stroke-width="2.5"/>
+
+  <!-- Center-Right: Massive Fortified Steel Cloud Storage Vault Portal -->
+  <!-- Heavy Outer Archway Framing in Deep Perspective -->
+  <polygon points="500,90 1140,30 1140,720 500,670" fill="#16130e"/>
+  <!-- Recessed Steel Portal Cavity -->
+  <polygon points="540,140 1080,85 1080,665 540,620" fill="#f7f2e9"/>
+
+  <!-- Steel Rivet Rows on Archway Edge -->
+  <g fill="#f7f2e9">
+    <circle cx="520" cy="120" r="5"/>
+    <circle cx="520" cy="180" r="5"/>
+    <circle cx="520" cy="240" r="5"/>
+    <circle cx="520" cy="300" r="5"/>
+    <circle cx="520" cy="360" r="5"/>
+    <circle cx="520" cy="420" r="5"/>
+    <circle cx="520" cy="480" r="5"/>
+    <circle cx="520" cy="540" r="5"/>
+    <circle cx="520" cy="600" r="5"/>
+  </g>
+
+  <!-- Heavy Cloud-Shaped Steel Vault Door Silhouette (Proprietary Barrier) -->
+  <path d="M 640,320 Q 670,230 780,230 Q 840,180 920,230 Q 990,230 1000,310 Q 1050,350 1020,410 Q 990,470 900,470 L 690,470 Q 610,470 610,400 Q 610,350 640,320 Z" fill="#16130e"/>
+
+  <!-- Heavy Crossed Steel Chains Barricading the Vault Door Shut -->
+  <g stroke="#16130e" stroke-width="18" stroke-linecap="round">
+    <line x1="530" y1="180" x2="1090" y2="580"/>
+    <line x1="530" y1="580" x2="1090" y2="180"/>
+  </g>
+  <!-- Chain Inner Link Highlight Details -->
+  <g stroke="#f7f2e9" stroke-width="4" stroke-linecap="round" stroke-dasharray="14,20">
+    <line x1="530" y1="180" x2="1090" y2="580"/>
+    <line x1="530" y1="580" x2="1090" y2="180"/>
+  </g>
+
+  <!-- Heavy Master Padlocks at the Chain Intersection (Charcoal) -->
+  <rect x="780" y="340" width="85" height="75" rx="12" fill="#16130e"/>
+  <path d="M 798,340 L 798,300 Q 822,275 847,300 L 847,340" fill="none" stroke="#16130e" stroke-width="12"/>
+
+  <!-- FOCAL POINT IN VERMILION (#C2410C): Piercing High-Energy Data Vector Slicing Past Vault -->
+  <g>
+    <!-- Piercing Script Injection Laser Vector Originating from Browser Console -->
+    <polygon points="340,410 360,390 815,355 815,375" fill="#c2410c"/>
+    <!-- Severed Padlock Shackle / Burst Point at Vault Core in Vermilion -->
+    <circle cx="822" cy="375" r="34" fill="#c2410c"/>
+    <circle cx="822" cy="375" r="16" fill="#f7f2e9"/>
+
+    <!-- Direct Unthrottled Download Vector Surge Slicing Right Past Vault to Freedom -->
+    <polygon points="820,365 1180,295 1165,330 835,395" fill="#c2410c"/>
+    <polygon points="1140,275 1195,302 1150,345" fill="#c2410c"/>
+
+    <!-- Severed Broken Flying Chain Links in Solid Vermilion Accent -->
+    <path d="M 850,280 Q 875,255 900,280 L 900,310" fill="none" stroke="#c2410c" stroke-width="12" stroke-linecap="round"/>
+    <polygon points="760,290 790,270 800,305 770,320" fill="#c2410c"/>
+  </g>
+
+  <!-- Security Camera Silhouette Rig Overhead (Tilted Blindly Away) -->
+  <polygon points="560,95 620,95 625,120 555,120" fill="#16130e"/>
+  <polygon points="585,120 595,120 595,145 585,145" fill="#16130e"/>
+  <polygon points="570,145 630,135 635,160 575,170" fill="#16130e"/>
+  <circle cx="632" cy="148" r="5" fill="#c2410c"/>
+</svg>

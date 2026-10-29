@@ -1,0 +1,162 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="750" viewBox="0 0 1200 750">
+  <!-- Warm Cream Paper Base (#F7F2E9) -->
+  <rect width="1200" height="750" fill="#f7f2e9"/>
+
+  <!-- Subtle Perspective Construction Grid (#E2DAC9) -->
+  <g stroke="#e2dac9" stroke-width="1" stroke-dasharray="3,3">
+    <!-- Ceiling Grid Lines -->
+    <line x1="0" y1="60" x2="1200" y2="60"/>
+    <line x1="0" y1="120" x2="1200" y2="120"/>
+    <line x1="0" y1="180" x2="1200" y2="180"/>
+    <!-- Floor Board Perspective Lines Receding to Vanishing Point (620, 260) -->
+    <line x1="-100" y1="750" x2="620" y2="260"/>
+    <line x1="80" y1="750" x2="620" y2="260"/>
+    <line x1="260" y1="750" x2="620" y2="260"/>
+    <line x1="440" y1="750" x2="620" y2="260"/>
+    <line x1="620" y1="750" x2="620" y2="260"/>
+    <line x1="800" y1="750" x2="620" y2="260"/>
+    <line x1="980" y1="750" x2="620" y2="260"/>
+    <line x1="1160" y1="750" x2="620" y2="260"/>
+    <line x1="1340" y1="750" x2="620" y2="260"/>
+    <!-- Floor Transverse Joist Depth Rungs -->
+    <line x1="40" y1="680" x2="1160" y2="680"/>
+    <line x1="140" y1="600" x2="1100" y2="600"/>
+    <line x1="240" y1="510" x2="1020" y2="510"/>
+    <line x1="340" y1="420" x2="930" y2="420"/>
+    <line x1="430" y1="340" x2="830" y2="340"/>
+  </g>
+
+  <!-- Solid Architecture: Room Cutaway Slabs & Framing (#16130E) -->
+  <!-- Floor Foundation Slab -->
+  <polygon points="0,670 1200,670 1200,750 0,750" fill="#16130e"/>
+  <line x1="0" y1="675" x2="1200" y2="675" stroke="#f7f2e9" stroke-width="2"/>
+
+  <!-- Left Wall & Ceiling Trim in Perspective -->
+  <polygon points="0,0 260,110 260,670 0,670" fill="#16130e"/>
+  <!-- Left Wall Inset Plaster Surface -->
+  <polygon points="20,20 240,120 240,650 20,650" fill="#f7f2e9"/>
+
+  <!-- Center Dividing Wall (Drywall Partition with Exposed Studs) -->
+  <polygon points="570,70 635,70 635,670 570,670" fill="#16130e"/>
+  <!-- Exposed Internal Wood Studs inside Partition Cutaway -->
+  <rect x="580" y="90" width="12" height="560" fill="#2a2620"/>
+  <rect x="612" y="90" width="12" height="560" fill="#2a2620"/>
+  <!-- Stud Cross-Braces -->
+  <polygon points="580,240 624,270 624,285 580,255" fill="#16130e"/>
+  <polygon points="580,420 624,450 624,465 580,435" fill="#16130e"/>
+
+  <!-- Left Room: Living Room Furniture & Wi-Fi Station -->
+  <!-- Bookshelf Unit against Left Wall -->
+  <polygon points="40,240 180,280 180,590 40,560" fill="#16130e"/>
+  <polygon points="50,255 170,290 170,330 50,300" fill="#f7f2e9"/>
+  <polygon points="50,345 170,375 170,415 50,390" fill="#f7f2e9"/>
+  <polygon points="50,430 170,460 170,500 50,475" fill="#f7f2e9"/>
+  <!-- Books Silhouetted in Shelf -->
+  <rect x="60" y="270" width="14" height="28" fill="#16130e"/>
+  <rect x="78" y="266" width="18" height="34" fill="#16130e"/>
+  <rect x="100" y="275" width="22" height="27" fill="#16130e"/>
+  <rect x="126" y="270" width="16" height="36" fill="#16130e"/>
+  <rect x="65" y="355" width="20" height="30" fill="#16130e"/>
+  <rect x="90" y="350" width="15" height="38" fill="#16130e"/>
+
+  <!-- Media Console Table in Left Room -->
+  <polygon points="260,490 490,445 520,580 280,630" fill="#16130e"/>
+  <polygon points="280,630 520,580 520,600 280,650" fill="#16130e"/>
+  <!-- Console Legs -->
+  <rect x="290" y="635" width="12" height="40" fill="#16130e"/>
+  <rect x="500" y="585" width="12" height="75" fill="#16130e"/>
+
+  <!-- Wi-Fi Router Array on Console Table -->
+  <polygon points="340,465 430,450 440,495 350,510" fill="#16130e"/>
+  <!-- Triple Antenna Array -->
+  <line x1="365" y1="475" x2="355" y2="400" stroke="#16130e" stroke-width="4.5"/>
+  <line x1="395" y1="470" x2="395" y2="390" stroke="#16130e" stroke-width="4.5"/>
+  <line x1="420" y1="465" x2="430" y2="395" stroke="#16130e" stroke-width="4.5"/>
+  <circle cx="355" cy="397" r="4.5" fill="#16130e"/>
+  <circle cx="395" cy="387" r="4.5" fill="#16130e"/>
+  <circle cx="430" cy="392" r="4.5" fill="#16130e"/>
+  <!-- Router Status LED Indicator -->
+  <circle cx="365" cy="500" r="3" fill="#f7f2e9"/>
+  <circle cx="380" cy="497" r="3" fill="#f7f2e9"/>
+
+  <!-- Left Room Concentric CSI Radio Waves (#16130E) -->
+  <path d="M 395,440 A 70,70 0 0,1 465,510" fill="none" stroke="#16130e" stroke-width="3"/>
+  <path d="M 395,390 A 120,120 0 0,1 515,510" fill="none" stroke="#16130e" stroke-width="3.5"/>
+  <path d="M 395,340 A 170,170 0 0,1 565,510" fill="none" stroke="#16130e" stroke-width="4"/>
+
+  <!-- Right Room: Adjacent Room Behind Wall Partition -->
+  <!-- Ceiling Beam in Right Room -->
+  <polygon points="635,70 1200,30 1200,90 635,120" fill="#16130e"/>
+  <!-- Far Right Structural Column -->
+  <polygon points="1130,35 1200,30 1200,670 1130,670" fill="#16130e"/>
+
+  <!-- Detailed Human Silhouette in Right Room (Completely Hidden from Line of Sight) -->
+  <g fill="#16130e">
+    <!-- Head in Profile with Hair Contour -->
+    <circle cx="890" cy="275" r="36"/>
+    <!-- Nose / Chin Profile -->
+    <polygon points="854,272 840,282 854,290"/>
+    <polygon points="856,300 846,307 860,312"/>
+    <!-- Neck -->
+    <path d="M 880,310 L 910,310 L 920,345 L 865,345 Z"/>
+    <!-- Jacket / Torso Silhouette in 3/4 Standing Posture -->
+    <path d="M 865,345 L 945,340 L 935,490 L 850,490 Z"/>
+    <!-- Coat Lapel Line -->
+    <line x1="895" y1="345" x2="890" y2="440" stroke="#f7f2e9" stroke-width="2.5"/>
+    <!-- Left Arm and Hand in Pocket -->
+    <path d="M 865,345 L 830,420 L 855,470 L 870,440 L 850,410 Z"/>
+    <!-- Right Arm in Natural Hang -->
+    <path d="M 945,340 L 970,425 L 955,480 L 940,480 L 945,420 Z"/>
+    <!-- Trousers / Legs -->
+    <polygon points="855,490 892,490 882,665 850,665"/>
+    <polygon points="902,490 935,490 940,665 908,665"/>
+    <!-- Shoes on Floor Plane -->
+    <polygon points="840,660 885,660 885,670 835,670"/>
+    <polygon points="900,660 948,660 952,670 895,670"/>
+  </g>
+
+  <!-- Reading Chair & Floor Lamp in Right Room Silhouette -->
+  <!-- Floor Lamp -->
+  <line x1="1060" y1="180" x2="1060" y2="670" stroke="#16130e" stroke-width="5"/>
+  <polygon points="1025,180 1095,180 1115,240 1005,240" fill="#16130e"/>
+  <polygon points="1030,660 1090,660 1100,670 1020,670" fill="#16130e"/>
+
+  <!-- FOCAL POINT IN VERMILION (#C2410C): Penetrating CSI Wavefronts & Micro-Doppler Pulse -->
+  <!-- Radio Waves Piercing Directly Through Partition Wall into Right Room -->
+  <g fill="none" stroke="#c2410c">
+    <path d="M 570,250 A 260,260 0 0,1 860,390" stroke-width="5.5" stroke-dasharray="10,6"/>
+    <path d="M 570,190 A 320,320 0 0,1 900,390" stroke-width="6"/>
+    <path d="M 570,130 A 380,380 0 0,1 940,390" stroke-width="6.5"/>
+  </g>
+
+  <!-- Biometric Chest Targeting Reticle in Vermilion -->
+  <circle cx="895" cy="385" r="45" fill="none" stroke="#c2410c" stroke-width="4"/>
+  <circle cx="895" cy="385" r="22" fill="none" stroke="#c2410c" stroke-width="2.5"/>
+  <circle cx="895" cy="385" r="7" fill="#c2410c"/>
+  <!-- Crosshairs on Chest -->
+  <line x1="840" y1="385" x2="870" y2="385" stroke="#c2410c" stroke-width="3.5"/>
+  <line x1="920" y1="385" x2="950" y2="385" stroke="#c2410c" stroke-width="3.5"/>
+  <line x1="895" y1="330" x2="895" y2="360" stroke="#c2410c" stroke-width="3.5"/>
+  <line x1="895" y1="410" x2="895" y2="440" stroke="#c2410c" stroke-width="3.5"/>
+
+  <!-- Real-Time Micro-Doppler EKG Heartbeat Telemetry Waveform across Top Right -->
+  <g>
+    <!-- Telemetry Graph Banner Frame in Charcoal -->
+    <polygon points="710,130 1100,90 1100,165 710,205" fill="#16130e"/>
+    <polygon points="720,138 1090,100 1090,158 720,195" fill="#f7f2e9"/>
+    <!-- Intricate EKG Vital Waveform in Solid Vermilion -->
+    <path d="M 730,170 L 780,163 L 795,160 L 805,130 L 815,190 L 825,145 L 835,168 L 860,160 L 920,150 L 935,148 L 945,115 L 955,180 L 965,135 L 975,155 L 1000,150 L 1070,140" 
+          fill="none" stroke="#c2410c" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Zero Camera Ban Emblem (Top Left Wall) -->
+  <g>
+    <rect x="60" y="80" width="160" height="55" rx="6" fill="#16130e"/>
+    <circle cx="95" cy="107" r="18" fill="none" stroke="#c2410c" stroke-width="3.5"/>
+    <line x1="82" y1="94" x2="108" y2="120" stroke="#c2410c" stroke-width="4"/>
+    <!-- Camera Icon inside Slash -->
+    <rect x="86" y="100" width="18" height="13" rx="2" fill="#f7f2e9"/>
+    <polygon points="90,100 95,96 100,96 104,100" fill="#f7f2e9"/>
+    <circle cx="95" cy="106" r="3.5" fill="#16130e"/>
+  </g>
+</svg>
