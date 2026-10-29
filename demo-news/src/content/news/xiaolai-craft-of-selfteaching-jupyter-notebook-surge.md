@@ -1,5 +1,5 @@
 ---
-title: "Proof-of-Work Education: Xiaolai's 'The Craft of Self-Teaching' Surge"
+title: "Li Xiaolai's opensource self-teaching notebook surge"
 seoTitle: "Proof-of-Work Coding: Xiaolai's Self-Teaching Surge"
 excerpt: "Li Xiaolai's open-source Jupyter project uses executable notebooks and Git commits as proof of work, crossing 18,500 GitHub stars."
 description: "Xiaolai's Jupyter Notebook guide 'the-craft-of-selfteaching' crosses major community milestones as non-traditional developers turn to open-source learning."

@@ -1,5 +1,5 @@
 ---
-title: "LinkSwift: Bypassing Cloud Storage Constraints with JavaScript"
+title: "How does Open Source LinkSwift work?"
 seoTitle: "LinkSwift: Direct Cloud Download Links With JavaScript"
 excerpt: "Open-source JavaScript utility LinkSwift crossed 33,900 GitHub stars by generating direct browser download links across eight cloud storage networks."
 description: "hmjz100/LinkSwift simplifies file retrieval by generating direct download links for eight major cloud storage providers."
