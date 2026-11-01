@@ -1,5 +1,5 @@
 ---
-title: "Panchkula School Assault: Understanding Severe Aggression in Children, Causes, Treatment, and the Law"
+title: "8 year old boy pyschopathic traits: Beats small girl child viciosly."
 seoTitle: "Panchkula School Assault: Child Aggression Causes & Law"
 excerpt: "Following a brutal classroom attack in Panchkula, child psychologists and legal experts explain callous behavioral traits, treatment paths, and juvenile law."
 description: "An 8-year-old's assault on a classmate in Panchkula raises key questions on childhood behavioral traits, treatment options, and juvenile legal protections."
