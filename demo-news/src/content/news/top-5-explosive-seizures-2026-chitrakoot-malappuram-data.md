@@ -1,6 +1,6 @@
 ---
-title: "Five Most Controversial Explosive Seizures of 2026: Inside the Police Files"
-seoTitle: "Top 5 Explosive Seizures of 2026: Data & Police Files"
+title: "Are Terror Attacks on the rise in India 2026? What Data and Police Files shows"
+seoTitle: "Top 5 terror attacks of 2026 that were averted by the police and what Data & Police Files shows"
 excerpt: "From tampered barcodes in Malappuram to whistleblower leaks in Bengaluru, here is the full breakdown of 2026's five most controversial explosive seizures."
 description: "From 89,000 gelatin sticks in Kerala to political rows in UP, here are the five most controversial explosive seizures across India in 2026."
 category: 'By the Numbers'
