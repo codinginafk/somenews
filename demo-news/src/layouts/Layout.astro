@@ -21,7 +21,7 @@ interface Props {
   noindex?: boolean;
   canonicalOverride?: string;
 }
-const { title, description = 'Reality checks with receipts: viral claims vs primary data, country briefs, and lab-tested tech.', image = '/og.png', pubDate, updatedDate, author, isArticle = false, tags = [], section, ogWidth = 1200, ogHeight = 630, imageAlt, noindex = false, canonicalOverride } = Astro.props;
+const { title, description = 'Reality checks with receipts: viral claims vs primary data, country briefs, and lab-tested tech.', image = '/og/default.png', pubDate, updatedDate, author, isArticle = false, tags = [], section, ogWidth = 1200, ogHeight = 630, imageAlt, noindex = false, canonicalOverride } = Astro.props;
 const siteBase = Astro.site ?? 'https://rentfreenews.com';
 const canonical = new URL(canonicalOverride ?? Astro.url.pathname, siteBase).toString();
 const ogImage = new URL(image, siteBase).toString();
@@ -66,9 +66,12 @@ const sectionSlug = section?.toLowerCase().replace(/ /g, '-');
   <meta name="description" content={description} />
   <link rel="canonical" href={canonical} />
   <meta property="og:type" content={isArticle ? 'article' : 'website'} />
+  <meta property="og:site_name" content="Rent Free News" />
+  <meta property="og:locale" content="en_GB" />
   <meta property="og:title" content={title} />
   <meta property="og:description" content={description} />
   <meta property="og:image" content={ogImage} />
+  <meta property="og:image:type" content="image/png" />
   <meta property="og:image:width" content={String(ogWidth)} />
   <meta property="og:image:height" content={String(ogHeight)} />
   <meta property="og:image:alt" content={imageAlt ?? title} />

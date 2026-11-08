@@ -8,7 +8,7 @@ import { join } from 'node:path';
 
 const dist = join(process.cwd(), 'dist');
 // Directories that are not articles (archives, tooling, assets).
-const SKIP_DIRS = new Set(['category', 'author', 'rss', 'search', 'admin', 'images', '_astro']);
+const SKIP_DIRS = new Set(['category', 'author', 'rss', 'search', 'admin', 'images', '_astro', 'og']);
 // Standalone utility pages: real pages, but they legitimately lack article sections.
 const UTILITY = new Set(['about', 'advertise', 'contact', 'corrections', 'dmca', 'privacy', 'terms']);
 
