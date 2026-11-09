@@ -5,7 +5,7 @@
   "private": true,
   "scripts": {
     "dev": "astro dev",
-    "build": "astro build && node scripts/verify-render.mjs",
+    "build": "astro build && node scripts/generate-og.mjs && node scripts/verify-render.mjs",
     "preview": "astro preview",
     "astro": "astro",
     "slop": "node scripts/slopcheck.mjs"
@@ -26,6 +26,7 @@
     "tailwindcss": "^3.4.10"
   },
   "devDependencies": {
+    "@resvg/resvg-js": "^2.6.2",
     "typescript": "^5.5.0"
   }
 }
