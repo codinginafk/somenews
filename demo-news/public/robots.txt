@@ -1,6 +1,9 @@
 User-agent: *
 Allow: /
 Disallow: /admin/
-Disallow: /search/
 
 Sitemap: https://rentfreenews.com/sitemap.xml
+
+# /search/ is deliberately NOT disallowed: it carries a noindex meta tag, which
+# Google only respects on crawlable URLs. Blocking it in robots.txt caused
+# "Indexed, though blocked by robots.txt" (URL-only index entries) in GSC.
