@@ -23,10 +23,25 @@ const all = await getCollection('news');
 // surface excludes the others so the same story never appears twice in one view.
 const sorted = [...all].sort((a,b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 const others = sorted.filter(p => p.slug !== slug);
-const railNext = others.filter(p => p.data.category !== entry.data.category).slice(0, 6);
+
+// Score articles to strongly prioritize matching tags and matching category for related news
+const entryTags = new Set(entry.data.tags ?? []);
+const scored = others.map(p => {
+  let score = 0;
+  if (p.data.category === entry.data.category) score += 10;
+  for (const t of (p.data.tags ?? [])) {
+    if (entryTags.has(t)) score += 5;
+  }
+  return { post: p, score };
+});
+scored.sort((a, b) => b.score - a.score || b.post.data.pubDate.valueOf() - a.post.data.pubDate.valueOf());
+const relatedArticles = scored.slice(0, 4).map(s => s.post);
+const relatedSlugs = new Set(relatedArticles.map(p => p.slug));
+
+const railNext = others.filter(p => p.data.category !== entry.data.category && !relatedSlugs.has(p.slug)).slice(0, 6);
 const railSlugs = new Set(railNext.map(p => p.slug));
 const related = others.filter(p => p.data.category === entry.data.category).slice(0, 3);
-const more = others.filter(p => p.data.category !== entry.data.category && !railSlugs.has(p.slug)).slice(0, 3);
+const more = others.filter(p => !railSlugs.has(p.slug) && !relatedSlugs.has(p.slug)).slice(0, 3);
 const catFile: Record<string,string> = {
   'Reality Check': 'reality-check',
   'By the Numbers': 'by-the-numbers',
@@ -42,7 +57,7 @@ const pageDesc = entry.data.description ?? entry.data.excerpt;
 // H1 — the reader needs the claim first). Explainer and stray values → null.
 const dekVerdict = verdictLine(entry.data.verdict);
 ---
-<Layout title={pageTitle} description={pageDesc} image={`/og/${entry.slug}.png`} imageAlt={entry.data.title} pubDate={entry.data.pubDate} updatedDate={entry.data.updatedDate} author={entry.data.author} isArticle={true} tags={entry.data.tags} section={entry.data.category}>
+<Layout title={pageTitle} description={pageDesc} image={`/og/${entry.slug}.png`} heroImage={entry.data.heroImage} imageAlt={entry.data.title} pubDate={entry.data.pubDate} updatedDate={entry.data.updatedDate} author={entry.data.author} isArticle={true} tags={entry.data.tags} section={entry.data.category}>
   <!-- Reading progress: transform only, no layout shift -->
   <div id="progress" class="fixed top-0 left-0 h-[3px] bg-brand-500 z-50 w-full origin-left scale-x-0"></div>
 
@@ -51,8 +66,13 @@ const dekVerdict = verdictLine(entry.data.verdict);
        article column simply yields (680-719px) instead of opening a dead gutter. -->
   <div class="max-w-[1064px] mx-auto px-4 py-6 grid lg:grid-cols-[minmax(0,1fr)_280px] gap-8">
     <article class="min-w-0 max-w-[720px] mx-auto lg:mx-0">
-      <nav aria-label="Section" class="flex items-center gap-3">
-        <a href={`/category/${entry.data.category.toLowerCase().replace(/ /g,'-')}/`} class="kicker text-zinc-500 hover:text-brand-600">{entry.data.category}</a>
+      <!-- Breadcrumb navigation: Home > Category > Article Title -->
+      <nav aria-label="Breadcrumb" class="flex items-center flex-wrap gap-1.5 text-[12px] sm:text-[13px] font-medium text-zinc-500 mb-2">
+        <a href="/" class="hover:text-brand-600 hover:underline">Home</a>
+        <span class="text-zinc-400 select-none" aria-hidden="true">&gt;</span>
+        <a href={`/category/${entry.data.category.toLowerCase().replace(/ /g,'-')}/`} class="hover:text-brand-600 hover:underline">{entry.data.category}</a>
+        <span class="text-zinc-400 select-none" aria-hidden="true">&gt;</span>
+        <span class="text-zinc-800 dark:text-zinc-200 truncate max-w-[280px] sm:max-w-md" aria-current="page">{entry.data.title}</span>
       </nav>
       <h1 class="font-display font-black text-[32px] md:text-[46px] leading-[1.05] tracking-[-0.02em] mt-2">{entry.data.title}</h1>
       <p class="font-serif text-[20px] leading-relaxed text-zinc-600 dark:text-zinc-400 mt-3">{entry.data.excerpt}</p>
@@ -173,7 +193,23 @@ const dekVerdict = verdictLine(entry.data.verdict);
   </div>
 
   <div class="max-w-[1064px] mx-auto px-4 pb-12">
-    <div class="flex items-end justify-between border-b-2 border-zinc-950 dark:border-white pb-3 mb-4 mt-8">
+    <!-- Contextual Related News: Prioritizing Matching Tags & Category -->
+    <section aria-label={`Related news in ${entry.data.category}`} class="mt-10 pt-8 border-t-2 border-zinc-950 dark:border-white">
+      <div class="flex items-end justify-between pb-3 mb-4">
+        <div>
+          <span class="kicker text-brand-600">Contextual Coverage</span>
+          <h2 class="font-display font-black text-[22px] md:text-[26px]">Related News — More in {entry.data.category}</h2>
+        </div>
+        <a href={`/category/${entry.data.category.toLowerCase().replace(/ /g,'-')}/`} class="text-[13px] font-bold hover:underline shrink-0">All {entry.data.category} →</a>
+      </div>
+      <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
+        {relatedArticles.map((p, i) => (
+          <NewsCard href={`/${p.slug}/`} title={p.data.title} excerpt={p.data.excerpt} category={p.data.category} author={p.data.author} pubDate={p.data.pubDate} image={p.data.heroImage} index={i} />
+        ))}
+      </div>
+    </section>
+
+    <div class="flex items-end justify-between border-b-2 border-zinc-950 dark:border-white pb-3 mb-4 mt-10">
       <h2 class="font-display font-black text-[22px]">Keep reading</h2>
       <a href="/search/" class="text-[13px] font-bold hover:underline">View all →</a>
     </div>

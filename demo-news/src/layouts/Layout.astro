@@ -9,6 +9,7 @@ interface Props {
   title: string;
   description?: string;
   image?: string;
+  heroImage?: string;
   pubDate?: Date;
   updatedDate?: Date;
   author?: string;
@@ -21,10 +22,11 @@ interface Props {
   noindex?: boolean;
   canonicalOverride?: string;
 }
-const { title, description = 'Reality checks with receipts: viral claims vs primary data, country briefs, and lab-tested tech.', image = '/og/default.png', pubDate, updatedDate, author, isArticle = false, tags = [], section, ogWidth = 1200, ogHeight = 630, imageAlt, noindex = false, canonicalOverride } = Astro.props;
+const { title, description = 'Reality checks with receipts: viral claims vs primary data, country briefs, and lab-tested tech.', image = '/og/default.png', heroImage, pubDate, updatedDate, author, isArticle = false, tags = [], section, ogWidth = 1200, ogHeight = 630, imageAlt, noindex = false, canonicalOverride } = Astro.props;
 const siteBase = Astro.site ?? 'https://rentfreenews.com';
 const canonical = new URL(canonicalOverride ?? Astro.url.pathname, siteBase).toString();
 const ogImage = new URL(image, siteBase).toString();
+const imageList = Array.from(new Set([ogImage, ...(heroImage ? [new URL(heroImage, siteBase).toString()] : [])]));
 const sectionSlug = section?.toLowerCase().replace(/ /g, '-');
 ---
 <!doctype html>
@@ -120,20 +122,39 @@ const sectionSlug = section?.toLowerCase().replace(/ /g, '-');
   </script>
   {isArticle && (
     <script type="application/ld+json" set:html={JSON.stringify({
-      "@context": "https://schema.org", "@type": "NewsArticle",
-      headline: title, description, image: [ogImage],
-      datePublished: pubDate?.toISOString(), dateModified: (updatedDate ?? pubDate)?.toISOString(),
-      author: [{ "@type": "Person", name: author ?? "Desk", url: new URL(`/author/${authorSlug(author ?? 'Desk')}/`, siteBase).toString() }],
-      publisher: { "@type": "Organization", name: SITE.displayName, logo: { "@type": "ImageObject", url: new URL('/mark.svg', siteBase).toString() } }
+      "@context": "https://schema.org",
+      "@type": "NewsArticle",
+      "headline": title,
+      "description": description,
+      "image": imageList,
+      "datePublished": pubDate?.toISOString(),
+      "dateModified": (updatedDate ?? pubDate)?.toISOString(),
+      "author": [
+        {
+          "@type": "Person",
+          "name": author || "RentFreeNews Editorial Desk",
+          "url": "https://rentfreenews.com/about/"
+        }
+      ],
+      "publisher": {
+        "@type": "Organization",
+        "name": "RentFreeNews",
+        "logo": {
+          "@type": "ImageObject",
+          "url": new URL('/mark.svg', siteBase).toString()
+        }
+      },
+      "mainEntityOfPage": canonical
     })} />
   )}
   {isArticle && section && sectionSlug && (
     <script type="application/ld+json" set:html={JSON.stringify({
-      "@context": "https://schema.org", "@type": "BreadcrumbList",
-      itemListElement: [
-        { "@type": "ListItem", position: 1, name: "Front Page", item: new URL('/', siteBase).toString() },
-        { "@type": "ListItem", position: 2, name: section, item: new URL(`/category/${sectionSlug}/`, siteBase).toString() },
-        { "@type": "ListItem", position: 3, name: title, item: canonical },
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": new URL('/', siteBase).toString() },
+        { "@type": "ListItem", "position": 2, "name": section, "item": new URL(`/category/${sectionSlug}/`, siteBase).toString() },
+        { "@type": "ListItem", "position": 3, "name": title, "item": canonical }
       ]
     })} />
   )}
