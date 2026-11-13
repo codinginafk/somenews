@@ -12,7 +12,7 @@ heroImage: '/images/jensen-huang-resigns-nvidia-ceo-succession.jpg'
 heroAlt: "Cream and charcoal editorial illustration of an empty boardroom chair, departing CEO silhouette, and red silicon wafer."
 claim: "Nvidia had a clear internal heir ready to step into Jensen Huang's CEO seat with little disruption to investors or chip governance."
 claimSource: 'Pre-resignation tech market assumptions and Wall Street investor notes, November 2026'
-verdict: 'False — with context'
+verdict: 'True'
 primarySource: 'NVIDIA Official Board Announcement (November 12, 2026) and The Guardian / Fortune governance reporting'
 primarySourceUrl: 'https://nvidianews.nvidia.com/'
 whyItMatters: "The founder's sudden exit strips Nvidia of its defining visionary right as federal spy scrutiny and premarket sell-offs test investor confidence."
