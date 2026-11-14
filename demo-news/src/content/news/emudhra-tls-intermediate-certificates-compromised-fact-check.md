@@ -8,19 +8,26 @@ tags: ['cybersecurity', 'tls', 'encryption', 'cloudflare']
 author: 'Wasim'
 authorRole: 'Contributing Writer'
 pubDate: '2026-10-21 13:45'
-primarySource: 'Cloudflare Security Advisory and Mozilla Cryptography Engineering Incident Reports'
-primarySourceUrl: 'https://blog.cloudflare.com/'
+updatedDate: '2026-11-14'
+primarySource: 'Cloudflare advisory on the eMudhra intermediate certificate compromise'
+primarySourceUrl: 'https://blog.cloudflare.com/emudhra-certificate-compromise'
 whyItMatters: 'Compromised intermediate root certificates undermine public WebPKI trust, allowing network adversaries to forge valid TLS credentials for any web domain.'
 sources:
-  - title: 'The Register: Indian certification authority eMudhra private keys compromised'
-    url: 'https://www.theregister.com/'
-    publisher: 'The Register'
-  - title: 'Cloudflare Blog: eMudhra Intermediate Certificate Incident Remediation'
-    url: 'https://blog.cloudflare.com/'
+  - title: 'eMudhra intermediate certificate compromise'
+    url: 'https://blog.cloudflare.com/emudhra-certificate-compromise'
     publisher: 'Cloudflare'
-  - title: 'Mozilla Security Blog: Trust Store Remediation and Incident Response'
-    url: 'https://blog.mozilla.org/en/'
-    publisher: 'Mozilla'
+  - title: 'eMudhra intermediate CA certificates compromised'
+    url: 'https://unit42.paloaltonetworks.com/emudhra-certificate-compromise/'
+    publisher: 'Palo Alto Networks Unit 42'
+  - title: 'Compromised intermediate certificates'
+    url: 'https://blog.talosintelligence.com/compromised-intermediate-certificates/'
+    publisher: 'Cisco Talos'
+  - title: 'Microsoft response to compromised eMudhra certificate authority keys'
+    url: 'https://www.microsoft.com/en-us/msrc/blog/2026/10/microsoft-response-to-compromised-emudhra-certificate-authority-keys'
+    publisher: 'Microsoft Security Response Center'
+  - title: 'The internet goes on high alert after discovery of 8 compromised TLS certs'
+    url: 'https://arstechnica.com/security/2026/10/the-internet-goes-on-high-alert-after-discovery-of-8-compromised-tls-certs/'
+    publisher: 'Ars Technica'
 heroImage: '/images/emudhra-tls-certificate-compromise.jpg'
 heroAlt: 'Stark editorial illustration of a fractured cryptographic lock exposing a single-digit key across server rack silhouettes'
 claim: 'Compromised eMudhra intermediate TLS certificates allow attackers to secretly forge SSL certificates for any website without detection.'
@@ -62,9 +69,11 @@ The incident emphasizes the fragility of shared trust stores. Similar architectu
 
 ## Sources to check yourself
 
-- Cloudflare Blog: Technical breakdown of intermediate certificate mitigations and customer guidance (October 20, 2026).
-- The Register: Coverage of eMudhra private key entropy failures and research findings by Scott Helme and Dennis Jackson.
-- Mozilla Cryptography Engineering: Bug tracking entries and root store distrust notifications.
+- [Cloudflare: eMudhra intermediate certificate compromise](https://blog.cloudflare.com/emudhra-certificate-compromise): technical breakdown of the compromised keys and mitigation guidance.
+- [Unit 42: eMudhra intermediate CA certificates compromised](https://unit42.paloaltonetworks.com/emudhra-certificate-compromise/): the key-recovery analysis and affected certificate list.
+- [Cisco Talos: Compromised intermediate certificates](https://blog.talosintelligence.com/compromised-intermediate-certificates/): detection and trust-store response.
+- [Microsoft MSRC: Response to compromised eMudhra certificate authority keys](https://www.microsoft.com/en-us/msrc/blog/2026/10/microsoft-response-to-compromised-emudhra-certificate-authority-keys): the Windows and browser trust decision.
+- [Ars Technica: The internet goes on high alert after discovery of 8 compromised TLS certs](https://arstechnica.com/security/2026/10/the-internet-goes-on-high-alert-after-discovery-of-8-compromised-tls-certs/): independent reporting on the incident.
 
 ## Frequently asked questions
 

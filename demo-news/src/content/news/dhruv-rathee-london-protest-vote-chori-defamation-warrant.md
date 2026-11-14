@@ -8,20 +8,23 @@ tags: ['politics', 'india', 'protest', 'london']
 author: 'Diyan'
 authorRole: 'Staff Writer'
 pubDate: '2026-10-17 15:30'
-updatedDate: '2026-10-18'
-primarySource: 'Delhi Court Summons Records & Election Commission SIR Documentation'
-primarySourceUrl: 'https://economictimes.indiatimes.com/'
+updatedDate: '2026-11-14'
+primarySource: "Economic Times report on Dhruv Rathee's London protest announcement"
+primarySourceUrl: 'https://economictimes.indiatimes.com/nri/latest-updates/dhruv-rathee-announces-london-protest-against-vote-chori-says-time-to-ring-the-international-bells/articleshow/135005780.cms'
 whyItMatters: 'Taking domestic election disputes to London tests international awareness while highlighting domestic tensions between digital creators, courts, and election oversight.'
 sources:
-  - title: 'Economic Times: Dhruv Rathee announces London protest against vote chori'
-    url: 'https://economictimes.indiatimes.com/'
+  - title: 'Dhruv Rathee announces London protest against vote chori, says time to ring the international bells'
+    url: 'https://economictimes.indiatimes.com/nri/latest-updates/dhruv-rathee-announces-london-protest-against-vote-chori-says-time-to-ring-the-international-bells/articleshow/135005780.cms'
     publisher: 'The Economic Times'
-  - title: 'The Hindu: National political reporting and court proceedings'
-    url: 'https://www.thehindu.com/'
-    publisher: 'The Hindu'
-  - title: 'The Indian Express: Election roll revisions and Jantar Mantar security'
-    url: 'https://indianexpress.com/'
-    publisher: 'The Indian Express'
+  - title: 'Dhruv Rathee calls London protest over vote chori allegations'
+    url: 'https://www.outlookindia.com/international/dhruv-rathee-london-protest-vote-chori-allegations'
+    publisher: 'Outlook India'
+  - title: 'Dhruv Rathee announces protest against vote chori in London after leaving India'
+    url: 'https://news.abplive.com/news/dhruv-rathee-announces-protest-against-vote-chori-in-london-after-leaving-india-time-to-ring-international-bells-1871829'
+    publisher: 'ABP Live'
+  - title: "London's Parliament Square turns Jantar Mantar as Dhruv Rathee takes vote chori protest to UK"
+    url: 'https://news24online.com/india/video-londons-parliament-square-turns-jantar-mantar-as-dhruv-rathee-takes-vote-chori-protest-to-uk-cjp-protest-cec-gyanesh-kumar/944348/'
+    publisher: 'News24'
 heroImage: '/images/dhruv-rathee-london-protest-parliament-square.jpg'
 heroAlt: 'Stark editorial illustration of protesters gathering at Parliament Square near Mahatma Gandhi statue'
 claim: 'Dhruv Rathee called an international protest in London against election fraud following illegal detention in Delhi.'
@@ -62,9 +65,10 @@ The security forces have also severely restricted past protests against the SIR 
 
 ## Sources to check yourself
 
-- The Economic Times report on Dhruv Rathee's London protest announcement and overseas outreach
-- Delhi District Court docket records regarding summons and warrants in criminal defamation cases
-- Election Commission of India public manuals on Special Intensive Revision procedures
+- [The Economic Times: Dhruv Rathee announces London protest against vote chori](https://economictimes.indiatimes.com/nri/latest-updates/dhruv-rathee-announces-london-protest-against-vote-chori-says-time-to-ring-the-international-bells/articleshow/135005780.cms): the announcement and his own framing.
+- [Outlook India: Dhruv Rathee calls London protest over vote chori allegations](https://www.outlookindia.com/international/dhruv-rathee-london-protest-vote-chori-allegations): the allegations and the London event.
+- [ABP Live: Dhruv Rathee announces protest against vote chori in London](https://news.abplive.com/news/dhruv-rathee-announces-protest-against-vote-chori-in-london-after-leaving-india-time-to-ring-international-bells-1871829): timeline after leaving India.
+- [News24: London's Parliament Square turns Jantar Mantar](https://news24online.com/india/video-londons-parliament-square-turns-jantar-mantar-as-dhruv-rathee-takes-vote-chori-protest-to-uk-cjp-protest-cec-gyanesh-kumar/944348/): the rally itself.
 
 ## Frequently asked questions
 

@@ -8,19 +8,20 @@ tags: ['kota', 'allen', 'rajasthan']
 author: 'Yash'
 authorRole: 'Contributing Writer'
 pubDate: '2026-10-17 15:00'
-primarySource: 'Kota Police Department Statements and Case Investigation Records'
-primarySourceUrl: 'https://timesofindia.indiatimes.com/'
+updatedDate: '2026-11-14'
+primarySource: 'Deccan Herald report on the Kota coaching institute toy-gun case'
+primarySourceUrl: 'https://www.deccanherald.com/india/rajasthan/class-11-boy-hits-classmate-with-toy-gun-at-kota-coaching-institute-case-registered-4186248'
 whyItMatters: 'Kota hosts over 200,000 competitive exam aspirants annually. Violent classroom disputes and weapon security lapses raise urgent safety questions for families nationwide.'
 sources:
-  - title: 'Kota coaching hub safety protocols and student security updates'
-    url: 'https://timesofindia.indiatimes.com/'
-    publisher: 'The Times of India'
-  - title: 'Rajasthan police investigation records on classroom violence'
-    url: 'https://www.thehindu.com/'
-    publisher: 'The Hindu'
-  - title: 'Student welfare and coaching oversight measures in Rajasthan'
-    url: 'https://indianexpress.com/'
-    publisher: 'The Indian Express'
+  - title: 'Class 11 boy hits classmate with toy gun at Kota coaching institute; case registered'
+    url: 'https://www.deccanherald.com/india/rajasthan/class-11-boy-hits-classmate-with-toy-gun-at-kota-coaching-institute-case-registered-4186248'
+    publisher: 'Deccan Herald'
+  - title: 'Kota viral video: 16-year-old JEE aspirant hit on head with toy gun by classmate over girl dispute'
+    url: 'https://newsable.asianetnews.com/india/kota-viral-video-16-year-old-jee-aspirant-hit-on-head-with-toy-gun-by-classmate-over-girl-dispute-probe-on-watch-articleshow-4h7bui8'
+    publisher: 'Asianet Newsable'
+  - title: "Watch viral video: Student pulls pistol at Kota's Allen coaching centre, brutal clash erupts over girl dispute"
+    url: 'https://www.newsx.com/regionals/watch-viral-video-student-pulls-pistol-at-kotas-allen-coaching-centre-brutal-clash-erupts-over-girl-dispute-284411/'
+    publisher: 'NewsX'
 heroImage: '/images/allen-kota-coaching-clash-security.jpg'
 heroAlt: 'Editorial illustration of students and security checkpoint at Allen Kota campus'
 claim: 'A student pulled a pistol from his school bag and shot a classmate inside Allen Coaching in Kota.'
@@ -74,9 +75,9 @@ When high-tension incidents occur in competitive student hubs, online rumors spr
 
 ## Sources to check yourself
 
-- The Times of India reporting on Kota coaching district security mandates and police directives
-- The Hindu coverage of Rajasthan police investigation records and FIR documentation
-- The Indian Express reporting on student safety standards and private coaching oversight
+- [Deccan Herald: Class 11 boy hits classmate with toy gun at Kota coaching institute; case registered](https://www.deccanherald.com/india/rajasthan/class-11-boy-hits-classmate-with-toy-gun-at-kota-coaching-institute-case-registered-4186248): the FIR account and the toy-gun finding.
+- [Asianet Newsable: Kota viral video, 16-year-old JEE aspirant hit on head with toy gun](https://newsable.asianetnews.com/india/kota-viral-video-16-year-old-jee-aspirant-hit-on-head-with-toy-gun-by-classmate-over-girl-dispute-probe-on-watch-articleshow-4h7bui8): the classroom dispute and the victim's condition.
+- [NewsX: Student pulls pistol at Kota's Allen coaching centre](https://www.newsx.com/regionals/watch-viral-video-student-pulls-pistol-at-kotas-allen-coaching-centre-brutal-clash-erupts-over-girl-dispute-284411/): the viral video and what it actually shows.
 
 ## Frequently asked questions
 
