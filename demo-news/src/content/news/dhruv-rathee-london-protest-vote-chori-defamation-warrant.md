@@ -8,7 +8,7 @@ tags: ['politics', 'india', 'protest', 'london']
 author: 'Diyan'
 authorRole: 'Staff Writer'
 pubDate: '2026-10-17 15:30'
-updatedDate: '2026-11-14'
+updatedDate: '2026-11-15'
 primarySource: "Economic Times report on Dhruv Rathee's London protest announcement"
 primarySourceUrl: 'https://economictimes.indiatimes.com/nri/latest-updates/dhruv-rathee-announces-london-protest-against-vote-chori-says-time-to-ring-the-international-bells/articleshow/135005780.cms'
 whyItMatters: 'Taking domestic election disputes to London tests international awareness while highlighting domestic tensions between digital creators, courts, and election oversight.'
@@ -61,7 +61,7 @@ According to court records, summons remained unserved since July 2019 as Rathee 
 
 The organizers of the protests have yet to produce audited data that prove disenfranchisement of people in targeted constituencies. As the discussion on the transparency of the voting list goes on in the public domain, moving the protest from India’s national capital to London takes the matter to an international diplomatic level.
 
-The security forces have also severely restricted past protests against the SIR in the capital. See our earlier report on [crackdown on mega protest in Delhi](/cjp-delhi-mega-protest-crackdown/).
+The security forces have also severely restricted past protests against the SIR in the capital. See our earlier report on [crackdown on mega protest in Delhi](/cjp-protest-crackdown-jantar-mantar-oct-10/).
 
 ## Sources to check yourself
 

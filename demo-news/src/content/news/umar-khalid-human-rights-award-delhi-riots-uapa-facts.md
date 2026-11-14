@@ -8,6 +8,7 @@ tags: ['delhi', 'uapa', 'courts', 'rights']
 author: 'Diyan'
 authorRole: 'Staff Writer'
 pubDate: '2026-10-19 16:45'
+updatedDate: '2026-11-15'
 primarySource: 'Delhi Police FIR 59/2020 Charge Sheet and Delhi High Court Bail Orders'
 primarySourceUrl: 'https://timesofindia.indiatimes.com/'
 whyItMatters: 'Four years of pre-trial detention under UAPA tests the boundaries of free speech, anti-terror statutes, and constitutional rights in India.'
@@ -64,7 +65,7 @@ Despite these defense arguments, the Delhi High Court rejected Khalid's bail ple
 
 The central context often overlooked in public debate is the mechanical structure of pre-trial incarceration under anti-terror statutes. Under regular Indian criminal procedure, bail is the rule and jail is the exception. Under UAPA, Section 43D(5) reverses that presumption by requiring courts to treat prosecution materials as accurate without cross-examining witnesses.
 
-This procedural threshold creates an extended holding pattern. In Khalid's case, four years have passed without the trial court commencing formal witness cross-examination, reflecting patterns seen in other complex [Delhi protest crackdowns](/cjp-delhi-mega-protest-crackdown/).
+This procedural threshold creates an extended holding pattern. In Khalid's case, four years have passed without the trial court commencing formal witness cross-examination, reflecting patterns seen in other complex [Delhi protest crackdowns](/cjp-protest-crackdown-jantar-mantar-oct-10/).
 
 Meanwhile, international accolades like the Martin Ennals Award evaluate personal advocacy principles, whereas Indian criminal courts operate under statutory statutory restrictions. Public debates framing the issue purely as human rights sainthood versus terror conspiracy ignore that both narratives remain legally untested in open court cross-examination, much like other high-profile [political speech disputes and court warrant battles](/dhruv-rathee-london-protest-vote-chori-defamation-warrant/).
 

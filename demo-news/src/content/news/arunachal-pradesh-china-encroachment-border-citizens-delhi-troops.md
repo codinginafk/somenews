@@ -8,6 +8,7 @@ tags: ['India', 'China', 'Arunachal Pradesh', 'border']
 author: 'Diyan'
 authorRole: 'Staff Writer'
 pubDate: '2026-10-25 10:45'
+updatedDate: '2026-11-15'
 heroImage: '/images/arunachal-border-encroachment.jpg'
 heroAlt: 'Silhouette of a Himalayan villager with livestock facing barbed wire and a watchtower against a cream background.'
 claim: 'While China annexes grazing lands with Xiaokang villages in Arunachal Pradesh, security forces are deployed to suppress student protests in Delhi.'
@@ -46,7 +47,7 @@ Local village councils report that grazing rights maintained for generations are
 
 ## 3. The capital lockdown: Policing students over foreign threats
 
-While Himalayan villagers seek stronger frontier protection, central authorities display immense logistical force inside the capital. As documented during the [October 10 CJP protest crackdown](/cjp-delhi-mega-protest-crackdown/) and earlier demonstrations [across central Delhi](/cjp-protest-october-2/), thousands of security personnel routinely mobilize to block civic gatherings.
+While Himalayan villagers seek stronger frontier protection, central authorities display immense logistical force inside the capital. As documented during the [October 10 CJP protest crackdown](/cjp-protest-crackdown-jantar-mantar-oct-10/) and earlier demonstrations [across central Delhi](/cjp-protest-october-2/), thousands of security personnel routinely mobilize to block civic gatherings.
 
 Units from the Central Reserve Police Force (CRPF), Rapid Action Force (RAF), and Delhi Police establish perimeter rings around university campuses and transit hubs. Roads leading to Parliament and administrative offices are shut down with iron barriers, container walls, and surveillance cameras.
 

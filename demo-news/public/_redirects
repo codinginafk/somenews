@@ -2,3 +2,4 @@
 # One 301 per renamed article slug. Trailing slashes on both sides.
 # Format: /old-slug/ /new-slug/ 301
 # (Added only when a published slug changes — see AGENTS.md §11.)
+/cjp-delhi-mega-protest-crackdown/ /cjp-protest-crackdown-jantar-mantar-oct-10/ 301

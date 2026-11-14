@@ -8,6 +8,7 @@ tags: ['US', 'immigration', 'tech', 'visa']
 author: 'Diyan'
 authorRole: 'Staff Writer'
 pubDate: '2026-10-09 16:32'
+updatedDate: '2026-11-15'
 primarySource: 'US Department of Labor Statements'
 primarySourceUrl: 'https://www.uscis.gov/'
 whyItMatters: 'With EB-2 and EB-3 backlogs already exceeding 20 years, suspending PERM processing traps thousands of skilled Indian tech workers in indefinite visa renewals.'
@@ -30,7 +31,7 @@ featured: true
 
 ## 1. The PERM suspension and the 1.5 ratio claim
 
-The American Dream has hit a severe roadblock for countless tech professionals, adding to a broader climate of [political tension](/cjp-delhi-mega-protest-crackdown/). In an explosive move, the US Department of Labor has put Green Card PERM processing on hold for major tech companies, including Microsoft, Adobe, Cognizant, Infosys, TCS, Wipro, HCL, and Capgemini. 
+The American Dream has hit a severe roadblock for countless tech professionals, adding to a broader climate of [political tension](/cjp-protest-crackdown-jantar-mantar-oct-10/). In an explosive move, the US Department of Labor has put Green Card PERM processing on hold for major tech companies, including Microsoft, Adobe, Cognizant, Infosys, TCS, Wipro, HCL, and Capgemini. 
 
 The political justification centers on allegations of corporate misuse. Vice President JD Vance launched a severe criticism of Silicon Valley and Indian IT outsourcing firms, claiming that for every employee Microsoft laid off, they replaced them with "1.5 foreign servants." While Microsoft has defended its practices, arguing that 80% of its filings were merely extensions for existing legal staff, critics maintain that the PERM process has been historically misused to suppress domestic tech wages. 
 

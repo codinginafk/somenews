@@ -69,7 +69,7 @@ The later record does not support it. Kolkata Police described the announcement 
 
 The physical evidence points the other way. When authorities discussed immersing the idols, the judicial probe panel said the pandal itself would remain standing and its structure must be preserved for examination. The panel, led by retired Justice Anindita Roy Saraswati, inspected the site and flagged the narrow entry and exit points and dim lighting as factors in the confusion.
 
-That does not mean the pandal was safe. It means the danger came from the crowd, the layout and the warning, not from a collapsing roof. The same pattern of narrow routes and unmanaged crowds has appeared in other [festival safety reviews](/devaragattu-banni-festival-stick-fight-kurnool-clashes/) and in [public transit restrictions during large gatherings](/cjp-delhi-mega-protest-crackdown/).
+That does not mean the pandal was safe. It means the danger came from the crowd, the layout and the warning, not from a collapsing roof. The same pattern of narrow routes and unmanaged crowds has appeared in other [festival safety reviews](/devaragattu-banni-festival-stick-fight-kurnool-clashes/) and in [public transit restrictions during large gatherings](/cjp-protest-crackdown-jantar-mantar-oct-10/).
 
 ## 3. What police say went wrong
 
