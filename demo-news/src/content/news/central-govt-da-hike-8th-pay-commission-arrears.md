@@ -65,7 +65,7 @@ Terms of references entail analyzing pay scales, UPS Gratuity, fiscal sustainabi
 - 6th Pay Commission: whose implementation took 32 months.
 - 7th Pay Commission: which submitted its report in November 2015 and got the acceptance after six months, with backpay from January 1, 2016.
 
-As Justice Desai has not yet submitted the report, and the Cabinet has not yet approved a notification, January 1, 2026 is not yet an approved date. The demonstrations over wage terms remain regular, as documented in earlier [union workplace demonstrations](/bank-strike-human-cost-sunday-duty/). The impending pre-Diwali money is standard DA maintenance, not a Pay Commission settlement.
+As Justice Desai has not yet submitted the report, and the Cabinet has not yet approved a notification, January 1, 2026 is not yet an approved date. The demonstrations over wage terms remain regular, as documented in our report on [bank strike deferrals and the Sunday duty behind them](/bank-strike-deferred-7-day-work-week/). The impending pre-Diwali money is standard DA maintenance, not a Pay Commission settlement.
 
 
 ## Sources to check yourself

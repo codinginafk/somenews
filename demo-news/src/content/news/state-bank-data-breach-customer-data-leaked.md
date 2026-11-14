@@ -68,7 +68,7 @@ Third, customer notification remains ambiguous. The bank's disclosure notes no d
 
 Because financial credentials remain unexposed, the immediate danger is not automated account draining. The real hazard is sophisticated social engineering. Fraudsters armed with a target's genuine name, branch name, date of birth, and CIF number can construct convincing spear-phishing calls. When a scammer quotes your exact branch and application ID over the phone, convincing you to share an OTP becomes far easier.
 
-For more background on public sector banking challenges, read our investigation into [mandatory weekend branch duty](/bank-strike-human-cost-sunday-duty/) and our analysis of the [disputed bank work week](/bank-strike-deferred-7-day-work-week/). To understand how corporate filings disclose statistical risk, see our reader guide on [how to read rankings](/how-to-read-rankings/).
+For more background on public sector banking challenges, read our investigation into [the deferred bank strike and the Sunday duty behind it](/bank-strike-deferred-7-day-work-week/). To understand how corporate filings disclose statistical risk, see our reader guide on [how to read rankings](/how-to-read-rankings/).
 
 ## Sources to check yourself
 

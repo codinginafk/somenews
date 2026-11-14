@@ -46,7 +46,7 @@ The psychological cost of voluntary unemployment surfaced on her first Monday wi
 
 "There's an unsaid pressure that I have to do well, and there's a certain amount of money in my bank account which I know will not last for long," Sahu acknowledged. "My attention span has gone for a toss. I'm not able to watch anything without picking up my phone and looking at Instagram, scrolling and looking at the number of followers."
 
-A salaried job delivers income, daily predictability, defined targets, and measurable momentum. Removing that framework forces a person to manufacture an artificial structure from scratch, as seen in wider studies on [workplace burnout realities](/bank-strike-human-cost-sunday-duty/). Instead of deep relaxation, Sahu found her attention captured by digital metrics, echoing patterns analyzed in our reports on [algorithmic attention loops](/brazil-bricklayer-ai-girlfriend-tiktok-fact-check/).
+A salaried job delivers income, daily predictability, defined targets, and measurable momentum. Removing that framework forces a person to manufacture an artificial structure from scratch, as seen in the case of [bank staff who worked through their weekly rest](/bank-strike-deferred-7-day-work-week/). Instead of deep relaxation, Sahu found her attention captured by digital metrics, echoing patterns analyzed in our reports on [algorithmic attention loops](/brazil-bricklayer-ai-girlfriend-tiktok-fact-check/).
 
 ## 3. The debate: Coastal retreat vs economic reality
 
