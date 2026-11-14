@@ -1,25 +1,35 @@
 ---
-title: "why PHP shell RCE vulnerabilities are critical: PHP2Shell Core RCE Flaws Affect 70% of the Web"
-seoTitle: "PHP2Shell RCE Flaws in Core PHP Engine: Fact Check"
-excerpt: "Flaws in core PHP request handling permit unauthenticated remote code execution, prompting coordinated emergency updates across cloud CDNs."
-description: "Wiz Research uncovered critical memory safety bugs in core PHP, triggering emergency global security patches across web hosting infrastructure."
+title: "PHP2Shell: Why Two Core PHP Flaws Put 70% of the Web at Risk"
+seoTitle: "PHP2Shell RCE Flaws: CVE-2026-109618 and 109619"
+excerpt: "Two memory-safety bugs in core PHP allow unauthenticated remote code execution and memory disclosure. Patches and a CISA KEV listing followed within days."
+description: "PHP2Shell: CVE-2026-109618 and CVE-2026-109619 allow unauthenticated RCE in core PHP. What Wiz found, who is affected, and how to patch."
 category: 'Reality Check'
 tags: ['cybersecurity', 'php', 'vulnerabilities', 'wiz']
 author: 'Yash'
 authorRole: 'Contributing Writer'
 pubDate: '2026-10-22 13:30'
-primarySource: 'UK NCSC Security Advisory and Wiz Research Threat Briefing on PHP Core'
-primarySourceUrl: 'https://www.ncsc.gov.uk/'
+primarySource: 'CISA alert on PHP vulnerabilities CVE-2026-109618 and CVE-2026-109619'
+primarySourceUrl: 'https://www.cisa.gov/news-events/alerts/2026/10/21/critical-vulnerabilities-php-require-immediate-patching'
 whyItMatters: 'PHP powers seven in ten websites worldwide; engine-level memory flaws execute beneath application security controls.'
+updatedDate: '2026-11-14'
 sources:
-  - title: 'UK National Cyber Security Centre: Critical security issue affecting PHP'
-    url: 'https://www.ncsc.gov.uk/'
-    publisher: 'NCSC'
-  - title: 'Wiz Blog: PHP2Shell AI Uncovers Critical RCE Vulnerabilities'
-    url: 'https://www.wiz.io/'
+  - title: 'Critical Vulnerabilities in PHP Require Immediate Patching'
+    url: 'https://www.cisa.gov/news-events/alerts/2026/10/21/critical-vulnerabilities-php-require-immediate-patching'
+    publisher: 'CISA'
+  - title: 'PHP2Shell: AI uncovers critical RCE vulnerabilities affecting 70% of the Internet'
+    url: 'https://www.wiz.io/blog/php2shell-php-rce'
     publisher: 'Wiz Research'
-  - title: 'The PHP Group: Official Core Security Releases'
-    url: 'https://www.php.net/'
+  - title: 'PHP2Shell: Exploitation Attempts and Remediation Trends'
+    url: 'https://www.wiz.io/blog/php2shell-exploitation-so-far'
+    publisher: 'Wiz Research'
+  - title: 'php2shell (CVE-2026-109618, CVE-2026-109619): Critical PHP RCE FAQ'
+    url: 'https://www.tenable.com/blog/php2shell-cve-2026-109618-cve-2026-109619-frequently-asked-questions-about-critical-php-remote'
+    publisher: 'Tenable'
+  - title: 'Critical security issue affecting PHP'
+    url: 'https://www.ncsc.gov.uk/news/critical-security-issue-affecting-php'
+    publisher: 'National Cyber Security Centre'
+  - title: 'PHP: News Archive - 2026'
+    url: 'https://www.php.net/archive/2026.php'
     publisher: 'The PHP Group'
 heroImage: '/images/php2shell-core-vulnerability.jpg'
 heroAlt: 'Stark editorial illustration of towering server rack silhouettes with a vermilion memory breach highlight'
@@ -29,7 +39,9 @@ claimSource: 'Viral cybersecurity headlines and technical threat alerts, October
 verdict: 'True with context'
 ---
 
-**Short answer:** Core PHP engine vulnerabilities tracked as CVE-2026-109618 and CVE-2026-109619 allow unauthenticated attackers to execute arbitrary code or read raw process memory. The underlying memory flaws exist in PHP releases dating back to version 5.4, covering roughly 70% of the public web. While proof-of-concept exploits succeeded against standard WordPress, Drupal, and Joomla containers, exploitation requires strict heap conditions, and coordinated cloud provider defenses deployed prior to disclosure.
+**Short answer:** Core PHP engine vulnerabilities tracked as CVE-2026-109618 and CVE-2026-109619 allow unauthenticated attackers to execute arbitrary code or read raw process memory. The underlying memory flaws exist in PHP releases dating back to version 5.4, covering roughly 70% of the public web. Wiz demonstrated working exploits against standard WordPress, Drupal and Joomla containers, but exploitation requires strict heap conditions. Cloud providers prepared mitigations before disclosure, and CISA added both flaws to its Known Exploited Vulnerabilities catalog on October 26, 2026.
+
+*Correction (2026-11-14): An earlier version said major cloud providers had already deployed edge rules before public disclosure and listed the patched branches as PHP 8.1, 8.2 and 8.3. Wiz and CISA report that providers prepared mitigations before disclosure, and CISA lists the fixed versions as PHP 8.5.12, 8.4.27, 8.3.36 and 8.2.35. The earlier version also omitted the October 26 KEV addition.*
 
 ## 1. What the viral report claims
 
@@ -41,7 +53,7 @@ The coverage highlights that the vulnerable code has lived inside PHP for over a
 
 ## 2. What the technical data and CVEs confirm
 
-On October 21, 2026, the PHP development team released emergency updates addressing two critical advisories with severity scores reaching CVSS 9.2.
+On October 21, 2026, the PHP development team released emergency updates addressing two critical advisories with severity scores reaching CVSS 9.2. CISA lists the fixed versions as PHP 8.5.12, 8.4.27, 8.3.36 and 8.2.35.
 
 The flaws center on how the PHP Zend engine handles fatal out-of-memory errors during HTTP request termination. When an allocation fails during request startup, internal cleanup paths can leave stale pointers inside worker memory.
 
@@ -59,15 +71,17 @@ While the technical risk is acute, real-world exploitation is not an automatic o
 
 First, successful remote exploitation requires precise manipulation of request timing and memory limits. Attackers must trigger an out-of-memory error during specific initialization windows and ensure subsequent requests land on the exact same worker process.
 
-Second, major cloud providers including Cloudflare, AWS, Google Cloud, Fastly, and Akamai deployed edge rules and runtime filtering prior to public disclosure. These shields block anomalous multipart requests that attempt to force early allocation crashes. Similar coordinated protections were deployed during recent [TLS certificate revocations](/emudhra-tls-intermediate-certificates-compromised-fact-check/), illustrating how edge infrastructure buffers backend runtimes while teams patch.
+Second, major cloud providers including Cloudflare, AWS, Google Cloud, Fastly and Akamai prepared edge rules and runtime filtering alongside Wiz before disclosure. These controls can block anomalous multipart requests that attempt to force early allocation crashes. CISA describes a web application firewall as a stopgap that may provide some protection until systems are updated. Similar coordinated protections were deployed during recent [TLS certificate revocations](/emudhra-tls-intermediate-certificates-compromised-fact-check/), illustrating how edge infrastructure buffers backend runtimes while teams patch.
 
-The UK National Cyber Security Centre (NCSC) issued an alert advising organizations to audit internet-facing hosts immediately. The agency urged administrators to apply engine updates immediately. Where upgrades stall, teams should apply PHP Foundation mitigations and monitor server logs for worker crashes. Similar structural isolation benefits have been documented in [memory-safe software engines](/artcraft-rust-creative-engine-adobe-alternative/), highlighting the systemic shift away from manual memory management in core web runtimes.
+The UK National Cyber Security Centre (NCSC) issued an alert advising organizations to patch internet-facing hosts immediately. CISA went further: organizations that cannot update immediately, or that still run PHP 8.1 or earlier, should take PHP-based systems offline until they can be patched. Administrators should also monitor for PHP worker processes launching shells or downloading tools. Similar structural isolation benefits have been documented in [memory-safe software engines](/artcraft-rust-creative-engine-adobe-alternative/), highlighting the systemic shift away from manual memory management in core web runtimes.
 
 ## Sources to check yourself
 
-- UK National Cyber Security Centre: Advisory on CVE-2026-109618 and CVE-2026-109619 memory corruption flaws (October 2026).
-- Wiz Research: Technical threat briefing on PHP2Shell engine exploits and AI-assisted discovery workflows.
-- The PHP Group: Official security releases for PHP 8.1, 8.2, and 8.3 maintenance branches.
+- [CISA](https://www.cisa.gov/news-events/alerts/2026/10/21/critical-vulnerabilities-php-require-immediate-patching): the fixed PHP versions, affected server setups and the October 26 KEV addition.
+- [Wiz Research](https://www.wiz.io/blog/php2shell-php-rce): the technical disclosure, the four bug classes, the CVSS 9.2 rating and the disclosure timeline.
+- [Wiz Research exploitation update](https://www.wiz.io/blog/php2shell-exploitation-so-far): observed exploitation attempts and remediation trends after disclosure.
+- [Tenable](https://www.tenable.com/blog/php2shell-cve-2026-109618-cve-2026-109619-frequently-asked-questions-about-critical-php-remote): an independent FAQ on exposure and patching.
+- [NCSC](https://www.ncsc.gov.uk/news/critical-security-issue-affecting-php) and [php.net](https://www.php.net/archive/2026.php): official advisories and the PHP release archive.
 
 ## Frequently asked questions
 
