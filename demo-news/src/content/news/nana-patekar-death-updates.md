@@ -10,19 +10,20 @@ tags: ['bollywood', 'india', 'obituary']
 author: 'Diyan'
 authorRole: 'Staff Writer'
 pubDate: '2026-10-08 08:29'
-primarySource: 'NDTV'
-primarySourceUrl: 'https://www.ndtv.com/'
+primarySource: 'Hindustan Times report on Nana Patekar death and Goa hospital timeline'
+primarySourceUrl: 'https://www.hindustantimes.com/htcity/cinema/nana-patekar-dies-at-75-due-to-cardiac-arrest-was-found-unconscious-at-goa-residence-101791426104387.html'
 whyItMatters: 'Indian cinema has lost an unparalleled icon known for his explosive acting and immense philanthropic impact on Maharashtra’s farmers.'
+updatedDate: '2026-11-14'
 sources:
-  - title: 'NDTV Home'
-    url: 'https://www.ndtv.com/'
-    publisher: 'NDTV'
-  - title: 'The Times of India'
-    url: 'https://timesofindia.indiatimes.com/'
-    publisher: 'The Times of India'
-  - title: 'The Hindu'
-    url: 'https://www.thehindu.com/'
-    publisher: 'The Hindu'
+  - title: 'Nana Patekar dies at 75 due to cardiac arrest; was found unconscious at Goa residence'
+    url: 'https://www.hindustantimes.com/htcity/cinema/nana-patekar-dies-at-75-due-to-cardiac-arrest-was-found-unconscious-at-goa-residence-101791426104387.html'
+    publisher: 'Hindustan Times'
+  - title: 'Fact Check: नाना पाटेकर के आखिरी पलों के नाम पर वायरल हो रहे असंबंधित वीडियो'
+    url: 'https://www.vishvasnews.com/entertainment/fact-check-actor-nana-patekar-last-rites-with-viral-unrelated-videos-truth/'
+    publisher: 'Vishvas News'
+  - title: '#FactCheck: Old Video of Actor Mushtaq Khan’s Funeral Falsely Shared as Nana Patekar’s Final Farewell'
+    url: 'https://cyberpeace.org/resources/blogs/factcheck-old-video-of-actor-mushtaq-khans-funeral-falsely-shared-as-nana-patekars-final-farewell'
+    publisher: 'CyberPeace'
 heroImage: '/images/nana-patekar.jpg'
 heroAlt: 'Silhouette of a legendary actor taking a final bow'
 claim: 'Veteran actor Nana Patekar has died of a cardiac arrest.'
@@ -54,9 +55,9 @@ In a chillingly prophetic moment just four days before his passing, Patekar atte
 
 ## Sources to check yourself
 
-- NDTV covers the exact timeline of events in Goa and tributes.
-- The Times of India provides details of the MLC and personal anecdotes from close friends.
-- The Hindu outlines the official confirmation of State Honours and his philanthropic work.
+- [Hindustan Times](https://www.hindustantimes.com/htcity/cinema/nana-patekar-dies-at-75-due-to-cardiac-arrest-was-found-unconscious-at-goa-residence-101791426104387.html): the Goa hospital timeline and official tributes.
+- [Vishvas News](https://www.vishvasnews.com/entertainment/fact-check-actor-nana-patekar-last-rites-with-viral-unrelated-videos-truth/): fact-check of unrelated videos circulated as his final moments.
+- [CyberPeace](https://cyberpeace.org/resources/blogs/factcheck-old-video-of-actor-mushtaq-khans-funeral-falsely-shared-as-nana-patekars-final-farewell): verification that a funeral clip belonged to actor Mushtaq Khan.
 
 ## Frequently asked questions
 

@@ -13,22 +13,23 @@ heroAlt: 'Editorial illustration in cream and charcoal showing replenished crypt
 claim: 'Binance is insolvent and users will suffer major losses following the $6.3 billion North Korean cyber heist.'
 claimSource: 'Social media rumors, panic sell-off threads, and online trading forums, October 2026'
 verdict: 'False — with context'
-primarySource: 'Binance Official Treasury Statements and FBI National Cyber Division Attribution Announcement'
-primarySourceUrl: 'https://www.justice.gov'
+primarySource: 'Crypto firm Binance covers 90% of losses after $6.3bn hack'
+primarySourceUrl: 'https://www.bbc.com/news/articles/ckpdg3ql4169o'
 whyItMatters: 'Covering $6.3 billion within 48 hours is unprecedented in crypto history, demonstrating whether top exchanges can survive state-sponsored cyber warfare without stranding customer funds.'
+updatedDate: '2026-11-14'
 sources:
-  - title: 'BBC Business: Crypto Firm Binance Covers 90% of Losses After $6.3 Billion Hack'
-    url: 'https://www.bbc.com/news'
+  - title: 'Crypto firm Binance covers 90% of losses after $6.3bn hack'
+    url: 'https://www.bbc.com/news/articles/ckpdg3ql4169o'
     publisher: 'BBC News'
-  - title: 'Federal Bureau of Investigation: Cyber Division Statement on TraderTraitor Infiltration'
-    url: 'https://www.justice.gov'
-    publisher: 'Federal Bureau of Investigation'
-  - title: 'Chainalysis Market Intel: Exchange Liquidity Replenishment and Asset Tracking'
-    url: 'https://www.chainalysis.com'
-    publisher: 'Chainalysis'
-  - title: 'CNBC Markets: Binance Pledges Corporate Treasury to Back All User Balances'
-    url: 'https://www.cnbc.com'
+  - title: 'Binance resumes withdrawals following record $6.3 billion hack'
+    url: 'https://www.cnbc.com/2026/10/31/binance-hack-asset-coverage-withdrawals.html'
     publisher: 'CNBC'
+  - title: 'Binance resumes customer withdrawals after record $6.3bn hack'
+    url: 'https://www.theguardian.com/business/2026/nov/01/binance-losses-covered-hack-fbi-north-korea-cryptocurrency'
+    publisher: 'The Guardian'
+  - title: 'Binance Hack: Tracing the $6.4 Billion Theft to North Korea'
+    url: 'https://www.chainalysis.com/blog/binance-exploit-latest-findings-and-response/'
+    publisher: 'Chainalysis'
 ---
 
 **Short answer:** Binance is not insolvent, and user balances have not been wiped out. Just 48 hours after suffering a record-breaking $6.3 billion cyber heist, the world's largest cryptocurrency exchange announced that it has already replaced 90 percent of the stolen assets using its own corporate treasury. All customer holdings of Bitcoin, Ethereum, and Tether are completely covered, along with seven other heavily traded tokens. Meanwhile, the Federal Bureau of Investigation officially confirmed on Saturday that North Korea's state-backed Lazarus Group carried out the attack. With the bulk of stolen reserves replenished, Binance confirmed it remains on track to reopen user withdrawals on Sunday, November 1.
@@ -41,7 +42,7 @@ This time, the response was vastly different.
 
 Instead of halting operations or asking for bailouts, Binance dipped deep into its own balance sheet. On Saturday, company leadership confirmed that it had successfully replenished 90 percent of all stolen funds:
 
-- Massive corporate reserves: Binance holds more than $160 billion in assets under custody. That deep war chest allowed the exchange to absorb an enormous financial blow without collapsing.
+- Corporate treasury and insurance funds: Binance said the money came from its $1 billion secure asset fund for users, part of its futures insurance fund, and its own corporate treasury (The Guardian).
 - Total coverage for top tokens: Every single customer deposit in Bitcoin, Ethereum, and Tether has been fully restored. Seven additional widely traded digital assets were also completely restocked.
 - Setting aside $6.34 billion: The company set aside more than $6.34 billion in dedicated corporate funds to ensure no retail trader is left empty-handed.
 - Clear public commitment: In an official statement, Binance declared that the company will absorb the financial impact of the stolen funds, not its users.
@@ -84,18 +85,18 @@ Binance acknowledged that securing the final 10 percent could take slightly long
 
 - Liquidity bottlenecks: While Bitcoin and Ethereum trade in billions every hour, smaller altcoins have limited market supply. Buying hundreds of millions of dollars worth of niche tokens all at once would trigger wild price spikes.
 - Ongoing market buying: Binance confirmed it is actively buying tokens on open markets and working with institutional liquidity providers to fill the remaining gaps.
-- Frozen assets awaiting return: Stablecoin issuers like Tether and Circle have already blacklisted and frozen roughly $2.4 billion in stolen addresses. Legal teams are working through court orders to return those frozen tokens directly to Binance treasury accounts.
+- Frozen assets awaiting return: Binance said on Friday that it had frozen around $3 billion of stolen assets after working with law enforcement, intelligence firms, and partners (BBC). Legal teams are working through court orders to return frozen tokens directly to Binance treasury accounts.
 
-Combined with [the ongoing $3 billion recovery efforts](/binance-recovery-6-billion-frozen-customer-funds-reality-check/), Binance has built a substantial buffer to protect retail balances.
+Combined with [the ongoing recovery efforts](/binance-recovery-6-billion-frozen-customer-funds-reality-check/), Binance has built a substantial buffer to protect retail balances.
 
 For the broader crypto industry, this weekend marks a dramatic turning point. While the hack exposed serious vulnerabilities in exchange infrastructure, Binance's ability to cover a record-breaking loss out of pocket proves that modern digital asset giants can withstand state-sponsored cyber warfare.
 
 ## Sources to check yourself
 
-- BBC News Technology: Read real-time reports on Binance loss coverage and withdrawal schedules.
-- Federal Bureau of Investigation Cyber Division: Check official press statements naming North Korea's TraderTraitor unit.
-- Chainalysis Incident Briefings: Follow on-chain analytics detailing exchange replenishment flows.
-- CNBC Business Coverage: Review corporate financial disclosures regarding Binance treasury allocations.
+- [BBC News](https://www.bbc.com/news/articles/ckpdg3ql4169o): the 90% coverage figure, $6.34 billion set-aside, and phased withdrawal restart.
+- [CNBC](https://www.cnbc.com/2026/10/31/binance-hack-asset-coverage-withdrawals.html): withdrawal resumption and corporate balance-sheet coverage.
+- [The Guardian](https://www.theguardian.com/business/2026/nov/01/binance-losses-covered-hack-fbi-north-korea-cryptocurrency): Richard Teng's statements, the FBI attribution, and the source of the replenishment funds.
+- [Chainalysis](https://www.chainalysis.com/blog/binance-exploit-latest-findings-and-response/): on-chain tracing of the stolen funds and the North Korea attribution.
 
 ## Frequently asked questions
 

@@ -15,22 +15,23 @@ trending: true
 claim: 'Hilary Swank is pregnant at 52 and expecting her third child'
 claimSource: 'CBS News, PEOPLE, ABC News, October 14-15, 2026'
 verdict: 'Explainer'
-primarySource: 'CBS News and PEOPLE Magazine'
-primarySourceUrl: 'https://www.cbsnews.com/'
+primarySource: 'CBS News report on the pregnancy announcement and ACOG guidance on advanced maternal age'
+primarySourceUrl: 'https://www.cbsnews.com/news/hilary-swank-pregnant-third-child-52/'
 whyItMatters: 'As U.S. birth rates shift toward older mothers, Swank pregnancy at 52 spotlights both the possibilities and medical realities of late motherhood.'
+updatedDate: '2026-11-14'
 sources:
-  - title: 'CBS News'
-    url: 'https://www.cbsnews.com/'
+  - title: 'Hilary Swank announces she is pregnant with her third child at 52'
+    url: 'https://www.cbsnews.com/news/hilary-swank-pregnant-third-child-52/'
     publisher: 'CBS News'
-  - title: 'ABC News'
-    url: 'https://abcnews.go.com/'
+  - title: 'Hilary Swank, 52, expecting her 3rd child'
+    url: 'https://abcnews.go.com/GMA/Family/hilary-swank-52-expecting-3rd-child/story?id=137270741'
     publisher: 'ABC News'
-  - title: 'American College of Obstetricians and Gynecologists'
-    url: 'https://www.acog.org/'
+  - title: 'Pregnancy at Age 35 Years or Older'
+    url: 'https://www.acog.org/clinical/guidance/obstetric-care-consensus/2022/08/pregnancy-at-age-35-years-or-older/'
     publisher: 'ACOG'
-  - title: 'Centers for Disease Control and Prevention'
-    url: 'https://www.cdc.gov/'
-    publisher: 'CDC'
+  - title: 'Hilary Swank'
+    url: 'https://en.wikipedia.org/wiki/Hilary_Swank'
+    publisher: 'Wikipedia'
 ---
 
 **Short answer:** Hilary Swank stands 5 feet 6 inches (168 cm) tall. She has been married twice: first to actor Chad Lowe (1997-2007), then to entrepreneur Philip Schneider (2018-present). On October 14, 2026, the double Oscar winner announced she is pregnant with her third child at age 52, three years after welcoming twins Aya and Ohm.
@@ -89,16 +90,16 @@ The medical term for pregnancy at 35 or older is "advanced maternal age," accord
 
 Pregnancy risks generally increase with age, particularly after 40 (ACOG). Women who become pregnant later in life face increased risks of gestational diabetes, preeclampsia, miscarriage, and preterm birth.
 
-The broader trend matters. In 2025, birth rates increased for women ages 30 to 44 while rates declined for women in their 20s, compared with the previous year, according to provisional data from the Centers for Disease Control and Prevention. Swank's pregnancy at 52 sits at the far edge of this demographic shift, similar to how data often tells a different story when you look past the headline (as examined in our coverage of [how rankings can mislead](/how-to-read-rankings/)).
+The broader trend matters. In 2025, birth rates increased for women ages 30 to 44 while rates declined for women in their 20s, compared with the previous year, according to provisional CDC data cited by ABC News. Swank's pregnancy at 52 sits at the far edge of this demographic shift, similar to how data often tells a different story when you look past the headline (as examined in our coverage of [how rankings can mislead](/how-to-read-rankings/)).
 
 "When someone is over 35, her doctor is going to look for things a little bit more, just to make sure things are going well," Mehta-Lee told ABC News. "It offers an opportunity for the doctor to look one more time, to think about it one more time, and that's not necessarily a bad thing."
 
 ## Sources to check yourself
 
-- CBS News carries the announcement timeline and OB-GYN commentary from Dr. Kameelah Phillips.
-- ABC News provides detailed medical context from Dr. Shilpi Mehta-Lee at NYU Langone and CDC birth rate data.
-- ACOG publishes clinical guidelines on advanced maternal age and associated pregnancy risks.
-- CDC provisional birth data tracks age-specific birth rate trends across the United States.
+- [CBS News](https://www.cbsnews.com/news/hilary-swank-pregnant-third-child-52/): the announcement timeline and OB-GYN commentary from Dr. Kameelah Phillips.
+- [ABC News](https://abcnews.go.com/GMA/Family/hilary-swank-52-expecting-3rd-child/story?id=137270741): medical context from Dr. Shilpi Mehta-Lee at NYU Langone and CDC birth rate data.
+- [ACOG](https://www.acog.org/clinical/guidance/obstetric-care-consensus/2022/08/pregnancy-at-age-35-years-or-older/): clinical guidance on advanced maternal age and associated pregnancy risks.
+- [Wikipedia](https://en.wikipedia.org/wiki/Hilary_Swank): biographical details including her listed height and both marriages.
 
 ## Frequently asked questions
 
@@ -112,4 +113,4 @@ A: She married entrepreneur Philip Schneider in August 2018. They share twins Ay
 A: Yes. She was married to actor Chad Lowe from 1997 to 2007.
 
 **Q: Is it safe to have a baby at 52?**
-A: Medical experts say pregnancy at 52 is extremely rare and carries higher risks of gestational diabetes, preeclampsia, and preterm birth (ACOG, CDC). Most pregnancies at this age involve IVF and are closely monitored by a high-risk obstetric team.
+A: Medical experts say pregnancy at 52 is extremely rare and carries higher risks of gestational diabetes, preeclampsia, and preterm birth (ACOG; CDC data cited by ABC News). Most pregnancies at this age involve IVF and are closely monitored by a high-risk obstetric team.

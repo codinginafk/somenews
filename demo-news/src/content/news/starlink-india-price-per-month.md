@@ -8,22 +8,23 @@ tags: ['tech', 'india', 'telecom', 'starlink']
 author: 'Diyan'
 authorRole: 'Staff Writer'
 pubDate: '2026-10-11 15:30'
-primarySource: 'SpaceX Starlink Rate Schedules & TRAI Data Tariffs'
-primarySourceUrl: 'https://www.trai.gov.in/'
+primarySource: 'TRAI Telecom Subscriptions Reports'
+primarySourceUrl: 'https://trai.gov.in/release-publication/reports/telecom-subscriptions-reports'
 whyItMatters: "Comparing Starlink's US retail tiers with Indian mobile data tariffs reveals the steep price gap SpaceX must close to compete with domestic carriers."
+updatedDate: '2026-11-14'
 sources:
-  - title: 'TRAI Telecom Subscription & Tariff Reports'
-    url: 'https://www.trai.gov.in/'
+  - title: 'Starlink'
+    url: 'https://www.starlink.com/service-plans'
+    publisher: 'Starlink'
+  - title: 'Musk vows ‘affordable’ Starlink in India as he escalates feud with Ambani'
+    url: 'https://www.aljazeera.com/economy/2026/10/11/musk-vows-affordable-starlink-in-india-as-he-escalates-feud-with-ambani'
+    publisher: 'Al Jazeera'
+  - title: 'Inside India newsletter: Ambani’s mega-IPO faces valuation concern'
+    url: 'https://www.cnbc.com/2026/10/15/india-starlink-musk-jio-ambani-ipo.html'
+    publisher: 'CNBC'
+  - title: 'Telecom Subscriptions Reports'
+    url: 'https://trai.gov.in/release-publication/reports/telecom-subscriptions-reports'
     publisher: 'Telecom Regulatory Authority of India'
-  - title: 'The Hindu Science and Technology'
-    url: 'https://www.thehindu.com/sci-tech/technology/'
-    publisher: 'The Hindu'
-  - title: 'The Indian Express Technology'
-    url: 'https://indianexpress.com/section/technology/'
-    publisher: 'The Indian Express'
-  - title: 'International Telecommunication Union Spectrum Guidelines'
-    url: 'https://www.itu.int/'
-    publisher: 'ITU'
 heroImage: '/images/starlink-india-price-per-month.jpg'
 heroAlt: 'A stark editorial illustration in cream, black silhouette, and red-orange showing a satellite receiver dish beside a price chart.'
 claim: 'Starlink will be cheap in India and beat local mobile network prices.'
@@ -87,10 +88,10 @@ Users in maritime zones, remote border regions, and high-altitude valleys benefi
 
 ## Sources to check yourself
 
-- Telecom Regulatory Authority of India: Track published tariffs, ARPU metrics, and satellite consultation papers.
-- International Telecommunication Union: Review global spectrum coordination and pricing frameworks.
-- The Hindu Science and Technology: Follow Department of Telecommunications clearance decisions.
-- The Indian Express Technology: Check coverage of telecom carrier earnings and IPO filings.
+- [Starlink service plans](https://www.starlink.com/service-plans): official US residential and roam rate cards.
+- [TRAI Telecom Subscriptions Reports](https://trai.gov.in/release-publication/reports/telecom-subscriptions-reports): Indian subscriber totals and published tariff data.
+- [Al Jazeera](https://www.aljazeera.com/economy/2026/10/11/musk-vows-affordable-starlink-in-india-as-he-escalates-feud-with-ambani): Musk's affordability pledge and the Jio IPO timing.
+- [CNBC](https://www.cnbc.com/2026/10/15/india-starlink-musk-jio-ambani-ipo.html): the valuation reset and regulatory context around Jio's listing.
 
 ## Frequently asked questions
 
