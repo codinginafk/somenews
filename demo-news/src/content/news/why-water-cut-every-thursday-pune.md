@@ -8,21 +8,25 @@ tags: ['Pune', 'water crisis', 'Maharashtra', 'drought']
 author: 'Wasim'
 authorRole: 'Contributing Writer'
 pubDate: '2026-10-14 20:30'
+updatedDate: '2026-11-14'
 heroImage: '/images/pune-water-cut.jpg'
 heroAlt: 'Minimalist silhouette illustration of a dripping water tap and dry earth'
-primarySource: 'Maharashtra Water Resources Department GR (October 6, 2026)'
-primarySourceUrl: 'https://maharashtra.gov.in/'
+primarySource: 'The Hindu report on Pune suspending water supply every Thursday from October 15'
+primarySourceUrl: 'https://www.thehindu.com/news/national/maharashtra/pune-to-suspend-water-supply-every-thursday-from-october-15/article71582730.ece'
 whyItMatters: 'Pune joins 265 drought-hit talukas across Maharashtra under strict water rationing. Understanding reservoir math protects households from dry taps.'
 sources:
   - title: 'Pune to suspend water supply every Thursday from October 15'
-    url: 'https://www.thehindu.com/'
+    url: 'https://www.thehindu.com/news/national/maharashtra/pune-to-suspend-water-supply-every-thursday-from-october-15/article71582730.ece'
     publisher: 'The Hindu'
-  - title: 'Weekly water cuts, borewell ban: Maharashtra tightens restrictions amid drought'
-    url: 'https://www.downtoearth.org.in/'
-    publisher: 'Down to Earth'
-  - title: 'Drought-hit Pune bans drinking water use for construction'
-    url: 'https://indianexpress.com/'
-    publisher: 'The Indian Express'
+  - title: 'Pune Water Cut Every Thursday From 15 October: What to Know'
+    url: 'https://thebetterindia.com/governance/pune-water-cut-every-thursday-october-15-pmc-12674811'
+    publisher: 'The Better India'
+  - title: 'Pune: PMC Bans Water Use At Vehicle-Washing Centres, Suspends Supply Every Thursday From October 15'
+    url: 'https://www.mypunepulse.com/pune-pmc-bans-water-use-at-vehicle-washing-centres-suspends-supply-every-thursday-from-october-15/'
+    publisher: 'Pune Pulse'
+  - title: 'Pune Water Cut News: PMC Announces Weekly Thursday Water Supply Shutdown in Pune'
+    url: 'https://www.loksatta.com/pune/pune-water-cut-every-thursday-pune-municipal-corporation-decision-news-pune-print-news-sap-05-6187912/'
+    publisher: 'Loksatta'
 claim: 'Pune is facing sudden unannounced water cuts with no clear reason'
 claimSource: 'Resident queries and viral WhatsApp messages, October 2026'
 verdict: 'True with context'
@@ -82,9 +86,10 @@ Households across Pune need to adjust their routines for the weekly cycle:
 
 ## Sources to check yourself
 
-- Maharashtra Water Resources Department Government Resolution (October 6, 2026, dam storage micro-planning)
-- Pune Municipal Corporation official water supply press release (October 12-14, 2026)
-- The Hindu and Down to Earth reporting on Maharashtra drought talukas and reservoir capacity
+- [The Hindu: Pune to suspend water supply every Thursday from October 15](https://www.thehindu.com/news/national/maharashtra/pune-to-suspend-water-supply-every-thursday-from-october-15/article71582730.ece): the PMC announcement and Khadakwasla storage position.
+- [The Better India: Pune water cut every Thursday from 15 October](https://thebetterindia.com/governance/pune-water-cut-every-thursday-october-15-pmc-12674811): how the weekly shutdown is meant to stretch supply.
+- [Pune Pulse: PMC bans water use at vehicle-washing centres](https://www.mypunepulse.com/pune-pmc-bans-water-use-at-vehicle-washing-centres-suspends-supply-every-thursday-from-october-15/): the restrictions that accompany the cut.
+- [Loksatta: PMC announces weekly Thursday water supply shutdown](https://www.loksatta.com/pune/pune-water-cut-every-thursday-pune-municipal-corporation-decision-news-pune-print-news-sap-05-6187912/): the state order and the PMC decision.
 
 ## Frequently asked questions
 

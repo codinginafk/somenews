@@ -8,24 +8,25 @@ tags: ['tech layoffs', 'Intel', 'Oracle', 'Amazon', 'TCS', 'AI']
 author: 'Diyan'
 authorRole: 'Staff Writer'
 pubDate: '2026-10-28 13:15'
+updatedDate: '2026-11-14'
 heroImage: '/images/tech-layoffs-2026-top-companies.jpg'
 heroAlt: 'Minimalist editorial illustration in cream and charcoal showing corporate towers, departing workers, and descending job cut trendlines with vermilion accent'
 claim: 'Tech layoffs slowed down in 2026 as macroeconomic conditions stabilized and enterprise tech firms resumed normal baseline hiring.'
 claimSource: 'Early 2026 workforce stabilization outlooks and tech commentary threads'
-verdict: 'False'
-primarySource: 'Layoffs.fyi Tracker, Corporate SEC 10-Q Disclosures, and Quarterly Earnings Statements'
-primarySourceUrl: 'https://layoffs.fyi/'
+verdict: 'False — with context'
+primarySource: 'Business Standard global tech layoffs tally, citing the Layoffs.fyi tracker'
+primarySourceUrl: 'https://www.business-standard.com/industry/news/global-tech-layoffs-2026-oracle-amazon-dell-uber-paypal-it-sector-job-cuts-126091100188_1.html'
 whyItMatters: 'Unlike post-pandemic overhiring corrections, 2026 job cuts reflect permanent structural automation and the transfer of payroll capital to server infrastructure.'
 sources:
-  - title: 'Layoffs.fyi: 2026 Global Tech Layoff Tracking Database'
-    url: 'https://layoffs.fyi/'
-    publisher: 'Layoffs.fyi'
-  - title: 'Bloomberg Technology: Semiconductor and Enterprise Restructuring Logs'
-    url: 'https://www.bloomberg.com/technology'
-    publisher: 'Bloomberg'
-  - title: 'Reuters Business: IT Services Firms Trim Bench Amid Automated Code Deployment'
-    url: 'https://www.reuters.com/technology/'
-    publisher: 'Reuters'
+  - title: 'Tech layoffs tracker 2026: All the job losses across Disney, Amazon, Microsoft, Apple, Meta and more'
+    url: 'https://tech.yahoo.com/general/breaking-news/article/tech-layoffs-tracker-2026-all-the-job-losses-across-netflix-amazon-apple-oracle-tiktok-meta-and-others-133546661.html'
+    publisher: 'Yahoo Tech'
+  - title: 'From Oracle to Amazon: Tech giants drive global wave of layoffs in 2026'
+    url: 'https://www.business-standard.com/industry/news/global-tech-layoffs-2026-oracle-amazon-dell-uber-paypal-it-sector-job-cuts-126091100188_1.html'
+    publisher: 'Business Standard'
+  - title: 'Tech layoffs: A 2026 timeline'
+    url: 'https://www.computerworld.com/article/3816579/tech-layoffs-this-year-a-timeline.html'
+    publisher: 'Computerworld'
 featured: true
 trending: true
 ---
@@ -86,10 +87,10 @@ As long as public markets celebrate lower operating expenses, tech executives ha
 
 ## Sources to check yourself
 
-- Layoffs.fyi global technology job loss database (2026 records)
-- US Securities and Exchange Commission (SEC) Form 10-Q and 8-K filings for Intel, Oracle, Amazon, and Meta
-- Annual and quarterly earnings calls for Tata Consultancy Services and Accenture
-- Bloomberg and Reuters tech labor market reporting
+- [Yahoo Tech: Tech layoffs tracker 2026](https://tech.yahoo.com/general/breaking-news/article/tech-layoffs-tracker-2026-all-the-job-losses-across-netflix-amazon-apple-oracle-tiktok-meta-and-others-133546661.html): the running company-by-company tally.
+- [Business Standard: From Oracle to Amazon, tech giants drive global wave of layoffs in 2026](https://www.business-standard.com/industry/news/global-tech-layoffs-2026-oracle-amazon-dell-uber-paypal-it-sector-job-cuts-126091100188_1.html): the Layoffs.fyi figures for Oracle, Amazon, Dell, Meta, Microsoft and PayPal.
+- [Computerworld: Tech layoffs, a 2026 timeline](https://www.computerworld.com/article/3816579/tech-layoffs-this-year-a-timeline.html): the month-by-month sequence of cuts.
+- [Layoffs.fyi](https://layoffs.fyi/): the underlying global tracker cited by both reports.
 
 ## Frequently asked questions
 

@@ -8,24 +8,25 @@ tags: ['Maharashtra', 'Western Ghats', 'environment', 'energy']
 author: 'Diyan'
 authorRole: 'Staff Writer'
 pubDate: '2026-10-26 13:10'
+updatedDate: '2026-11-14'
 heroImage: '/images/fadnavis-defends-torrent-bhimashankar-project.jpg'
 heroAlt: 'Silhouette of state leader presenting pumped-storage hydro diagrams at a press podium against cream paper'
 claim: 'Torrent Power pumped-storage hydro project will irreparably destroy Bhimashankar forest and drain local water reserves without environmental justification.'
 claimSource: 'Press conference statements by Chief Minister Devendra Fadnavis and environmental protest appeals, October 2026'
 verdict: 'True with context'
-primarySource: 'Official statements by Maharashtra Chief Minister Devendra Fadnavis, Navi Mumbai Press Briefing, October 26, 2026'
-primarySourceUrl: 'https://maharashtra.gov.in/'
+primarySource: 'Hindustan Times report on CM Fadnavis defending the Torrent Power tree felling'
+primarySourceUrl: 'https://www.hindustantimes.com/cities/mumbai-news/torrent-power-project-fadnavis-defends-tree-felling-accuses-opposition-of-fake-narrative-101792953929219.html'
 whyItMatters: 'Balancing evening peak renewable power against fragile Western Ghats ecological protection sits at the center of Maharashtra energy transition strategy.'
 sources:
-  - title: 'Maharashtra State Portal: Press Briefing and Energy Infrastructure Statements'
-    url: 'https://maharashtra.gov.in/'
-    publisher: 'Government of Maharashtra'
-  - title: 'The Indian Express: Fadnavis Backs Torrent Hydro Project Amid Forest Protests'
-    url: 'https://indianexpress.com/'
-    publisher: 'The Indian Express'
-  - title: 'The Hindu: Western Ghats Ecological Clearances and Pumped Storage Policy'
-    url: 'https://www.thehindu.com/'
-    publisher: 'The Hindu'
+  - title: 'Maharashtra CM Fadnavis defends tree-felling for Torrent power project, accuses opposition of fake narrative'
+    url: 'https://www.hindustantimes.com/cities/mumbai-news/torrent-power-project-fadnavis-defends-tree-felling-accuses-opposition-of-fake-narrative-101792953929219.html'
+    publisher: 'Hindustan Times'
+  - title: "CM Fadnavis Defends Torrent Power's Bhimashankar Project Amid Row Over Proposed Felling Of More Than 32,000 Trees"
+    url: 'https://www.freepressjournal.in/mumbai/cm-fadnavis-defends-torrent-powers-bhimashankar-project-amid-row-over-proposed-felling-of-more-than-32000-trees-says-pumped-storage-needed-to-cut-coal-dependence-video'
+    publisher: 'Free Press Journal'
+  - title: 'Axing of 32k Karjat trees: Due process followed, says Maharashtra CM Devendra Fadnavis'
+    url: 'https://timesofindia.indiatimes.com/city/mumbai/axing-of-32k-karjat-trees-due-process-followed-says-maharashtra-cm-devendra-fadnavis/articleshow/135196979.cms'
+    publisher: 'The Times of India'
 featured: false
 trending: true
 ---
@@ -69,10 +70,9 @@ Replacing old-growth rainforest trees with plantation saplings takes decades to 
 
 ## Sources to check yourself
 
-- Official transcript and video recordings of Chief Minister Devendra Fadnavis press briefing, Navi Mumbai
-- Maharashtra Energy Department policy guidelines on pumped-storage hydroelectric projects
-- Ministry of Environment, Forest and Climate Change statutory clearance documents for Raigad and Pune pumped storage
-- Maharashtra Forest Department records on compensatory afforestation allocations and land transfers
+- [Hindustan Times: Maharashtra CM Fadnavis defends tree-felling for Torrent power project](https://www.hindustantimes.com/cities/mumbai-news/torrent-power-project-fadnavis-defends-tree-felling-accuses-opposition-of-fake-narrative-101792953929219.html): the press briefing and the "fake narrative" accusation.
+- [Free Press Journal: CM Fadnavis defends Torrent Power's Bhimashankar project](https://www.freepressjournal.in/mumbai/cm-fadnavis-defends-torrent-powers-bhimashankar-project-amid-row-over-proposed-felling-of-more-than-32000-trees-says-pumped-storage-needed-to-cut-coal-dependence-video): the 32,000-tree figure and the pumped-storage rationale.
+- [The Times of India: Axing of 32k Karjat trees, due process followed](https://timesofindia.indiatimes.com/city/mumbai/axing-of-32k-karjat-trees-due-process-followed-says-maharashtra-cm-devendra-fadnavis/articleshow/135196979.cms): the 32,490-tree clearance and the 16 km distance from Bhimashankar.
 
 ## Frequently asked questions
 

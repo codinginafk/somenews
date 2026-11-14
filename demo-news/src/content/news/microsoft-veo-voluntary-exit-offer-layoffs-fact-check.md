@@ -8,24 +8,25 @@ tags: ['Microsoft', 'tech layoffs', 'VEO', 'AI spending', 'corporate']
 author: 'Diyan'
 authorRole: 'Staff Writer'
 pubDate: '2026-10-28 11:15'
+updatedDate: '2026-11-14'
 heroImage: '/images/microsoft-veo-voluntary-exit-offer.jpg'
 heroAlt: 'Minimalist editorial illustration in cream and charcoal showing tech employees choosing voluntary departure amid cloud infrastructure expansion'
 claim: 'Microsoft has launched a sudden 60,000-person layoff across the US, India, UK, and Canada to slash payroll.'
 claimSource: 'Workplace discussion boards, anonymous employee channels, and viral tech social posts, October 2026'
-verdict: 'Misleading'
-primarySource: 'Internal company announcement by Chief People Officer Amy Coleman and SEC Capital Expenditure Disclosures'
-primarySourceUrl: 'https://www.microsoft.com/en-us/investor'
+verdict: 'Misleading — Missing Context'
+primarySource: 'Microsoft Official Blog: Introducing a Voluntary Exit Offer (Amy Coleman, October 26, 2026)'
+primarySourceUrl: 'https://blogs.microsoft.com/blog/2026/10/26/introducing-a-voluntary-exit-offer/'
 whyItMatters: 'With Big Tech budgeting up to $190 billion for AI data centers, voluntary separation packages allow firms to adjust headcounts without forced job cuts.'
 sources:
-  - title: 'Microsoft Investor Relations: SEC Filings and Capital Expenditure Outlays'
-    url: 'https://www.microsoft.com/en-us/investor'
-    publisher: 'Microsoft Corporation'
-  - title: 'CNBC Technology: Enterprise Tech Workforce Adjustments and Buyout Programs'
-    url: 'https://www.cnbc.com/technology/'
+  - title: 'Introducing a Voluntary Exit Offer'
+    url: 'https://blogs.microsoft.com/blog/2026/10/26/introducing-a-voluntary-exit-offer/'
+    publisher: 'Microsoft Official Blog'
+  - title: 'Microsoft offers voluntary buyouts as AI leads to efficiency push'
+    url: 'https://www.cnbc.com/2026/10/26/microsoft-msft-voluntary-buyouts.html'
     publisher: 'CNBC'
-  - title: 'Bloomberg: Big Tech Capital Spending and Data Center Investments'
-    url: 'https://www.bloomberg.com/technology'
-    publisher: 'Bloomberg'
+  - title: 'Microsoft to reportedly offer buyouts to 60,000 employees in latest cuts'
+    url: 'https://www.theguardian.com/technology/2026/oct/26/microsoft-buyout-offers-ai-cuts'
+    publisher: 'The Guardian'
 featured: true
 trending: true
 ---
@@ -74,10 +75,9 @@ Management retains discretion over final approvals. If too many critical special
 
 ## Sources to check yourself
 
-- Microsoft Corporation Investor Relations, Annual Reports and SEC Form 10-Q Disclosures
-- Internal Memorandum: Microsoft Voluntary Exit Offer Guidelines, Office of the Chief People Officer
-- CNBC Technology reporting on enterprise software labor trends and Big Tech capital expenditures
-- Bloomberg dispatches on cloud hyperscaler infrastructure budgets and AI data center expansion
+- [Microsoft Official Blog: Introducing a Voluntary Exit Offer](https://blogs.microsoft.com/blog/2026/10/26/introducing-a-voluntary-exit-offer/): Amy Coleman's full announcement, eligibility and timeline.
+- [CNBC: Microsoft offers voluntary buyouts as AI leads to efficiency push](https://www.cnbc.com/2026/10/26/microsoft-msft-voluntary-buyouts.html): the four countries covered and the efficiency rationale.
+- [The Guardian: Microsoft to reportedly offer buyouts to 60,000 employees](https://www.theguardian.com/technology/2026/oct/26/microsoft-buyout-offers-ai-cuts): independent reporting on the scale of the offer.
 
 ## Frequently asked questions
 
