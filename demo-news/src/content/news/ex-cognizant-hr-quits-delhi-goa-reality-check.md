@@ -8,16 +8,17 @@ tags: ['goa', 'delhi', 'corporate burnout', 'career change']
 author: 'Diyan'
 authorRole: 'Staff Writer'
 pubDate: '2026-10-21 13:30'
-primarySource: 'Arpita Sahu Instagram Video Documentation and LinkedIn Professional Records'
+primarySource: 'Times of India report on Arpita Sahu’s move from Delhi to Goa'
 primarySourceUrl: 'https://timesofindia.indiatimes.com/life-style/people/former-delhi-hr-professional-quits-her-corporate-job-and-moves-to-goa-in-search-of-purpose-but-faces-financial-worries-and-uncertainty-in-her-new-life/articleshow/135068794.cms'
 whyItMatters: 'Viral relocation content regularly frames ditching corporate employment as an instant cure for burnout, masking the financial risk, lost routine, and psychological toll.'
+updatedDate: '2026-11-14'
 sources:
   - title: 'Times of India: Former Delhi HR professional quits corporate job for Goa'
     url: 'https://timesofindia.indiatimes.com/life-style/people/former-delhi-hr-professional-quits-her-corporate-job-and-moves-to-goa-in-search-of-purpose-but-faces-financial-worries-and-uncertainty-in-her-new-life/articleshow/135068794.cms'
     publisher: 'The Times of India'
-  - title: 'Hindustan Times Career and Lifestyle Coverage'
-    url: 'https://www.hindustantimes.com/'
-    publisher: 'Hindustan Times'
+  - title: 'Delhi woman leaves corporate life for Goa, then opens up about her biggest fear: ‘My money won’t last long’'
+    url: 'https://economictimes.indiatimes.com/news/new-updates/delhi-woman-leaves-corporate-life-for-goa-then-opens-up-about-her-biggest-fear-my-money-wont-last-long/articleshow/135049705.cms'
+    publisher: 'The Economic Times'
 heroImage: '/images/corporate-hr-quits-delhi-goa-anxiety.jpg'
 heroAlt: 'Stark vector silhouette of a young professional with suitcases standing on a coastal railway platform'
 claim: 'Quitting a corporate 9-to-5 job and relocating to Goa delivers immediate personal freedom and life purpose.'
@@ -57,7 +58,8 @@ The tension mirrors broader debates on whether workers should prioritize financi
 
 ## Sources to check yourself
 
-- The Times of India: Reporting on former Delhi HR professional Arpita Sahu and her relocation to Goa (October 18, 2026).
+- [The Times of India](https://timesofindia.indiatimes.com/life-style/people/former-delhi-hr-professional-quits-her-corporate-job-and-moves-to-goa-in-search-of-purpose-but-faces-financial-worries-and-uncertainty-in-her-new-life/articleshow/135068794.cms): reporting on Arpita Sahu and her relocation to Goa (October 2026).
+- [The Economic Times](https://economictimes.indiatimes.com/news/new-updates/delhi-woman-leaves-corporate-life-for-goa-then-opens-up-about-her-biggest-fear-my-money-wont-last-long/articleshow/135049705.cms): the Instagram videos, the financial anxiety quote and the public reaction.
 - Arpita Sahu Public Instagram Video Log: Personal video dispatches detailing arrival, savings concerns, and career reflections.
 - LinkedIn Professional Directory: Employment verification for corporate roles at Info Edge India Ltd and Cognizant.
 
