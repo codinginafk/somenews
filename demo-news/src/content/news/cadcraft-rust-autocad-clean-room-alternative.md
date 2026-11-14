@@ -8,6 +8,7 @@ tags: ['Rust', 'AutoCAD', 'CAD', 'Open Source']
 author: 'Yash'
 authorRole: 'Contributing Writer'
 pubDate: '2026-10-16 10:00'
+updatedDate: '2026-11-14'
 heroImage: '/images/cadcraft-rust-autocad.jpg'
 heroAlt: 'Stark editorial illustration of a CAD drafting workstation with crosshair cursor and blueprint arc highlighted in red-orange.'
 claim: 'CADCraft is an open-source, clean-room AutoCAD-style app in pure Rust that replaces commercial drafting licenses with zero telemetry.'
@@ -20,9 +21,9 @@ sources:
   - title: 'CADCraft GitHub Repository'
     url: 'https://github.com/storytold/cadcraft'
     publisher: 'Storytold'
-  - title: 'ArtCraft Official Portal'
-    url: 'https://getartcraft.com/'
-    publisher: 'Storytold'
+  - title: 'CADCraft: Computer-aided design and drafting, reimagined in pure Rust'
+    url: 'https://getartcraft.com/apps/cadcraft'
+    publisher: 'ArtCraft'
 ---
 
 **Short answer:** CADCraft delivers a fast, clean-room 2D computer-aided drafting application built in pure Rust. It reproduces the classic AutoCAD command prompt, keyboard shortcuts, and DXF vector interchange without commercial seat licenses. For 2D architectural and mechanical layouts, it is operational, though full 3D solid modeling remains outside its scope.
@@ -76,8 +77,8 @@ For architectural floor plans, electrical schematics, civil site boundaries, and
 
 ## Sources to check yourself
 
-- CADCraft GitHub Repository — Source code, geometry crates, and parser documentation.
-- Storytold ArtCraft Suite — Release packages and platform compatibility lists.
+- [CADCraft GitHub Repository](https://github.com/storytold/cadcraft): source code, geometry crates, and parser documentation.
+- [CADCraft: Computer-aided design and drafting, reimagined in pure Rust](https://getartcraft.com/apps/cadcraft): official product page and platform compatibility lists.
 
 ## Frequently asked questions
 

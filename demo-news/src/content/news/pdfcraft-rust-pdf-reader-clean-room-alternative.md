@@ -8,6 +8,7 @@ tags: ['Rust', 'PDF', 'Adobe', 'Open Source']
 author: 'Diyan'
 authorRole: 'Staff Writer'
 pubDate: '2026-10-16 09:00'
+updatedDate: '2026-11-14'
 heroImage: '/images/pdfcraft-rust-pdf-reader.jpg'
 heroAlt: 'Stark editorial silhouette of an analyst inspecting a multi-page PDF on an ultrawide monitor with red-orange accent.'
 claim: 'PdfCraft provides an open-source, pure-Rust PDF reader and editor written from scratch that matches Adobe Acrobat Pro without monthly fees.'
@@ -20,9 +21,9 @@ sources:
   - title: 'PdfCraft GitHub Repository'
     url: 'https://github.com/storytold/pdfcraft'
     publisher: 'Storytold'
-  - title: 'ArtCraft Official Portal'
-    url: 'https://getartcraft.com/'
-    publisher: 'Storytold'
+  - title: 'PdfCraft: The open-source PDF workbench'
+    url: 'https://getartcraft.com/apps/pdfcraft'
+    publisher: 'ArtCraft'
 ---
 
 **Short answer:** PdfCraft gives users a genuine, zero-telemetry PDF reader and editor built entirely in Rust. It performs page merging, redaction, encryption, and form filling locally without transmitting documents to remote cloud servers. While it matches most day-to-day Acrobat Pro tasks, commercial optical character recognition and proprietary Adobe Sign integrations remain missing.
@@ -76,8 +77,8 @@ For standard document reading, form completion, watermarking, page organization,
 
 ## Sources to check yourself
 
-- PdfCraft GitHub Repository — Crate structure, test suites, and source code.
-- Storytold ArtCraft Apps — Release distribution details and platform compatibility tables.
+- [PdfCraft GitHub Repository](https://github.com/storytold/pdfcraft): crate structure, test suites, and source code.
+- [PdfCraft: The open-source PDF workbench](https://getartcraft.com/apps/pdfcraft): official product page and release details.
 
 ## Frequently asked questions
 

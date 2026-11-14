@@ -8,6 +8,7 @@ tags: ['Rust', 'PowerPoint', 'Open Source', 'Presentation']
 author: 'Wasim'
 authorRole: 'Contributing Writer'
 pubDate: '2026-10-16 08:00'
+updatedDate: '2026-11-14'
 heroImage: '/images/deckcraft-rust-powerpoint.jpg'
 heroAlt: 'Stark editorial illustration of a speaker presenting slide architecture with red-orange accent.'
 claim: 'DeckCraft is an open-source, clean-room reimplementation of Microsoft PowerPoint in pure Rust that matches native PPTX workflows without subscriptions.'
@@ -20,9 +21,9 @@ sources:
   - title: 'DeckCraft GitHub Repository'
     url: 'https://github.com/storytold/deckcraft'
     publisher: 'Storytold / ArtCraft'
-  - title: 'ArtCraft Official Portal'
-    url: 'https://getartcraft.com/'
-    publisher: 'Storytold'
+  - title: 'DeckCraft: Fast, dynamic slide presentations, in pure Rust'
+    url: 'https://getartcraft.com/apps/deckcraft'
+    publisher: 'ArtCraft'
 ---
 
 **Short answer:** DeckCraft delivers a working, zero-telemetry desktop presentation app written entirely from scratch in pure Rust. It loads and renders PPTX files natively, avoids web wrappers like Electron, and runs offline without telemetry. However, it remains in alpha: advanced collaboration and legacy visual effects still require Microsoft 365.
@@ -77,8 +78,8 @@ First, real-time multi-user co-authoring is absent. PowerPoint allows dozens of 
 
 ## Sources to check yourself
 
-- DeckCraft GitHub Repository — Source code, crate architecture, and build documentation.
-- Storytold ArtCraft Apps — Product overview, platform targets, and licensing specifications.
+- [DeckCraft GitHub Repository](https://github.com/storytold/deckcraft): source code, crate architecture, and build documentation.
+- [DeckCraft: Fast, dynamic slide presentations, in pure Rust](https://getartcraft.com/apps/deckcraft): official product page, platform targets, and licensing.
 
 ## Frequently asked questions
 

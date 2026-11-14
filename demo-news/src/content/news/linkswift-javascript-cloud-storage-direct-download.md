@@ -8,6 +8,7 @@ tags: ['javascript', 'cloud storage', 'userscript', 'open source']
 author: 'Diyan'
 authorRole: 'Staff Writer'
 pubDate: '2026-10-29 11:30'
+updatedDate: '2026-11-14'
 primarySource: 'hmjz100/LinkSwift repository script parser and client-side extraction logic'
 primarySourceUrl: 'https://github.com/hmjz100/LinkSwift'
 whyItMatters: 'Proprietary cloud storage providers intentionally throttle web downloads and force users to install desktop tracking clients. Running client-side DOM parsers restores open web data retrieval without session exposure.'
@@ -15,11 +16,11 @@ sources:
   - title: 'LinkSwift GitHub Repository'
     url: 'https://github.com/hmjz100/LinkSwift'
     publisher: 'GitHub'
-  - title: 'LinkSwift Technical Walkthrough Video'
+  - title: 'hmjz100/LinkSwift: A JavaScript-based tool for generating direct download links'
     url: 'https://www.youtube.com/watch?v=wPBnYcYo870'
     publisher: 'YouTube'
-  - title: 'Tampermonkey Official Script Platform'
-    url: 'https://www.tampermonkey.net/'
+  - title: 'Documentation'
+    url: 'https://www.tampermonkey.net/documentation.php'
     publisher: 'Tampermonkey'
 heroImage: '/images/linkswift-javascript-cloud-storage.svg'
 heroAlt: 'Technical editorial illustration of a JavaScript userscript bypassing cloud storage desktop client barriers.'
@@ -77,9 +78,9 @@ Despite these ongoing maintenance races, LinkSwift highlights the persistent com
 
 ## Sources to check yourself
 
-- hmjz100/LinkSwift Repository: Open-source JavaScript source code, parser routines, and update releases on GitHub.
-- LinkSwift Video Walkthrough: Technical demonstration of DOM parsing and direct link generation on YouTube.
-- Tampermonkey Platform: Userscript engine documentation and browser security sandbox specifications.
+- [LinkSwift GitHub Repository](https://github.com/hmjz100/LinkSwift): open-source JavaScript source code, parser routines, and update releases.
+- [hmjz100/LinkSwift: A JavaScript-based tool for generating direct download links](https://www.youtube.com/watch?v=wPBnYcYo870): the author's technical walkthrough of DOM parsing and link generation.
+- [Documentation](https://www.tampermonkey.net/documentation.php): userscript engine documentation and browser sandbox specifications.
 
 ## Frequently asked questions
 

@@ -8,6 +8,7 @@ tags: ['Rust', 'Excel', 'Spreadsheet', 'Open Source']
 author: 'Diyan'
 authorRole: 'Staff Writer'
 pubDate: '2026-10-16 11:00'
+updatedDate: '2026-11-14'
 heroImage: '/images/gridcraft-rust-excel.jpg'
 heroAlt: 'Stark editorial silhouette of a financial analyst working on a spreadsheet grid with red-orange formula bar.'
 claim: 'GridCraft is an open-source, clean-room spreadsheet in pure Rust that matches Microsoft Excel formulas and XLSX workflows without subscriptions.'
@@ -20,9 +21,9 @@ sources:
   - title: 'GridCraft GitHub Repository'
     url: 'https://github.com/storytold/gridcraft'
     publisher: 'Storytold / ArtCraft'
-  - title: 'ArtCraft Official Portal'
-    url: 'https://getartcraft.com/'
-    publisher: 'Storytold'
+  - title: 'GridCraft: Fast, native spreadsheets, rebuilt in pure Rust'
+    url: 'https://getartcraft.com/apps/gridcraft'
+    publisher: 'ArtCraft'
 ---
 
 **Short answer:** GridCraft is a high-speed, clean-room spreadsheet application built from scratch in pure Rust. It decouples its calculation core from display rendering, delivering smooth 60-FPS scrolling over millions of cells and full XLSX compatibility. It runs offline with zero telemetry, though advanced VBA macros and Power Query connections remain exclusive to Microsoft Excel.
@@ -74,8 +75,8 @@ For individual analysts, researchers, students, and businesses seeking a blazing
 
 ## Sources to check yourself
 
-- GridCraft GitHub Repository — Architecture notes, formula parser tests, and crate details.
-- Storytold ArtCraft Apps — Release builds, roadmap items, and platform documentation.
+- [GridCraft GitHub Repository](https://github.com/storytold/gridcraft): architecture notes, formula parser tests, and crate details.
+- [GridCraft: Fast, native spreadsheets, rebuilt in pure Rust](https://getartcraft.com/apps/gridcraft): official product page, platform targets, and roadmap.
 
 ## Frequently asked questions
 

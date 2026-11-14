@@ -8,6 +8,7 @@ tags: ['Rust', 'Adobe', 'Filmmaking', 'Open Source']
 author: 'Diyan'
 authorRole: 'Staff Writer'
 pubDate: '2026-10-16 12:30'
+updatedDate: '2026-11-14'
 heroImage: '/images/artcraft-rust-creative-engine.jpg'
 heroAlt: 'Stark editorial silhouette of a filmmaker directing a multi-track timeline and 3D stage with red-orange playhead.'
 claim: 'ArtCraft is an intentional crafting engine for artists, designers, and filmmakers that replaces Adobe Creative Cloud subscriptions with local Rust execution.'
@@ -20,9 +21,9 @@ sources:
   - title: 'ArtCraft GitHub Repository'
     url: 'https://github.com/storytold/artcraft'
     publisher: 'Storytold'
-  - title: 'ArtCraft Official Studio'
-    url: 'https://getartcraft.com/'
-    publisher: 'Storytold'
+  - title: 'Crafting Apps: open-source creative tools'
+    url: 'https://getartcraft.com/apps'
+    publisher: 'ArtCraft'
 ---
 
 **Short answer:** ArtCraft provides an open-source creation studio built in Rust and Tauri for digital artists, designers, and filmmakers. Its "Compose First, Generate Last" philosophy replaces slot-machine prompt guessing with structured 2D canvas staging, 3D prop positioning, and timeline sequencing. It runs locally without subscription barriers, though high-end visual effects still rely on specialized tools.
@@ -77,8 +78,8 @@ However, for directors, concept artists, storyboarders, and independent video cr
 
 ## Sources to check yourself
 
-- ArtCraft GitHub Repository — Source code, Tauri crates, and camera staging documentation.
-- Storytold Studio Hub — Interactive tutorials, platform releases, and community showcase.
+- [ArtCraft GitHub Repository](https://github.com/storytold/artcraft): source code, Tauri crates, and camera staging documentation.
+- [Crafting Apps: open-source creative tools](https://getartcraft.com/apps): the official app index, platform releases, and community showcase.
 
 ## Frequently asked questions
 

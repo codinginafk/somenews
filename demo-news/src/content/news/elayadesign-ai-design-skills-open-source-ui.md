@@ -8,6 +8,7 @@ tags: ['ui design', 'ai agents', 'accessibility', 'frontend']
 author: 'Yash'
 authorRole: 'Contributing Writer'
 pubDate: '2026-10-29 12:15'
+updatedDate: '2026-11-14'
 primarySource: 'elayadesign/ai-design-skills repository design token definitions and accessibility rules'
 primarySourceUrl: 'https://github.com/elayadesign/ai-design-skills'
 whyItMatters: 'AI code generators write components rapidly but frequently produce illegible low-contrast text and inaccessible forms. Enforcing design system rules at the agent prompt level ensures compliance before code reaches users.'
@@ -15,9 +16,9 @@ sources:
   - title: 'AI Design Skills GitHub Repository'
     url: 'https://github.com/elayadesign/ai-design-skills'
     publisher: 'GitHub'
-  - title: 'W3C Web Content Accessibility Guidelines (WCAG)'
-    url: 'https://www.w3.org/WAI/standards-guidelines/wcag/'
-    publisher: 'World Wide Web Consortium'
+  - title: 'Understanding the Web Content Accessibility Guidelines (WCAG)'
+    url: 'https://developer.mozilla.org/en-US/docs/Web/Accessibility/Understanding_WCAG'
+    publisher: 'MDN Web Docs'
 heroImage: '/images/elayadesign-ai-design-skills.svg'
 heroAlt: 'Technical editorial illustration of design system spacing scales and WCAG contrast rules for AI coding agents.'
 claim: 'Structured SKILL.md guidelines force AI developer agents to generate accessible, coherent interfaces with verified design tokens.'
@@ -65,8 +66,8 @@ Even with these caveats, `ai-design-skills` provides a practical, open-source st
 
 ## Sources to check yourself
 
-- elayadesign/ai-design-skills Repository: Open-source design system rules, agent prompts, and guidelines on GitHub.
-- W3C Web Content Accessibility Guidelines (WCAG): Official international standards for web accessibility and contrast ratios.
+- [AI Design Skills GitHub Repository](https://github.com/elayadesign/ai-design-skills): open-source design system rules, agent prompts, and guidelines.
+- [Understanding the Web Content Accessibility Guidelines (WCAG)](https://developer.mozilla.org/en-US/docs/Web/Accessibility/Understanding_WCAG): MDN's plain-language guide to the WCAG success criteria, including contrast ratios.
 
 ## Frequently asked questions
 

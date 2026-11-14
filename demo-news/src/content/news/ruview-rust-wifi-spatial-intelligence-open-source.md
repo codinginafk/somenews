@@ -8,6 +8,7 @@ tags: ['rust', 'spatial intelligence', 'privacy', 'open source']
 author: 'Diyan'
 authorRole: 'Staff Writer'
 pubDate: '2026-10-29 08:30'
+updatedDate: '2026-11-14'
 primarySource: 'ruvnet/RuView repository architecture and signal processing algorithms'
 primarySourceUrl: 'https://github.com/ruvnet/RuView'
 whyItMatters: 'Optical cameras raise acute privacy issues in bedrooms, bathrooms, and eldercare rooms. Decoding Wi-Fi radio reflections locally in Rust protects personal privacy while tracking motion.'
@@ -16,8 +17,8 @@ sources:
     url: 'https://github.com/ruvnet/RuView'
     publisher: 'GitHub'
   - title: 'The Rust Programming Language'
-    url: 'https://www.rust-lang.org/'
-    publisher: 'Rust Foundation'
+    url: 'https://doc.rust-lang.org/book/'
+    publisher: 'Rust Project'
 heroImage: '/images/ruview-rust-wifi-spatial-intelligence.svg'
 heroAlt: 'Technical editorial illustration of camera-free Wi-Fi CSI spatial tracking and heartbeat radar.'
 claim: 'RuView maps human movement through walls and tracks heart rates using commodity Wi-Fi signals without optical cameras.'
@@ -69,8 +70,8 @@ Despite these caveats, the milestone marks a significant change in spatial sensi
 
 ## Sources to check yourself
 
-- ruvnet/RuView Repository — Source code, CSI packet parsers, and spatial tracking documentation on GitHub.
-- Rust Foundation — Language benchmarks, concurrency safety guarantees, and embedded systems crates.
+- [ruvnet/RuView GitHub Repository](https://github.com/ruvnet/RuView): source code, CSI packet parsers, and spatial tracking documentation.
+- [The Rust Programming Language](https://doc.rust-lang.org/book/): the language book covering the ownership and concurrency-safety guarantees the project relies on.
 
 ## Frequently asked questions
 

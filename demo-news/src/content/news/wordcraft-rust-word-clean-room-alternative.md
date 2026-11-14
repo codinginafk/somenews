@@ -8,6 +8,7 @@ tags: ['Rust', 'Word', 'Word Processing', 'Open Source']
 author: 'Wasim'
 authorRole: 'Contributing Writer'
 pubDate: '2026-10-16 12:00'
+updatedDate: '2026-11-14'
 heroImage: '/images/wordcraft-rust-word.jpg'
 heroAlt: 'Stark editorial silhouette of a writer working on a document layout with red-orange text revision highlight.'
 claim: 'WordCraft is an open-source, clean-room reimplementation of Microsoft Word in pure Rust that matches DOCX workflows without cloud lock-in.'
@@ -20,9 +21,9 @@ sources:
   - title: 'WordCraft GitHub Repository'
     url: 'https://github.com/storytold/wordcraft'
     publisher: 'Storytold'
-  - title: 'ArtCraft Official Portal'
-    url: 'https://getartcraft.com/'
-    publisher: 'Storytold'
+  - title: 'WordCraft: A fast, open-source word processor, rebuilt in pure Rust'
+    url: 'https://getartcraft.com/apps/wordcraft'
+    publisher: 'ArtCraft'
 ---
 
 **Short answer:** WordCraft delivers an open-source, pure-Rust word processor built from scratch with zero Electron dependencies. It renders multi-page documents at 60 FPS, edits native DOCX files, and provides track changes, footnotes, and citation management offline. However, proprietary Word cloud collaboration and advanced grammar co-pilots remain tied to Microsoft 365.
@@ -78,8 +79,8 @@ For authors, researchers, legal clerks, and students who require a distraction-f
 
 ## Sources to check yourself
 
-- WordCraft GitHub Repository — Source code, crate architecture, and typography layout tests.
-- Storytold ArtCraft Apps — Release distribution details and platform compatibility tables.
+- [WordCraft GitHub Repository](https://github.com/storytold/wordcraft): source code, crate architecture, and typography layout tests.
+- [WordCraft: A fast, open-source word processor, rebuilt in pure Rust](https://getartcraft.com/apps/wordcraft): official product page, platform targets, and release details.
 
 ## Frequently asked questions
 

@@ -8,6 +8,7 @@ tags: ['rust', 'mcp', 'workspace', 'open source']
 author: 'Wasim'
 authorRole: 'Contributing Writer'
 pubDate: '2026-10-29 10:45'
+updatedDate: '2026-11-14'
 primarySource: 'macro-inc/macro repository architecture and AGPL-3.0 microservice crate definitions'
 primarySourceUrl: 'https://github.com/macro-inc/macro'
 whyItMatters: 'Fragmented SaaS subscriptions cost modern companies hundreds of dollars per employee every month while siloing critical institutional knowledge. An open-source, local-first workspace keeps team communications private and model-ready.'
@@ -16,8 +17,8 @@ sources:
     url: 'https://github.com/macro-inc/macro'
     publisher: 'GitHub'
   - title: 'The Rust Programming Language'
-    url: 'https://www.rust-lang.org/'
-    publisher: 'Rust Foundation'
+    url: 'https://doc.rust-lang.org/book/'
+    publisher: 'Rust Project'
 heroImage: '/images/macro-rust-agpl-workspace-mcp.svg'
 heroAlt: 'Technical editorial illustration of a unified Rust workspace linking chat, email, and Model Context Protocol.'
 claim: 'A single self-hosted Rust workspace can replace Slack, Notion, and Salesforce while connecting to local AI agents via MCP.'
@@ -67,8 +68,8 @@ For companies prioritizing data privacy, zero recurring seat fees, and tight AI 
 
 ## Sources to check yourself
 
-- macro-inc/macro Repository — Monorepo source code, service definitions, and setup guides on GitHub.
-- Rust Foundation Documentation — Compiler specifications, cargo workspace management, and memory safety guarantees.
+- [Macro GitHub Repository](https://github.com/macro-inc/macro): monorepo source code, service definitions, and setup guides.
+- [The Rust Programming Language](https://doc.rust-lang.org/book/): the language book covering cargo workspaces and memory safety guarantees.
 
 ## Frequently asked questions
 
