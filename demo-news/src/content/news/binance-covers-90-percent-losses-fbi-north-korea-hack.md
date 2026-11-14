@@ -1,114 +1,162 @@
 ---
-title: "Binance Replenishes 90% of Stolen Funds After Record $6.3B Hack: What Users Need to Know"
-seoTitle: "Binance Covers 90% of Losses from $6.3B Crypto Hack"
-excerpt: "Binance has replenished 90% of the $6.3 billion stolen in a record hack, preparing to reopen withdrawals as the FBI officially blames North Korea's Lazarus Group."
-description: "Binance restored 90% of the $6.3B stolen in Thursday's historic hack from corporate funds, with withdrawals set to reopen as the FBI names North Korea."
+title: "Binance and the $6.3B Hack: Testing the Insolvency Claim"
+seoTitle: "Binance $6.3B Hack: Is the Insolvency Claim True?"
+excerpt: "A record $6.3 billion left Binance's hot wallets in about 20 minutes. The exchange says it covered 90% of the hole, then 98%, so the panic claim that it is insolvent does not match the record."
+description: "Binance restored backing for 90% of the $6.3B stolen on October 29, then 98%. The insolvency claim fails, but coverage is not the same as recovery."
 category: 'Reality Check'
-tags: ['Binance', 'cryptocurrency', 'FBI', 'Lazarus Group']
+tags: ['Binance', 'cryptocurrency', 'cybersecurity', 'North Korea']
 author: 'Wasim'
 authorRole: 'Contributing Writer'
 pubDate: '2026-11-01 09:15'
+updatedDate: '2026-11-15'
 heroImage: '/images/binance-covers-losses-crypto-hack.jpg'
-heroAlt: 'Editorial illustration in cream and charcoal showing replenished cryptocurrency reserves and a digital security vault'
+heroAlt: 'Editorial illustration in cream and charcoal showing a crypto exchange vault with one red-orange breach point'
 claim: 'Binance is insolvent and users will suffer major losses following the $6.3 billion North Korean cyber heist.'
-claimSource: 'Social media rumors, panic sell-off threads, and online trading forums, October 2026'
+claimSource: 'Social media rumors, panic sell-off threads and online trading forums, October 2026'
 verdict: 'False — with context'
-primarySource: 'Crypto firm Binance covers 90% of losses after $6.3bn hack'
-primarySourceUrl: 'https://www.bbc.com/news/articles/ckpdg3ql4169o'
-whyItMatters: 'Covering $6.3 billion within 48 hours is unprecedented in crypto history, demonstrating whether top exchanges can survive state-sponsored cyber warfare without stranding customer funds.'
-updatedDate: '2026-11-14'
+primarySource: 'Binance incident update of November 3, 2026, as reported by BBC News'
+primarySourceUrl: 'https://www.bbc.com/news/articles/ck5ynwz9gy67o'
+whyItMatters: 'The hack is the largest crypto theft on record. Whether the exchange can cover it tests whether customer balances survive state-backed cyberattacks.'
 sources:
   - title: 'Crypto firm Binance covers 90% of losses after $6.3bn hack'
     url: 'https://www.bbc.com/news/articles/ckpdg3ql4169o'
     publisher: 'BBC News'
-  - title: 'Binance resumes withdrawals following record $6.3 billion hack'
-    url: 'https://www.cnbc.com/2026/10/31/binance-hack-asset-coverage-withdrawals.html'
-    publisher: 'CNBC'
+  - title: 'Binance says fake job interviews used as part of $6.3bn crypto hack'
+    url: 'https://www.bbc.com/news/articles/ck5ynwz9gy67o'
+    publisher: 'BBC News'
   - title: 'Binance resumes customer withdrawals after record $6.3bn hack'
     url: 'https://www.theguardian.com/business/2026/nov/01/binance-losses-covered-hack-fbi-north-korea-cryptocurrency'
     publisher: 'The Guardian'
-  - title: 'Binance Hack: Tracing the $6.4 Billion Theft to North Korea'
+  - title: 'Investors pull billions in funds from Binance after record $6.3bn hack'
+    url: 'https://www.theguardian.com/business/2026/nov/01/investors-take-out-36bn-from-binance-after-record-hack-that-stole-billions'
+    publisher: 'The Guardian'
+  - title: 'Hackers behind $6.3bn Binance heist ‘used malware and bogus job interviews’'
+    url: 'https://www.theguardian.com/business/2026/nov/03/hackers-63bn-binance-heist-malware-bogus-job-interviews-cryptocurrency'
+    publisher: 'The Guardian'
+  - title: 'Binance resumes withdrawals following $6.3 billion hack, says 90% of stolen user assets are covered'
+    url: 'https://www.cnbc.com/2026/10/31/binance-hack-asset-coverage-withdrawals.html'
+    publisher: 'CNBC'
+  - title: 'The $6.4 Billion Binance Hack: Tracing the North Korea Link'
     url: 'https://www.chainalysis.com/blog/binance-exploit-latest-findings-and-response/'
     publisher: 'Chainalysis'
 ---
 
-**Short answer:** Binance is not insolvent, and user balances have not been wiped out. Just 48 hours after suffering a record-breaking $6.3 billion cyber heist, the world's largest cryptocurrency exchange announced that it has already replaced 90 percent of the stolen assets using its own corporate treasury. All customer holdings of Bitcoin, Ethereum, and Tether are completely covered, along with seven other heavily traded tokens. Meanwhile, the Federal Bureau of Investigation officially confirmed on Saturday that North Korea's state-backed Lazarus Group carried out the attack. With the bulk of stolen reserves replenished, Binance confirmed it remains on track to reopen user withdrawals on Sunday, November 1.
+**Short answer:** Binance is not insolvent on the public record. The exchange says it restored backing for 90% of the $6.3 billion taken from its hot wallets on October 29, then 98% by early November, using its own reserves. The claim that users would lose everything is not supported. But "covered" is not "recovered." Binance replaced customer balances from its balance sheet. It did not get most of the stolen coins back. The hack is real, the loss is real, and the financial hit is large. The insolvency claim is the part that fails.
 
-## 1. How Binance replaced $5.7 billion in 48 hours
+*Correction (2026-11-15): This article consolidates three companion pieces about the same hack. The earlier version said Binance had "replaced 90 percent of the stolen assets" and had frozen "around $3 billion" itself. Binance restored backing for 90% of customer assets; it did not recover 90% from the attacker. The freeze figure was about $2.85 billion of $6.34 billion, according to Binance. The earlier version also treated a single compromised DevOps laptop as the full attack path. Binance's November 3 update describes a multi-stage campaign that began in June. The companion articles now redirect here.*
 
-When hackers broke into Binance systems on Thursday and walked away with $6.3 billion, many crypto traders feared the worst. History taught investors to be cautious. Past exchange hacks often triggered immediate bankruptcies that locked user savings away for years.
+## 1. The claim: a record hack proves Binance is insolvent
 
-This time, the response was vastly different.
+The panic started within hours of the breach. Social posts and trading forums said Binance had lost $6.3 billion of customer money. Some claimed the exchange was insolvent. Others said withdrawals would never reopen.
 
-Instead of halting operations or asking for bailouts, Binance dipped deep into its own balance sheet. On Saturday, company leadership confirmed that it had successfully replenished 90 percent of all stolen funds:
+The fear had a basis. Crypto exchanges have failed before. FTX collapsed in November 2022 after executives insisted customer deposits were safe. A $6.3 billion hole is large enough to break a smaller platform.
 
-- Corporate treasury and insurance funds: Binance said the money came from its $1 billion secure asset fund for users, part of its futures insurance fund, and its own corporate treasury (The Guardian).
-- Total coverage for top tokens: Every single customer deposit in Bitcoin, Ethereum, and Tether has been fully restored. Seven additional widely traded digital assets were also completely restocked.
-- Setting aside $6.34 billion: The company set aside more than $6.34 billion in dedicated corporate funds to ensure no retail trader is left empty-handed.
-- Clear public commitment: In an official statement, Binance declared that the company will absorb the financial impact of the stolen funds, not its users.
+The claim also had a logic problem. A theft from hot wallets is a loss to the company that holds them. Insolvency means the company cannot meet its obligations. Those are different tests. The record shows Binance met the first wave of withdrawals. It does not show a bankruptcy filing or a missed customer payment.
 
-Replacing over $5.7 billion in digital coins in two days is completely unprecedented in the financial world. It demonstrates that the exchange had enough raw cash and liquid reserves to survive an attack that would have bankrupted almost any other platform.
+## 2. What happened on October 29
 
-## 2. When will withdrawals reopen for normal users?
+Chainalysis, the blockchain analytics firm, traced the first unauthorized transfers to about 4:20 p.m. Eastern Time on October 29. Funds began leaving Binance hot wallets across multiple blockchains.
 
-The biggest question on the minds of millions of everyday traders is simple: when can people actually get their money out?
+The transfers totaled about $6.4 billion, according to Chainalysis. Binance and several news outlets put the figure at about $6.3 billion. The difference reflects timing and valuation, not a contradiction.
 
-Following [the initial $6.3 billion breach](/binance-6-billion-dollar-hack-largest-crypto-theft-record/), Binance paused withdrawals to stop hackers from draining hot wallets. Deposits remained open, but accounts were temporarily locked down while security teams cleaned the network.
+The attacker moved fast. Chainalysis says the thief swapped $325 million in stablecoins for $285 million in ether over nearly 20 minutes. Stablecoins can be frozen. Ether cannot. Freezes began by 5:14 p.m. ET.
 
-The exchange provided reassuring news on Saturday:
+Binance halted withdrawals and said it would cover the loss. The FBI said the theft was the work of TraderTraitor, a North Korean unit that is part of the Lazarus Group. The $6.3 billion haul surpassed the $1.5 billion Bybit hack in 2025, which the FBI also blamed on North Korea.
 
-- Reopening on Sunday: Binance announced it remains on track to reopen customer withdrawals on Sunday, November 1.
-- Step-by-step restoration: Withdrawals will likely return in phases. Major cryptocurrencies with deep liquidity will reopen first, followed by smaller altcoins as wallet environments are certified clean.
-- Detailed post-mortem report: Chief executive Richard Teng stated that forensic engineers will publish a comprehensive post-mortem report explaining every breach point once investigators finish gathering facts.
+## 3. The 90% figure: coverage is not recovery
 
-Traders who panicked and dumped coins at a discount on Friday may regret their rush. With reserves restocked, normal exchange trading operations are returning far quicker than analysts originally predicted.
+This is where the viral claim and the company's statement diverge.
 
-## 3. The FBI names Lazarus: North Korea's fingerprints confirmed
+On October 31, Binance said it had restored backing for about 90% of the stolen assets. CNBC reported the figure with a key qualifier: the 90% did not mean Binance had recovered 90% of the funds from the attacker.
 
-While Binance raced to balance its books, international law enforcement made a major announcement.
+Binance said all BTC, ETH, USDT, BNB, SOL, USDC, XRP, USD1, RLUSD and ZEC were fully backed at 100%. The outstanding 10% was made up of tokens outside its top 10. Those tokens are less liquid, so buying them in size takes longer.
 
-On Saturday, the Federal Bureau of Investigation formally declared that the government of North Korea was directly responsible for the $6.3 billion attack. Federal investigators singled out TraderTraitor, an elite hacking unit that operates under North Korea's infamous Lazarus Group.
+The money came from the company, not from the hacker. Binance said it set aside about $6.34 billion. The pool drew on part of its $1 billion Secure Asset Fund for Users, a bitcoin reserve, part of its futures insurance fund and its corporate treasury.
 
-The attribution confirmed earlier intelligence from blockchain analytics firms:
+By November 3, Binance said 98% of the affected token assets had been replenished. The company also said $2.85 billion of the $6.34 billion had been frozen or intercepted. Chainalysis put the frozen total at about $2.8 billion as of 11:30 a.m. ET that day.
 
-- Advanced intrusion tools: Hackers gained initial access through a compromised DevOps engineer's laptop. From there, they jumped into internal service containers and gained access to automated withdrawal authorization systems.
-- Self-destruct software: Teng revealed that the intruders used specialized self-destruct mechanisms. These scripts wiped system tools and deleted command histories as the attack unfolded, attempting to blind internal monitoring systems.
-- Cross-border coordination: The United States Secret Service confirmed it is working around the clock alongside foreign law enforcement to identify, freeze, and recover remaining funds.
+Those two numbers describe different things. The 90% and 98% figures measure how much Binance had put back into customer accounts. The $2.85 billion measures how much of the stolen property had been stopped. One can be high while the other is low. That is exactly what happened.
 
-This official FBI statement removes any lingering doubt. The heist was not the work of amateur internet criminals. It was a planned military operation conducted by [North Korea's state-backed Lazarus cyber army](/why-north-korea-lazarus-hackers-target-crypto-binance/) to steal foreign currency for the Kim regime.
+## 4. The withdrawal test
 
-## 4. The remaining 10%: Why some tokens are harder to replace
+A bank run is the real insolvency test. Binance reopened withdrawals on November 1 in phases. The first batch covered the Bitcoin network. Ethereum and BNB Smart Chain followed. The company said the first phase restored withdrawals across 15 networks and assets.
 
-While 90 percent of the hole has been filled, roughly $630 million in stolen assets still needs to be sourced.
+The outflow was large in dollars and small in proportion. Binance processed $4.6 billion in withdrawals and $1 billion in deposits by Sunday afternoon. The net outflow was about $3.6 billion. That equaled 2.1% of its $171 billion in assets under management, according to The Guardian.
 
-Binance acknowledged that securing the final 10 percent could take slightly longer:
+Binance said withdrawal volumes declined and stabilized after the initial spike. Deposits remained substantial, the company said.
 
-- Liquidity bottlenecks: While Bitcoin and Ethereum trade in billions every hour, smaller altcoins have limited market supply. Buying hundreds of millions of dollars worth of niche tokens all at once would trigger wild price spikes.
-- Ongoing market buying: Binance confirmed it is actively buying tokens on open markets and working with institutional liquidity providers to fill the remaining gaps.
-- Frozen assets awaiting return: Binance said on Friday that it had frozen around $3 billion of stolen assets after working with law enforcement, intelligence firms, and partners (BBC). Legal teams are working through court orders to return frozen tokens directly to Binance treasury accounts.
+One weekend does not settle the question. The figures came from Binance's own proof-of-reserves snapshot. A full report was expected the next day. The sources reviewed for this article do not include an independent audit of those reserves. A run that continued for weeks would be a harder test than a single Sunday.
 
-Combined with [the ongoing recovery efforts](/binance-recovery-6-billion-frozen-customer-funds-reality-check/), Binance has built a substantial buffer to protect retail balances.
+## 5. Who the FBI blames
 
-For the broader crypto industry, this weekend marks a dramatic turning point. While the hack exposed serious vulnerabilities in exchange infrastructure, Binance's ability to cover a record-breaking loss out of pocket proves that modern digital asset giants can withstand state-sponsored cyber warfare.
+The FBI attributed the hack to North Korea on Saturday, October 31. It named TraderTraitor, which investigators describe as part of the Lazarus Group. The same unit was blamed for the $1.5 billion Bybit theft in 2025.
+
+Chainalysis reached the same conclusion from on-chain evidence. The firm said the stolen Binance funds commingled with funds from an earlier Bitget theft that was also attributed to North Korea.
+
+Pyongyang rejected the accusation. Kim Yo-jong, the sister of leader Kim Jong-un, called it "absurd rhetoric" and a "sinister attempt" by Washington to damage the country's image, according to KCNA. North Korea has denied involvement in a series of major cyberattacks over the years.
+
+The distinction matters for how the story is framed. The FBI attribution is an intelligence assessment, not a court verdict. Binance cited the FBI finding in its own update. The company did not present independent proof of its own.
+
+## 6. How the attack actually worked
+
+The first explanation was simple. Binance said a compromised DevOps engineer's laptop may have allowed an attacker into a service container. That account circulated widely and became the "one laptop" version of the story.
+
+The company's November 3 update described a longer campaign.
+
+Binance said the operation began in June, when an engineer inadvertently downloaded malware. That malware exposed the employee's role and the roles of others on the wallet infrastructure team.
+
+In September, a fake project director contacted a different engineer on a legitimate job-hunting platform. The engineer sat a first-round video interview with a sham HR representative. A second-round interview took place on a chat app with the "chief executive" of a fictitious company. During that interview, the engineer was tricked into downloading malware disguised as an assignment.
+
+On October 20, the attacker used the compromised computer and an internal AI tool. That gave control of the engineer's system and the system of a second wallet developer on the same team. On October 29, the attacker used the second developer's computer and stolen credentials from the first engineer to trigger the malicious script.
+
+Richard Teng, Binance's co-chief executive, said more than one person carried out the hack. He also said the attackers used a "self-destruct mechanism" to delete evidence of their activity.
+
+This detail matters because it changes the lesson. The breach was not a single click by one careless employee. It was a months-long social engineering campaign that crossed two engineers and an internal AI tool.
+
+## 7. What the record still does not show
+
+Several questions remain open.
+
+The 90% and 98% figures are Binance's own. The sources do not include an independent audit that confirms the replenishment. The $2.85 billion freeze figure is also the company's. Chainalysis independently estimated about $2.8 billion, which is close.
+
+The remaining 10% is less liquid. Buying it in size could move prices, which is why the company said it would take longer. Binance said it would keep buying through market and over-the-counter channels until coverage reached 100%.
+
+The frozen funds are not automatically Binance's. Returning them may require legal process. The attacker still held billions when the freeze estimates were published.
+
+And the corporate promise is not a legal guarantee. Binance's terms of service, like those of most exchanges, may limit liability for losses from cyberattacks. A statement on X does not rewrite a customer contract. That does not make the statement false. It makes it a promise rather than a court-enforceable guarantee.
+
+## 8. The verdict: false, with context
+
+The insolvency claim fails on the record.
+
+Binance did not file for bankruptcy or tell users their balances were gone. It reopened withdrawals within three days and processed billions in customer payouts. It restored backing for 90% of the stolen assets, then 98%, and said it would cover the rest.
+
+The context is substantial. The exchange absorbed a multi-billion-dollar loss. The attacker still holds a large share of the stolen crypto. The recovery depends on Binance's balance sheet and on figures the company reported itself. A larger or longer run could test the exchange in ways one weekend did not.
+
+The claim that Binance is insolvent is false. The claim that the hack was harmless is also false. Both things can be true at once.
+
+That connects to a wider pattern. Crypto exchanges and banks now face the same class of state-backed intrusion, as seen in the [Top 5 data leaks of 2026](/top-5-data-leaks-2026-php2shell-state-bank/) and the [State Bank data breach](/state-bank-data-breach-customer-data-leaked/). The difference here is that the victim published a coverage plan within 48 hours.
 
 ## Sources to check yourself
 
-- [BBC News](https://www.bbc.com/news/articles/ckpdg3ql4169o): the 90% coverage figure, $6.34 billion set-aside, and phased withdrawal restart.
-- [CNBC](https://www.cnbc.com/2026/10/31/binance-hack-asset-coverage-withdrawals.html): withdrawal resumption and corporate balance-sheet coverage.
-- [The Guardian](https://www.theguardian.com/business/2026/nov/01/binance-losses-covered-hack-fbi-north-korea-cryptocurrency): Richard Teng's statements, the FBI attribution, and the source of the replenishment funds.
-- [Chainalysis](https://www.chainalysis.com/blog/binance-exploit-latest-findings-and-response/): on-chain tracing of the stolen funds and the North Korea attribution.
+- [BBC News, November 1](https://www.bbc.com/news/articles/ckpdg3ql4169o): the 90% coverage figure, the $6.34 billion set-aside and the FBI attribution.
+- [BBC News, November 3](https://www.bbc.com/news/articles/ck5ynwz9gy67o): the fake job interviews, the internal AI tool and the 98% replenishment figure.
+- [The Guardian, November 1](https://www.theguardian.com/business/2026/nov/01/binance-losses-covered-hack-fbi-north-korea-cryptocurrency): the withdrawal restart, Richard Teng's commitment to cover the remaining 10% and the funding sources.
+- [The Guardian, November 1](https://www.theguardian.com/business/2026/nov/01/investors-take-out-36bn-from-binance-after-record-hack-that-stole-billions): the $4.6 billion in withdrawals, $1 billion in deposits and 2.1% of $171 billion in assets.
+- [The Guardian, November 3](https://www.theguardian.com/business/2026/nov/03/hackers-63bn-binance-heist-malware-bogus-job-interviews-cryptocurrency): the June malware download, the September recruitment scam and the October 20 and 29 intrusions.
+- [CNBC, October 31](https://www.cnbc.com/2026/10/31/binance-hack-asset-coverage-withdrawals.html): the distinction between restored backing and recovered funds, and the list of fully backed tokens.
+- [Chainalysis, October 30](https://www.chainalysis.com/blog/binance-exploit-latest-findings-and-response/): the 4:20 p.m. ET start, the $6.4 billion total and the $2.8 billion frozen by November 3.
 
 ## Frequently asked questions
 
-**Q: Has Binance actually replaced the stolen crypto?**
-A: Yes. Binance confirmed it has already replenished 90 percent of the stolen assets using company reserves. Customer balances in Bitcoin, Ethereum, Tether, and seven other major tokens are fully backed.
+**Q: Did Binance lose customer money?**
+A: Customer balances were not wiped out on the record. Binance says it restored backing for 90% of the stolen assets, then 98%, and that its top 10 tokens are fully backed. The company covered the gap from its own reserves.
 
-**Q: When can users withdraw their funds?**
-A: Binance stated that withdrawal operations are scheduled to resume on Sunday, November 1, with detailed operational updates shared directly with users.
+**Q: Is Binance insolvent?**
+A: The sources show no bankruptcy filing and no missed customer withdrawal. Binance reopened withdrawals on November 1 and processed $4.6 billion against $1 billion in deposits. Insolvency would mean it could not meet obligations. The first test was met.
 
-**Q: Did the FBI confirm who did it?**
-A: Yes. On Saturday, the FBI officially named North Korea's state-backed hacking unit, the Lazarus Group (also known as TraderTraitor), as the perpetrators of the $6.3 billion heist.
+**Q: How much has actually been recovered from the hackers?**
+A: About $2.85 billion of $6.34 billion had been frozen or intercepted by November 3, according to Binance. Chainalysis estimated about $2.8 billion. The rest remained with the attacker at that point. "Covered" means Binance replaced the customer assets, not that it got the coins back.
 
-**Q: What happens to the remaining 10 percent of stolen tokens?**
-A: Binance is actively sourcing the remaining tokens from corporate treasury reserves and market purchases. Sourcing takes slightly longer for less liquid tokens to avoid distorting market prices.
-
+**Q: Who is TraderTraitor?**
+A: A North Korean cyber unit that the FBI blames for the Binance hack. Investigators describe it as part of the Lazarus Group, which was also blamed for the $1.5 billion Bybit theft in 2025. North Korea denies involvement.

@@ -8,6 +8,7 @@ tags: ['Nvidia', 'AI hardware', 'cybercrime', 'cargo theft']
 author: 'Diyan'
 authorRole: 'Staff Writer'
 pubDate: '2026-11-08 07:45'
+updatedDate: '2026-11-15'
 heroImage: '/images/nvidia-gpu-cargo-heist-chips.jpg'
 heroAlt: 'Editorial illustration in cream and charcoal showing a freight truck and glowing server rack GPU silhouettes in vermilion'
 claim: 'The $11.4 million Nvidia equipment theft between Oakland and Texas was an isolated shipping mishap caused by clerical error.'
@@ -57,7 +58,7 @@ The $11.4 million Oakland loss is not an isolated crime. It is part of an accele
 - **Midwest Recovery (June 2026):** Federal and state police in Chicago managed to locate and recover $1.3 million worth of stolen computing equipment after hidden beacon transmitters broadcasted coordinates from an illicit warehouse.
 - **Airport Thefts (Autumn 2026):** Three freight workers were charged after slipping $470,000 in consumer-tier RTX 5090 cards out of an air cargo hub, a theft uncovered only when a stolen unit showed up on an online resale platform.
 
-Similar to our reporting on [historic stock market selloffs following the midterm elections](/wall-street-stock-market-crash-ai-bubble-midterms/) and the massive financial sums circulating around [the six billion dollar cryptocurrency platform theft](/binance-6-billion-dollar-hack-largest-crypto-theft-record/), physical AI hardware is now trading at such intense premiums that criminals will take massive risks to corner supply.
+Similar to our reporting on [historic stock market selloffs following the midterm elections](/wall-street-stock-market-crash-ai-bubble-midterms/) and the massive financial sums circulating around [the six billion dollar cryptocurrency platform theft](/binance-covers-90-percent-losses-fbi-north-korea-hack/), physical AI hardware is now trading at such intense premiums that criminals will take massive risks to corner supply.
 
 Sometimes those risks lead to comical blunders. In September 2026, a freight crew intercepted and stole two trailers displaying prominent Nvidia graphics. The hijackers expected to uncover dozens of enterprise computing nodes. Instead, when they cracked open the rear doors, they found 20,000 pounds of industrial sand. The trailers belonged to PlusAI, an autonomous trucking research company that used heavy bags of sand to simulate gross vehicle weight during safety testing.
 
