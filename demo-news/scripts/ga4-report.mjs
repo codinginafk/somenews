@@ -25,6 +25,28 @@ import { homedir } from 'node:os';
 const KEY = join(homedir(), 'LiveDashboardofSite', 'gcp-service-account.json');
 const PROJECT = 'opencode-project-498612';
 const SCOPES = 'https://www.googleapis.com/auth/analytics.readonly,https://www.googleapis.com/auth/cloud-platform';
+const GCLI = join(homedir(), 'AppData', 'Local', 'Google', 'Cloud SDK', 'google-cloud-sdk', 'bin', 'gcloud.ps1');
+
+// gcloud ships as a PowerShell shim, so drive it through powershell.exe.
+function gcloud(args) {
+  return execFileSync(
+    'powershell.exe',
+    ['-NoProfile', '-ExecutionPolicy', 'Bypass', '-Command', `& '${GCLI}' ${args}`],
+    { encoding: 'utf8' },
+  ).trim();
+}
+
+// Mint an access token as the service account, then put the user's own active
+// account back so the CLI is left exactly as it was found.
+function serviceAccountToken() {
+  const active = gcloud('config get-value core/account');
+  try {
+    gcloud(`auth activate-service-account --key-file='${KEY}' --project=${PROJECT}`);
+    return gcloud(`auth print-access-token --scopes=${SCOPES}`);
+  } finally {
+    if (active && active !== 'unset') gcloud(`config set account ${active}`);
+  }
+}
 
 const propertyId = process.argv[2];
 if (!propertyId) {
@@ -43,11 +65,7 @@ if (!existsSync(KEY)) {
 const startDate = process.argv[3] || '2026-09-23';
 const endDate = process.argv[4] || '2026-11-13';
 
-const token = execFileSync(
-  'gcloud',
-  ['auth', 'print-access-token', `--scopes=${SCOPES}`],
-  { encoding: 'utf8' },
-).trim();
+const token = serviceAccountToken();
 
 async function call(url, body) {
   const res = await fetch(url, {

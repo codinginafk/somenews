@@ -1,101 +1,108 @@
 ---
 title: 'Supreme Court CEC Hearing: 10 Days to Reply on SIR'
-seoTitle: "Supreme Court CEC Hearing: 10 Days for Rejoinder on SIR"
-excerpt: "A three-judge Supreme Court bench gave petitioners 10 days to counter the Election Commission affidavit defending nationwide Special Intensive Revision of electoral rolls and CEC Gyanesh Kumar."
-description: "Supreme Court hearing on CEC Gyanesh Kumar, the Special Intensive Revision of voter rolls, and the ECI affidavit on unanimous decisions."
+seoTitle: 'Supreme Court CEC hearing: 10 days on SIR'
+excerpt: 'The Supreme Court gave petitioners ten days to file a rejoinder to the Election Commission affidavit on the SIR and did not scrap the roll revision or order a probe against the CEC.'
+description: 'The Supreme Court gave petitioners ten days to reply to the Election Commission affidavit on the voter roll revision, and listed the case for November 17.'
 category: 'Reality Check'
-tags: ['Supreme Court', 'Election Commission', 'CEC Gyanesh Kumar', 'SIR', 'electoral rolls']
-author: 'Wasim'
+tags: ['Supreme Court', 'Election Commission', 'SIR', 'electoral rolls']
+author: 'Yash'
 authorRole: 'Contributing Writer'
 pubDate: '2026-10-27 16:30'
-heroImage: '/images/cec-sir-supreme-court-hearing-gyanesh-kumar.jpg'
-heroAlt: 'Minimalist editorial illustration of Supreme Court bench examining electoral roll dispute dossiers against cream paper'
+updatedDate: '2026-11-15'
+primarySource: 'Indian Express live coverage of the Supreme Court hearing of October 27, 2026'
+primarySourceUrl: 'https://indianexpress.com/article/legal-news/sir-hearing-in-supreme-court-live-updates-sir-election-10938329/'
+whyItMatters: 'The roll revision that removed about 13 crore voters from the electoral rolls is being litigated at the top court, and the claims being made about what the bench decided are wrong.'
+sources:
+  - title: 'EC SIR hearing in Supreme Court Live Updates: Pleas Against CEC Gyanesh Kumar, SIR Today Latest Updates'
+    url: 'https://indianexpress.com/article/legal-news/sir-hearing-in-supreme-court-live-updates-sir-election-10938329/'
+    publisher: 'The Indian Express'
+  - title: 'SC says ‘will examine’ petitioners’ ‘innocuous’ plea to direct ECI to preserve or file in court ‘complete’ SIR records'
+    url: 'https://www.thehindu.com/news/national/sc-says-will-examine-petitioners-innocuous-plea-to-direct-eci-to-preserve-or-file-in-court-complete-sir-records/article71630549.ece'
+    publisher: 'The Hindu'
+  - title: 'SIR row: Supreme Court defers hearing, grants petitioner 10 days to reply to EC’s counter-affidavit'
+    url: 'https://timesofindia.indiatimes.com/india/eci-sir-row-supreme-court-defers-hearing-grants-petitioner-10-days-to-reply/articleshow/135227805.cms'
+    publisher: 'The Times of India'
+  - title: 'SIR case: SC gives petitioners 10 days to respond to EC affidavit, next hearing on Nov 17'
+    url: 'https://www.timesnownews.com/india/sir-case-sc-gives-petitioners-10-days-to-respond-to-ec-affidavit-next-hearing-on-nov-17-article-156413931'
+    publisher: 'Times Now'
+  - title: 'SC defers pleas alleging unilateral decisions by Gyanesh Kumar; matter likely to be heard on Nov 17'
+    url: 'https://www.moneycontrol.com/news/india/sc-defers-pleas-alleging-unilateral-decisions-by-gyanesh-kumar-matter-likely-to-be-heard-on-nov-17-14061145.html'
+    publisher: 'Moneycontrol'
+verdict: 'False — with context'
 claim: 'The Supreme Court struck down the nationwide Special Intensive Revision of electoral rolls and ordered an immediate SIT probe against CEC Gyanesh Kumar.'
 claimSource: 'Unverified social media claims and partisan political commentary, October 2026'
-verdict: 'False — with context'
-primarySource: 'Record of Proceedings in Supreme Court of India, Bench of CJI Surya Kant, Justice Joymalya Bagchi, and Justice V Mohana'
-primarySourceUrl: 'https://main.sci.gov.in/'
-whyItMatters: 'The petitions test whether the Election Commission decision-making followed statutory collective procedure and examine constitutional immunity granted to poll chiefs.'
-sources:
-  - title: 'Supreme Court of India: Daily Cause List and Judicial Order Records'
-    url: 'https://main.sci.gov.in/'
-    publisher: 'Supreme Court of India'
-  - title: 'Election Commission of India: Affidavit on Special Intensive Revision and Form 6 Mapping'
-    url: 'https://eci.gov.in/'
-    publisher: 'Election Commission of India'
-  - title: 'Press Trust of India and Court Correspondents: SC SIR Hearing Dispatches'
-    url: 'https://www.ptinews.com/'
-    publisher: 'Press Trust of India'
 featured: false
-trending: true
+trending: false
 ---
 
-**Short answer:** The Supreme Court of India did not scrap the Special Intensive Revision (SIR) or order an investigation against Chief Election Commissioner Gyanesh Kumar. On Tuesday, October 27, 2026, a three-judge bench led by Chief Justice of India Surya Kant granted the petitioners ten days to submit a formal rejoinder to the Election Commission of India (ECI) counter-affidavit. The bench also issued notice on a fresh petition filed by Rajya Sabha Member of Parliament Dola Sen questioning statutory immunity for election commissioners, listing all connected matters for substantive hearing on November 17, 2026.
+**Short answer:** Neither thing happened. On Tuesday, October 27, 2026, a three-judge bench of the Supreme Court headed by Chief Justice of India Surya Kant, with Justices Joymalya Bagchi and V Mohana, granted the petitioners ten days to file a rejoinder to the Election Commission's counter-affidavit on the Special Intensive Revision of electoral rolls, and listed all the connected matters for hearing on November 17, 2026. The bench did not strike down the SIR and did not order an SIT probe against Chief Election Commissioner Gyanesh Kumar. It did something narrower and more consequential than either: it said it would "examine everything".
 
-## 1. What the petitions against the CEC and SIR allege
+## 1. What the bench actually did
 
-A cluster of public interest litigations and writ petitions reached the top court challenging both the operational rollout of the nationwide Special Intensive Revision and the internal decision-making apparatus of the election body.
+The Indian Express live coverage of the hearing sets out the sequence. The Supreme Court granted the petitioners ten days to file a rejoinder to the Election Commission's affidavit on the pleas questioning the functioning of CEC Gyanesh Kumar and the poll panel. On the previous date of hearing, the court had issued notice to the Election Commission of India, Gyanesh Kumar and the other two Election Commissioners.
 
-Social activist Rakesh Kumar Singh filed a primary petition arguing that Article 324(1) of the Constitution does not vest the superintendence, direction, and control of elections in an individual Chief Election Commissioner, but in a multi-member Commission. Singh pointed to reported administrative differences between CEC Gyanesh Kumar and fellow Election Commissioners Sukhbir Singh Sandhu and Vivek Joshi, urging the court to declare the entire SIR drive void from inception for lacking statutory and constitutional backing.
+The Hindu adds the part that turned into the viral claim. Senior advocate Abhishek Manu Singhvi, who appears for the Leader of the Opposition in the Lok Sabha Rahul Gandhi, made what he called an "innocuous, non-invasive" request that the court either direct the Election Commission to preserve, or call for the filing of, the "complete records and decisions" concerning the SIR exercise. Solicitor General Tushar Mehta represented the Union government and senior advocate Maninder Singh appeared for the Election Commission, and both questioned the request.
 
-A second petition submitted by Delhi-based advocate Shailendra Mani Tripathi sought the constitution of an independent Special Investigation Team or a judicial inquiry commission headed by a retired Supreme Court judge to investigate administrative conduct within the commission. Similar pleas challenging voter list procedures have been filed by Lok Sabha Leader of Opposition Rahul Gandhi and senior opposition leaders.
+The Chief Justice's answer was the line that ran across every report of the hearing: "We are aware of everything; we will examine everything." The court then posted all the matters for further hearing on November 17, which the Times Now and Moneycontrol reports also give as the next date.
 
-During Tuesday proceedings, the court also took up a fresh writ petition moved by Trinamool Congress Rajya Sabha MP Dola Sen. Sen challenged:
+What the court did not do is also on the record. The Hindustan Times reported that the Supreme Court refrained from directing the Election Commission to preserve its files, internal notings and communications. The Times of India reported the case as one where the Supreme Court deferred the hearing and granted the petitioner ten days to reply to the Commission's counter-affidavit.
 
-- The constitutional validity of statutory clauses granting serving and former election commissioners lifelong immunity from civil and criminal proceedings for official actions.
-- Whether the poll panel complied with collective consultation protocols prescribed under the Chief Election Commissioner and Other Election Commissioners (Appointment, Conditions of Service and Term of Office) Act, 2023.
-- Alleged procedural modifications made to Form 6 during voter roll verification drives in Bihar without judicial sanction.
+## 2. The three petitions
 
-The three-judge bench issued formal notice on Sen plea, conjoining it with the main batch.
+The Indian Express sets out what is before the bench. One petition, by social activist Rakesh Kumar Singh, refers to alleged differences between CEC Kumar and Election Commissioners Sukhbir Singh Sandhu and Vivek Joshi, and argues that Article 324(1) of the Constitution "does not vest the superintendence, direction and control of elections in an individual Chief Election Commissioner. It vests those powers in a Commission." The petitioner urged the court to declare the SIR, and all actions, decisions, directions and measures taken under it, invalid from the very beginning and without legal authority.
 
-## 2. How the Election Commission defended the revision
+The second petition, by Delhi-based lawyer Shailendra Mani Tripathi, seeks a probe by an independent, high-powered judicial inquiry commission or an SIT headed by a retired judge of the top court.
 
-In its counter-affidavit submitted before the bench, the Election Commission denied allegations of administrative unilateralism and defended the legality of the Special Intensive Revision.
+The third is fresh. On the same day, the Supreme Court issued notice on a petition filed by Trinamool Congress leader and Rajya Sabha member Dola Sen, represented by senior advocate Menaka Guruswamy, against the functioning of the Election Commission and the alleged "tampering" of Form 6 during the SIR in Bihar. The Hindu reports her contention that the Election Commission issued a press note claiming the Supreme Court judgment in the Bihar SIR authorised the change to Form 6, and Guruswamy's submission that the institution was "justifying the tampering of Form 6".
 
-The commission emphasized three core positions:
+The Hindu also reports the scale that the petitions are arguing about. The SIR has excluded approximately 13 crore voters from the electoral rolls.
 
-- Unanimous commission approval: The ECI affirmed that the affidavit itself and every substantive administrative order guiding the SIR were reviewed and approved unanimously by all three commission members, namely the Chief Election Commissioner and both Election Commissioners.
-- Statutory basis of voter verification: The affidavit maintained that the Special Intensive Revision is fully justified under election laws to purify electoral rolls, remove duplicate entries, and register eligible citizens. The commission characterized petitioner accusations of arbitrary rule-making as misconceived.
-- Form 6 clarification: The poll body addressed claims regarding voter registration modifications, describing allegations that Form 6 was illegally amended as misleading. The commission explained that the statutory Form 6 remained untouched, with revisions limited strictly to an annexed Additional Declaration used to introduce digital mapping of residential clusters.
+## 3. What the Election Commission put in its affidavit
 
-The commission urged the court to dismiss the petitions, arguing that continuous updating of voter lists remains a foundational statutory responsibility rather than an unconstitutional measure.
+The Commission's response was a united front, and its legal position was that the petitioners are asking a court to restrain a constitutional function.
 
-## 3. Heated courtroom exchanges and the November 17 date
+The Indian Express reports that the affidavit, filed in response to the petition by Rakesh Kumar Singh, said it "has been approved for filing… by a unanimous decision of the three members of the Election Commission, i.e., two Election Commissioners and the Chief Election Commissioner." The Commission said all decisions relating to the SIR were unanimously taken by the Commission, that SIR is legal and its process justified, and that the petitioners' allegations relating to changes in voter registration procedures and decision-making are misconceived.
 
-Senior counsel representing petitioners and the central government engaged in sharp arguments over the custody of internal administrative records before the bench of CJI Surya Kant, Justice Joymalya Bagchi, and Justice V Mohana.
+On Form 6, the Commission termed the contention that Form 6 was amended as "misleading", and said only the Additional Declaration annexed to Form 6 was amended, "to introduce the concept 'mapping'". The Hindu reports the Commission's position that the additional declaration is not part of the statutory Form 6, and that a CEC can be removed only in accordance with the procedure applicable to a Supreme Court judge.
 
-Senior Advocate Menaka Guruswamy, appearing for petitioners, requested an interim direction to secure internal documentation:
+The Hindu also notes the internal friction alleged in the petitions, with both Election Commissioners complaining about procedural irregularities, coupled with the unilateral and authoritarian conduct of the CEC during the SIR exercise. And it records the counterpoint from senior advocate Vikas Singh, appearing for the lead petitioner Rakesh Kumar Singh, who said the Commission's affidavit "accepts many of the charges we are making."
 
-"Preserve the files and the file notings. The response asserts a unanimous decision, but the file record does not reflect that consensus."
+## 4. Why the viral version is wrong
 
-Solicitor General Tushar Mehta, appearing for the Union government, strongly opposed the request:
+The claim contains two separate assertions, and the record contradicts both.
 
-"The request is unfair and based on conjecture."
+The first is that the Supreme Court struck down the nationwide SIR. It did not. The matter stands for November 17, 2026, with ten days for a rejoinder. The SIR has been running, the roll revisions have been published, and the questions about the exercise are being litigated rather than decided.
 
-Senior Advocate Abhishek Manu Singhvi supported the preservation application, pressing the court to safeguard internal deliberations:
+The second is that the court ordered an immediate SIT probe against CEC Gyanesh Kumar. That was a prayer in one of the petitions, advanced by Shailendra Mani Tripathi's lawyer. A prayer is not an order. What the bench did was take ten days to let the petitioners respond to the Commission's affidavit.
 
-"This whole dispute turns upon decision-making, consultation, and whether consensus was reached. We are only asking that the original records and file notings be preserved."
+The pattern behind the false version is worth naming, because it recurs. A direction sought in argument, an inquiry asked for by a lawyer, and a hearing that granted time are three different things, and a headline that fuses them into "court orders probe" is the product of that fusion rather than of reporting.
 
-Chief Justice Surya Kant declined to enter into piecemeal findings at this preliminary juncture, stating:
+## 5. What is still open
 
-"We are aware of everything; we will examine everything."
+On November 17, 2026, the bench takes up the batch. Three things sit unresolved and all three are consequential.
 
-The bench granted the petitioners ten days to file their comprehensive rejoinder to the ECI affidavit. All connected petitions will be taken up together for further examination on November 17, 2026.
+Whether the SIR and every act done under it can be declared void from the beginning for want of statutory and constitutional authority, as Rakesh Kumar Singh urges. Whether the Commission must preserve and produce its files and notings on how the roll revision was decided. And Dola Sen's fresh plea on whether Form 6 was altered in the Bihar SIR without the court's approval, which the Commission denies and the petitioners call documented in the Commission's own press note.
+
+The "examine everything" promise is not a judgment, but it is not nothing either. On a matter where the Government of India, the Election Commission and the Leader of the Opposition are all represented before the same bench, a court that says it will look at everything has not yet decided anything, and anyone telling you it has is reading the hearing instead of the order.
 
 ## Sources to check yourself
 
-- Supreme Court of India Cause List and Case Status records for October 27, 2026
-- Counter-affidavit filed by the Election Commission of India in Rakesh Kumar Singh v. ECI
-- Text of the Chief Election Commissioner and Other Election Commissioners Act, 2023
-- Indian Express and legal correspondent reports on the Supreme Court proceedings
+- [The Indian Express live updates, October 27](https://indianexpress.com/article/legal-news/sir-hearing-in-supreme-court-live-updates-sir-election-10938329/): the ten-day grant, the bench composition, the Commission's unanimous-decision line and the text of both petitioners' arguments.
+- [The Hindu, October 27](https://www.thehindu.com/news/national/sc-says-will-examine-petitioners-innocuous-plea-to-direct-eci-to-preserve-or-file-in-court-complete-sir-records/article71630549.ece): Singhvi's request, the Solicitor General's objection, the "examine everything" remark and the 13 crore voter figure.
+- [The Times of India](https://timesofindia.indiatimes.com/india/eci-sir-row-supreme-court-defers-hearing-grants-petitioner-10-days-to-reply/articleshow/135227805.cms): the deferral and the ten-day grant to Rakesh Kumar Singh.
+- [Times Now](https://www.timesnownews.com/india/sir-case-sc-gives-petitioners-10-days-to-respond-to-ec-affidavit-next-hearing-on-nov-17-article-156413931): the 248-page counter-affidavit and the November 17 listing.
+- [Moneycontrol](https://www.moneycontrol.com/news/india/sc-defers-pleas-alleging-unilateral-decisions-by-gyanesh-kumar-matter-likely-to-be-heard-on-nov-17-14061145.html): the notice on Dola Sen's Form 6 plea and the November 17 date.
 
 ## Frequently asked questions
 
-**Q: Did the Supreme Court stay the Special Intensive Revision on October 27?**
-A: No. The Supreme Court issued no stay on the SIR process and passed no adverse orders against CEC Gyanesh Kumar. The court gave petitioners 10 days to reply to the ECI affidavit.
+**Q: Did the Supreme Court order an SIT probe against the Election Commissioner?**
+A: No. The probe was sought by a petitioner. The court granted ten days for a rejoinder to the Commission's affidavit and listed the matter for November 17, 2026.
 
-**Q: What is the fresh plea filed by MP Dola Sen?**
-A: Rajya Sabha MP Dola Sen filed a writ petition challenging lifelong legal immunity for election commissioners under the 2023 Act and questioning voter registration Form 6 mapping in Bihar.
+**Q: Did the court scrap the Special Intensive Revision?**
+A: No. The SIR is not struck down. The petitions seeking to have it and every action taken under it declared void from the beginning are pending before a bench headed by CJI Surya Kant.
 
-**Q: When will the Supreme Court hear the matter next?**
-A: The three-judge bench headed by Chief Justice of India Surya Kant scheduled the next hearing for November 17, 2026.
+**Q: What did the Chief Justice actually say?**
+A: The Indian Express recorded him as saying "We are aware of everything; we will examine everything" before posting all the matters for further hearing on November 17.
+
+**Q: How many voters were removed by the roll revision?**
+A: The Hindu reports the SIR has excluded approximately 13 crore voters from the electoral rolls, which is the scale the petitions are arguing over.
