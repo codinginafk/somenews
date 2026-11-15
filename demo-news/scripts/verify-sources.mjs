@@ -89,7 +89,7 @@ function curlFetch(url) {
     const r = spawnSync(
       'curl.exe',
       ['-s', '-L', '--max-time', String(Math.ceil(TIMEOUT_MS / 1000)), '-A', UA,
-       '-w', '\n__RFN_GATE_STATUS__%{http_code}\n%{url_effective}', url],
+       '-w', '\\n__RFN_GATE_STATUS__%{http_code}\\n%{url_effective}', url],
       { encoding: 'utf8', maxBuffer: 64 * 1024 * 1024 },
     );
     if (r.error || !r.stdout) return null;
