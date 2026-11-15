@@ -90,6 +90,10 @@ Yet industry analysts note that the company faces several enduring structural ch
 
 While the president's expression of personal trust provides temporary political breathing room for Huang, the combination of an active FBI probe, shareholder litigation, and Congressional scrutiny ensures this scandal will shape the AI industry for months to come.
 
+## Related coverage
+
+Two companion pieces cover the same thread. The intelligence reporting that started it is in [Inside the Jensen Huang scandal: affair, spy probe, stakes](/jensen-huang-nvidia-scandal-chinese-spy-probe/), and the board's decision to remove him from the top job is in [Nvidia CEO Jensen Huang resigns: who replaces him?](/nvidia-ceo-jensen-huang-resigns-who-can-replace-him/).
+
 ## Sources to check yourself
 
 - BBC News Business Desk: Reporting by Michael Race and Osmond Chia covering President Trump's White House remarks and Nvidia market losses.

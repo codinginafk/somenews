@@ -122,6 +122,10 @@ The claim is missing the context that makes it honest. The Sunday shift was work
 
 That pattern is not unique to banking. It shows up wherever a crisis is averted by asking workers to absorb the cost first. The same question applies to [pay commission arrears](/central-govt-da-hike-8th-pay-commission-arrears/) and to [banking failures that put customer data at risk](/state-bank-data-breach-customer-data-leaked/): who pays for the contingency, and who is told it was normal.
 
+## Related coverage
+
+Two other pieces on this site follow the money and the schedule behind this dispute. The unpaid arrears that make the seventh pay commission the reference point for every bank union demand are in [the DA hike and the eighth pay commission](/central-govt-da-hike-8th-pay-commission-arrears/). What a first paycheck means when it is the reason someone walks away is in [the ex-Cognizant HR who quit for Goa](/ex-cognizant-hr-quits-delhi-goa-reality-check/).
+
 ## Sources to check yourself
 
 - [The Hindu BusinessLine, September 27](https://www.thehindubusinessline.com/money-and-banking/bank-strike-deferred-after-iba-assurance-on-five-day-work-week/article71517232.ece): the high-level committee, the remaining Saturdays and the March 8, 2024 residual issues.

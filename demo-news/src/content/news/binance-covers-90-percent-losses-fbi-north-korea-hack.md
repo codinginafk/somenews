@@ -137,6 +137,10 @@ The claim that Binance is insolvent is false. The claim that the hack was harmle
 
 That connects to a wider pattern. Crypto exchanges and banks now face the same class of state-backed intrusion, as seen in the [Top 5 data leaks of 2026](/top-5-data-leaks-2026-php2shell-state-bank/) and the [State Bank data breach](/state-bank-data-breach-customer-data-leaked/). The difference here is that the victim published a coverage plan within 48 hours.
 
+## Related coverage
+
+Two related investigations on this site cover the same economy of stolen hardware. The physical side, where cargo crews took Nvidia GPUs off trucks between Oakland and Texas, is in [the Nvidia cargo heist](/nvidia-gpu-cargo-heist-data-center-chips-stolen/). The institutional side, where the State Bank of India's filing count is the number that matters, is in [the State Bank data breach](/state-bank-data-breach-customer-data-leaked/).
+
 ## Sources to check yourself
 
 - [BBC News, November 1](https://www.bbc.com/news/articles/ckpdg3ql4169o): the 90% coverage figure, the $6.34 billion set-aside and the FBI attribution.

@@ -85,6 +85,10 @@ Nvidia's board of directors announced an internal review on Sunday while simulta
 
 Nevertheless, Congressional oversight committees are already preparing inquiries into whether corporate travel logs or proprietary export compliance communications intersected with the relationship. For Silicon Valley's most powerful executive, navigating the technical complexities of artificial intelligence may prove far simpler than surviving Washington's national security spotlight.
 
+## Related coverage
+
+This is the first of three pieces on the Nvidia affair. For the president's own confirmation of the federal inquiry, read [Trump confirms FBI investigating Jensen Huang](/trump-confirms-fbi-investigating-jensen-huang-nvidia/). For what happened at the company nine days later, read [Nvidia CEO Jensen Huang resigns: who replaces him?](/nvidia-ceo-jensen-huang-resigns-who-can-replace-him/).
+
 ## Sources to check yourself
 
 - BBC News Technology and Business Desks: Reporting by Lily Jamali and Peter Hoskins on Jensen Huang's personal and intelligence scrutiny.

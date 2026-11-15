@@ -95,6 +95,10 @@ The claim fails. No internal heir was named, and Nvidia's own release says the o
 
 The context is that this was never a planned transition dressed up as a succession. The board's own timeline puts an independent investigation with outside counsel four days ahead of the resignation, and the market read it that way, with a 13% opening fall. What Nvidia has is a caretaker with the board's confidence and a first-ever independent chair, and the company's next results on November 17.
 
+## Related coverage
+
+This piece is the third in a three-part series. The reporting that opened the affair is in [Inside the Jensen Huang scandal: affair, spy probe, stakes](/jensen-huang-nvidia-scandal-chinese-spy-probe/), and the president's confirmation of the FBI inquiry is in [Trump confirms FBI investigating Jensen Huang](/trump-confirms-fbi-investigating-jensen-huang-nvidia/).
+
 ## Sources to check yourself
 
 - [NVIDIA Announces CEO Transition, November 12](https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition): the resignation, the interim appointment, the chair appointment, the quotes and the earnings date.
