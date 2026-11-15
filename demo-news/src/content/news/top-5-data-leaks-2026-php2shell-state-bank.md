@@ -25,9 +25,9 @@ sources:
   - title: 'Operational information regarding the 2026 php2shell vulnerabilities'
     url: 'https://github.com/NCSC-NL/php2shell'
     publisher: 'NCSC-NL'
-  - title: 'Huge European telecom leak exposes Swedbank, SEB, airBaltic and dozens of other companies’ clients'
-    url: 'https://cybernews.com/security/csc-telecom-leaks-swedbank-seb-sms-messages/'
-    publisher: 'Cybernews'
+  - title: 'Swedbank, SEB bank, airbaltic, ''Ambulance'' - in Latvia, a leak of over 125 million SMS messages'
+    url: 'https://en.bb.lv/article/emergencies-and-crime/2026/11/11/swedbank-seb-bank-airbaltic-ambulance-in-latvia-a-leak-of-over-125-million-sms-messages-115702'
+    publisher: 'BB.LV'
   - title: 'SBI Data Breach: SBI flags dark web exposure of 3,897 customer records; names, mobile numbers, addresses among data leaked'
     url: 'https://economictimes.indiatimes.com/industry/banking/finance/banking/sbi-flags-dark-web-exposure-of-3897-customer-records-names-mobile-numbers-addresses-among-data-leaked/articleshow/135081335.cms'
     publisher: 'The Economic Times'
@@ -45,7 +45,7 @@ trending: true
 
 **Short answer:** The 2026 data exposure wave was not defined by a single mega-breach. It combined a decade-old flaw in the PHP engine that put most of the web at risk, a live SMS database that leaked authentication codes in real time, a confirmed State Bank of India exposure, and a genomics breach affecting 2.8 million patients. Each incident exposed a different kind of permanent risk.
 
-*Correction (2026-11-14): This article was revised to remove unsupported claims about a 2026 Meta biometric exposure, a national telecom subscriber dump, and a hospital genetic-data auction. The incidents and figures below are limited to reporting from Wiz, Cybernews, the Economic Times, and the HIPAA Journal.*
+*Correction (2026-11-15): An earlier revision removed unsupported claims about a 2026 Meta biometric exposure, a national telecom subscriber dump and a hospital genetic-data auction. This revision replaces the CSCTelecom section's original Cybernews citation, which our source check could not retrieve, with BB.LV reporting. The October 27 closure date has been dropped as unverified, and the incident is now described only in the terms BB.LV published.*
 
 ## 1. What the leak logs show
 
@@ -65,11 +65,13 @@ Wiz's follow-up telemetry found no confirmed end-to-end exploitation in its own 
 
 ## 3. The CSCTelecom live SMS database exposure
 
-In November 2026, Cybernews reported that the Latvian branch of CSCTelecom had left a ClickHouse database containing more than 125 million SMS messages publicly accessible. The records spanned October 2022 to September 2026 and were updated in real time.
+In November 2026, BB.LV reported that the Latvian branch of CSCTelecom had left a database containing more than 125 million SMS messages publicly accessible. The messages ran from October 2022 to September 2026, and the database was updated in real time, which meant an attacker watching it could intercept identity verification codes, password reset links and confidential information before the intended recipients saw them.
 
-The exposure was not a static archive. Messages included authentication codes, temporary passwords, password reset links, medical test results, reservation details, shipping updates, travel bookings, and bank transaction notifications. Because the feed was live, an attacker monitoring it could have used a one-time code before the intended recipient saw the message.
+The exposure was not a static archive. BB.LV, reporting the Cybernews research team that found it, said the unsecured database sat on the ClickHouse platform and was discovered on September 28, 2026, with more than three million messages sent through the service in September alone. The database held messages from major banks, medical institutions, popular online stores and government organisations, and from Latvia's national emergency service at number 112.
 
-The affected organizations included Swedbank and SEB in Latvia, airBaltic, Latvia's 112 emergency hotline, ERGO, and retailers such as Porsche, CityBee, and Barbora. CSCTelecom said it identified a security vulnerability in one of its systems, fixed it, and reported the issue to Latvian CERT. Swedbank suspended use of the provider while it investigated. Cybernews said it found the database on September 28, 2026, and observed it closed on October 27.
+The organisations named in the reporting included Swedbank, SEB bank and airBaltic, alongside dozens of other companies. Although CSCTelecom primarily operates in Latvia, the leak also affected companies and individuals in Lithuania and Estonia. Cybernews reached out to CSCTelecom for comment.
+
+The number needs one qualification before it is used as a victim count. A message is not a person, and the 125 million figure is text records accumulated across nearly four years. The same customer can appear in thousands of them.
 
 ## 4. State Bank and South Asian banking breach
 
@@ -99,7 +101,7 @@ Institutions also face complex audit trails. As seen during recent banking secto
 - [Wiz Research exploitation update](https://www.wiz.io/blog/php2shell-exploitation-so-far): real-world exploitation attempts and remediation trends.
 - [Datadog Security Labs](https://securitylabs.datadoghq.com/articles/php2shell-critical-vulnerabilities-in-php/): independent detection and remediation analysis for CVE-2026-109618 and CVE-2026-109619.
 - [NCSC-NL](https://github.com/NCSC-NL/php2shell): operational guidance and vulnerability tracking from the Dutch national cyber security centre.
-- [Cybernews](https://cybernews.com/security/csc-telecom-leaks-swedbank-seb-sms-messages/): the 125-million-message CSCTelecom exposure and the affected banks, airlines, and retailers.
+- [BB.LV](https://en.bb.lv/article/emergencies-and-crime/2026/11/11/swedbank-seb-bank-airbaltic-ambulance-in-latvia-a-leak-of-over-125-million-sms-messages-115702): the 125-million-message CSCTelecom exposure, the ClickHouse discovery on September 28, and the banks, medical institutions and emergency services exposed.
 - [The Economic Times](https://economictimes.indiatimes.com/industry/banking/finance/banking/sbi-flags-dark-web-exposure-of-3897-customer-records-names-mobile-numbers-addresses-among-data-leaked/articleshow/135081335.cms): the SBI filing confirming 3,897 exposed customer records.
 - [HIPAA Journal](https://www.hipaajournal.com/baylor-genetics-data-breach/): the Baylor Genetics breach and the 2,810,878 affected individuals.
 
