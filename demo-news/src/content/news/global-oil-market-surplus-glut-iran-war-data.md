@@ -1,5 +1,5 @@
 ---
-title: "Why Global Oil Markets Face a Growing Surplus Despite the Ongoing Iran War"
+title: 'Why Global Oil Markets Face a Surplus Despite the Iran War'
 seoTitle: "Why Global Oil Markets Face a Surplus Despite War"
 excerpt: "Despite the largest Middle East export disruption in history, the global oil market is sliding back into surplus as high prices destroy consumption."
 description: "Global crude supplies returned to a 1.4 million bpd surplus as high prices destroyed fuel demand and Gulf tanker flows recovered despite the war."

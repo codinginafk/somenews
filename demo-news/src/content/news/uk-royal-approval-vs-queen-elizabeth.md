@@ -1,5 +1,5 @@
 ---
-title: "UK Royal Approval Ratings vs Queen Elizabeth: No Living Royal Comes Close"
+title: 'UK Royal Approval Ratings: No Living Royal Compares'
 seoTitle: "UK royal approval vs Queen Elizabeth: the gap"
 excerpt: "Queen Elizabeth holds 81% positive even after death. The highest living royal, William, sits at 76%. The gap tells the story."
 description: "YouGov data shows Queen Elizabeth at 81% favourable vs Prince William at 76%. No living royal matches the late monarch."

@@ -1,5 +1,5 @@
 ---
-title: "Daman Airport Attack Update October 2026: Indian Casualties and What the Data Shows"
+title: 'Daman Airport Attack: Indian Casualties and the Data'
 seoTitle: "Saudi Airport Attack Kills Indian Worker: Fact Check"
 excerpt: "A strike on Dammam airport killed an Indian and a Saudi national, bringing October airport fatalities to 22 amid expanding infrastructure attacks."
 description: "An Indian worker was killed at Dammam airport as official figures record 22 deaths across Saudi civilian airports following renewed regional clashes."

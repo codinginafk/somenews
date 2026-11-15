@@ -1,5 +1,5 @@
 ---
-title: "2026 Tech Layoffs Report: Over 196,000 Jobs Axed as Big Tech Pivots to AI"
+title: '2026 Tech Layoffs: Over 196,000 Jobs as Big Tech Pivots'
 seoTitle: "2026 Tech Layoffs Report: Over 196,000 Jobs Axed"
 excerpt: "Over 196,000 tech employees have been laid off in 2026 as Intel, Oracle, Amazon, TCS, and Meta restructure. Explore the top companies leading job cuts."
 description: "Over 196,000 tech employees have been laid off in 2026 as Intel, Oracle, Amazon, TCS, and Meta restructure. Explore the top companies leading job cuts."
@@ -10,7 +10,7 @@ authorRole: 'Staff Writer'
 pubDate: '2026-10-28 13:15'
 updatedDate: '2026-11-14'
 heroImage: '/images/tech-layoffs-2026-top-companies.jpg'
-heroAlt: 'Minimalist editorial illustration in cream and charcoal showing corporate towers, departing workers, and descending job cut trendlines with vermilion accent'
+heroAlt: 'Minimalist illustration of corporate towers, departing workers and falling job-cut trendlines in vermilion'
 claim: 'Tech layoffs slowed down in 2026 as macroeconomic conditions stabilized and enterprise tech firms resumed normal baseline hiring.'
 claimSource: 'Early 2026 workforce stabilization outlooks and tech commentary threads'
 verdict: 'False — with context'

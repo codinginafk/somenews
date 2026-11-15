@@ -1,5 +1,5 @@
 ---
-title: "Karjat: 32,490 Trees Marked for Torrent Power"
+title: 'Karjat: 32,490 Trees Marked for Torrent Power'
 seoTitle: "Karjat Tree Felling: 32,490 Trees for Torrent Power"
 excerpt: "Nearly 1,100 trees were felled before protests halted work on Torrent Power's 3,000-MW pumped-storage project. The record shows 32,490 trees marked across 377 hectares."
 description: "Karjat tree felling explained: 32,490 trees marked, 377 hectares, 150 Katkari families left out of forest rights records, and a project cleared for 2029."

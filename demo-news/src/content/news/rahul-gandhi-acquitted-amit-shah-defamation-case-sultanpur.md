@@ -1,5 +1,5 @@
 ---
-title: "Rahul Gandhi Acquitted in Amit Shah Defamation Case: Sultanpur Court Ruling"
+title: 'Rahul Gandhi Acquitted in Amit Shah Defamation Case'
 seoTitle: "Rahul Gandhi Acquitted: Sultanpur Court Defamation Ruling"
 excerpt: "A special MP-MLA magistrate court in Sultanpur acquitted Lok Sabha Leader of Opposition Rahul Gandhi in a six-year-old criminal defamation complaint filed by a BJP leader over remarks targeting Union Home Minister Amit Shah."
 description: "A Sultanpur court acquitted Rahul Gandhi in the 2018 defamation case over Amit Shah remarks. What magistrate Shubham Verma ruled."

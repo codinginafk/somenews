@@ -1,5 +1,5 @@
 ---
-title: "Did RJ Mitte Fake His Disability? What the Record Shows"
+title: 'Did RJ Mitte Fake His Disability? What the Record Shows'
 seoTitle: "RJ Mitte Disability: What the Record Actually Shows"
 excerpt: "RJ Mitte was diagnosed with cerebral palsy at age 3 and used braces and crutches as a child. For Breaking Bad, he made Walter White Jr.'s disability more severe, not less."
 description: "RJ Mitte had cerebral palsy and used braces and crutches as a child. He exaggerated the condition for Walter White Jr., not the other way around."

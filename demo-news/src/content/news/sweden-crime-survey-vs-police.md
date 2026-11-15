@@ -19,6 +19,7 @@ sources:
     url: 'https://www.bra.se/'
     publisher: 'Bra'
 heroImage: '/images/country-sweden.svg'
+heroAlt: 'Editorial figure of three Swedish crowns, labelled small sample and loud verdict'
 verdict: 'Missing Context'
 claim: 'Sweden is the crime capital of Europe'
 claimSource: 'Viral clip, 2026'

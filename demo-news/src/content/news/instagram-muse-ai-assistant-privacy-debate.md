@@ -1,5 +1,5 @@
 ---
-title: "New AI 'Muse' by Instagram Seeks to Control Your Life: Creativity or Algorithmic Exploitation?"
+title: "Instagram's New AI 'Muse': Creativity or Exploitation?"
 seoTitle: "Instagram Muse AI Assistant: Privacy & Creativity Debate"
 excerpt: "Meta has launched Muse, an AI agent embedded directly into Instagram that promises efficiency but raises critical privacy and creativity concerns."
 description: "Meta launched Muse on Instagram to automate content, saved Reels, and creator tasks. Are we gaining a digital assistant or surrendering creative control?"

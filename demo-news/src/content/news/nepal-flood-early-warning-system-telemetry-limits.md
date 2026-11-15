@@ -1,5 +1,5 @@
 ---
-title: "How flash flood warning system works in Nepal: Radar, SMS, and Real Limits"
+title: "Nepal's Flash Flood Warning System: How It Works and Fails"
 seoTitle: "How Nepal Flood Early Warning Systems Work"
 excerpt: "Nepal uses radar gauges and mass SMS alerts to track flood crests. But when high-altitude slopes collapse, technology faces hard physical limits."
 description: "Nepal shifted from manual watch towers to automated telemetry. Here is how early warning systems work and why mountain surges still outpace alerts."
@@ -23,7 +23,7 @@ sources:
     url: 'https://wmo.int/'
     publisher: 'World Meteorological Organization'
 heroImage: '/images/nepal-telemetry-early-warning.jpg'
-heroAlt: 'Minimalist vector illustration in cream, black, and red-orange showing a telemetric solar-powered river gauge tower on a mountain slope.'
+heroAlt: 'Minimalist illustration of a solar-powered river gauge tower on a mountain slope'
 ---
 
 **Short answer:** Nepal replaced manual river spotters with radar gauges, satellite telemetry, and automated mass SMS alerts. The system works effectively for seasonal monsoon river crests across southern flatlands.	However at high altitude avalanches it didn't work.

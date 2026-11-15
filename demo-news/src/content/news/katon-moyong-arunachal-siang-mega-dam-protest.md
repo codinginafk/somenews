@@ -1,5 +1,5 @@
 ---
-title: "Who is Katon Moyong? Inside the Viral Battle Against Arunachal's Siang Mega Dam"
+title: "Katon Moyong: The Viral Fight Over Arunachal's Siang Dam"
 seoTitle: "Who is Katon Moyong? The Battle Over Arunachal's Siang Dam"
 excerpt: "Environmental engineer Katon Moyong went viral challenging the 11,000 MW Siang dam. Here is who he is, why the Adi people oppose it, and what they demand."
 description: "Arunachal activist Katon Moyong's viral speech against the 11,000 MW Siang dam highlights indigenous resistance to India-China geopolitical mega-projects."

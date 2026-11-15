@@ -1,5 +1,5 @@
 ---
-title: "Ramayana Box Office: Inside the ₹507 Crore Opening, the Records, and the Gaps"
+title: 'Ramayana Box Office: The Rs 507 Crore Opening and the Gaps'
 seoTitle: "Ramayana Box Office: Decoding the ₹507 Cr Worldwide Haul"
 excerpt: "Ramayana earned ₹507 crore globally in four days, surpassing Adipurush's lifetime gross while showing mixed domestic momentum against major record holders."
 description: "Ramayana crossed ₹507 crore worldwide in four days, beating Adipurush's lifetime gross but trailing Pushpa 2 and Dhurandhar in domestic ticket sales."

@@ -1,5 +1,5 @@
 ---
-title: 'Dhaka Beyond the Rank: What Visitors Film When They Stay Past Day Two'
+title: 'Dhaka Beyond the Rank: What Visitors Film Past Day Two'
 seoTitle: 'Dhaka beyond the rank: what visitors film'
 excerpt: 'River crossings at Sadarghat, late food streets in Lalbagh, startup floors in Banani - footage with dates and spots, not a thumbnail.'
 description: 'Dhaka beyond rankings: river crossings at Sadarghat, food streets in Lalbagh, and startup culture in Banani with real visitor footage.'
@@ -18,6 +18,7 @@ sources:
     url: 'https://data.worldbank.org/country/bangladesh'
     publisher: 'World Bank'
 heroImage: '/images/country-bangladesh.svg'
+heroAlt: 'Editorial figure of Sadarghat in Dhaka, labelled 06:40 and 10 taka, in cream and charcoal'
 verdict: 'Explainer'
 featured: false
 trending: false

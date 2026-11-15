@@ -1,5 +1,5 @@
 ---
-title: 'Finland #1 Happiest, Bangladesh Last? What That Ranking Actually Measures'
+title: 'Finland #1 Happiest, Bangladesh Last? What It Measures'
 seoTitle: 'Finland happiest? What the ranking measures'
 excerpt: 'The happiness ranking is not a beauty contest: a 0-10 ladder survey plus GDP, support, freedom and corruption. Full context shifts both countries.'
 description: 'Finland tops the happiness ranking, Bangladesh ranks low. Neither means best or worst overall—understand what the survey actually measures.'
@@ -19,6 +19,7 @@ sources:
     url: 'https://www.gallup.com/'
     publisher: 'Gallup'
 heroImage: '/images/country-finland.svg'
+heroAlt: 'Editorial figure of a Finnish lake at dusk, labelled minus nine degrees and three hours of light'
 claim: 'Finland is the best country in the world and Bangladesh is the worst'
 claimSource: 'Viral summary of World Happiness Report'
 verdict: 'Missing Context'

@@ -1,5 +1,5 @@
 ---
-title: "PdfCraft: Open-Source Pure-Rust Alternative to Adobe Acrobat Pro"
+title: 'PdfCraft: An Open-Source Pure-Rust Alternative to Acrobat'
 seoTitle: "PdfCraft: Pure-Rust Open-Source PDF Reader & Editor"
 excerpt: "An open-source clean-room PDF reader and editor written from scratch in pure Rust offers AES-256 encryption and AcroForms without Adobe subscriptions."
 description: "PdfCraft replaces Adobe Acrobat with an open-source pure-Rust editor. We test its memory use, page manipulation, and privacy features."

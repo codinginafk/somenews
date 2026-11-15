@@ -1,5 +1,5 @@
 ---
-title: 'Helsinki in Winter: Why Trust Scores Run High and What Locals Add'
+title: 'Helsinki in Winter: Why Trust Scores Run High'
 seoTitle: 'Helsinki winter: why trust scores run high'
 excerpt: 'Low graft perception and solid safety nets lift the ladder. Darkness, rents, and integration debates fill the rest.'
 description: 'Helsinki ranks high on trust scores due to low corruption and strong safety nets, but winter darkness and housing costs tell another story.'
@@ -18,6 +18,7 @@ sources:
     url: 'https://www.gallup.com/'
     publisher: 'Gallup'
 heroImage: '/images/country-finland.svg'
+heroAlt: 'Editorial figure of a Finnish lake at dusk, labelled minus nine degrees and three hours of light'
 verdict: 'Explainer'
 featured: false
 trending: false

@@ -1,5 +1,5 @@
 ---
-title: "Qualcomm India Layoffs 2026: 1,000 Jobs at Risk and Unconfirmed Four-Month Severance Offer"
+title: 'Qualcomm India Layoffs: 1,000 Jobs and the Severance Claim'
 seoTitle: "Qualcomm India Layoffs: 1,000 Cuts & Severance Rules"
 excerpt: "Qualcomm is cutting around 1,000 roles across Bengaluru, Hyderabad, Chennai, and Delhi-NCR, while reports describe a 3-plus-1 month severance rule that remains unconfirmed."
 description: "Qualcomm is reportedly cutting 1,000 India jobs across Bengaluru and Hyderabad with an unconfirmed 3-month severance plus a 3-day exit bonus."

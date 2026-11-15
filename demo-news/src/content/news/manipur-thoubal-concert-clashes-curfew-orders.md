@@ -1,5 +1,5 @@
 ---
-title: "Clashes Erupt at Manipur Concert in Thoubal: One Killed and Curfew Imposed in Khangabok"
+title: 'Clashes at a Manipur Concert in Thoubal: One Killed'
 seoTitle: "Manipur Thoubal Clashes & Curfew Orders: Fact Check"
 excerpt: "A concert at CYSA playground in Thoubal ended in communal clashes, gunfire killing 26-year-old Laishram Rakesh, and emergency Section 144 home-confinement orders."
 description: "Communal clashes during a music concert in Manipur's Thoubal left one dead from gunfire and multiple houses burned, prompting an emergency night curfew."

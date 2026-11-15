@@ -1,5 +1,5 @@
 ---
-title: "Target: Tiger Shroff - Was the Juhu Shooting Really a Lawrence Bishnoi Hit?"
+title: 'Was the Juhu Shooting a Lawrence Bishnoi Hit? The Claim'
 seoTitle: "Tiger Shroff Juhu Shooting: Bishnoi Hit or Copycat?"
 excerpt: "Gunfire targeted Bollywood star Tiger Shroff's vehicle in Juhu, injuring two. Police are probing viral claims by Lawrence Bishnoi gang operatives."
 description: "Mumbai Police probe viral Bishnoi gang audio claims after gunfire in Juhu targeted actor Tiger Shroff, injuring his driver and a bystander."

@@ -1,5 +1,5 @@
 ---
-title: "Wall Street Loses $2.5 Trillion in Single Session: Did Midterms Pop the AI Bubble?"
+title: 'Wall Street Lost $2.5 Trillion in a Session: What Broke'
 seoTitle: "Wall Street $2.5T Crash: Did Midterms Pop the AI Bubble?"
 excerpt: "Wall Street suffered a historic $2.5 trillion single-day rout as tech giants crashed, sparking fierce debate over the real cause behind the selloff."
 description: "Wall Street erased $2.5T as tech tumbled into correction territory, sparking clashes between Donald Trump and analysts over the market's sudden crash."

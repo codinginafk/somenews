@@ -1,5 +1,5 @@
 ---
-title: "Nvidia CEO Jensen Huang Resigns Immediately: Interim Leader Colette Kress and Top Successors"
+title: 'Nvidia CEO Jensen Huang Resigns: Who Replaces Him?'
 seoTitle: "Nvidia CEO Jensen Huang Resigns: Who Can Replace Him?"
 excerpt: "Jensen Huang stepped down immediately as Nvidia CEO, President, and director on November 12, 2026. CFO Colette Kress takes over as interim chief while a permanent search begins."
 description: "Jensen Huang resigned as Nvidia CEO and director on November 12, 2026, leaving CFO Colette Kress as interim chief while the board searches for a successor."

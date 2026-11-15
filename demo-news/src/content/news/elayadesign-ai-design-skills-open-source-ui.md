@@ -1,5 +1,5 @@
 ---
-title: "What is the open-source repository elayadesign/ai-design-skills?"
+title: 'What Is the Open-Source elayadesign/ai-design-skills?'
 seoTitle: "AI Design Skills: Better Frontend Rules for AI Coders"
 excerpt: "The open-source repository elayadesign/ai-design-skills supplies SKILL.md rule sheets to help AI coding agents generate accessible frontend UI."
 description: "elayadesign/ai-design-skills provides structured design guidelines to help AI coding agents build human-centered user interfaces."

@@ -1,5 +1,5 @@
 ---
-title: "Allen Kota Classroom Fight: Fact-Checking Viral Claims of Coaching Center Gunfire"
+title: 'Allen Kota: Fact-Checking the Coaching Centre Gunfire Claims'
 seoTitle: "Allen Kota Fight: Fact-Checking Coaching Gunfire Claims"
 excerpt: "Viral claims alleged a student fired a pistol inside Allen Coaching in Kota. Police records and witnesses confirm an air gun assault, not gunfire."
 description: "Police deny live gunfire after a violent clash at Allen Coaching's Sabal campus in Kota left a student injured by an air gun assault."

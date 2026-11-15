@@ -1,5 +1,5 @@
 ---
-title: "No Jail for an Eight-Year-Old: The Panchkula Record"
+title: 'No Jail for an Eight-Year-Old: The Panchkula Record'
 seoTitle: "Panchkula school assault: the record and the juvenile law"
 excerpt: "A Class 3 student attacked a six-year-old classmate in a locked classroom in Panchkula. The record is documented, the boy was granted bail, and the school is not the only one facing charges."
 description: "The Panchkula classroom assault is documented by police, CCTVs and hospital records. An eight-year-old cannot face jail, and the school faces charges."

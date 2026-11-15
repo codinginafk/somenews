@@ -1,5 +1,5 @@
 ---
-title: "Did Ronaldo Really Retire? The Truth Behind His Portugal Exit"
+title: 'Did Ronaldo Really Retire? Behind His Portugal Exit'
 seoTitle: "Did Ronaldo Really Retire? The Truth Behind His Exit"
 excerpt: "Cristiano Ronaldo has officially retired from international football with Portugal after 23 years, following a training camp fallout with coach Jorge Jesus."
 description: "Cristiano Ronaldo retired from Portugal international duty after 23 years, but viral rumors claiming he quit all club football are completely false."

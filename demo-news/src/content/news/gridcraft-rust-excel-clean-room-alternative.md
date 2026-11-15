@@ -1,5 +1,5 @@
 ---
-title: "GridCraft: Can a Pure-Rust Calculation Engine Replace Microsoft Excel?"
+title: 'GridCraft: Can a Pure-Rust Engine Replace Excel?'
 seoTitle: "GridCraft: Pure-Rust Open-Source Excel Alternative"
 excerpt: "GridCraft delivers a clean-room Microsoft Excel spreadsheet reimplementation in pure Rust with dynamic arrays, XLSX support, and zero telemetry."
 description: "GridCraft builds an open-source Excel alternative in pure Rust. We benchmark its calculation engine, memory efficiency, and formula recalculation."

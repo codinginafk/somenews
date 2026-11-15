@@ -1,5 +1,5 @@
 ---
-title: "Starlink India Price Per Month: US Plans vs India Estimates"
+title: 'Starlink India Price Per Month: US Plans vs India Estimates'
 seoTitle: "Starlink India Price Per Month: Plans and Estimates"
 excerpt: "As Elon Musk promises affordable Starlink pricing for India, we break down official US plan benchmarks, local preview estimates, and telecom costs."
 description: "Starlink India price per month analyzed: Estimated Indian pricing tiers, Jio IPO clash, and satellite VPN compatibility, US residential rate cards."
@@ -26,7 +26,7 @@ sources:
     url: 'https://trai.gov.in/release-publication/reports/telecom-subscriptions-reports'
     publisher: 'Telecom Regulatory Authority of India'
 heroImage: '/images/starlink-india-price-per-month.jpg'
-heroAlt: 'A stark editorial illustration in cream, black silhouette, and red-orange showing a satellite receiver dish beside a price chart.'
+heroAlt: 'Editorial illustration of a satellite receiver dish beside a price chart in cream and vermilion'
 claim: 'Starlink will be cheap in India and beat local mobile network prices.'
 claimSource: 'X posts and public market statements, 2026'
 featured: false

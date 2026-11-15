@@ -1,5 +1,5 @@
 ---
-title: "DeckCraft: Can a Pure-Rust Reimplementation Replace Microsoft PowerPoint?"
+title: 'DeckCraft: Can a Pure-Rust Build Replace PowerPoint?'
 seoTitle: "DeckCraft: Open-Source Rust PowerPoint Alternative"
 excerpt: "An open-source clean-room reimplementation of Microsoft PowerPoint in pure Rust promises native PPTX editing without Microsoft 365 cloud bloat."
 description: "DeckCraft builds an open-source Microsoft PowerPoint alternative in pure Rust. We benchmark its engine, memory footprint, and PPTX fidelity."

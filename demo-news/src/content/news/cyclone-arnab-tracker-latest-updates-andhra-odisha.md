@@ -1,8 +1,8 @@
 ---
-title: "Cyclone Arnab Hit Odisha Too: The Damage Record"
+title: 'Cyclone Arnab Hit Odisha Too: The Damage Record'
 seoTitle: "Cyclone Arnab: the landfall and the damage in Odisha"
 excerpt: "Cyclone Arnab crossed the Andhra Pradesh coast near Narasapuram early on October 28, 2026. Odisha was hit just as hard, with landslides, 300 villages cut off and 1.18 lakh people affected."
-description: "Cyclone Arnab made landfall near Narasapuram on October 28, 2026. Odisha was hit just as hard, with landslides, 300 villages cut off and 1.18 lakh affected."
+description: "Cyclone Arnab made landfall near Narasapuram on October 28, 2026. Odisha was hit as hard, with landslides and 300 villages cut off."
 category: 'Reality Check'
 tags: ['cyclone', 'Andhra Pradesh', 'Odisha', 'IMD']
 author: 'Wasim'

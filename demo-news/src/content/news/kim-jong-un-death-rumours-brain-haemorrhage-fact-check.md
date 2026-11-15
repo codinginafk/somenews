@@ -1,5 +1,5 @@
 ---
-title: "Kim Jong Un Death Rumours: What the State Media Photos Show"
+title: 'Kim Jong Un Death Rumours: What the State Media Photos Show'
 seoTitle: "Kim Jong Un Death Rumour Fact Check: What the Photos Show"
 excerpt: "Viral posts said Kim Jong Un died of a brain haemorrhage and that China sent 9,000 troops. The Korean Central News Agency published photographs of him at an exhibition."
 description: "Viral posts claimed Kim Jong Un died of a brain haemorrhage. State media published photographs of him touring an exhibition on October 19, 2026."

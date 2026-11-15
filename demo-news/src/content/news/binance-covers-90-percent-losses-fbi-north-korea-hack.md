@@ -1,5 +1,5 @@
 ---
-title: "Binance and the $6.3B Hack: Testing the Insolvency Claim"
+title: 'Binance and the $6.3B Hack: Testing the Insolvency Claim'
 seoTitle: "Binance $6.3B Hack: Is the Insolvency Claim True?"
 excerpt: "A record $6.3 billion left Binance's hot wallets in about 20 minutes. The exchange says it covered 90% of the hole, then 98%, so the panic claim that it is insolvent does not match the record."
 description: "Binance restored backing for 90% of the $6.3B stolen on October 29, then 98%. The insolvency claim fails, but coverage is not the same as recovery."

@@ -1,5 +1,5 @@
 ---
-title: "ArtCraft: Can an Open-Source Engine Replace Adobe Creative Cloud?"
+title: 'ArtCraft: Can Open Source Replace Adobe Creative Cloud?'
 seoTitle: "ArtCraft: Open-Source Adobe Creative Engine in Rust"
 excerpt: "ArtCraft delivers an intentional creative engine in Rust for artists and filmmakers, pairing 2D canvas blocking with 3D stages without Adobe subscriptions."
 description: "ArtCraft challenges Adobe Creative Cloud with an open-source Rust engine. We test its staging canvas, timeline editing, and zero-telemetry architecture."

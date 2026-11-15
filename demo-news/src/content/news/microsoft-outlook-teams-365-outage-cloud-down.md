@@ -1,5 +1,5 @@
 ---
-title: "Microsoft 365 and Outlook Down for 13 Hours: What Broke and What the Data Shows"
+title: 'Microsoft 365 and Outlook Down for 13 Hours'
 seoTitle: "Microsoft Outlook Down 13 Hours: What Really Broke"
 excerpt: "A 13-hour global Microsoft 365 outage knocked out Outlook, Teams calendars, and Copilot, peaking at 138,058 Downdetector reports while disrupting OpenAI and Anthropic connectors."
 description: "Microsoft 365 and Outlook crashed for 13 hours after an authentication process choked server capacity, also knocking out OpenAI and Anthropic connectors."
@@ -12,7 +12,7 @@ heroImage: '/images/microsoft-365-outlook-teams-outage.jpg'
 heroAlt: "Cream and charcoal illustration of unlit cloud servers, empty workstation, and red broken connection data pipeline."
 claim: "A massive external cyberattack or sudden user traffic surge caused the 13-hour worldwide crash of Microsoft 365 and Outlook."
 claimSource: 'Social media IT forums and workplace chat channels, November 2026'
-verdict: 'True — with context'
+verdict: 'True with context'
 primarySource: 'Microsoft 365 Status incident disclosures, Downdetector telemetry, and OpenAI/Anthropic status notices'
 primarySourceUrl: 'https://status.office365.com/'
 whyItMatters: 'When a single authentication bottleneck knocks out Exchange Online, enterprise email, and connected frontier AI models across millions of workers, cloud concentration risk becomes impossible to ignore.'

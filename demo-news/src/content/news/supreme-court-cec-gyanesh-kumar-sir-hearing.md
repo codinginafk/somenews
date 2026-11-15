@@ -1,8 +1,8 @@
 ---
-title: "Supreme Court CEC Gyanesh Kumar Hearing: 10 Days to Reply to ECI Affidavit on SIR"
+title: 'Supreme Court CEC Hearing: 10 Days to Reply on SIR'
 seoTitle: "Supreme Court CEC Hearing: 10 Days for Rejoinder on SIR"
 excerpt: "A three-judge Supreme Court bench gave petitioners 10 days to counter the Election Commission affidavit defending nationwide Special Intensive Revision of electoral rolls and CEC Gyanesh Kumar."
-description: "Supreme Court hearing on CEC Gyanesh Kumar, Special Intensive Revision of voter rolls, ECI affidavit on unanimous decisions, and MP Dola Sen plea on EC immunity."
+description: "Supreme Court hearing on CEC Gyanesh Kumar, the Special Intensive Revision of voter rolls, and the ECI affidavit on unanimous decisions."
 category: 'Reality Check'
 tags: ['Supreme Court', 'Election Commission', 'CEC Gyanesh Kumar', 'SIR', 'electoral rolls']
 author: 'Wasim'

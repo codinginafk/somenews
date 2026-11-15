@@ -1,5 +1,5 @@
 ---
-title: "Inside the Jensen Huang Scandal: Personal Affair, Spy Probe, and Nvidia Stakes"
+title: 'Inside the Jensen Huang Scandal: Affair, Spy Probe, Stakes'
 seoTitle: "Jensen Huang Scandal: Affair, Spy Probe & Nvidia Stakes"
 excerpt: "Nvidia CEO Jensen Huang faces a personal and national security storm after intelligence unmasking revealed an affair with a suspected Chinese operative."
 description: "Nvidia CEO Jensen Huang apologized for an affair with a suspected Chinese spy, as federal surveillance and export control politics collide."

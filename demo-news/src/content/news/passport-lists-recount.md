@@ -1,5 +1,5 @@
 ---
-title: 'Best Passport Lists Count Differently. That Is the Whole Drop.'
+title: 'Passport Rankings Count Differently. That Is the Point.'
 seoTitle: 'Best passport lists count differently'
 excerpt: 'Henley counts visa-on-arrival one way, Arton another. A three-place slip is often a recount, not a policy shift.'
 description: 'Passport rankings differ because Henley and Arton count visa-on-arrival differently. Most drops are methodology changes, not policy shifts.'

@@ -1,5 +1,5 @@
 ---
-title: "How Tall Is Hilary Swank, Who Was She Married To, and Her Third Baby at 52"
+title: 'How Tall Is Hilary Swank, and Who Did She Marry?'
 seoTitle: "How Tall Is Hilary Swank? Marriages, Twins, Baby No. 3"
 excerpt: "Hilary Swank announced her third pregnancy at 52. Here is everything on her height, both marriages, her twins, and what doctors say about the medical risks."
 description: "Hilary Swank is pregnant at 52 with baby No. 3. Her height, two marriages, twins Aya and Ohm, and the medical science behind late pregnancies explained."

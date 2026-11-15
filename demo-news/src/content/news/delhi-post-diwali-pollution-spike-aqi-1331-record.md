@@ -1,5 +1,5 @@
 ---
-title: "Delhi Post-Diwali Smog Spike: How Real-Time AQI Hit 1,331 and Jumped 69% Over 2025"
+title: 'Delhi Post-Diwali Smog Spike: AQI Hit 1,331, Up 69%'
 seoTitle: "Delhi Post-Diwali AQI Hits 1,331: 69% Jump Over 2025"
 excerpt: "Delhi awoke to a toxic ceiling on November 9 as midnight firecrackers drove real-time AQI readings to 1,331, surging 69% above 2025's post-Diwali levels."
 description: "Delhi's real-time air quality index hit an eye-watering 1,331 after Diwali, showing a 69% increase over 2025 as toxic firecracker smoke choked the capital."

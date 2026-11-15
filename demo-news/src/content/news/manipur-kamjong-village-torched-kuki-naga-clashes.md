@@ -1,5 +1,5 @@
 ---
-title: "Deserted Manipur Village Set on Fire in Kamjong: 48-Hour Strike Shuts Imphal Markets"
+title: 'Kamjong Village Set on Fire in Manipur: 48-Hour Strike'
 seoTitle: "Kamjong Village Torched & Imphal Strike: Fact Check"
 excerpt: "Arson at abandoned Khoikai Kuki village triggered a 48-hour general strike, shuttering Imphal's historic Ema Keithel market amid rising Kuki-Naga friction."
 description: "Suspected militants torched the abandoned Khoikai Kuki village in Kamjong, prompting general strikes and empty markets across Manipur's valley districts."

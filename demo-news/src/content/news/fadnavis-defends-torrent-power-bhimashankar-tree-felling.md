@@ -1,5 +1,5 @@
 ---
-title: "Fadnavis Defends Torrent Power Project: Why State Backs Bhimashankar Tree Felling"
+title: 'Fadnavis Defends Torrent Power: Why the State Backs Felling'
 seoTitle: "Fadnavis Defends Torrent Hydro: Bhimashankar Tree Felling"
 excerpt: "Maharashtra Chief Minister Devendra Fadnavis strongly defended the ₹13,500-crore Torrent Power pumped-storage hydro project near Bhimashankar, arguing the facility offsets coal emissions equal to 40 lakh cars while promising 90,000 replacement trees."
 description: "CM Devendra Fadnavis backed Torrent Power's hydro project, claiming 90,000 replacement trees and coal emission offsets amid Bhimashankar forest protests."

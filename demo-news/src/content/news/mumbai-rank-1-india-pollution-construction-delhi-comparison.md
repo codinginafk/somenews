@@ -1,5 +1,5 @@
 ---
-title: "Mumbai Rank #1 in India AQI: How Construction Chaos Broke Mumbai's Sea Shield"
+title: "Mumbai Tops India's AQI: How Construction Broke It"
 seoTitle: "Mumbai Air Pollution: Why City Surpassed Delhi in Smog"
 excerpt: "Mumbai overtook Delhi on global air quality indexes as unbridled construction dust, diesel exhaust, and stagnant coastal winds shattered its sea breeze shield."
 description: "Mumbai topped India's toxic pollution rankings past Delhi. Unfiltered construction dust and stagnant winds trapped dangerous particulate smog."
@@ -9,7 +9,7 @@ author: 'Wasim'
 authorRole: 'Contributing Writer'
 pubDate: '2026-10-25 11:15'
 heroImage: '/images/mumbai-pollution-construction-smog.jpg'
-heroAlt: 'Silhouette of Mumbai coastal skyline with construction cranes and roads trapped under a dense dark smog cloud against cream paper.'
+heroAlt: 'Mumbai coastal skyline with construction cranes under a dense smog cloud against cream paper'
 claim: 'Mumbai has surpassed Delhi as the most polluted city in India due to widespread construction dust and failing sea breezes.'
 claimSource: 'Global air quality trackers (IQAir) and civic posts on X, October 2026'
 verdict: 'True with context'

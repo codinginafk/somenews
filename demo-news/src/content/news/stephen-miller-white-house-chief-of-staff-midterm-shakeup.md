@@ -1,5 +1,5 @@
 ---
-title: "Trump Replaces Susie Wiles With Stephen Miller as Chief of Staff After Midterms"
+title: 'Trump Replaces Susie Wiles With Stephen Miller'
 seoTitle: "Trump Names Stephen Miller White House Chief of Staff"
 excerpt: "Donald Trump appointed hardline immigration architect Stephen Miller as his new Chief of Staff, following Susie Wiles' sudden exit after midterm losses."
 description: "Donald Trump appointed hardline loyalist Stephen Miller as White House Chief of Staff following Susie Wiles' resignation after 2026 midterm losses."

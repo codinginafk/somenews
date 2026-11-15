@@ -20,7 +20,7 @@ sources:
     url: 'https://www.cnbc.com/technology/'
     publisher: 'CNBC'
 heroImage: '/images/tech-workers-perm-suspension.jpg'
-heroAlt: 'A stark minimalist illustration of tech worker silhouettes standing before a massive corporate locked gate with the US Capitol in the distance, highlighting a red-orange visa document.'
+heroAlt: 'Minimalist illustration of tech workers at a locked corporate gate with a vermilion visa document'
 claim: 'Major tech companies are replacing laid-off American workers with cheaper foreign labor, leading the US to pause Green Card PERM processing for firms like Microsoft, Infosys, and TCS.'
 claimSource: 'Vice President JD Vance and US Department of Labor announcements'
 verdict: 'True with context'

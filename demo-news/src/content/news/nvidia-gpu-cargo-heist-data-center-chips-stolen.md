@@ -1,5 +1,5 @@
 ---
-title: "The $11.4M Nvidia Heist and the Rise of AI Cargo Theft"
+title: 'The "1.4M Nvidia Heist and the Rise of AI Cargo Theft'
 seoTitle: "Inside the $11.4M Nvidia GPU Cargo Heist"
 excerpt: "Six pallets of Nvidia hardware worth a reported $11.4 million left Oakland and vanished. Police have made no arrests, and Nvidia has not commented."
 description: "Six pallets of Nvidia hardware worth a reported $11.4 million left Oakland for Texas and never arrived. Police have made no arrests."

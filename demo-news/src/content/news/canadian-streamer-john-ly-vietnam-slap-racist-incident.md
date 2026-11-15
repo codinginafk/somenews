@@ -1,5 +1,5 @@
 ---
-title: "Canadian Streamer Slapped in Saigon: What the Video Shows"
+title: 'Canadian Streamer Slapped in Saigon: What the Video Shows'
 seoTitle: "John Ly Slapped in Vietnam: What the Footage Shows"
 excerpt: "A Canadian Kick streamer was filmed being slapped inside a Saigon 7-Eleven. The footage shows two men asking him repeatedly to stop filming, and two circulating claims that nobody could verify."
 description: "A Canadian Kick streamer was filmed being slapped in a Saigon 7-Eleven. The footage shows repeated requests to stop filming and two unverified claims."

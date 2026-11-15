@@ -1,5 +1,5 @@
 ---
-title: "Israeli Strike Hits Nasser Hospital in Gaza: Casualties and Competing Claims"
+title: 'Israeli Strike Hits Nasser Hospital in Gaza: The Claims'
 seoTitle: "Nasser Hospital Strike in Gaza: Casualties and Facts"
 excerpt: "A Thursday morning missile strike damaged surgical and ICU wards at Nasser Hospital in Khan Younis, killing at least five people as competing military claims remain unverified."
 description: "An Israeli missile struck surgical and ICU wards at Nasser Hospital in Khan Younis, killing at least five people including a surgeon and injuring 20."

@@ -1,5 +1,5 @@
 ---
-title: "Cut Off in Arunachal: Border Villagers Suffer While Troops Focus Inward"
+title: 'Arunachal Border Villagers Cut Off as Troops Face Inward'
 seoTitle: "Arunachal Border: China Encroachment vs Delhi Troops"
 excerpt: "As China constructs dual-use villages and cuts off ancestral grazing lands in Arunachal Pradesh, thousands of security forces are deployed against student protesters at home."
 description: "China builds Xiaokang villages in Arunachal while thousands of security forces guard Delhi against student protesters instead of defending the border."

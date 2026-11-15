@@ -1,8 +1,8 @@
 ---
-title: "Microsoft Voluntary Exit Offer: What VEO Means and Why It Is Not a Layoff"
+title: 'Microsoft Voluntary Exit Offer: What VEO Is Not'
 seoTitle: "Microsoft VEO Explained: Voluntary Exit Offer vs Layoffs"
 excerpt: "Microsoft opened a voluntary exit program for roughly 60,000 employees across four countries as the company redirects nearly $190 billion into AI infrastructure."
-description: "Everything about Microsoft Voluntary Exit Offer (VEO): eligibility across 60,000 staff, severance terms, participating teams, and how it differs from layoffs."
+description: "Microsoft Voluntary Exit Offer (VEO): eligibility across 60,000 staff, severance terms, and how it differs from layoffs."
 category: 'Reality Check'
 tags: ['Microsoft', 'tech layoffs', 'VEO', 'AI spending', 'corporate']
 author: 'Diyan'
@@ -10,7 +10,7 @@ authorRole: 'Staff Writer'
 pubDate: '2026-10-28 11:15'
 updatedDate: '2026-11-14'
 heroImage: '/images/microsoft-veo-voluntary-exit-offer.jpg'
-heroAlt: 'Minimalist editorial illustration in cream and charcoal showing tech employees choosing voluntary departure amid cloud infrastructure expansion'
+heroAlt: 'Minimalist illustration of tech employees choosing voluntary departure as cloud infrastructure expands'
 claim: 'Microsoft has launched a sudden 60,000-person layoff across the US, India, UK, and Canada to slash payroll.'
 claimSource: 'Workplace discussion boards, anonymous employee channels, and viral tech social posts, October 2026'
 verdict: 'Misleading — Missing Context'

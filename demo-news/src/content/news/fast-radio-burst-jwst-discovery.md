@@ -1,5 +1,5 @@
 ---
-title: "JWST Detects Oldest Fast Radio Burst From a Tiny Dwarf Galaxy"
+title: 'JWST Finds the Oldest Fast Radio Burst Yet'
 seoTitle: "Record-Breaking Fast Radio Burst Detected by JWST"
 excerpt: "A cosmic flash from 11 billion years ago was just detected by NASA's JWST, completely changing our understanding of the early universe."
 description: "NASA's James Webb Space Telescope just traced the most distant, ancient Fast Radio Burst to a tiny dwarf galaxy, supporting the magnetar theory."
@@ -22,7 +22,7 @@ sources:
     url: 'https://www.theguardian.com/science'
     publisher: 'The Guardian'
 heroImage: '/images/frb-dawn-of-time.jpg'
-heroAlt: 'A stark, minimalist editorial illustration in cream, deep charcoal black silhouette, and vermilion red-orange accent depicting a space telescope observing an energy burst.'
+heroAlt: 'Editorial illustration of a space telescope observing an energy burst, in cream, charcoal and vermilion'
 verdict: 'Explainer'
 featured: true
 ---

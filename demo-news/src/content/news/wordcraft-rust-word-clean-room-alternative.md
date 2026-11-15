@@ -1,5 +1,5 @@
 ---
-title: "WordCraft: Can an Open-Source Pure-Rust Engine Replace Microsoft Word?"
+title: 'WordCraft: Can a Pure-Rust Engine Replace Microsoft Word?'
 seoTitle: "WordCraft: Pure-Rust Open-Source Word Alternative"
 excerpt: "WordCraft delivers a clean-room Microsoft Word reimplementation in pure Rust with native DOCX editing, citations, and zero Electron bloat."
 description: "WordCraft builds an open-source Word alternative in pure Rust. We benchmark its memory usage, DOCX fidelity, and typing responsiveness."

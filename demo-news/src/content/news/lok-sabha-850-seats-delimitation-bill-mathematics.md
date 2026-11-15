@@ -1,5 +1,5 @@
 ---
-title: "Plan for 850 Lok Sabha Seats: The Delimitation Bill Math and Voting Breakdown"
+title: 'The 850 Lok Sabha Seats Plan: The Delimitation Math'
 seoTitle: "Lok Sabha 850 Seats: Delimitation Math and Vote Breakdown"
 excerpt: "The Constitution 131st Amendment Bill proposing 850 Lok Sabha seats failed with 298 votes for and 230 against. Here is the exact legislative arithmetic."
 description: "The 131st Constitution Amendment fell short at 298-230 votes. Here is the party-by-party seat math behind India's 850 Lok Sabha seat proposal."

@@ -1,5 +1,5 @@
 ---
-title: "Zelensky Warns Russia Plans Major Strikes on Dnipro Bridges Ahead of Peace Talks"
+title: 'Zelensky Warns of Russia Strikes on Dnipro Bridges'
 seoTitle: "Zelensky Warns Russia Plans Strikes on Dnipro Bridges"
 excerpt: "Ukrainian intelligence warns Russia is preparing major strikes against Dnipro River bridges and energy infrastructure just days before Abu Dhabi talks."
 description: "President Zelensky warned intelligence shows Russia is preparing strikes on Kyiv bridges and energy grids ahead of Abu Dhabi talks."

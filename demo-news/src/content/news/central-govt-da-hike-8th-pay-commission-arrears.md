@@ -1,5 +1,5 @@
 ---
-title: "DA Hike Approved at 63%. 8th Pay Commission Arrears Are Not"
+title: 'DA Hike Approved at 63%. 8th Pay Commission Arrears Are Not'
 seoTitle: "DA Hike at 63%: 8th Pay Commission Arrears Not Due"
 excerpt: "The Cabinet approved a 3 percentage point DA rise to 63% of basic pay from July 1, 2026. The 8th Pay Commission has filed nothing, so no January 2026 arrears exist."
 description: "The Cabinet cleared a 3 point DA rise to 63% of basic pay from July 1, 2026. The 8th Pay Commission has filed nothing, so January arrears are not due."

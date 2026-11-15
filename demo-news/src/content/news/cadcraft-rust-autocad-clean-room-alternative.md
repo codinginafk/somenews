@@ -1,5 +1,5 @@
 ---
-title: "CADCraft: Can Pure Rust Deliver an Open-Source Alternative to AutoCAD?"
+title: 'CADCraft: Can Pure Rust Replace AutoCAD?'
 seoTitle: "CADCraft: Pure-Rust Open-Source AutoCAD Alternative"
 excerpt: "A clean-room 2D CAD drafting app written in pure Rust matches classic AutoCAD command lines and DWG/DXF files without costly subscriptions."
 description: "CADCraft delivers an open-source AutoCAD alternative written in pure Rust. We test its command line, DXF/DWG compatibility, and drawing speed."

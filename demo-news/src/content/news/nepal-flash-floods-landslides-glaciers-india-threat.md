@@ -1,5 +1,5 @@
 ---
-title: "Why flash floods increasing in Nepal and how it affects India 2026"
+title: 'Why Flash Floods Are Rising in Nepal and What It Means'
 seoTitle: "How does Nepal Floods affect India?"
 excerpt: "A landslide dam breach along the Budhi Gandaki river wrecked 40 homes and 6 bridges. Here is why warming slopes threaten India downstream."
 description: "Landslide dams and melting Himalayan glaciers are driving sudden flood surges in Nepal, putting downstream rivers in Bihar and Uttar Pradesh on alert."
@@ -25,7 +25,7 @@ sources:
     url: 'https://www.icimod.org/'
     publisher: 'ICIMOD'
 heroImage: '/images/nepal-flash-floods.jpg'
-heroAlt: 'Editorial illustration in cream, black silhouette, and red-orange accent depicting floodwaters rushing through mountain valleys.'
+heroAlt: 'Editorial illustration of floodwaters rushing through mountain valleys in cream, charcoal and vermilion'
 ---
 
 **Short answer:**On October 11, 2026, a large landslide occupied the Budhi Gandaki River in Gorkha district, creating a temporary reservoir that breached hours later and demolished 40 homes and six bridges. Unstable slopes turn mountain rivers into havoc , with flood waves threatening millions downstream Bihar and Uttar Pradesh.

@@ -1,5 +1,5 @@
 ---
-title: "LPU Protest: The Student Demands Behind the Campus Unrest"
+title: 'LPU Protest: The Student Demands Behind the Campus Unrest'
 seoTitle: "LPU Protest: Student Claims Behind the Campus Unrest"
 excerpt: "While officials initially called the LPU protests a reaction to fabricated rumours, student accounts point to a timeline backed by an FIR and deeper safety concerns."
 description: "A breakdown of the student perspective on the LPU unrest, from claims of an ignored assault to broader demands for transparent campus safety measures."

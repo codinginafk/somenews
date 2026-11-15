@@ -1,5 +1,5 @@
 ---
-title: "Judge Dismisses Trump's $10 Billion Defamation Lawsuit Over Wall Street Journal Epstein Card Story"
+title: 'Judge Dismisses Trump''s "0 Billion WSJ Defamation Suit'
 seoTitle: "Judge Dismisses Trump's $10B WSJ Epstein Defamation Suit"
 excerpt: "A federal judge tossed Donald Trump's $10 billion defamation lawsuit against The Wall Street Journal with prejudice over a 2003 Jeffrey Epstein birthday card report."
 description: "A federal judge dismissed Donald Trump's $10B defamation lawsuit against The Wall Street Journal with prejudice over a 2003 Jeffrey Epstein birthday card."

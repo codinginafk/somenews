@@ -1,5 +1,5 @@
 ---
-title: "Diwali 2026 Pollution Alert: Why Delhi's AQI is Crossing 400 and What Data Shows"
+title: "Diwali 2026 Pollution: Why Delhi's AQI Is Crossing 400"
 seoTitle: "Diwali 2026 Air Pollution: Why Delhi AQI is Hitting 400"
 excerpt: "Delhi-NCR enters the severe air quality zone during Diwali 2026 as firecrackers, stubble burning, and winter weather trigger a toxic pollution spike."
 description: "Delhi-NCR faces severe air pollution with AQI exceeding 400 during Diwali 2026 due to stubble burning, firecracker smoke, and calm winter weather."

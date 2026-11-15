@@ -1,5 +1,5 @@
 ---
-title: "Dhruv Rathee London Protest Over Vote Chori: What Court Warrants and Police Records Confirm"
+title: 'Dhruv Rathee London Protest: What the Warrant Says'
 seoTitle: "Dhruv Rathee London Protest: Court Warrants and Data"
 excerpt: "YouTuber Dhruv Rathee called a London protest against alleged vote chori following his Delhi detention and a court warrant in a 2018 defamation case."
 description: "Dhruv Rathee announces a Parliament Square protest in London over electoral rolls following his Gurugram detention and a Delhi court warrant."

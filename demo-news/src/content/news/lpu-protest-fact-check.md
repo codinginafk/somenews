@@ -1,5 +1,5 @@
 ---
-title: "LPU Protest Fact Check: What Police Records Say About Campus Rape Claims"
+title: 'LPU Protest Fact Check: What Police Records Show'
 seoTitle: "LPU Protest Fact Check: Campus Rape Claims Explained"
 excerpt: "Protests erupted at Lovely Professional University over claims of a cover-up. Here is what the administration, police, and students say."
 description: "A fact-check of the viral claims that a student was raped and died by suicide at LPU, sparking massive student protests and clashes with police."

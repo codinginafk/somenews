@@ -1,5 +1,5 @@
 ---
-title: "PHP2Shell: Why Two Core PHP Flaws Put 70% of the Web at Risk"
+title: 'PHP2Shell: Why Two Core PHP Flaws Put 70% of the Web at Risk'
 seoTitle: "PHP2Shell RCE Flaws: CVE-2026-109618 and 109619"
 excerpt: "Two memory-safety bugs in core PHP allow unauthenticated remote code execution and memory disclosure. Patches and a CISA KEV listing followed within days."
 description: "PHP2Shell: CVE-2026-109618 and CVE-2026-109619 allow unauthenticated RCE in core PHP. What Wiz found, who is affected, and how to patch."

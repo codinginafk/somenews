@@ -1,5 +1,5 @@
 ---
-title: "Devaragattu Banni Festival: 1 Dead, Dozens Injured"
+title: 'Devaragattu Banni Festival: 1 Dead, Dozens Injured'
 seoTitle: "Devaragattu Banni Festival Clashes: Fact Check"
 excerpt: "A devotee died and reports put the injured between more than 60 and more than 100 during the Banni festival stick fight at Devaragattu hill in Kurnool district."
 description: "One devotee died and 60 to more than 100 were injured in the Devaragattu Banni festival stick fight, despite about 1,300 police personnel on duty."

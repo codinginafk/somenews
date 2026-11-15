@@ -1,5 +1,5 @@
 ---
-title: "Asian Games 2026: Medals, Mishaps, and National Anthem Mix-ups"
+title: 'Asian Games 2026: Medals, Mishaps and Anthem Mix-ups'
 seoTitle: "Asian Games 2026: Medals, Mishaps, and Controversies"
 excerpt: "Behind the 2026 Asian Games medal tallies lie major controversies over anthem mix-ups and accommodation chaos."
 description: "China dominates the Asian Games 2026 medals while India holds 4th. Read the breakdown of anthems, mismeasured jumps, and hosting chaos."

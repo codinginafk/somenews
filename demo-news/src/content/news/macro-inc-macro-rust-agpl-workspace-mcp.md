@@ -1,5 +1,5 @@
 ---
-title: "Macro: The Open-Source AGPL Workspace Joining Chat, Email, and MCP"
+title: 'Macro: The Open-Source AGPL Workspace for Chat and MCP'
 seoTitle: "Macro: Rust AGPL Workspace Unifying Chat, Email & MCP"
 excerpt: "Macro delivers a self-hosted, AGPL-3.0 workspace written in Rust that merges emails, team chat, CRM records, and Model Context Protocol support."
 description: "macro-inc/macro brings email, chat, tasks, CRM, and shared AI memory into a single Rust-powered AGPL workspace. Explore its key features."

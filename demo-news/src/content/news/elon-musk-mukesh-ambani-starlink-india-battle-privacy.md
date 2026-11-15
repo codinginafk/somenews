@@ -1,5 +1,5 @@
 ---
-title: "Starlink India: What the Musk-Ambani Fight Is About"
+title: 'Starlink India: What the Musk-Ambani Fight Is About'
 seoTitle: "Musk vs Ambani: Starlink India Spectrum Battle"
 excerpt: "Elon Musk says Reliance is blocking Starlink. India says the rules are fair. The dispute is really about spectrum, security checks and who connects rural India."
 description: "Elon Musk and Mukesh Ambani are fighting over Starlink's India launch. Here is what the licences, spectrum rules and security checks actually show."

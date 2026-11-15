@@ -1,5 +1,5 @@
 ---
-title: "Trump Confirms FBI Investigating Nvidia CEO Jensen Huang Over Spy Allegations"
+title: "Trump Confirms FBI Probe Into Nvidia's Jensen Huang"
 seoTitle: "Trump Confirms FBI Probe Into Nvidia Chief Jensen Huang"
 excerpt: "President Trump revealed the FBI is actively probing Nvidia CEO Jensen Huang over his relationship with an alleged Chinese spy, wiping $250B off Nvidia's stock."
 description: "Donald Trump confirmed the FBI is investigating Nvidia CEO Jensen Huang over an affair with an alleged Chinese spy, as $250B in stock value was erased."

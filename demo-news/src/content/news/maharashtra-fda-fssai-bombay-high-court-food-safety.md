@@ -1,5 +1,5 @@
 ---
-title: "Centre Hijacking Powers: Maharashtra FDA Takes FSSAI to Bombay High Court"
+title: 'Maharashtra FDA Takes FSSAI to Bombay High Court'
 seoTitle: "Maharashtra FDA Sues FSSAI: Bombay High Court Food Norms"
 excerpt: "In an unprecedented Centre-state clash, Maharashtra's Food and Drugs Administration moved the Bombay High Court against FSSAI, alleging the central food regulator illegally hijacked state enforcement authority and created unauthorized parallel inspection machinery."
 description: "Maharashtra FDA filed a writ petition in Bombay High Court accusing FSSAI of building an illegal parallel system and stripping state food inspector powers."

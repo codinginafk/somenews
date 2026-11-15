@@ -1,5 +1,5 @@
 ---
-title: "Did a Russian Lab Worker's Death Spark a New Plague Pandemic?"
+title: "Did a Russian Lab Worker's Death Spark a Plague Pandemic?"
 seoTitle: "Russia Plague Lab Leak Fact Check: No New Pandemic"
 excerpt: "Viral claims suggest a lab worker's death in Siberia from the plague signals COVID-19 2.0. We checked the data."
 description: "A lab worker died of the plague in Russia, sparking online rumors of a global pandemic, but authorities and the WHO confirm the situation is contained."

@@ -1,5 +1,5 @@
 ---
-title: "State Bank Data Breach: Did Hackers Leak 375,000 Customer Records?"
+title: 'State Bank Data Breach: Were 375,000 Records Leaked?'
 seoTitle: "State Bank Data Breach: Did Hackers Leak 375,000 Records?"
 excerpt: "State Bank of India confirmed a preliminary breach involving 3,897 customer records from a 375,000-row dark web dump, while core banking credentials remain uncompromised."
 description: "State Bank of India confirmed data loss across 3,897 records after dark web claims of 375,000 customer files, but core credentials were not leaked."

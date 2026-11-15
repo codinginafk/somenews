@@ -1,5 +1,5 @@
 ---
-title: "Can Your Laptop Run a 70B Model? The Memory Maths"
+title: 'Can Your Laptop Run a 70B Model? The Memory Maths'
 seoTitle: "Running a 70B model on one PC: the memory maths"
 excerpt: "A 70B model weighs about 42 GB. Here is what the model runners' own documentation says about VRAM, RAM, quantisation and context length, and why the laptop answer is no."
 description: "A 70B model weighs about 42 GB. The model runners' own documentation on VRAM, RAM, quantisation and context length, and why the answer on a laptop is no."

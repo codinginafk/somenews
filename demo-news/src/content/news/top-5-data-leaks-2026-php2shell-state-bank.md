@@ -1,5 +1,5 @@
 ---
-title: "The Biggest Data Leaks of 2026 and What They Actually Exposed"
+title: 'The Biggest Data Leaks of 2026 and What They Exposed'
 seoTitle: "Biggest Data Leaks of 2026: PHP2Shell, Telecom, SBI"
 excerpt: "From a decade-old PHP flaw to a live SMS database and a 2.8-million-patient genomics breach, here is what the 2026 data exposure wave actually revealed."
 description: "PHP2Shell, a 125-million-message telecom leak, the SBI breach, and Baylor Genetics: what the 2026 data exposure wave actually revealed."

@@ -1,5 +1,5 @@
 ---
-title: "Umar Khalid: Human Rights Icon or Mastermind of the 2020 Delhi Riots?"
+title: 'Umar Khalid: Human Rights Icon or Riots Mastermind?'
 seoTitle: "Umar Khalid: Human Rights Icon or Riots Mastermind?"
 excerpt: "Former JNU student Umar Khalid won the Martin Ennals Award from Tihar Jail. Here are the facts and claims behind his prolonged UAPA detention."
 description: "Former JNU student Umar Khalid won the Martin Ennals Award from Tihar Jail as courts and police debate his UAPA detention over the 2020 Delhi riots."

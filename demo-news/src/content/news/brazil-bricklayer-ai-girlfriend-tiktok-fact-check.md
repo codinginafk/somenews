@@ -1,5 +1,5 @@
 ---
-title: "The Bricklayer Who Bought a Bus Ticket to Meet an AI"
+title: 'The Bricklayer Who Bought a Bus Ticket to Meet an AI'
 seoTitle: "AI farm persona scam: the bricklayer and the TikTok profile"
 excerpt: "Edimar Martins sold his belongings and travelled 1,931 km to meet a TikTok woman promising a farm and financial support. The operator later admitted she was AI."
 description: "Edimar Martins sold everything and travelled 1,931 km to meet a TikTok woman offering a farm. The operator later admitted she was AI."

@@ -1,5 +1,5 @@
 ---
-title: "Ex-Cognizant HR Quits Delhi for Goa to 'Find Purpose': The Reality of the First Monday Without a Paycheck"
+title: 'Ex-Cognizant HR Quits for Goa: Life Without a Paycheck'
 seoTitle: "Ex-Cognizant HR Quits Delhi for Goa: Fact Check"
 excerpt: "After four and a half years in corporate HR, Arpita Sahu moved to Goa seeking purpose, documenting runway panic, broken routines, and the isolation of starting over."
 description: "Arpita Sahu left corporate HR in Delhi for Goa, documenting how savings anxiety and loss of routine replaced the romanticized coastal dream."

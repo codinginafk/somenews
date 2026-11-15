@@ -1,5 +1,5 @@
 ---
-title: "Smit Machchhar: The Mid-Air Attack and the WW3 Claim"
+title: 'Smit Machchhar: The Mid-Air Attack and the WW3 Claim'
 seoTitle: "Smit Machchhar and Flydubai FZ1073: What Happened"
 excerpt: "An Omani first officer attacked the captain with a crash axe on a Tel Aviv-bound flydubai jet. All 180 people aboard survived. The World War III framing is speculation."
 description: "Flydubai FZ1073: an Omani first officer attacked Captain Smit Machchhar with a crash axe. What the record shows, and why World War III is speculation."
@@ -23,7 +23,7 @@ sources:
     url: 'https://en.wikipedia.org/wiki/Flydubai_Flight_1073'
     publisher: 'Wikipedia'
 heroImage: '/images/Last Stand in the Cockpit.png'
-heroAlt: 'A stark, minimalist editorial illustration of a solid silhouette of an exhausted Indian airline pilot in a Boeing 737 cockpit after fighting off an attacker.'
+heroAlt: 'Minimalist illustration of an exhausted pilot in a 737 cockpit after fighting off an attacker'
 claim: 'A co-pilot attempted to crash a flydubai plane bound for Tel Aviv, which could have triggered World War III if not for Captain Smit Machchhar.'
 claimSource: 'Military warnings and public statements following the flydubai Flight FZ1073 incident.'
 verdict: 'Misleading — Missing Context'

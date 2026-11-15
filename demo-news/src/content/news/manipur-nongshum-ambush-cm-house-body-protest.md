@@ -1,5 +1,5 @@
 ---
-title: "Three Meitei Firewood Collectors Killed in Manipur Ambush: Protesters Lay Bodies at CM Residence"
+title: 'Three Killed in Manipur Ambush; Bodies at CM Residence'
 seoTitle: "Manipur Ambush & CM Residence Protest: Fact Check"
 excerpt: "Suspected militants ambushed 14 Meitei firewood collectors near Nongshum, killing three and prompting enraged crowds to place victims' bodies outside the CM bungalow."
 description: "An ambush on Meitei firewood collectors near Nongshum killed three, sparking protests with bodies outside the Manipur CM bungalow and tear gas dispersal."

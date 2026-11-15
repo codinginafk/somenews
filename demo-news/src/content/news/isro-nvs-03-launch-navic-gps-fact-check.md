@@ -1,5 +1,5 @@
 ---
-title: "NavIC Is Back to Four Satellites. It Does Not Replace GPS"
+title: 'NavIC Is Back to Four Satellites. It Does Not Replace GPS'
 seoTitle: "NavIC Back to Four Satellites, Still Not a GPS Replacement"
 excerpt: "NVS-03 reached geostationary orbit on November 4, restoring standalone positioning. NavIC augments GPS across India and 1,500 km beyond, it does not replace it."
 description: "NVS-03 reached geostationary orbit on November 4 and NavIC can once more fix a position on its own. It still augments GPS rather than replacing it."

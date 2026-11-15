@@ -1,5 +1,5 @@
 ---
-title: "8 eMudhra Intermediate TLS Certificates Compromised: Why One Private Key Was Literally '4'"
+title: "8 eMudhra TLS Certificates Compromised: One Key Was '4'"
 seoTitle: "8 eMudhra TLS Certificates Compromised: Fact Check"
 excerpt: "Private keys for eight eMudhra intermediate certificates held virtually zero entropy, enabling arbitrary domain spoofing before major browsers and CDNs intervened."
 description: "Eight intermediate TLS certificates issued by eMudhra were compromised with single-digit private keys, sparking an urgent global infrastructure patch race."

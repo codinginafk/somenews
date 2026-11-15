@@ -1,5 +1,5 @@
 ---
-title: "Spatial Intelligence Without Cameras: RuView Reaches Top Global GitHub Rankings"
+title: 'RuView: Spatial Intelligence Without Cameras'
 seoTitle: "RuView: Rust Wi-Fi Spatial Intelligence Without Cameras"
 excerpt: "RuView repurposes commodity Wi-Fi radio waves for camera-free motion tracking and vital sign monitoring in Rust, topping 100,000 GitHub stars."
 description: "Rust-powered RuView turns commodity Wi-Fi signals into real-time spatial intelligence and vital sign monitoring without cameras. Explore its significance."

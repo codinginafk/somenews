@@ -1,5 +1,5 @@
 ---
-title: "Ollama vs LM Studio on 16GB: What the Docs Say"
+title: 'Ollama vs LM Studio on 16GB: What the Docs Say'
 seoTitle: "Ollama vs LM Studio on 16GB: the documentation"
 excerpt: "Both tools can run a 13B model on a 16GB machine. The documented differences are in defaults, context handling, memory controls and interface, not in whether they work."
 description: "Ollama and LM Studio both run 13B models on a 16GB machine. Their documentation shows where they differ: defaults, context, memory control and interface."

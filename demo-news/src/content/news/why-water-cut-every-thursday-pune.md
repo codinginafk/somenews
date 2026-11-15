@@ -1,5 +1,5 @@
 ---
-title: "Why is there water cut every Thursday in Pune"
+title: 'Why is there water cut every Thursday in Pune'
 seoTitle: "Why is there water cut every Thursday in Pune"
 excerpt: "Pune halts water supply every Thursday from October 15. Here is the reservoir math, the 10% state order, and the drought rules."
 description: "Pune suspends water supply every Thursday from October 15 under a state 10% cut directive as Khadakwasla dam levels drop during El Nino."

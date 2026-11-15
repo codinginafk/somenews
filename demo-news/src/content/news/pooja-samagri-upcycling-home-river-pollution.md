@@ -1,5 +1,5 @@
 ---
-title: "Stop Dumping Pooja Samagri in Rivers: Eco-Friendly Ways to Upcycle at Home"
+title: 'Stop Dumping Pooja Samagri in Rivers: Upcycle at Home'
 seoTitle: "Stop Dumping Pooja Samagri: How to Upcycle at Home"
 excerpt: "Tossing sacred nirmalya and altar materials into rivers chokes aquatic ecosystems; here is how to respectfully compost and upcycle pooja samagri at home."
 description: "Immersing sacred pooja items in rivers pollutes waterways; here are practical ways to compost, reuse, and upcycle floral and altar waste at home."

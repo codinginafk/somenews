@@ -1,7 +1,7 @@
 ---
 featured: true
 trending: true
-title: "Fact Check: Nana Patekar Death Updates and Tributes"
+title: 'Fact Check: Nana Patekar Death Updates and Tributes'
 seoTitle: "Nana Patekar Dead at 75: Updates on Funeral and Tributes"
 excerpt: "Veteran Bollywood and Marathi actor Nana Patekar has passed away at 75 following a severe cardiac arrest in Goa."
 description: "Legendary actor Nana Patekar died of a cardiac arrest in Goa at age 75. Complete details on his state funeral and tributes from across the nation."

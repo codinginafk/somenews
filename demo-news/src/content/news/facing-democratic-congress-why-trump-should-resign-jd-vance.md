@@ -1,5 +1,5 @@
 ---
-title: "5 Reasons Why Trump Should Resign: Inside the 'Vance Reset' Theory"
+title: '5 Reasons Trump Should Resign: Inside the Vance Reset'
 seoTitle: "5 Reasons Why Trump Should Resign"
 excerpt: "Following a brutal 2026 midterm defeat, legal scholars and party strategists debate 5 compelling reasons why Donald Trump should step down for JD Vance."
 description: "A legal proposal outlining 5 reasons why Donald Trump should resign in favor of JD Vance after midterm losses triggers fierce debate over pardons and Iran."

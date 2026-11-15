@@ -1,5 +1,5 @@
 ---
-title: "Fightkaro Political Game: Viral 'Sansad Showdown' Roster, Satire Rules, and Party Claims"
+title: 'Fightkaro Political Game: The Viral Sansad Showdown Claims'
 seoTitle: "Fightkaro Sansad Showdown Game: Facts & Roster Explained"
 excerpt: "A browser-based fighting game parodying Indian politicians has gone viral under the name Fightkaro. Here is what is in the game, who made it, and the facts behind political claims."
 description: "Fightkaro, also known as Sansad Showdown, turned Indian politics into a viral browser fighting game. Here are the characters, gameplay, and facts."
