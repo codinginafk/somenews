@@ -2,7 +2,7 @@
 title: 'Dhaka Beyond the Rank: What Visitors Film Past Day Two'
 seoTitle: 'Dhaka beyond the rank: what visitors film'
 excerpt: 'Bangladesh sits near the bottom of the happiness ranking. Here is what the ranking measures, what it leaves out, and what a city looks like when you read past the cell.'
-description: 'Bangladesh sits near the bottom of the happiness ranking. Here is what the ranking measures, what it leaves out, and what a city looks like beyond the cell.'
+description: 'Bangladesh sits near the bottom of the happiness ranking. Here is what it measures, what it leaves out, and what a city looks like beyond the cell.'
 category: 'Countries'
 tags: ['Bangladesh', 'Dhaka']
 author: 'Diyan'
