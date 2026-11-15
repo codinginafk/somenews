@@ -13,7 +13,7 @@ primarySource: 'Cloudflare advisory on the eMudhra intermediate certificate comp
 primarySourceUrl: 'https://blog.cloudflare.com/emudhra-certificate-compromise'
 whyItMatters: 'Compromised intermediate root certificates undermine public WebPKI trust, allowing network adversaries to forge valid TLS credentials for any web domain.'
 sources:
-  - title: 'eMudhra intermediate certificate compromise'
+  - title: '8 eMudhra certificates are compromised. Here''s what you need to know'
     url: 'https://blog.cloudflare.com/emudhra-certificate-compromise'
     publisher: 'Cloudflare'
   - title: 'eMudhra intermediate CA certificates compromised'
