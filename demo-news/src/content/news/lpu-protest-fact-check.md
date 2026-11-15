@@ -12,10 +12,10 @@ primarySource: 'Police Statements and FIR Records'
 primarySourceUrl: 'https://www.hindustantimes.com/india-news/lovely-professional-university-chitkara-university-rape-suicide-claims-protests-punjab-latest-news-police-101790480567312.html'
 whyItMatters: 'The unrest blocked a major national highway and highlighted severe communication breakdowns between university administration and students regarding campus safety.'
 sources:
-  - title: 'LPU Punjab protest: Students vandalise campus over gangrape, suicide rumours; police deny incident'
+  - title: "Unverified rape report, then mayhem: Protests turn violent at Punjab's LPU"
     url: 'https://www.indiatoday.in/india/story/lpu-punjab-protest-students-vandalise-campus-gangrape-suicide-rumours-police-deny-incident-3003935-2026-09-27'
     publisher: 'India Today'
-  - title: 'Lovely Professional University (LPU), Chitkara University rape, suicide claims spark protests in Punjab'
+  - title: "Second Punjab varsity hit by 'rape-suicide' protests; buildings set ablaze, Delhi-Amritsar highway blocked"
     url: 'https://www.hindustantimes.com/india-news/lovely-professional-university-chitkara-university-rape-suicide-claims-protests-punjab-latest-news-police-101790480567312.html'
     publisher: 'Hindustan Times'
 heroImage: '/images/lpu-police-protest.jpg'
