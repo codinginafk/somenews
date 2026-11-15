@@ -1,130 +1,160 @@
 ---
 title: "Katon Moyong: The Viral Fight Over Arunachal's Siang Dam"
-seoTitle: "Who is Katon Moyong? The Battle Over Arunachal's Siang Dam"
-excerpt: "Environmental engineer Katon Moyong went viral challenging the 11,000 MW Siang dam. Here is who he is, why the Adi people oppose it, and what they demand."
-description: "Arunachal activist Katon Moyong's viral speech against the 11,000 MW Siang dam highlights indigenous resistance to India-China geopolitical mega-projects."
+seoTitle: 'Katon Moyong and the fight over the Siang dam'
+excerpt: 'Katon Moyong, the "Abor Man" of the Siang valley, rejected talks with the Arunachal government. Here is what the survey, the arrests and the tribal opposition actually show.'
+description: 'The 11,200 MW Siang dam is not uncontroversial. Adi protesters in Arunachal say it will submerge 27 villages and displace up to 150,000 people.'
 category: 'Reality Check'
 tags: ['Arunachal Pradesh', 'Siang Dam', 'Katon Moyong', 'hydropower']
 author: 'Diyan'
 authorRole: 'Staff Writer'
 pubDate: '2026-11-06 18:30'
+updatedDate: '2026-11-15'
 heroImage: '/images/katon-moyong-siang-mega-dam-protest.jpg'
 heroAlt: 'Editorial illustration in cream and charcoal of activist Katon Moyong speaking at a press conference against the Siang dam'
 claim: 'The 11,000 MW Siang mega dam is an uncontroversial national security project welcomed by local communities in Arunachal Pradesh.'
 claimSource: 'Government promotional briefings, state infrastructure releases, and social media commentary, November 2026'
 verdict: 'False — with context'
-primarySource: 'Siang Indigenous Farmers Forum (SIFF) Resolutions and Central Electricity Authority Upper Siang Project Briefings'
-primarySourceUrl: 'https://www.thehindu.com'
-whyItMatters: 'The conflict exposes the clash between national strategic defenses against Chinese dam-building and the constitutional rights of indigenous Himalayan tribes fighting to protect their ancestral lands.'
+primarySource: "Once against dams, now backing one: China's shadow over Arunachal politics"
+primarySourceUrl: 'https://indianexpress.com/article/india/arunachal-pradesh-siang-valley-hydel-project-protests-10918645/'
+whyItMatters: 'The dispute is not between India and China over a river. It is over who pays for a national security project, and whether the people who live there get a say.'
 sources:
-  - title: "News9Live: Who is Katon Moyong? Why Arunachal Activist's Fiery Speech Against Siang Dam is Going Viral"
-    url: 'https://www.news9live.com'
-    publisher: 'News9Live'
-  - title: "The Hindu: Protests Intensify in Arunachal Pradesh Over Proposed 11,000 MW Siang Multipurpose Dam"
-    url: 'https://www.thehindu.com'
-    publisher: 'The Hindu'
-  - title: "ThePrint: How 'Abor Man' Katon Moyong Walked 56 Villages to Galvanize Anti-Dam Resistance in Siang Valley"
-    url: 'https://theprint.in'
-    publisher: 'ThePrint'
-  - title: "The Indian Express: Arunachal Pradesh Siang Hydropower Surveys Face Grassroots Opposition"
-    url: 'https://indianexpress.com'
+  - title: "Once against dams, now backing one: China's shadow over Arunachal politics"
+    url: 'https://indianexpress.com/article/india/arunachal-pradesh-siang-valley-hydel-project-protests-10918645/'
     publisher: 'The Indian Express'
+  - title: 'Who is Katon Moyong, the ‘Abor Man’ leading the fight against Siang dam?'
+    url: 'https://thefederal.com/category/states/north-east/arunachal-pradesh/katon-moyong-abor-man-leading-fight-against-siang-dam-262146'
+    publisher: 'The Federal'
+  - title: '‘We cannot hold peace talks at gunpoint’: Security build-up deepens distrust over dam'
+    url: 'https://india.mongabay.com/2026/11/we-cannot-hold-peace-talks-at-gunpoint-security-build-up-deepens-distrust-over-dam/'
+    publisher: 'Mongabay India'
+  - title: 'Protests over dam heat up as crackdown on activists continues'
+    url: 'https://india.mongabay.com/2026/10/protests-over-dam-heat-up-as-crackdown-on-activists-continues/'
+    publisher: 'Mongabay India'
+  - title: '‘Time for Siang dam talks has passed’: Anti-dam activist rejects Arunachal govt offer'
+    url: 'https://epaper.assamtribune.com/north-east/time-for-siang-dam-talks-has-passed-anti-dam-activist-rejects-arunachal-govt-offer-1622282'
+    publisher: 'The Assam Tribune'
+  - title: "'Time has passed': Arunachal anti-dam activist rejects govt's talks offer"
+    url: 'https://www.rediff.com/news/report/time-has-passed-arunachal-anti-dam-activist-abor-man-rejects-govts-talks-offer/20261106.htm'
+    publisher: 'Rediff'
+  - title: 'Siang Dam: What is behind protest in Arunachal Pradesh against the 11,200 MW hydroelectric project? All you need to know'
+    url: 'https://www.livemint.com/news/india/siang-dam-what-is-behind-protest-in-arunachal-pradesh-against-the-11-200-mw-hydroelectric-project-all-you-need-to-know-11792898495181.html'
+    publisher: 'Mint'
+  - title: 'Arunachal Pradesh: ‘We will become refugees in our own land’'
+    url: 'https://www.nationalheraldindia.com/national/arunachal-pradesh-protest-upper-siang-project-china-tribal-land-livelihoods'
+    publisher: 'National Herald'
+  - title: 'Protests against Siang mega-dam in Arunachal Pradesh turn violent'
+    url: 'https://www.downtoearth.org.in/energy/protests-against-siang-mega-dam-in-arunachal-pradesh-turn-violent'
+    publisher: 'Down To Earth'
 ---
 
-**Short answer:** Katon Moyong, an environmental engineer known locally as Abor Man, has captured nationwide attention with a fiery speech opposing the proposed 11,000-megawatt Siang mega dam in Arunachal Pradesh. While the central government argues that the mammoth dam is essential for national security to counter Chinese hydro-projects upstream in Tibet, indigenous Adi villagers fear the reservoir will submerge dozens of ancestral villages and erase their ancient homeland. Moyong's viral declaration that indigenous tribes lived along the river long before modern borders existed has transformed a remote river dispute into a major national debate over tribal sovereignty and borderland development.
+*Correction (2026-11-15): An earlier version of this article linked to the News9Live, The Hindu, ThePrint and Indian Express homepages, gave the project capacity as 11,000 MW, and said the reservoir would submerge more than 60 villages. The project is planned at 11,200 MW. The 60 figure is the number of traditional village councils that Katon Moyong wants involved, while the Siang Indigenous Farmers Forum puts submergence at 27 villages. Every source now points to the specific report.*
 
-## 1. Who is Katon Moyong, the 'Abor Man' of Arunachal?
+**Short answer:** Nothing about the Siang dam is uncontroversial, and nothing about it is welcome locally. The proposed Siang Upper Multipurpose Project is planned at 11,200 MW and is being pursued by the National Hydroelectric Power Corporation. The Siang Indigenous Farmers Forum says the reservoir would submerge 27 villages, affect dozens more and displace 1 to 1.5 lakh indigenous people. The state has sent hundreds of police and paramilitary personnel into the survey area, four protesters were detained under a ban on unlawful activities in early October, and 26 people were arrested after a march on October 23 turned violent. The video that made Katon Moyong a national figure came from a press conference where he rejected the state's offer of talks.
 
-To understand why this issue is suddenly trending across India, one must first look at the man behind the microphone.
+## 1. Who Katon Moyong is, and what he actually said
 
-Katon Moyong, sometimes called Moyong Katon, is an environmental engineer and grassroots activist belonging to Arunachal Pradesh's indigenous Adi community. He leads the youth wing of the Siang Indigenous Farmers Forum (SIFF), an organization that has spearheaded opposition to mega-dams in the region for decades.
+Moyong is an engineer-turned-activist from the Adi community of the Siang valley, popularly known as the "Abor Man". The Federal's profile is the clearest account of how he got there.
 
-Moyong is not an armchair critic who only posts online:
+It records that in 2025 he ran an awareness and signature campaign across 56 villages in the Siang belt that could be affected by the project, holding meetings in community halls, explaining the possible ecological and social consequences, collecting signatures from residents and documenting the gatherings. He carries those petitions as evidence of what he calls widespread grassroots opposition.
 
-- Walking 56 remote villages: Across 2024 and 2025, Moyong traveled on foot to 56 different villages tucked inside the rugged Siang River valley. He met with village elders, held open community discussions, and documented local signatures opposing government surveys.
-- Known as Abor Man: His tireless grassroots mobilization earned him the popular community title Abor Man, referencing the historic term for the indigenous hill tribes of the Eastern Himalayas.
-- Detention in New Delhi: In late October 2026, Moyong traveled to New Delhi to stage peaceful demonstrations and submit memorandums to central ministries. He was detained by police alongside other northeastern activists, an action that sparked outrage across tribal groups back home.
-- The viral Itanagar press briefing: Shortly after returning from detention, Moyong held an explosive press conference at the Arunachal Press Club in Itanagar on November 5. Dressed in traditional Adi woven attire and ceremonial turquoise beads, he stood with arms wide open, issuing an uncompromising message directly to Chief Minister Pema Khandu: "We have been saying no to the Siang dam for 47 years."
+He came into national focus on October 31, 2026, when Delhi Police detained him along with other student leaders during a protest outside Arunachal Bhawan in New Delhi. After his release, the Pema Khandu-led state government invited anti-dam leaders for talks.
 
-Within hours, video clips of his speech spread like wildfire across social media platforms, turning a localized struggle into a national talking point.
+At his November 5 press conference at the Arunachal Press Club in Itanagar, he refused. The Assam Tribune reported the two lines that carried the clip: "The time for discussion on the Siang Upper Multipurpose Project (SUMP) has passed", and "Let there be dams on smaller rivers, but not on the Siang. Either the entire Adi community will have to be exterminated to build the Siang dam, or there will be no Siang dam."
 
-## 2. What is the hassle around the 11,000 MW Siang mega dam?
+The other line that travelled was this: "India was born in 1947 and China in 1949. We have been living here much before that."
 
-The Siang River is the lifeblood of northeastern India. Originating in the glaciers of southern Tibet, where it is known as the Yarlung Tsangpo, the river surges eastward through the deepest gorges on Earth before crossing into Arunachal Pradesh as the Siang. Downstream in Assam, it merges with other rivers to form the mighty Brahmaputra.
+The Federal also records the reason he gave. Moyong rejected the national security argument as a narrative used to overcome public resistance, and said the justification for the project had shifted over the years, from flood control to strategic concerns over China's water projects. The Assam Tribune puts it more specifically: successive governments described it first as a flood mitigation initiative, then a project of national interest, then a national project, before the present government began promoting it as a national security imperative. Moyong also alleged the push is politically motivated and aimed at the 2029 Assembly elections.
 
-For decades, the central government has planned to build the Siang Upper Multipurpose Project (SUMP), an engineering behemoth designed to generate approximately 11,000 megawatts of electricity.
+## 2. The arithmetic of the opposition
 
-The clash comes down to two completely opposing worldviews:
+Mongabay's reporting on the protests gives the numbers behind the shouting. The proposed SUMP is likely to affect 27 villages in one of India's most biodiverse regions. It is being pursued by the National Hydroelectric Power Corporation as a major hydropower and water-storage project on the Siang.
 
-The Central Government's Rationale: Strategic Defense Against China
-New Delhi's push for the Siang mega dam is driven primarily by intense geopolitical anxiety. Just across the Line of Actual Control in Medog, Tibet, China is currently constructing a colossal 60,000-megawatt super-dam on the Great Bend of the Yarlung Tsangpo. Indian security planners worry that Beijing could use this upstream dam as a hydro-weapon, withholding vital water during dry winters or releasing sudden torrents to trigger devastating flash floods downstream in Assam and Arunachal.
+The Indian Express, in an eight-month investigation by Jay Mazoomdaar, adds the figures the Siang Indigenous Farmers Forum uses. The reservoir could submerge 27 villages, affect dozens more and displace 1 to 1.5 lakh indigenous people. National Herald, reporting from the districts, names the settlements at risk: Yingkiong and Geku.
 
-Government officials argue that building an 11,000 MW dam with a massive reservoir inside Indian territory is the only way to buffer unexpected water surges, regulate river flow, and establish legally recognized prior water use rights under international law.
+That is the scale of what is at stake for the people who live there, and it is the part most often missing from the promotional framing. As one former member of the Adi Students' Union put it to the Indian Express, the questions at the bottom of it are "Who bears the cost of national security, who decides what development should mean, and can a river be harnessed on this scale without unmaking the lives built around it?"
 
-The Indigenous Community's Nightmare: Total Submergence and Displacement
-While New Delhi views the project through the lens of national defense, local Adi families see it as an existential threat to their survival:
+Moyong's own framing of the history runs to 47 years. He told the Assam Tribune that the first proposal for a dam on the Siang was introduced in 1979 under the banner of Brahmaputra Flood Control and was rejected by the Adi community. The Indian Express timeline runs the other way and adds detail: the Brahmaputra Board proposed a Siang dam in 1982, the 1990s brought proposals for Siang Upper, Middle and Lower dams, a 9,500 MW Siang Upper was declared a National Project in 2008, NHPC split it into 6,000 MW and 3,750 MW stages in 2009 to reduce submergence, and NITI Aayog consolidated the two stages into a single 10,000 MW project in 2017.
 
-- Submerging 60+ ancestral villages: Independent hydrological models indicate that an 11,000 MW dam reservoir would submerge dozens of ancient villages, thousands of hectares of terraced agricultural land, sacred burial grounds, and historical community trails.
-- Fragile seismic zone: The Eastern Himalayas are one of the most earthquake-prone regions in the world. Local activists and geologists warn that anchoring a monster concrete dam in fragile tectonic terrain risks catastrophic failure, threatening millions of lives downstream in Assam.
-- Heavy police deployment: To carry out preliminary drilling and geological surveys, the state government deployed central paramilitary troops into rural districts. Villagers viewed the armed presence as an attempt to force the project onto them without consent.
+Both accounts point the same way. This is not a recent imposition, and the "uncontroversial" description fits neither the record nor the arithmetic.
 
-Tensions over strategic infrastructure in borderlands mirror broader debates surrounding [indigenous land rights and troop deployments across Arunachal Pradesh](/arunachal-pradesh-china-encroachment-border-citizens-delhi-troops/).
+## 3. The security build-up and the crackdown
 
-## 3. What is Katon Moyong asking and stating?
+This is the part of the story that the promotional material leaves out entirely, and it is documented in detail.
 
-The most powerful section of Moyong's speech challenged the central government's habit of using national security to silence local dissent.
+Mongabay reported that opposition to the SUMP sharpened in late 2024, when the state moved to deploy central armed police to back NHPC's survey teams. On September 14, 2026, the state government deployed hundreds of police and paramilitary personnel to the villages of Uggeng and Komkar, among the three sites being considered for the reservoir. Residents blocked roads to stop the pre-feasibility study. By November 3, ten companies of forces were in Upper Siang district, up from two on October 22.
 
-During the press briefing, Moyong delivered a line that resonated deeply with indigenous communities across the country:
+The pre-feasibility report, or PFR, is what the forces are there to protect. Mongabay describes it: digging a small rig to a depth of 30 or 40 metres and sending samples to a laboratory to assess the viability of the project at that site.
 
-"India was born in 1947 and China in 1949. We have been living here much before that."
+The escalation is dated. On September 23, paramilitary forces gathered in Geku village. On September 30, protests turned violent, with an MLA's house attacked and vehicles allegedly set on fire during a scheduled visit by Chief Minister Pema Khandu. On October 4, protesters resisting the project were allegedly lathi charged by police and paramilitary forces in Uggeng village. Upper Siang's Superintendent of Police, Dekio Gumja, declined to comment on the lathi charge and the violence when approached by Mongabay.
 
-His point was simple yet profound. The indigenous people of the Siang valley are not chess pieces in a modern geopolitical contest between two nuclear-armed states. Their historical existence and constitutional land rights predate both modern republics, and their homeland cannot simply be sacrificed as a defensive moat.
+In early October, four protesters were detained under the Arunachal Pradesh Unlawful Activities (Prevention) Act, 2014. On October 23, a 12-hour bandh across Siang, Upper Siang and East Siang districts turned into a march that damaged two MLAs' homes and set fire to the NHPC's project office. The police filed at least eight cases and arrested 26 people.
 
-Moyong outlined four non-negotiable demands:
+The crackdown reached people outside the villages. On August 20, the Central Bureau of Investigation served a notice on Bhanu Tatak, legal adviser to SIFF, alleging she had received 17.6 lakh rupees in foreign contributions without registration under the Foreign Contribution Regulation Act, and that such funds were being used to sustain anti-dam protests against the SUMP and the Dibang project. Search warrants were sought against youth leaders Otul Jerang and Tajong Talom, their lawyer Sunny Tayeng, and Tongam Rina, deputy editor of The Arunachal Times. The Arunachal Pradesh Union of Working Journalists and the Arunachal Press Club called the move against Rina "deeply disturbing and a serious threat to press freedom".
 
-- Stop all surveys immediately: The state government and public sector power corporations must halt all exploratory drilling, pre-feasibility surveys, and heavy machinery movements in the Siang valley.
-- Mandatory Kebang approvals: Under traditional tribal law, no developmental activity can take place without the formal approval of the Kebang (the ancient village council). Moyong demanded that the government secure written consent from all 60 affected village councils before holding any further discussions.
-- Release protesters and withdraw forces: The government must drop charges against detained anti-dam protesters and withdraw paramilitary units stationed around survey sites.
-- Micro-hydro over mega-dams: Moyong clarified that the Adi people are not opposed to clean energy. They actively support small run-of-the-river hydropower projects on tributary streams that do not submerge villages. What they reject is a monster dam on the main stem of the sacred Siang.
+On October 13, Khandu had promised to reduce the security deployment. Mongabay's November reporting notes that this has not happened.
 
-Similar clashes between major energy corporations and local forest communities have surfaced in central India, as seen during [intense grassroots opposition to large-scale power infrastructure](/karjat-forest-tree-felling-torrent-power-project-protest/).
+## 4. Why the dam is being built, and the case against that argument
 
-## 4. The Adi people and why the Siang River is their identity
+The central government's position is not invented. It is also not new.
 
-To understand the intensity of the resistance, one must appreciate the deep cultural bond between the Adi community and the river.
+The Indian Express records the full sequence. India proposed to harness the Siang and Subansiri rivers back in 1982, before the China factor was dominant. In 2011 the government told Parliament about a Chinese run-of-the-river project upstream of the Siang. In 2013 India raised concerns over additional Chinese projects on the Yarlung Tsangpo and asserted its interests as a downstream user. In 2017 NITI Aayog proposed replacing the two planned Siang Upper stages with a single large storage project.
 
-The Adi are one of the largest indigenous tribal communities in Arunachal Pradesh, living along the mountain slopes of the Siang valley for centuries. Their oral folklore traces their ancestral roots to Abo Tani, the mythical forefather of several Himalayan tribes.
+China's plans have advanced alongside. Beijing approved its 60,000 MW lower Yarlung Tsangpo hydropower project in December 2024. It comprises five cascade stations and seeks to harness a drop of nearly 2,000 metres over a 50-kilometre stretch near the Indian border. The state government has publicly framed the SUMP as the "answer" to that dam, and as protection against a "water bomb".
 
-The community lives by unique cultural and democratic traditions:
+Not everyone accepts the framing. Himanshu Thakkar, coordinator of the South Asia Network on Dams, Rivers and People, told the Indian Express that "there is no realistic prospect of establishing the so-called 'first user right' in international jurisprudence", and that India should demand project information and assert a right to joint impact assessment rather than force a dam on its own people.
 
-- The Kebang system: Long before British colonial rule or Indian statehood, Adi villages governed themselves through the Kebang. In this traditional village assembly, every resident has a voice, and community disputes are settled through consensus rather than bureaucratic decree.
-- The Donyi-Polo faith: Many Adi people practice Donyi-Polo, a spiritual tradition that reveres the Sun (Donyi) and the Moon (Polo) as symbols of truth, cosmic harmony, and nature. Seasonal festivals like Solung celebrate agriculture, fertility, and gratitude for the earth.
-- A living ancestor: For the Adi, the Siang River is not a resource to be measured in megawatts or cubic meters of water. It is a living ancestor that shapes their songs, oral histories, clan boundaries, and farming rhythms. Drowning the river valley means drowning their history.
+Thomas Borang, former president of the Adi Bane Kebang United, made the seismic argument at a press conference last month. A Chinese water bomb "can only happen from their dam breaking, an earthquake, from a war missile, or the cement concrete eroding after 100 years", he said. "Won't it cause double the damage if we build an 11,000 Megawatt dam of our own? Why should we accept this risk?" Both dams sit in a highly seismic zone.
 
-Transboundary river dynamics and extreme weather risks have increasingly complicated Himalayan water security, as seen in [early warning telemetry limits across Himalayan river basins](/nepal-flash-floods-landslides-glaciers-india-threat/).
+Union Minister of Parliamentary Affairs Kiren Rijiju, who is from Arunachal, has called for dialogue with senior members of the Adi community. "If we sit down and talk, technically, everything will be clear. We have to talk. We have to move forward."
 
-Chief Minister Pema Khandu has acknowledged that local communities must be consulted and taken into confidence before moving forward. However, with Katon Moyong and the Siang Indigenous Farmers Forum taking an unyielding stand, the battle over the Siang River has reached a decisive crossroads. The central government now faces a delicate choice between pushing an 11,000 MW strategic shield or honoring the democratic consent of the indigenous people who have guarded the Himalayas for centuries.
+The state's position is that the public anxieties come from "misinformation and misconceptions" circulated by "interest groups", and that the PFR is the way to settle the facts. Khandu has written that no decision on construction will be taken without "detailed and extensive public consultations and public consent, as is also legally mandated". In June he said the government had obtained support for the PFR from 110 families after signing a memorandum with them. Christina Pangam, a Yingkiong resident and local reporter, disputes that it represents the valley: "The MoU is not representative of the majority."
+
+The forums have made their own position formal. In August 2025, after a gap of 25 years, a Bogum Bokang Kebang, a supreme council of Adi clans, was held at Geku to oppose the dam and its pre-feasibility studies. The Indian Express notes that a kebang is the traditional council of elders through which Adi villages settle their own affairs.
+
+## 5. Why the talks did not happen
+
+Mongabay's November reporting explains the refusal in procedural terms, and the detail matters more than the walkout.
+
+SAAYA's general secretary Geni Nangkar told Mongabay-India that the association would not attend the chief minister's meeting as long as those detained under the APUAPA and arrested in other cases were not released. "Our final decision is that until our demands are fulfilled, we will not meet the CM." SIFF's legal adviser and spokesperson Tagori Mize said the release of those detained "is in the government's power, the honourable CM's power".
+
+On November 3, the chief minister's office wrote proposing a meeting in Itanagar between November 5 and 7, the second such invitation in a month, and it followed a public appeal by Khandu that "bandhs, blockades and attacks bring no solutions and only make our own people suffer." The detention cases went to an advisory board under the APUAPA, headed by a retired High Court judge, on October 30, with no decision taken. A writ petition relating to the case was listed for the High Court on November 10.
+
+Moyong's own demand was wider than a meeting with a few representatives. The Federal records that he wants the concerns of all 60 traditional village councils heard, and that he opposed treating the issue as something that could be settled by talking to a handful of people.
+
+## 6. The verdict
+
+The claim that the dam is uncontroversial and welcomed locally is false, and each part of it fails on the record.
+
+Not welcomed: a 12-hour bandh across three districts, lathi charges at Uggeng, a march that burned the NHPC office, 26 arrests, four detentions under the APUAPA, a CBI notice against a movement lawyer, and a press-freedom complaint over search warrants against a journalist. Two years of deployment of central armed police and ten companies of paramilitary personnel by November 3 are not the behaviour of a community that has consented.
+
+Not uncontroversial: the dispute has been running since at least 1979 on Moyong's account and 1982 on the state's own timeline, and the justification for the project has been restated four times as the politics changed.
+
+Not a settled national security question: the strongest argument against the dam is that it does not do what the security argument says it does, and Himanshu Thakkar and Thomas Borang have both said so on the record.
+
+The context that belongs with the finding is the one the promotional framing leaves out. The Adi revere the land as belonging to Abo Tani, their primordial ancestor, and Ane, mother Siang, and the river is bound up with their identity, folklore and farming calendar. That is why the demand is not "build it somewhere else" but "not on the Siang". The same distinction between a project being nationally desirable and the people who live there having agreed to it runs through our coverage of [Arunachal's border and troop deployment politics](/arunachal-pradesh-china-encroachment-border-citizens-delhi-troops/) and through other cases of [grassroots opposition to large infrastructure](/karjat-forest-tree-felling-torrent-power-project-protest/).
 
 ## Sources to check yourself
 
-- News9Live National Coverage: Read complete reporting on Katon Moyong's press briefing and the anti-dam movement.
-- The Hindu Northeast Desk: Review in-depth coverage of the proposed 11,000 MW Upper Siang Multipurpose Project.
-- ThePrint Special Reports: Follow ground reports detailing village-level resistance and the Siang Indigenous Farmers Forum.
-- Central Electricity Authority Hydropower Registry: Check technical specifications and reservoir capacities for planned Himalayan projects.
+- [The Indian Express, October 13](https://indianexpress.com/article/india/arunachal-pradesh-siang-valley-hydel-project-protests-10918645/), "Once against dams, now backing one: China's shadow over Arunachal politics": the SIFF submergence and displacement figures, the 1982 to 2026 timeline, the China dam approval, Thakkar's challenge to the first user right argument and the Bogum Bokang Kebang at Geku.
+- [The Federal, November 7](https://thefederal.com/category/states/north-east/arunachal-pradesh/katon-moyong-abor-man-leading-fight-against-siang-dam-262146): the 56-village signature campaign, the October 31 Delhi detention and the "1947 and 1949" quotation.
+- [Mongabay India, November 6](https://india.mongabay.com/2026/11/we-cannot-hold-peace-talks-at-gunpoint-security-build-up-deepens-distrust-over-dam/): the October 23 violence, 26 arrests, the search warrants, the APUAPA advisory board and the security deployment figures.
+- [Mongabay India, October 5](https://india.mongabay.com/2026/10/protests-over-dam-heat-up-as-crackdown-on-activists-continues/): the September 14 deployment, the Uggeng lathi charge, the CBI notice to Bhanu Tatak and the 110-family memorandum.
+- [The Assam Tribune, November 7](https://epaper.assamtribune.com/north-east/time-for-siang-dam-talks-has-passed-anti-dam-activist-rejects-arunachal-govt-offer-1622282): the press conference quotations, the 1979 proposal and the changing justification for the project.
+- [Rediff, November 6](https://www.rediff.com/news/report/time-has-passed-arunachal-anti-dam-activist-abor-man-rejects-govts-talks-offer/20261106.htm): the protesters' two demands and the state's stated rationale.
+- [Mint](https://www.livemint.com/news/india/siang-dam-what-is-behind-protest-in-arunachal-pradesh-against-the-11-200-mw-hydroelectric-project-all-you-need-to-know-11792898495181.html): the October 23 bandh, the four organisations and Chief Minister Khandu's invitation.
+- [National Herald, October 31](https://www.nationalheraldindia.com/national/arunachal-pradesh-protest-upper-siang-project-china-tribal-land-livelihoods): the Yingkiong and Geku settlements at risk and the SIFF quote on becoming refugees in their own land.
+- [Down To Earth](https://www.downtoearth.org.in/energy/protests-against-siang-mega-dam-in-arunachal-pradesh-turn-violent): the October 23 tear gas dispersal in Pasighat.
 
 ## Frequently asked questions
 
-**Q: Who is Katon Moyong?**
-A: Katon Moyong, popularly known as Abor Man, is an environmental engineer and activist from the indigenous Adi community of Arunachal Pradesh. He serves as youth wing leader of the Siang Indigenous Farmers Forum.
+**Q: How big is the Siang dam and who is building it?**
+A: The Siang Upper Multipurpose Project is planned at 11,200 MW and is being pursued by the National Hydroelectric Power Corporation as a hydropower and water-storage project on the Siang River in Arunachal Pradesh.
 
-**Q: What is the proposed Siang mega dam?**
-A: The Siang Upper Multipurpose Project is a planned 11,000-megawatt hydropower dam on the main Siang River in Arunachal Pradesh, intended to generate electricity and regulate transboundary water flows from China.
+**Q: How many villages would be submerged?**
+A: The Siang Indigenous Farmers Forum says the reservoir could submerge 27 villages, affect dozens more and displace 1 to 1.5 lakh indigenous people. Mongabay reports the project as likely to affect 27 villages, and National Herald names Yingkiong and Geku among the settlements at risk.
 
-**Q: Why does the government want to build the dam?**
-A: The central government views the dam as a national security asset to counter China's 60,000 MW super-dam being built upstream in Tibet, helping India buffer unexpected floods or water shortages.
+**Q: Why is the state deploying so many forces?**
+A: To carry out the pre-feasibility report, which involves drilling to a depth of 30 or 40 metres at candidate reservoir sites. Hundreds of police and paramilitary personnel went to Uggeng and Komkar on September 14, 2026, and by November 3 ten companies were in Upper Siang district.
 
-**Q: Why are the Adi people protesting against the dam?**
-A: Local villagers fear the massive reservoir will submerge over 60 ancestral villages, drown fertile farmlands, erase sacred cultural sites, and increase catastrophic flood risks in an earthquake-prone zone.
-
-**Q: What is Katon Moyong's viral statement about 1947 and 1949?**
-A: Moyong stated: "India was born in 1947 and China in 1949. We have been living here much before that." He emphasized that indigenous rights cannot be overridden by modern border rivalries.
+**Q: What is the dispute actually about?**
+A: The security case for the dam is China's 60,000 MW lower Yarlung Tsangpo project upstream, approved in December 2024. The dispute is over whether building a second dam in the same seismic zone is the answer, and over whether the Adi communities whose land it would flood have agreed to it. Moyong wants the concerns of all 60 traditional village councils heard before any further discussion.
