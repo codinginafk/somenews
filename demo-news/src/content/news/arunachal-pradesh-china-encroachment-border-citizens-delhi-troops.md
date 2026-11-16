@@ -8,7 +8,7 @@ tags: ['India', 'China', 'Arunachal Pradesh', 'border']
 author: 'Diyan'
 authorRole: 'Staff Writer'
 pubDate: '2026-10-25 10:45'
-updatedDate: '2026-11-15'
+updatedDate: '2026-11-16'
 heroImage: '/images/arunachal-border-encroachment.jpg'
 heroAlt: 'Silhouette of a Himalayan villager with livestock facing barbed wire and a watchtower against a cream background.'
 claim: 'While China annexes grazing lands with Xiaokang villages in Arunachal Pradesh, security forces are deployed to suppress student protests in Delhi.'
@@ -60,6 +60,8 @@ A clear institutional division exists in how India allocates defense and interna
 Deploying police officers to Jantar Mantar does not directly remove an army rifleman from an eastern ridge. Mountain combat units cannot simply be swapped with urban riot squads. 
 
 The underlying grievance concerns political focus and resource priorities. Both domestic riot policing and border defense forces operate under central fiscal authority. When the state treats peaceful domestic youth as a national security risk, public trust erodes. Citizens observe extensive resources spent fortifying Delhi streets against young voters, while frontier herders face foreign expansion with limited recourse.
+
+A related case from the same state is [the Siang dam fight](/katon-moyong-arunachal-siang-mega-dam-protest/), where Adi villagers say an 11,200 MW project pushed for strategic reasons would submerge 27 ancestral villages.
 
 ## Sources to check yourself
 

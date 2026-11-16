@@ -8,7 +8,7 @@ tags: ['rankings', 'methodology', 'data literacy']
 author: 'Yash'
 authorRole: 'Contributing Writer'
 pubDate: '2026-09-12 16:06'
-updatedDate: '2026-11-15'
+updatedDate: '2026-11-16'
 primarySource: 'World Happiness Report methodology and UNODC statistical standards for crime data'
 primarySourceUrl: 'https://www.worldhappiness.report/ed/2026/'
 whyItMatters: 'Rankings are the most shareable and the least checked format in public data. Five questions separate a usable number from a poster.'
@@ -72,7 +72,7 @@ Motive does not make a fact false. It does set the bar for what you should have 
 
 Show the claim as it was shot. Link the raw table. List what we still lack. If the source set cannot be found, say that at the top of the piece in plain words. Readers forgive a gap that is labelled. They do not forgive a hidden one.
 
-Two worked examples on this site: [our safety maps brief](/safest-country-maps-footnote/) on three different crime measures that answer three different questions, and [our Bangladesh piece](/dhaka-beyond-rank/) on what a ranking cell does and does not contain.
+Three worked examples on this site: [our safety maps brief](/safest-country-maps-footnote/) on three different crime measures that answer three different questions, [our Bangladesh piece](/dhaka-beyond-rank/) on what a ranking cell does and does not contain, and [our oil market piece](/global-oil-market-surplus-glut-iran-war-data/) on two forecasters who looked at the same month and returned answers 1.9 million barrels a day apart.
 
 ## Sources to check yourself
 

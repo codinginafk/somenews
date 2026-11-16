@@ -8,7 +8,7 @@ tags: ['local LLM', 'VRAM', 'Ollama', 'LM Studio']
 author: 'Yash'
 authorRole: 'Contributing Writer'
 pubDate: '2026-09-19 16:06'
-updatedDate: '2026-11-15'
+updatedDate: '2026-11-16'
 heroImage: '/images/lab-tested.svg'
 heroAlt: 'Category artwork showing a terminal benchmark reading tok/s 31.2 stable above a bar chart with one bar marked in vermilion'
 claim: 'Any laptop can run a 70B model fine.'
@@ -98,7 +98,7 @@ The claim that any laptop can run a 70B model fine is false. A 70B model is abou
 
 The context is that the underlying promise is not empty. Quantisation, cache quantisation, Flash Attention and per-model offload settings have made very large models genuinely runnable on hardware that was not designed for them. A 7B or 13B model at 4-bit, with a sensible context and a reduced cache, is comfortably within what these documents describe for a 16GB machine.
 
-The clips show the end of that range and present it as the start. For a direct comparison of the two runtimes on the same 16GB budget, see our [Ollama versus LM Studio test](/ollama-vs-lmstudio-16gb/), and for more on people running their own tools locally, [the Jupyter self-teaching surge](/xiaolai-craft-of-selfteaching-jupyter-notebook-surge/).
+The clips show the end of that range and present it as the start. For a direct comparison of the two runtimes on the same 16GB budget, see our [Ollama versus LM Studio test](/ollama-vs-lmstudio-16gb/), and for more on people running their own tools locally, [the Jupyter self-teaching surge](/xiaolai-craft-of-selfteaching-jupyter-notebook-surge/). For the opposite model, where the assistant runs in someone else's cloud, see our [Meta Muse piece](/instagram-muse-ai-assistant-privacy-debate/).
 
 ## Sources to check yourself
 

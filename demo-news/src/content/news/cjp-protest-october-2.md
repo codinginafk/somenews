@@ -8,7 +8,7 @@ tags: ['politics', 'india', 'protests']
 author: 'Diyan'
 authorRole: 'Staff Writer'
 pubDate: '2026-10-02 18:18'
-updatedDate: '2026-11-15'
+updatedDate: '2026-11-16'
 primarySource: "The Guardian report on the October 2, 2026 CJP protests in Mumbai and Delhi"
 primarySourceUrl: 'https://www.theguardian.com/world/2026/oct/02/india-cockroach-movement-protests-mumbai-changes-voter-roll'
 whyItMatters: 'The protests test how India polices dissent over its electoral roll, and whether the Election Commission can defend the SIR process in public.'
@@ -134,7 +134,7 @@ The central allegation, that the SIR is a targeted voter suppression tactic, is 
 
 What the record does show is that the October 2 protest became a test of how the state handles dissent over the electoral roll. Mumbai allowed the gathering to proceed and policed it heavily. Delhi closed transport, cut internet access and detained people in large numbers. Both responses are now part of the record the courts and voters will weigh.
 
-Other protest movements have drawn similar scrutiny, including our checks on the [LPU protests](/lpu-protest-fact-check/) and the [Delhi women's protests](/delhi-women-protest-rape-surge/).
+The electoral roll dispute behind the October 2 protest is also the subject of [our Supreme Court CEC hearing report](/supreme-court-cec-gyanesh-kumar-sir-hearing/). Other protest movements have drawn similar scrutiny, including our checks on the [LPU protests](/lpu-protest-fact-check/) and the [Delhi women's protests](/delhi-women-protest-rape-surge/).
 
 ## Sources to check yourself
 

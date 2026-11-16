@@ -16,7 +16,7 @@ verdict: 'True with context'
 primarySource: 'The Indian Express investigation into the Karjat forest felling for Torrent Power'
 primarySourceUrl: 'https://indianexpress.com/article/india/karjat-pumped-storage-project-torrent-power-forest-felling-western-ghats-tribals-10946476/'
 whyItMatters: 'Clearing hundreds of hectares of dense Sahyadri forest threatens Katkari settlements, fragile water tables, and increases severe landslide risks.'
-updatedDate: '2026-11-14'
+updatedDate: '2026-11-16'
 sources:
   - title: 'Why Torrent Power’s 3,000-MW plant in Karjat means felling 32,000 trees in Western Ghats'
     url: 'https://indianexpress.com/article/india/karjat-pumped-storage-project-torrent-power-forest-felling-western-ghats-tribals-10946476/'
@@ -87,6 +87,8 @@ The deepest local fear is slope failure. The Sahyadri hills are layered basalt w
 In July 2023, a hillside collapse at Irshalwadi in Raigad district buried a tribal settlement and killed at least 86 people. In 2014, the village of Malin in Pune district was flattened by a landslide that killed more than 150. Both disasters remain reference points in local opposition to hillside construction, and [landslide risks across the region](/nepal-flash-floods-landslides-glaciers-india-threat/) have reinforced those fears.
 
 Engineers quoted by The Indian Express describe pumped storage as a useful grid tool, not a frivolous project. The dispute is about location and process, not whether storage has value. The forest department says the halt is temporary and no decision has been taken on when felling will resume. For the Katkari families in the six hamlets, the question is whether the record that was never filed can still be fixed before the chainsaws return.
+
+The same contest between a strategic infrastructure case and village-level consent is playing out at a much larger scale in [the Siang dam dispute](/katon-moyong-arunachal-siang-mega-dam-protest/).
 
 ## Sources to check yourself
 
