@@ -3,7 +3,7 @@ import { getCollection } from 'astro:content';
 export async function GET({ site }) {
   const base = (site?.toString() ?? 'https://rentfreenews.com').replace(/\/$/, '');
   const posts = (await getCollection('news')).sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
-  const statics = ['/', '/about/', '/contact/', '/corrections/', '/advertise/', '/editorial-policy/', '/privacy/', '/privacy-policy/', '/terms/', '/dmca/', '/category/reality-check/', '/category/by-the-numbers/', '/category/countries/', '/category/lab-tested/'];
+  const statics = ['/', '/about/', '/contact/', '/corrections/', '/advertise/', '/editorial-policy/', '/methodology/', '/privacy/', '/privacy-policy/', '/terms/', '/dmca/', '/category/reality-check/', '/category/by-the-numbers/', '/category/countries/', '/category/lab-tested/', '/topic/open-source-alternatives/', '/topic/air-and-pollution-data/', '/topic/ai-and-automation/', '/topic/elections-and-rolls/', '/topic/jobs-and-layoffs/', '/topic/himalayan-frontiers/', '/topic/rankings-and-data/', '/topic/nvidia-and-chips/'];
   const urls = [
     ...statics.map((p) => ({ loc: base + p, lastmod: new Date().toISOString().slice(0, 10) })),
     ...posts.map((p) => ({ loc: `${base}/${p.slug}/`, lastmod: p.data.updatedDate?.toISOString().slice(0, 10) ?? p.data.pubDate.toISOString().slice(0, 10) })),

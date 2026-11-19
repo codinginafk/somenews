@@ -75,7 +75,7 @@ WordCraft is a formidable word processor, but several enterprise capabilities re
 
 Real-time multi-author cloud co-authoring via OneDrive is not supported. WordCraft is an offline-first desktop tool. In addition, proprietary cloud AI tools like Microsoft Copilot and SharePoint corporate workflow hooks are absent.
 
-For authors, researchers, legal clerks, and students who require a distraction-free, privacy-preserving word processor that starts instantly and handles large documents without lag, WordCraft offers a compelling alternative.
+For authors, researchers, legal clerks, and students who require a distraction-free, privacy-preserving word processor that starts instantly and handles large documents without lag, WordCraft offers a compelling alternative. More in this series: [PdfCraft](/pdfcraft-rust-pdf-reader-clean-room-alternative/) and [LinkSwift](/linkswift-javascript-cloud-storage-direct-download/), collected in the [open-source alternatives guide](/topic/open-source-alternatives/).
 
 ## Sources to check yourself
 

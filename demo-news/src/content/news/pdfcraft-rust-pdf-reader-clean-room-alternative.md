@@ -73,7 +73,7 @@ Despite its strengths, PdfCraft does not replace every feature inside Adobe Acro
 
 Acrobat Pro includes a commercial OCR engine that automatically converts scanned flat raster images into searchable, selectable text. PdfCraft does not bundle a proprietary OCR engine, requiring users to rely on external open-source pipelines like Tesseract. Furthermore, enterprise workflows that require legally binding Adobe Sign audit certificates still necessitate enterprise Adobe licenses. 
 
-For standard document reading, form completion, watermarking, page organization, and digital signature placement, PdfCraft delivers a reliable, free alternative.
+For standard document reading, form completion, watermarking, page organization, and digital signature placement, PdfCraft delivers a reliable, free alternative. For the other tools in this series, see the [open-source alternatives guide](/topic/open-source-alternatives/), including [WordCraft](/wordcraft-rust-word-clean-room-alternative/) and [LinkSwift](/linkswift-javascript-cloud-storage-direct-download/).
 
 ## Sources to check yourself
 

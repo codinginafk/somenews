@@ -1,8 +1,8 @@
 ---
 title: 'How does Open Source LinkSwift work?'
-seoTitle: "LinkSwift: Direct Cloud Download Links With JavaScript"
+seoTitle: "LinkSwift GitHub: Direct Cloud Download Links"
 excerpt: "Open-source JavaScript utility LinkSwift crossed 33,900 GitHub stars by generating direct browser download links across eight cloud storage networks."
-description: "hmjz100/LinkSwift simplifies file retrieval by generating direct download links for eight major cloud storage providers."
+description: "LinkSwift on GitHub generates direct download links for eight cloud storage providers. What it does, what it needs and where it still fails."
 category: 'Lab Tested'
 tags: ['javascript', 'cloud storage', 'userscript', 'open source']
 author: 'Diyan'
@@ -74,7 +74,7 @@ Second, accounts downloading massive volumes of data outside official desktop cl
 
 Third, installation requires basic familiarity with browser extensions like Tampermonkey or Violentmonkey. Less technical users who fail to configure recommended user-agent headers may still experience rate throttles.
 
-Despite these ongoing maintenance races, LinkSwift highlights the persistent community pushback against anti-consumer web friction.
+Despite these ongoing maintenance races, LinkSwift highlights the persistent community pushback against anti-consumer web friction. For the rest of this series, see the [open-source alternatives guide](/topic/open-source-alternatives/), including [PdfCraft](/pdfcraft-rust-pdf-reader-clean-room-alternative/) and [WordCraft](/wordcraft-rust-word-clean-room-alternative/).
 
 ## Sources to check yourself
 

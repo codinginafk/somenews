@@ -8,9 +8,9 @@ import { join } from 'node:path';
 
 const dist = join(process.cwd(), 'dist');
 // Directories that are not articles (archives, tooling, assets).
-const SKIP_DIRS = new Set(['category', 'author', 'rss', 'search', 'admin', 'images', '_astro', 'og']);
+const SKIP_DIRS = new Set(['category', 'author', 'rss', 'search', 'admin', 'images', '_astro', 'og', 'topic']);
 // Standalone utility pages: real pages, but they legitimately lack article sections.
-const UTILITY = new Set(['about', 'advertise', 'contact', 'corrections', 'dmca', 'editorial-policy', 'privacy', 'privacy-policy', 'terms']);
+const UTILITY = new Set(['about', 'advertise', 'contact', 'corrections', 'dmca', 'editorial-policy', 'methodology', 'privacy', 'privacy-policy', 'terms']);
 
 let failures = 0;
 const fail = (msg) => { console.error(`verify-render: FAIL — ${msg}`); failures++; };

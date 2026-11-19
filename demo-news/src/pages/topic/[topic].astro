@@ -1,0 +1,55 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import NewsCard from '../../components/NewsCard.astro';
+import { getCollection } from 'astro:content';
+import { TOPICS } from '../../data/topics';
+
+// Permanent topic hubs. These are curated, not generated from tags: a hub is a
+// promise to the reader that the subject will keep being covered here.
+export async function getStaticPaths() {
+  return TOPICS.map((t) => ({ params: { topic: t.slug }, props: { topic: t } }));
+}
+
+const { topic } = Astro.props;
+const all = await getCollection('news');
+const bySlug = new Map(all.map((p) => [p.slug, p]));
+const posts = topic.slugs.map((s) => bySlug.get(s)).filter((p) => p);
+---
+<Layout title={`${topic.title} | Rent Free News`} description={topic.description}>
+  <div class="max-w-[1280px] mx-auto px-4 py-8">
+    <div class="kicker text-brand-600">{topic.kicker}</div>
+    <h1 class="font-display font-black text-[36px] md:text-[44px] tracking-[-0.02em] mt-1">{topic.title}</h1>
+    <p class="font-serif text-[18px] leading-relaxed text-zinc-600 dark:text-zinc-400 mt-3 max-w-[760px]">{topic.intro}</p>
+    <div class="text-[13px] text-zinc-500 mt-3">
+      <a href="/" class="underline">Front Page</a> / <a href="/#topics" class="underline">Guides</a> / {topic.title}
+    </div>
+
+    {topic.groups ? topic.groups.map((g) => {
+      const groupPosts = g.slugs.map((s) => bySlug.get(s)).filter((p) => p);
+      return groupPosts.length > 0 && (
+        <section class="mt-8">
+          <h2 class="font-display font-black text-[22px] md:text-[26px] border-b-2 border-ink dark:border-white pb-2">{g.title}</h2>
+          <div class="mt-4 grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            {groupPosts.map((p) => (
+              <NewsCard href={`/${p.slug}/`} title={p.data.title} excerpt={p.data.excerpt} category={p.data.category} author={p.data.author} pubDate={p.data.pubDate} image={p.data.heroImage} />
+            ))}
+          </div>
+        </section>
+      );
+    }) : (
+      <section class="mt-8">
+        <h2 class="font-display font-black text-[22px] md:text-[26px] border-b-2 border-ink dark:border-white pb-2">Verified coverage</h2>
+        <div class="mt-4 grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+          {posts.map((p) => (
+            <NewsCard href={`/${p.slug}/`} title={p.data.title} excerpt={p.data.excerpt} category={p.data.category} author={p.data.author} pubDate={p.data.pubDate} image={p.data.heroImage} />
+          ))}
+        </div>
+      </section>
+    )}
+    {posts.length === 0 && <p class="mt-6 text-zinc-500">Nothing published in this guide yet.</p>}
+
+    <div class="mt-10 pt-6 border-t border-hairline dark:border-zinc-800 text-[14px] text-zinc-600 dark:text-zinc-400">
+      <p>Every claim on this site is checked against a primary document. Read <a href="/methodology/" class="underline hover:text-brand-600">how we verify</a> and our <a href="/corrections/" class="underline hover:text-brand-600">corrections log</a>.</p>
+    </div>
+  </div>
+</Layout>

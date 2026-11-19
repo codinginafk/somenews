@@ -1,8 +1,8 @@
 ---
 title: 'What Is the Open-Source elayadesign/ai-design-skills?'
-seoTitle: "AI Design Skills: Better Frontend Rules for AI Coders"
+seoTitle: "elayadesign AI Design Skills: Open-Source UI Rules"
 excerpt: "The open-source repository elayadesign/ai-design-skills supplies SKILL.md rule sheets to help AI coding agents generate accessible frontend UI."
-description: "elayadesign/ai-design-skills provides structured design guidelines to help AI coding agents build human-centered user interfaces."
+description: "elayadesign ai-design-skills is an open-source set of rules for AI coding agents building user interfaces. What it contains and what it cannot fix."
 category: 'Lab Tested'
 tags: ['ui design', 'ai agents', 'accessibility', 'frontend']
 author: 'Yash'
@@ -62,7 +62,7 @@ Second, prompt context management matters. In large corporate web applications w
 
 Third, GitHub popularity metrics reflect community interest in agent tooling rather than full enterprise adoption. For a systematic look at evaluating software rankings, see our guide on [how to read rankings](/how-to-read-rankings/).
 
-Even with these caveats, `ai-design-skills` provides a practical, open-source standard that brings needed discipline to automated frontend code generation.
+Even with these caveats, `ai-design-skills` provides a practical, open-source standard that brings needed discipline to automated frontend code generation. All thirteen tools in this series are collected in the [open-source alternatives guide](/topic/open-source-alternatives/).
 
 ## Sources to check yourself
 

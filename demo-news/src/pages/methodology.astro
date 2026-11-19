@@ -1,0 +1,116 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+const steps = [
+  {
+    n: '01',
+    title: 'Pin the claim',
+    body: 'We quote the exact wording and say where it spread. A paraphrase is not a claim. If we cannot find the original post, we say so and stop.',
+  },
+  {
+    n: '02',
+    title: 'Go to the primary document first',
+    body: 'Court orders, legislation, company filings, census tables, police records, satellite imagery and the regulator’s own release. A news report is a pointer to the record, not the record.',
+  },
+  {
+    n: '03',
+    title: 'Require two independent sources',
+    body: 'Every article links at least two sources with deep URLs. We open each one and check that the page title matches what we cite. Homepages are not sources.',
+  },
+  {
+    n: '04',
+    title: 'Check the denominator',
+    body: 'A number without its definition is not evidence. We record who was counted, what question was asked, which period was measured and who benefits from the framing.',
+  },
+  {
+    n: '05',
+    title: 'Name what is still unknown',
+    body: 'Where the record stops, we stop. Unverified allegations are labelled as allegations. A prayer in court is not an order, and a forecast is not a result.',
+  },
+  {
+    n: '06',
+    title: 'Publish a verdict and keep the receipts',
+    body: 'One bold verdict line under the dek, sourced sections below it, and a dated correction note whenever we change a conclusion.',
+  },
+];
+
+const verdicts = [
+  { label: 'True with context', meaning: 'The claim is accurate, but a fact it leaves out changes how much weight to give it.' },
+  { label: 'Misleading — Missing Context', meaning: 'The claim mixes a real fact with an omission that points the reader the wrong way.' },
+  { label: 'False — with context', meaning: 'The central assertion is contradicted by the primary record. We show which part fails and why.' },
+  { label: 'Missing Context', meaning: 'There is no reliable record either way. We publish what is known and where the evidence ends.' },
+  { label: 'Explainer', meaning: 'No claim to judge. The piece exists to make a dataset, document or mechanism readable.' },
+];
+
+const never = [
+  'Invent a URL, a quote, a number or a source. If it cannot be opened, it does not go in.',
+  'Treat a screenshot as proof of the thing it shows.',
+  'Call a forecast a result, or an allegation a finding.',
+  'Hide a correction in a silent edit. We date it and say what changed.',
+  'Sell a verdict, or let a sponsor see an article before publication.',
+];
+---
+<Layout title="How we fact-check | Rent Free News" description="Our verification standard: pin the claim, go to the primary document, require two deep-linked sources, check the denominator, publish a verdict and correct visibly.">
+  <div class="max-w-[900px] mx-auto px-4 py-10">
+    <div class="kicker text-brand-600">Method</div>
+    <h1 class="font-display font-black text-[38px] md:text-[50px] leading-[1.05] tracking-[-0.02em] mt-2">How we fact-check</h1>
+    <p class="font-serif text-[20px] leading-relaxed text-zinc-600 dark:text-zinc-400 mt-4">
+      A fact-check is not an opinion with a citation attached. It is a record of what we checked, what we found, and where the evidence stops. This page is the standard we hold every article to.
+    </p>
+    <p class="text-[14px] text-zinc-500 mt-3"><a href="/" class="underline">Front Page</a> / How we fact-check</p>
+
+    <section class="mt-10">
+      <h2 class="font-display font-black text-[26px]">The six steps</h2>
+      <div class="mt-5 space-y-5">
+        {steps.map((s) => (
+          <div class="border-l-4 border-brand-600 pl-5">
+            <div class="font-mono text-[12px] text-brand-600">{s.n}</div>
+            <h3 class="font-display font-bold text-[20px] mt-1">{s.title}</h3>
+            <p class="font-serif text-[17px] leading-relaxed text-zinc-600 dark:text-zinc-400 mt-1">{s.body}</p>
+          </div>
+        ))}
+      </div>
+    </section>
+
+    <section class="mt-12">
+      <h2 class="font-display font-black text-[26px]">What each verdict means</h2>
+      <p class="font-serif text-[17px] text-zinc-600 dark:text-zinc-400 mt-2">One verdict line appears under the dek. Cards and feeds never carry it.</p>
+      <div class="mt-5 overflow-hidden rounded-[10px] border border-hairline dark:border-zinc-800">
+        {verdicts.map((v) => (
+          <div class="grid sm:grid-cols-[240px_1fr] gap-2 p-4 border-b border-hairline dark:border-zinc-800 last:border-b-0">
+            <div class="font-display font-bold text-[16px]">{v.label}</div>
+            <div class="font-serif text-[16px] text-zinc-600 dark:text-zinc-400">{v.meaning}</div>
+          </div>
+        ))}
+      </div>
+    </section>
+
+    <section class="mt-12">
+      <h2 class="font-display font-black text-[26px]">What we will not do</h2>
+      <ul class="mt-4 space-y-3 list-disc pl-6 font-serif text-[17px] leading-relaxed text-zinc-600 dark:text-zinc-400">
+        {never.map((n) => <li>{n}</li>)}
+      </ul>
+    </section>
+
+    <section class="mt-12 pt-6 border-t-4 border-ink dark:border-white">
+      <h2 class="font-display font-black text-[26px]">When we get it wrong</h2>
+      <p class="font-serif text-[17px] leading-relaxed text-zinc-600 dark:text-zinc-400 mt-2">
+        Small fixes get a date in the article. A change to a verdict, a number or a conclusion also gets a visible correction note at the top of the piece and an entry in our <a href="/corrections/" class="underline hover:text-brand-600">corrections log</a>. Silent edits are not corrections.
+      </p>
+      <p class="font-serif text-[17px] leading-relaxed text-zinc-600 dark:text-zinc-400 mt-3">
+        Our full ethical rules are in the <a href="/editorial-policy/" class="underline hover:text-brand-600">editorial policy</a>. Corrections and disputes go to <a href="mailto:desk@rentfreenews.com" class="underline hover:text-brand-600">desk@rentfreenews.com</a>.
+      </p>
+    </section>
+
+    <section class="mt-10">
+      <h2 class="font-display font-black text-[26px]">Start with a permanent guide</h2>
+      <p class="font-serif text-[17px] text-zinc-600 dark:text-zinc-400 mt-2">If you came here to check a subject rather than a single post, these guides collect everything we have verified on it.</p>
+      <div class="mt-4 flex flex-wrap gap-2 text-[14px]">
+        <a href="/topic/rankings-and-data/" class="px-3 py-2 rounded-[8px] border border-hairline dark:border-zinc-800 hover:border-brand-600">Data and rankings</a>
+        <a href="/topic/ai-and-automation/" class="px-3 py-2 rounded-[8px] border border-hairline dark:border-zinc-800 hover:border-brand-600">AI and deepfakes</a>
+        <a href="/topic/elections-and-rolls/" class="px-3 py-2 rounded-[8px] border border-hairline dark:border-zinc-800 hover:border-brand-600">Elections and rolls</a>
+        <a href="/topic/open-source-alternatives/" class="px-3 py-2 rounded-[8px] border border-hairline dark:border-zinc-800 hover:border-brand-600">Open-source alternatives</a>
+      </div>
+    </section>
+  </div>
+</Layout>
